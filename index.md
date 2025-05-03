@@ -13,21 +13,18 @@ I'm Nicole Hao, a Master of Engineering student in Computer Science at Cornell U
 
 
 
-Fun fact: I'm a practicing Buddhist. I go on mediation retreats. Don't get me started on Buddhism (and my screen time).
+Fun fact: I'm a practicing Buddhist. Yes, I go on mediation retreats. Don't get me started on Buddhism (and my screen time).
 
 
 # Projects
-Previously, I built:
-
-
 
 -  **InkSight** <br>
-An AI-powered STEM note-taking and accessibility platform for students with learning disorders and auditory + visual impairments. Demo coming soon.
+An AI-powered STEM note-taking and accessibility platform for students with learning disorders and auditory + visual impairments. **Demo coming soon.**
 
 
 
 - **[RAG Exam Review Bot](https://github.com/nicolehao34/ai-pdf-chatbot)** <br>
-A transformer-based exam prep assistant that retrieves and summarizes lecture content from PDFs and course websites.  
+A transformer-based exam prep assistant that retrieves and summarizes lecture content from PDFs and course websites. **Demo coming soon.**
 
 
 
@@ -65,7 +62,13 @@ Rochester Symposium for Physics Students (RSPS), 2023
 # Recent Reads
 
 - *[The Second Half](https://shunyuyao.com/the-second-half)* - A great blog by Shunyu Yao on the development of AI, and the shift to evaluation setup in terms of the most important problem of AI.
-- *[How to Do Great Work](https://www.paulgraham.com/greatwork.html) - An amazing essay by Paul Graham. When in doubt, "stay upwind". This phrase stuck with me. 
+- *[How to Do Great Work](https://www.paulgraham.com/greatwork.html)* - An amazing essay by Paul Graham. When in doubt, "stay upwind". This phrase stuck with me. 
 - More to be added...
+
+
+
+
+
+
 
 _Last updated: May 2025_
