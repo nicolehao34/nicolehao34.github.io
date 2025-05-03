@@ -61,7 +61,7 @@ Rochester Symposium for Physics Students (RSPS), 2023
 
 # Recent Reads
 
-- *[The Second Half](https://shunyuyao.com/the-second-half)* - A great blog by Shunyu Yao on the development of AI, and the shift to evaluation setup in terms of the most important problem of AI.
+- *[The Second Half](https://ysymyth.github.io/The-Second-Half/)* - A great blog by Shunyu Yao on the development of AI, and the shift to evaluation setup in terms of the most important problem of AI.
 - *[How to Do Great Work](https://www.paulgraham.com/greatwork.html)* - An amazing essay by Paul Graham. When in doubt, "stay upwind". This phrase stuck with me. 
 - More to be added...
 
