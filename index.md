@@ -45,10 +45,18 @@ A transformer-based exam prep assistant that retrieves and summarizes lecture co
 
 # Talks & Presentations
 
-- **InkSight: Empowering All Learners with AI** – Cornell Tech Student Entrepreneurship Showcase, Nov 2024  
-- **Option Pricing under Stochastic Volatility, Change in Equity Premium, and Interest Rates in a Complete Market** – Young Mathematicians Conference (YMC), Joint Mathematics Meetings (JMM), 2024  
+- **InkSight: Empowering All Learners with AI** <\br>
+Cornell Tech Student Entrepreneurship Showcase, Nov 2024  
+
+
+- **Option Pricing under Stochastic Volatility, Change in Equity Premium, and Interest Rates in a Complete Market** <\br>
+Young Mathematicians Conference (YMC), Joint Mathematics Meetings (JMM), 2024  <\br>
   *(This is a paper from an applied math research project I worked on with Prof. John Holmes at OSU)*  
-- **Detecting and Classifying Flares in High-resolution Solar Spectra with Supervised Machine Learning** – Rochester Symposium for Physics Students (RSPS), 2023  
+
+
+- **Detecting and Classifying Flares in High-resolution Solar Spectra with Supervised Machine Learning** <\br>
+Rochester Symposium for Physics Students (RSPS), 2023  
+  *(I was a physics major)* 
 
 
 
