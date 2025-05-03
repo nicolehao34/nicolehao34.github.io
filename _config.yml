@@ -6,7 +6,7 @@
 name: Nicole HAo
 
 # Short bio or description (displayed in the header)
-description: Nicole Hao
+description: AI Engineer | Data Scientist
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars.githubusercontent.com/nicolehao34
@@ -47,7 +47,7 @@ url: http://nicolehao34.github.io
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: ""
+baseurl: "/"
 
 #
 # !! You don't need to change any of the configuration flags below !!
@@ -85,4 +85,4 @@ exclude:
   - README.md
   - CNAME
 
-theme: jekyll-theme-slate
+#theme: jekyll-theme-slate
