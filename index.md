@@ -8,18 +8,33 @@ permalink: /index.html
 
 I'm Nicole Hao, a Master of Engineering student in Computer Science at Cornell University, passionate about AI and human-centered technology. My work focuses on developing tools that leverage Retrieval-Augmented Generation (RAG), deep learning, and multimodal systems to address real-world challenges in enterprise scalability, education, and healthcare.
 
+
+
 Fun fact: I'm a practicing Buddhist. I go on mediation retreats. Don't get me started on Buddhism (and my screen time).
 
+
 Previously, I built:
+
+
+
 -  **InkSight**: An AI-powered STEM note-taking and accessibility platform for students with learning disorders and auditory + visual impairments.
-- **RAG Exam Review Bot**: A transformer-based exam prep assistant that retrieves and summarizes lecture content from PDFs and course websites.  
-  [GitHub Repository](https://github.com/nicolehao34/ai-pdf-chatbot)
-- **Classifying Solar Flares Using Supervised ML**:  
+
+
+
+- **[RAG Exam Review Bot](https://github.com/nicolehao34/ai-pdf-chatbot)**: A transformer-based exam prep assistant that retrieves and summarizes lecture content from PDFs and course websites.  
+
+
+
+- **[Classifying Solar Flares Using Supervised ML](https://github.com/nicolehao34/solar_flares_classification)**:  
   Developed a machine learning pipeline to classify solar flares using real-world data. Improved prediction accuracy for solar flare events. Research results published in the Astrophysical Journal.
-  [GitHub Repository](https://github.com/nicolehao34/solar_flares_classification)
+
+
+
 - **Minimization of Differential Lateral Acceleration for Starshade Stationkeeping**:  
   Developed algorithms to minimize lateral acceleration differences in spacecraft stationkeeping for starshade missions, improving alignment precision for exoplanet imaging.  
   [GitHub Repository](https://github.com/nicolehao34/starshade_stationkeeping)
+
+
 
 ---
 
