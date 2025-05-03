@@ -49,6 +49,9 @@ A transformer-based exam prep assistant that retrieves and summarizes lecture co
 - **Option Pricing under Stochastic Volatility, Change in Equity Premium, and Interest Rates in a Complete Market** – Young Mathematicians Conference (YMC), Joint Mathematics Meetings (JMM), 2024  
   *(This is a paper from an applied math research project I worked on with Prof. John Holmes at OSU)*  
 - **Detecting and Classifying Flares in High-resolution Solar Spectra with Supervised Machine Learning** – Rochester Symposium for Physics Students (RSPS), 2023  
+
+
+
 ---
 
 # Recent Reads
