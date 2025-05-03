@@ -48,7 +48,7 @@ Cornell Tech Student Entrepreneurship Showcase, Nov 2024
 
 - **Option Pricing under Stochastic Volatility, Change in Equity Premium, and Interest Rates in a Complete Market** <br>
 Young Mathematicians Conference (YMC), Joint Mathematics Meetings (JMM), 2024  <br>
-  *(This is a paper from an applied math research project I worked on with Prof. John Holmes at OSU)*  
+  *(Based on an [applied math research project](https://arxiv.org/abs/2408.15416) I worked on with Prof. John Holmes at OSU)*  
 
 
 - **Detecting and Classifying Flares in High-resolution Solar Spectra with Supervised Machine Learning** <br>
