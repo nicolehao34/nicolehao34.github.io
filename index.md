@@ -4,7 +4,7 @@ title: About
 permalink: /index.html
 ---
 
-<img style="float:right; padding-left:10px" src="https://avatars.githubusercontent.com/nicolehao34" width="223" height="220">
+<img style="float:right; padding-left:10px" src="https://avatars.githubusercontent.com/nicolehao34" width="220" height="220">
 
 I'm Nicole Hao, a Master of Engineering student in Computer Science at Cornell University, passionate about AI and human-centered technology.
 
