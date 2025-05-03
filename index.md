@@ -4,15 +4,16 @@ title: About
 permalink: /index.html
 ---
 
-<img style="float:right; padding-left:10px" src="https://avatars.githubusercontent.com/nicolehao34" width="220" height="220">
+<img style="float:right; padding-left:10px" src="https://avatars.githubusercontent.com/nicolehao34" width="221" height="220">
 
-I’m Nicole Hao, a Master of Engineering student at Cornell University passionate about AI, accessibility, and human-centered technology. My work focuses on building tools that empower neurodiverse students, and applying deep learning and multimodal systems to real-world challenges in education, insurance, and healthcare.
+I'm Nicole Hao, a Master of Engineering student in Computer Science at Cornell University, passionate about AI and human-centered technology. My work focuses on developing tools that leverage Retrieval-Augmented Generation (RAG), deep learning, and multimodal systems to address real-world challenges in enterprise scalability, education, and healthcare.
+
+Fun fact: I'm a practicing Buddhist. I go on mediation retreats. Don't get me started on Buddhism (and my screen time).
 
 Previously, I built:
 -  **InkSight**: An AI-powered STEM note-taking and accessibility platform for students with learning disorders and auditory + visual impairments.
 - **RAG Exam Review Bot**: A transformer-based exam prep assistant that retrieves and summarizes lecture content from PDFs and course websites.  
   [GitHub Repository](https://github.com/nicolehao34/ai-pdf-chatbot)
--  **AI Underwriting Triage**: A DistilBERT-based system for evaluating insurance broker submissions at Ascot.
 - **Classifying Solar Flares Using Supervised ML**:  
   Developed a machine learning pipeline to classify solar flares using real-world data. Improved prediction accuracy for solar flare events. Research results published in the Astrophysical Journal.
   [GitHub Repository](https://github.com/nicolehao34/solar_flares_classification)
