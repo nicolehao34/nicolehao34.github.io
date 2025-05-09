@@ -67,6 +67,7 @@ I LOVE pitching and giving speeches! Nothing excites me more than getting on sta
 - *[The Second Half](https://ysymyth.github.io/The-Second-Half/)* - A great blog by Shunyu Yao on the development of AI, and the shift to evaluation setup in terms of the most important problem of AI.
 - *[How to Do Great Work](https://www.paulgraham.com/greatwork.html)* - An amazing essay by Paul Graham. When in doubt, "stay upwind". This phrase stuck with me. 
 - More to be added...
+- *[The Meaning of Meaningless: The Importance of Meaninglessness](https://www.amazon.com/Meaning-Meaningless-Importance-Meaninglessness-Publication-ebook/dp/B0DJ1J5DLH)* - By doctor Nanige Nashiko. I don't think there is an English translation for this book yet. It's a great book about being able to derive joy from doing meaningless activities in a meaning-driven world. 「無意味を楽しむことが、最も意味のある生き方だ。」"Finding joy in the meaningless is the most meaningful way to live."
 
 
 
