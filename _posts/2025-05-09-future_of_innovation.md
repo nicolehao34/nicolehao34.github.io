@@ -3,8 +3,6 @@ layout: post
 title: The Future of Innovation & The End of Academic Monopoly
 ---
 
-# The Future of Innovation & The End of Academic Monopoly
-
 In today’s landscape, companies—not universities—are becoming the core engines of innovation.
 
 # The Internet Has Democratized Knowledge 
