@@ -42,7 +42,6 @@ A transformer-based exam prep assistant that retrieves and summarizes lecture co
 
 # Talks & Presentations
 I LOVE pitching and giving speeches! Nothing excites me more than getting on stage in front of a crowd and presenting an exciting idea, product, or research findings.
-## Talks & Presentations
 
 - **InkSight: Empowering All Learners with AI**  
   Cornell Tech Student Entrepreneurship Showcase, Nov 2024  <br>
