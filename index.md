@@ -41,7 +41,7 @@ A transformer-based exam prep assistant that retrieves and summarizes lecture co
 ---
 
 # Talks & Presentations
-I love pitching and giving speeches in general. Nothing excites me more than getting on stage in front of a crowd and presenting an exciting idea, product, or research findings.
+I LOVE pitching and giving speeches! Nothing excites me more than getting on stage in front of a crowd and presenting an exciting idea, product, or research findings.
 
 - **InkSight: Empowering All Learners with AI** <br>
 Cornell Tech Student Entrepreneurship Showcase, Nov 2024  <br>
@@ -56,7 +56,7 @@ Young Mathematicians Conference (YMC), Joint Mathematics Meetings (JMM), 2024  <
 - **Detecting and Classifying Flares in High-resolution Solar Spectra with Supervised Machine Learning** <br>
 Nexus Scholars, Rochester Symposium for Physics Students (RSPS), 2023  
   *(I was a physics major!)* <br>
-  <img style="float:right; padding-left:10px" src="images/Nexus-9560.jpg" width="300" alt="Nicole Hao presenting at YMC">
+  <img style="float:right; padding-left:10px" src="images/Nexus-9560.JPG" width="300" alt="Nicole Hao presenting at YMC">
 
 
 
