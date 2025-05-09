@@ -7,7 +7,7 @@ In today’s landscape, companies—not universities—are becoming the core eng
 
 # The Internet Has Democratized Knowledge 
 
-Let's face it: the rise of the internet has completely democratized access to knowledge. 
+Let's face it: **the rise of the internet has completely democratized access to knowledge.**
 
 Academia’s monopoly on expertise is no longer as effective. Information is cheap and everywhere. Anyone with drive and curiosity can learn anything online. A 2023 report from the National Student Clearinghouse found that computer science and engineering enrollments in U.S. universities have plateaued, while coding bootcamps and industry certifications (e.g., Google or AWS) have seen explosive growth ([National Student Clearinghouse Research Center, 2023](https://nscresearchcenter.org)). This suggests that many aspiring technologists are bypassing universities altogether.  
 
@@ -20,7 +20,8 @@ This isn’t to discredit the work of academics or higher education institutions
 
 
 # The Shift to Applied Innovation
-Hot take #2: We might be reaching the limits of traditional theoretical science. 
+
+Hot take #2: **We might be reaching the limits of traditional theoretical science.**
 
 A 2021 analysis in *Nature* found that scientific papers and patents are becoming increasingly incremental rather than revolutionary ([Park et al., 2023](https://doi.org/10.1038/s41586-023-06106-4)). The low-hanging fruit of 20th-century science (semiconductors, antibiotics, nuclear energy) has been picked, leaving harder, niche problems that require industry collaboration. 
 
@@ -32,16 +33,18 @@ Especially in the U.S., under the current political climate, this might be more 
 
 # VC Demands Execution. Not Just Ideas
 
-The shift to **applied innovation**, coupled with tightening U.S. funding landscapes, explains why academic projects struggle to attract investment. 
+The shift to applied innovation, coupled with tightening U.S. funding landscapes, explains why academic projects struggle to attract investment. 
 
-A lot of seasoned VCs aren’t even touching angel or Series A rounds anymore. The bar is higher. Founders are expected to get scrappy, find early traction, and get through the A round before serious capital even considers coming in. Investors want to see a clearer picture before they write a check. Data from PitchBook (2024) shows that seed-stage funding has grown, but Series A rounds have become far more selective ([PitchBook-NVCA Venture Monitor, 2024](https://pitchbook.com)).   Investors now expect startups to demonstrate revenue, customer adoption, or a clear path to monetization before committing. An idea or a patent will no longer be sufficient as the driving force behind a successful startup.
+A lot of seasoned VCs aren’t even touching angel or Series A rounds anymore. The bar is higher. Founders are expected to get scrappy, find early traction, and get through the A round before serious capital even considers coming in. Investors want to see a clearer picture before they write a check. Data from PitchBook (2024) shows that seed-stage funding has grown, but Series A rounds have become far more selective ([PitchBook-NVCA Venture Monitor, 2024](https://pitchbook.com)).   Investors now expect startups to demonstrate revenue, customer adoption, or a clear path to monetization before committing. 
+
+An idea or a patent will no longer be sufficient as the driving force behind a successful startup.
 
 
 ---
 
-# Some Final Words
+# A Qustion for Us
 
-For ambitious young innovators, the critical question is: 
+So, given all of my hot takes... For ambitious young innovators, the critical question is: 
 
 **What do we do?**  
 
@@ -50,24 +53,31 @@ Do we get an PhD, or do we jump into a company?
 If you ask me, the answer is that, depends on the returns you believe a PhD would get you.
 
 ### When to Choose Academia (PhD):  
-1. **Pioneer fundamental science**  
-   - Fields like quantum computing or theoretical AI require academic training. Example: CRISPR-Cas9 emerged from decades of university research ([Doudna & Charpentier, 2014](https://doi.org/10.1126/science.1258096)).  
-2. **Credentials matter**  
-   - Biotech and academia demand PhDs for leadership roles. Moderna’s mRNA team leveraged academic insights ([Moderna, 2020](https://modernatx.com)).  
-3. **Unstructured exploration**  
-   - PhDs enable niche research without profit pressures. Example: The internet began as a DARPA-funded university project ([Leiner et al., 2009](https://doi.org/10.1145/1629607.1629613)).  
+1. **If you want to pioneer fundamental science**  
+   FFields like quantum computing, particle physics, or theoretical AI still require deep academic training. A PhD gives you access to cutting-edge labs (e.g., CERN, MIT Media Lab) and mentors who shape entire disciplines. A good example: CRISPR gene-editing breakthroughs emerged from decades of university research ([Doudna & Charpentier, 2014](https://doi.org/10.1126/science.1258096)).  
+
+
+2. **If Credentials matter**  
+   If you're going into fields like biotech or academia, where there is a high demand for PhDs in leadership roles. Go get you PhD. Moderna’s mRNA team, for instance, was stacked with PhDs who turned academic insights into a vaccine ([Moderna, 2020](https://modernatx.com)). 
+
+
+3. **If you enjoy unstructured exploration (or have a track record of thriving in an academic environment)**  
+   PhDs allow you to dive into niche problems without the pressure of quarterly profits. A good example would be the DARPA-funded university project ([Leiner et al., 2009](https://doi.org/10.1145/1629607.1629613)). You get somewhat more freedom to define your research, and carry it out at your own pace. Obviously, at a rate that your mentor allows.
 
 
 ### When to Choose Industry:  
-1. **Solve problems *now***  
-   - SpaceX engineers iterated reusable rockets in years, not decades ([Berger, 2020](https://www.amazon.com/Liftoff-Elon-Musk-Desperate-Launched/dp/0062979973)).  
-2. **Execution > theory**  
-   - OpenAI’s GPT-4 required trial-and-error engineers ([OpenAI, 2023](https://openai.com)).  
-3. **Entrepreneurship**  
-   - Founders like Vitalik Buterin (Ethereum) prove credentials aren’t everything.  
+1. **If you want to solve problems *now***  
+   Time doesn't wait. Big things are happening all the time in industry. SpaceX engineers iterated reusable rockets in years, not decades ([Berger, 2020](https://www.amazon.com/Liftoff-Elon-Musk-Desperate-Launched/dp/0062979973)). If you want to contribute **now**, go into industry bestie.
+
+2. **If Execution > theory**  
+   If you value execution more than theory in your daily work, choose industry. A good proof/piece of evidence for this is how OpenAI’s GPT-4 required trial-and-error engineers ([OpenAI, 2023](https://openai.com)). Companies need to get things running ASAP.
 
 
-Things are changing. Live your life to the fullest, and dont forget to **stay upwind**.
+3. **If you're interested in Entrepreneurship**  
+   Founders like Vitalik Buterin (Ethereum) prove credentials aren’t everything.  Experience matters as an entrepeneur. Obviously I put this as a third condition for a reason. There's tons of PhDs who became successful entrepeneurs, but of course at the time cost of 5-6 years, whereas you can use the time to jump into industry. Your call.
+
+
+Finally, things are constantly changing. Live your life to the fullest, and dont forget to **stay upwind** when making a career choice. Best of Luck.
 
 --- 
 
