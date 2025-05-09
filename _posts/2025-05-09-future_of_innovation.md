@@ -78,7 +78,7 @@ Things are changing. Live your life to the fullest, and dont forget to **stay up
 - Leiner, B. M., et al. (2009). “A Brief History of the Internet.” *ACM SIGCOMM*.  
 - National Student Clearinghouse Research Center. (2023). “STEM Enrollment Trends.”  
 - OECD. (2023). *Main Science and Technology Indicators*.  
-- Park, M., et al. (2023). “The slowing rate of scientific breakthroughs.” *Nature*.  
+- Park, M., et al. (2023). “Papers and patents are becoming less disruptive over time” *Nature*.  
 - PitchBook-NVCA Venture Monitor. (2024). Q1 2024 Report.  
 - Statista. (2023). “Amazon R&D Spending 2023.”  
 - Zhang, D., et al. (2022). *Stanford AI Index Report*.  
