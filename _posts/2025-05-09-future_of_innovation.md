@@ -16,6 +16,10 @@ If you’re a self-directed learner, the internet can turn you into an expert in
 This isn’t to discredit the work of academics or higher education institutions.After all, universities still produce groundbreaking research, create an environment for deep intellectual collaboration, and provide structured learning and mentorship for those who thrive in that environment. Universities remain vital for foundational science and critical thinking, but when it comes to moving ideas from the lab to the market, the private sector is pulling ahead...
 
 
+
+
+
+
 ---
 
 
@@ -29,6 +33,11 @@ There just aren’t many paradigm-shifting breakthroughs left that can radically
  
 Especially in the U.S., under the current political climate, this might be more of a dire issue.
 
+
+
+
+
+
 ---
 
 # VC Demands Execution. Not Just Ideas
@@ -40,9 +49,14 @@ A lot of seasoned VCs aren’t even touching angel or Series A rounds anymore. T
 An idea or a patent will no longer be sufficient as the driving force behind a successful startup.
 
 
+
+
+
+
+
 ---
 
-# A Qustion for Us
+# A Qustion Only You Can Answer (for yourself!)
 
 So, given all of my hot takes... For ambitious young innovators, the critical question is: 
 
@@ -51,6 +65,9 @@ So, given all of my hot takes... For ambitious young innovators, the critical qu
 Do we get an PhD, or do we jump into a company?
 
 If you ask me, the answer is that, depends on the returns you believe a PhD would get you.
+
+
+
 
 ### When to Choose Academia (PhD):  
 1. **If you want to pioneer fundamental science**  
@@ -78,6 +95,11 @@ If you ask me, the answer is that, depends on the returns you believe a PhD woul
 
 
 Finally, things are constantly changing. Live your life to the fullest, and dont forget to **stay upwind** when making a career choice. Best of Luck.
+
+
+
+
+
 
 --- 
 
