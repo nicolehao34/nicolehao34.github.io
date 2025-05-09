@@ -45,17 +45,17 @@ I LOVE pitching and giving speeches! Nothing excites me more than getting on sta
 ## Talks & Presentations
 
 - **InkSight: Empowering All Learners with AI**  
-  Cornell Tech Student Entrepreneurship Showcase, Nov 2024  
+  Cornell Tech Student Entrepreneurship Showcase, Nov 2024  <br>
   <img style="float:right; padding-left:10px" src="images/pitch.jpg" width="300" alt="Nicole Hao presenting at Cornell Tech Showcase">  
 
 - **Option Pricing under Stochastic Volatility, Change in Equity Premium, and Interest Rates in a Complete Market**  
   Young Mathematicians Conference (YMC), Joint Mathematics Meetings (JMM), 2024  
-  *(Based on [an applied math research project](https://arxiv.org/abs/2408.15416) I worked on with Prof. John Holmes at OSU)*  
+  *(Based on [an applied math research project](https://arxiv.org/abs/2408.15416) I worked on with Prof. John Holmes at OSU)*  <br>
   <img style="float:right; padding-left:10px" src="images/YMC.jpg" width="300" alt="Nicole Hao presenting at YMC">  
 
 - **Detecting and Classifying Flares in High-resolution Solar Spectra with Supervised Machine Learning**  
   Nexus Scholars, Rochester Symposium for Physics Students (RSPS), 2023  
-  *(I was a physics major!)*  
+  *(I was a physics major!)*  <br>
   <img style="float:right; padding-left:10px" src="images/Nexus.jpg" width="300" alt="Nicole Hao presenting at RSPS">  
 
 
