@@ -13,7 +13,7 @@ Academia’s monopoly on expertise is no longer as effective. Information is che
 
 If you’re a self-directed learner, the internet can turn you into an expert in almost any field. That means when it comes to theoretical knowledge, academia doesn't hold the same edge they once did. 
 
-This isn’t to discredit the work of academics or higher education institutions.After all, universities still produce groundbreaking research, create an environment for deep intellectual collaboration, and provide structured learning and mentorship for those who thrive in that environment. Universities remain vital for foundational science and critical thinking, but when it comes to moving ideas from the lab to the market, the private sector is pulling ahead...
+This isn’t to discredit the work of academics or higher education institutions. After all, universities still produce groundbreaking research, create an environment for deep intellectual collaboration, and provide structured learning and mentorship for those who thrive in that environment. Universities remain vital for foundational science and critical thinking, but when it comes to moving ideas from the lab to the market, the private sector is pulling ahead...
 
 
 
@@ -25,7 +25,7 @@ This isn’t to discredit the work of academics or higher education institutions
 
 # The Shift to Applied Innovation
 
-Hot take #2: **We might be reaching the limits of traditional theoretical science.**
+**Hot take #2: We might be reaching the limits of traditional theoretical science.**
 
 A 2021 analysis in *Nature* found that scientific papers and patents are becoming increasingly incremental rather than revolutionary ([Park et al., 2023](https://doi.org/10.1038/s41586-023-06106-4)). The low-hanging fruit of 20th-century science (semiconductors, antibiotics, nuclear energy) has been picked, leaving harder, niche problems that require industry collaboration. 
 
@@ -42,7 +42,7 @@ This might be more of a dire issue, especially in the U.S., under the current po
 
 # VC Demands Execution. Not Just Ideas
 
-The shift to applied innovation, coupled with tightening U.S. funding landscapes, explains why academic projects struggle to attract investment. 
+**Hot take #3: The shift to applied innovation, coupled with tightening U.S. funding landscapes, explains why academic projects struggle to attract investment.**
 
 A lot of seasoned VCs aren’t even touching angel or Series A rounds anymore. The bar is higher. Founders are expected to get scrappy, find early traction, and get through the A round before serious capital even considers coming in. Investors want to see a clearer picture before they write a check. Data from PitchBook (2024) shows that seed-stage funding has grown, but Series A rounds have become far more selective ([PitchBook-NVCA Venture Monitor, 2024](https://pitchbook.com)).   Investors now expect startups to demonstrate revenue, customer adoption, or a clear path to monetization before committing. 
 
