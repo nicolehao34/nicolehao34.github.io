@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Opinion: The Future of Innovation
+title: The Future of Innovation & The End of Academic Monopoly
 ---
 
 In today’s landscape, companies—not universities—are becoming the core engines of innovation.
