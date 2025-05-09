@@ -56,7 +56,7 @@ Young Mathematicians Conference (YMC), Joint Mathematics Meetings (JMM), 2024  <
 - **Detecting and Classifying Flares in High-resolution Solar Spectra with Supervised Machine Learning** <br>
 Nexus Scholars, Rochester Symposium for Physics Students (RSPS), 2023  
   *(I was a physics major!)* <br>
-  <img style="float:right; padding-left:10px" src="images/Nexus-9560.JPG" width="300" alt="Nicole Hao presenting at YMC">
+  <img style="float:right; padding-left:10px" src="images/Nexus-9560.JPG" width="300" alt="Nicole Hao presenting at YMC"> <br>
 
 
 
