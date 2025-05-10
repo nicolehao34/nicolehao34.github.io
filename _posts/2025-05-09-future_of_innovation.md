@@ -5,6 +5,8 @@ title: The Future of Innovation & The End of Academic Monopoly
 
 In today’s landscape, companies—not universities—are becoming the core engines of innovation.
 
+Well, at least in the U.S.
+
 # The Internet Has Democratized Knowledge 
 
 Let's face it: **the rise of the internet has completely democratized access to knowledge.**
@@ -13,7 +15,7 @@ Academia’s monopoly on expertise is no longer as effective. Information is che
 
 If you’re a self-directed learner, the internet can turn you into an expert in almost any field. That means when it comes to theoretical knowledge, academia doesn't hold the same edge it once did. 
 
-This isn’t to discredit the work of academics or higher education institutions. After all, universities still produce groundbreaking research, create an environment for deep intellectual collaboration, and provide structured learning and mentorship for those who thrive in that environment. Universities remain vital for foundational science and critical thinking, but when it comes to moving ideas from the lab to the market, the private sector is pulling ahead...
+This isn’t to discredit the work of academics or higher education institutions. After all, universities still produce groundbreaking research, create an environment for intellectual collaboration, and provide structured learning and mentorship for those who need the time to cultivate their research skills in a dedicated workplace. Undoubtedly, universities remain vital for foundational science and critical thinking, but when it comes to moving ideas from the lab to the market, the private sector is pulling ahead...
 
 
 
@@ -27,9 +29,9 @@ This isn’t to discredit the work of academics or higher education institutions
 
 **Hot take #2: We might be reaching the limits of traditional theoretical science.**
 
-A 2021 analysis in *Nature* found that scientific papers and patents are becoming increasingly incremental rather than revolutionary ([Park et al., 2023](https://doi.org/10.1038/s41586-023-06106-4)). The low-hanging fruit of 20th-century science (semiconductors, antibiotics, nuclear energy) has been picked. As a result, harder, niche problems that require industry collaboration. 
+A 2021 analysis in *Nature* found that scientific papers and patents are becoming increasingly incremental rather than revolutionary ([Park et al., 2023](https://doi.org/10.1038/s41586-023-06106-4)). The low-hanging fruit of 20th-century science (semiconductors, antibiotics, nuclear energy) has been picked. As a result, harder, niche problems that require industry collaboration are left behind. 
 
-There just aren’t many paradigm-shifting breakthroughs left that can radically transform manufacturing or other industries. The real innovation today is happening on the ground—solving hard, practical engineering problems. And that’s where startup teams and industry engineers, who are in the trenches, have a major advantage over academics. Companies like Apple, NVIDIA, and Moderna now invest more in R&D than many governments. In 2023, Amazon spent **$73 billion** on R&D—more than France’s entire public research budget ([Statista, 2023](https://statista.com); [OECD, 2023](https://oecd.org)). Many transformative technologies, like OpenAI’s GPT models and Tesla’s autonomous driving systems, were developed in industry. A 2022 Stanford study found that **80% of AI breakthroughs** originate in corporate labs ([Zhang et al., 2022](https://aiindex.stanford.edu)). Meanwhile, university research struggles with funding gaps and slow tech transfer processes ([Britt, 2023](https://sciencebusiness.net)).  
+There just aren’t many paradigm-shifting breakthroughs left that can radically transform manufacturing or other industries. The real innovation today is happening on the ground—solving hard, practical engineering problems. And that’s where startup teams and industry engineers, who are in the "trenches", have a major advantage over academics. Companies like Apple, NVIDIA, and Moderna now invest more in R&D than many governments. In 2023, Amazon spent **$73 billion** on R&D—more than France’s entire public research budget ([Statista, 2023](https://statista.com); [OECD, 2023](https://oecd.org)). Many transformative technologies, like OpenAI’s GPT models and Tesla’s autonomous driving systems, were developed in industry. A 2022 Stanford study found that **80% of AI breakthroughs** originate in corporate labs ([Zhang et al., 2022](https://aiindex.stanford.edu)). Meanwhile, university research struggles with funding gaps and slow tech transfer processes ([Britt, 2023](https://sciencebusiness.net)).  
  
 This might be more of a dire issue, especially in the U.S., under the current political climate.
 
