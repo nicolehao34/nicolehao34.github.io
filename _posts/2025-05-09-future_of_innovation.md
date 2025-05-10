@@ -40,36 +40,37 @@ This might be more of a dire issue, especially in the U.S., under the current po
 
 ---
 
-# VC Demands Execution. Not Just Ideas
+# VC Demands Execution. Not Just Ideas.
 
-**Hot take #3: The shift to applied innovation, coupled with tightening U.S. funding landscapes, explains why academic projects struggle to attract investment.**
+**Hot take (maybe not really a hot take) #3: An idea or a patent from an academic project will no longer be sufficient as the driving force behind a successful startup.**
 
-A lot of seasoned VCs aren’t even touching angel or Series A rounds anymore. The bar is higher. Founders are expected to get scrappy, find early traction, and get through the A round before serious capital even considers coming in. Investors want to see a clearer picture before they write a check. Data from PitchBook (2024) shows that seed-stage funding has grown, but Series A rounds have become far more selective ([PitchBook-NVCA Venture Monitor, 2024](https://pitchbook.com)).   Investors now expect startups to demonstrate revenue, customer adoption, or a clear path to monetization before committing. 
+The shift to applied innovation, coupled with tightening U.S. funding landscapes, explains why academic projects struggle to attract investment. I define early-stage academic projects this way: These projects are research endeavors in their initial phases of exploration, where the focus is on hypothesis testing, foundational discovery, or proof-of-concept development. These projects are characterized by high uncertainty, minimal preliminary data, and no immediate path to commercialization. An good example of an academic project that succeeded in securing funding from VCs would be Moderna. Moderna’s core technology—messenger RNA (mRNA)—originated in academic research at institutions like MIT, Harvard, and the University of Pennsylvania. Initial academic work for Modern's core innovation relied on grants from agencies like the NIH. However, funding stagnation in the 2000s–2010s limited progress. For example, Karikó’s grant applications were repeatedly rejected, forcing her to pursue smaller, niche funding sources. Despite these circumstances, Moderna's pivot to applied innovation, developing mRNA as a therapeutic platformconstant, and efforts in raising funding over the 2000s to the 2010s, allowed it to secure 4.9 billion revenue by 2015 and later dominate the COVID-19 vaccine market, generating  18.5 billion in 2021.
 
-An idea or a patent will no longer be sufficient as the driving force behind a successful startup.
+However, this is a success that's harder to replicate in 2025.
 
+Federal agencies now favor "use-inspired" research aligned with immediate societal needs (e.g., AI, pandemic preparedness), [leaving curiosity-driven projects underfunded](https://sparkthefiregrantwriting.com/blog/2025-overview-of-the-scientific-grant-writing-landscape). Only 33% of university research funding is projected to come from federal sources by 2025, down from 60% in 2000. 
 
+Additionally, the shift to commercialization-driven endeavors in R&D investment is real. According to a 2025 academic research and development global market report, private R&D investment now constitutes 73% of total U.S. R&D spending, but businesses focus overwhelmingly on [applied research (55%) and experimental development (87%)](https://www.thebusinessresearchcompany.com/report/academic-research-and-development-global-market-report). These are all areas closer to commercialization. For instance, [cleantech investors favor energy storage or EVs over speculative academic research in renewable energy](https://privatebank.jpmorgan.com/eur/en/insights/markets-and-investing/ideas-and-insights/alternative-investments-in-2025-our-top-five-themes-to-watch). VCs and private equity increasingly target ventures with clear market pathways (e.g., AI software, healthcare spinouts), [leaving early-stage academic projects underfunded]([https://www.thebusinessresearchcompany.com/report/academic-research-and-development-global-market-report](https://www.iqvia.com/insights/the-iqvia-institute/reports-and-publications/reports/global-trends-in-r-and-d-2025)). A lot of seasoned VCs aren’t even touching angel or Series A rounds anymore. The bar is simply higher. Founders are expected to get scrappy, find early traction, and get through the A round before serious capital even considers coming in. Investors want to see a clearer picture before they write a check. Data from PitchBook (2024) shows that seed-stage funding has grown, but Series A rounds have become far more selective ([PitchBook-NVCA Venture Monitor, 2024](https://pitchbook.com)).  Investors now expect startups to demonstrate revenue, customer adoption, or a clear path to monetization before committing. Someone with a more academically trained background, like a full-time PhD student, might be constrained by their responsibilities in education, and struggle with contirbuting time to their startup endeavors.
 
-
-
+This doesn’t mean PhDs or academically trained founders are less likely to get funded, but it’s no longer a strong differentiator in most sectors these days. An analysis of 347 U.S. unicorns over the past decade shows that just 18% had at least one PhD founder. Their performance is only slightly better (but not significantly so) than non-PhDs in terms of valuation efficiency and time to $1B. However, in technical sectors like [healthcare (44.1%) and AI/ML or big data (31.4%)](https://medium.com/foothill-ventures/are-phds-a-good-bet-as-founders-25fe341c47b2), PhDs are notably overrepresented and tend to build more efficient, high-performing companies. Still, a PhD and a patent alone no longer guarantee a competitive edge in the eyes of modern VCs.
 
 
 ---
 
 # A Qustion Only You Can Answer (for yourself!)
 
-So, given all of my hot takes... For ambitious young innovators, the critical question is: 
+So, given all of my hot takes... For ambitious young innovators, perhaps the more relevant and crucial question to ask is: 
 
 **What do we do?**  
 
-Do we get an PhD, or do we jump into a company?
+Do we get an PhD (or go to grad school in general), or do we jump into working at a company?
 
-If you ask me, the answer is that, depends on the returns you believe a PhD would get you.
-
-
+If you ask me, the answer is: depends on the returns you believe a graduate degree would get you.
 
 
-### When to Choose Academia (PhD):  
+
+
+### When to Choose Academia (MS, PhD):  
 1. **If you want to pioneer fundamental science**  
    Fields like quantum computing, particle physics, or theoretical AI still require deep academic training. A PhD gives you access to cutting-edge labs (e.g., CERN, MIT Media Lab) and mentors who shape entire disciplines. A good example: CRISPR gene-editing breakthroughs emerged from decades of university research ([Doudna & Charpentier, 2014](https://doi.org/10.1126/science.1258096)).  
 
