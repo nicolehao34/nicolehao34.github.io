@@ -50,7 +50,7 @@ I LOVE pitching and giving speeches! Nothing excites me more than getting on sta
   <img style="float:right; padding-left:10px" src="images/pitch.jpg" width="300" alt="Nicole Hao presenting at Cornell Tech Showcase">  
 
 - **Option Pricing under Stochastic Volatility, Change in Equity Premium, and Interest Rates in a Complete Market**  
-  Young Mathematicians Conference (YMC), Joint Mathematics Meetings (JMM), 2024  
+  [Young Mathematicians Conference (YMC)](efaidnbmnnnibpcajpcglclefindmkaj/https://ymc.osu.edu/sites/default/files/2023-08/ymc_2023-2.pdf), [Joint Mathematics Meetings (JMM)](https://jointmathematicsmeetings.org/meetings/national/jmm2024/2300_presenters.html), 2024  
   *(Based on [an applied math research project](https://arxiv.org/abs/2408.15416) I worked on with Prof. John Holmes at OSU)*  <br>
   <!-- <img style="float:right; padding-left:10px" src="images/YMC.jpg" width="300" alt="Nicole Hao presenting at YMC">   -->
 
