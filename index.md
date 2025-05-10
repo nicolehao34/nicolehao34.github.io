@@ -19,7 +19,7 @@ Fun fact: I'm a practicing Buddhist. Yes, I go on mediation retreats. Don't get 
 # Projects
 
 -  **InkSight** <br>
-An AI-powered STEM note-taking and accessibility platform for students with learning disorders and auditory + visual impairments. **Demo coming soon.**
+An AI-powered STEM note-taking and accessibility platform for students with learning disorders and auditory + visual impairments. I was lucky enough to be selected by [the Cornell eLab Student Startup Accelerator](https://eship.cornell.edu/elab-welcomes-24-student-startup-teams-to-fall-cohort/) as part of their Fall 24 cohort with this project. **Demo coming soon.**
 
 
 
@@ -44,7 +44,7 @@ A transformer-based exam prep assistant that retrieves and summarizes lecture co
 I LOVE pitching and giving speeches! Nothing excites me more than getting on stage in front of a crowd and presenting an exciting idea, product, or research findings.
 
 - **InkSight: Empowering All Learners with AI**  
-  Cornell Tech Student Entrepreneurship Showcase, Nov 2024  <br>
+  [Cornell Tech Student Entrepreneurship Showcase](https://gradcareers.cornell.edu/event/cornell-entrepreneurship-showcase-student-pitches-venture-panel/), Nov 2024  <br>
   <img style="float:right; padding-left:10px" src="images/pitch.jpg" width="300" alt="Nicole Hao presenting at Cornell Tech Showcase">  
 
 - **Option Pricing under Stochastic Volatility, Change in Equity Premium, and Interest Rates in a Complete Market**  
