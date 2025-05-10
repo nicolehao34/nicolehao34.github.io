@@ -29,7 +29,7 @@ A transformer-based exam prep assistant that retrieves and summarizes lecture co
 
 
 - **[Classifying Solar Flares Using Supervised ML](https://github.com/nicolehao34/solar_flares_classification)** <br>
-  Developed a machine learning pipeline to classify solar flares using real-world data. Improved prediction accuracy for solar flare events. Research results published in the Astrophysical Journal.
+  Developed a machine learning pipeline to classify solar flares using real-world data. Improved prediction accuracy for solar flare events. Research results published in [the Astrophysical Journal](https://iopscience.iop.org/article/10.3847/1538-4357/ad5be3).
 
 
 
@@ -53,7 +53,7 @@ I LOVE pitching and giving speeches! Nothing excites me more than getting on sta
   <!-- <img style="float:right; padding-left:10px" src="images/YMC.jpg" width="300" alt="Nicole Hao presenting at YMC">   -->
 
 - **Detecting and Classifying Flares in High-resolution Solar Spectra with Supervised Machine Learning**  
-  Nexus Scholars, Rochester Symposium for Physics Students (RSPS), 2023  
+  [Nexus Scholars](https://as.cornell.edu/news/nexus-scholar-applications-open-summer-2023), Rochester Symposium for Physics Students (RSPS), 2023  
   *(I was a physics major!)*  <br>
   <!-- <img style="float:right; padding-left:10px" src="images/Nexus.jpg" width="300" alt="Nicole Hao presenting at RSPS">   -->
 
