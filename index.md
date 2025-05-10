@@ -56,7 +56,7 @@ I LOVE pitching and giving speeches! Nothing excites me more than getting on sta
 
 - **Detecting and Classifying Flares in High-resolution Solar Spectra with Supervised Machine Learning**  
   [Nexus Scholars](https://as.cornell.edu/news/nexus-scholar-applications-open-summer-2023), Rochester Symposium for Physics Students (RSPS), 2023  
-  *(I was a physics major!)*  <br>
+  *(I was a physics major! I may not be actively doing research in astrophysics now, but it will always be the most exalted form of curiosity to me.)*  <br>
   <!-- <img style="float:right; padding-left:10px" src="images/Nexus.jpg" width="300" alt="Nicole Hao presenting at RSPS">   -->
 
 
