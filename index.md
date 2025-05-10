@@ -9,7 +9,7 @@ permalink: /index.html
 I'm Nicole Hao, a Master of Engineering student in Computer Science at Cornell University, passionate about AI and human-centered technology.
 
 
- My work focuses on developing tools that leverage Retrieval-Augmented Generation (RAG), deep learning, and multimodal systems to address real-world challenges in enterprise scalability, education, and healthcare.
+ My current work focuses on developing tools that leverage Retrieval-Augmented Generation (RAG), deep learning, and multimodal systems to address real-world challenges in enterprise scalability, education, and healthcare.
 
 
 
