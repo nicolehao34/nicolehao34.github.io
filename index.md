@@ -25,13 +25,13 @@ An AI-powered STEM note-taking and accessibility platform for students with lear
 
 
 - **[RAG Exam Review Bot](https://github.com/nicolehao34/ai-pdf-chatbot)** <br>
-A transformer-based exam prep assistant that retrieves and summarizes lecture content from PDFs and course websites. <br>
+A transformer-based exam prep assistant that retrieves and summarizes lecture content from PDFs, course websites, and discussion forums. <br>
 **Demo coming soon.**
 
 
 
 - **[Classifying Solar Flares Using Supervised ML](https://github.com/nicolehao34/solar_flares_classification)** <br>
-  Developed a machine learning pipeline to classify solar flares using real-world data. Improved prediction accuracy for solar flare events. Research results published in [the Astrophysical Journal](https://iopscience.iop.org/article/10.3847/1538-4357/ad5be3).
+  Developed a machine learning pipeline to classify solar flares using real-world data. Improved prediction accuracy for solar flare events. I was mentored by [Prof. Ray Jayawardhana](https://www.drrayjay.net/) and Dr. Laura Flagg. Our research results were published in [the Astrophysical Journal](https://iopscience.iop.org/article/10.3847/1538-4357/ad5be3).
 
 
 
