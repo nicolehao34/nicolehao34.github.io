@@ -19,12 +19,14 @@ Fun fact: I'm a practicing Buddhist. Yes, I go on mediation retreats. Don't get 
 # Projects
 
 -  **InkSight** <br>
-An AI-powered STEM note-taking and accessibility platform for students with learning disorders and auditory + visual impairments. I was lucky enough to be selected by [the Cornell eLab Student Startup Accelerator](https://eship.cornell.edu/elab-welcomes-24-student-startup-teams-to-fall-cohort/) as part of their Fall 24 cohort with this project. **Demo coming soon.**
+An AI-powered STEM note-taking and accessibility platform for students with learning disorders and auditory + visual impairments. I was lucky enough to be selected by [the Cornell eLab Student Startup Accelerator](https://eship.cornell.edu/elab-welcomes-24-student-startup-teams-to-fall-cohort/) as part of their Fall 24 cohort with this project. <br>
+**Demo coming soon.**
 
 
 
 - **[RAG Exam Review Bot](https://github.com/nicolehao34/ai-pdf-chatbot)** <br>
-A transformer-based exam prep assistant that retrieves and summarizes lecture content from PDFs and course websites. **Demo coming soon.**
+A transformer-based exam prep assistant that retrieves and summarizes lecture content from PDFs and course websites. <br>
+**Demo coming soon.**
 
 
 
@@ -34,7 +36,7 @@ A transformer-based exam prep assistant that retrieves and summarizes lecture co
 
 
 - **[Minimization of Differential Lateral Acceleration for Starshade Stationkeeping](https://github.com/nicolehao34/starshade_stationkeeping)** <br>
-  Developed algorithms to minimize lateral acceleration differences in spacecraft stationkeeping for starshade missions, improving alignment precision for exoplanet imaging.  
+  Developed algorithms to minimize lateral acceleration differences in spacecraft stationkeeping for starshade missions, improving alignment precision for exoplanet imaging. I was mentored by PhD students and Prof. Dmitry Savransky in the [Cornell SIOS lab](https://sioslab.mae.cornell.edu/).
 
 
 
