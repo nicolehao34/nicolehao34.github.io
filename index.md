@@ -46,7 +46,7 @@ A transformer-based exam prep assistant that retrieves and summarizes lecture co
 I LOVE pitching and giving speeches! Nothing excites me more than getting on stage in front of a crowd and presenting an exciting idea, product, or research findings.
 
 - **InkSight: Empowering All Learners with AI**  
-  [Cornell Tech Student Entrepreneurship Showcase](https://gradcareers.cornell.edu/event/cornell-entrepreneurship-showcase-student-pitches-venture-panel/), Nov 2024  <br>
+  [Cornell Tech Entrepreneurship Showcase](https://gradcareers.cornell.edu/event/cornell-entrepreneurship-showcase-student-pitches-venture-panel/), Nov 2024  <br>
   <img style="float:right; padding-left:10px" src="images/pitch.jpg" width="300" alt="Nicole Hao presenting at Cornell Tech Showcase">  
 
 - **Option Pricing under Stochastic Volatility, Change in Equity Premium, and Interest Rates in a Complete Market**  
