@@ -90,7 +90,7 @@ If you ask me, the answer depends on the returns you believe a graduate degree w
 
 
 3. **If you enjoy unstructured exploration (or have a track record of thriving in an academic environment)**  
-   PhDs allow you to dive into niche problems without the pressure of quarterly profits. A good example would be the DARPA-funded university project ([Leiner et al., 2009](https://doi.org/10.1145/1629607.1629613)). You get more freedom to define your research and carry it out at your own pace. Obviously, at a rate that your mentor allows.
+   PhDs allow you to dive into niche problems without the pressure of quarterly profits. A good example would be the DARPA-funded university project ([Leiner et al., 2009](https://doi.org/10.1145/1629607.1629613)). You get more freedom to define your research and carry it out at your own pace. (Obviously, at a rate that your mentor allows ;) )
 
 
 ### When to Choose Industry:  
@@ -105,7 +105,11 @@ If you ask me, the answer depends on the returns you believe a graduate degree w
    Founders like Vitalik Buterin (Ethereum) prove credentials aren’t everything.  Experience matters as an entrepreneur. Obviously, I put this as a third condition for a reason. Tons of PhDs became successful entrepreneurs, but of course, at the time cost of 5-6 years, whereas you can use the time to jump into industry. Your call.
 
 
-Finally, things are constantly changing. Live your life to the fullest, and don't forget to **stay upwind** when making a career choice. Best of Luck.
+Finally, things are constantly changing. I don't think decisions like pursuing a graduate degree is something to be taken lightly considering the time cost and financial implications, however, I also believe that if doing academic research is something you want to do, just for the sake of doing it, you should **absolutely** pursue it despite the current funding circumstances. 
+
+It is your life, live your life to the fullest, and don't forget to **stay upwind & stay true to yourself** when making a career choice. 
+
+Best of Luck.
 
 
 
