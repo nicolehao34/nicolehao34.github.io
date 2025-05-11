@@ -17,6 +17,7 @@ Fun fact: I'm a practicing Buddhist. Yes, I go on mediation retreats. Don't get 
 
 
 # Projects
+I’ve worked on both engineering and research projects, using **applied math** and **ML/AI** to solve problems in natural sciences, education, and finance.
 
 -  **InkSight** <br>
 An AI-powered STEM note-taking and accessibility platform for students with learning disorders and auditory + visual impairments. I was lucky enough to be selected by [the Cornell eLab Student Startup Accelerator](https://eship.cornell.edu/elab-welcomes-24-student-startup-teams-to-fall-cohort/) as part of their Fall 24 cohort with this project. <br>
@@ -27,8 +28,6 @@ An AI-powered STEM note-taking and accessibility platform for students with lear
 - **[RAG Exam Review Bot](https://github.com/nicolehao34/ai-pdf-chatbot)** <br>
 A transformer-based exam prep assistant that retrieves and summarizes lecture content from PDFs, course websites, and discussion forums. <br>
 **Demo coming soon.**
-
-
 
 - **[Classifying Solar Flares Using Supervised ML](https://github.com/nicolehao34/solar_flares_classification)** <br>
   Developed a machine learning pipeline to classify solar flares using real-world data. Improved prediction accuracy for solar flare events. I was mentored by [Prof. Ray Jayawardhana](https://www.drrayjay.net/) and Dr. Laura Flagg. Our research results were published in [the Astrophysical Journal](https://iopscience.iop.org/article/10.3847/1538-4357/ad5be3).
