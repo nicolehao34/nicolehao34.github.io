@@ -6,10 +6,10 @@ permalink: /index.html
 
 <img style="float:right; padding-left:10px" src="https://avatars.githubusercontent.com/nicolehao34" width="221" height="220">
 
-I'm Nicole Hao, a Master of Engineering student in Computer Science at Cornell University, passionate about AI and human-centered technology.
+I'm Nicole Hao, a Master of Engineering student in Computer Science at Cornell University, passionate about AI and human-centered & assistive technology.
 
 
- My current work focuses on developing tools that leverage Retrieval-Augmented Generation (RAG), deep learning, and multimodal systems to address real-world challenges in enterprise scalability, education, and healthcare.
+My current work focuses on developing tools that leverage Retrieval-Augmented Generation (RAG), deep learning, and multimodal systems to address real-world challenges in enterprise scalability, education, and accessibility.
 
 
 
