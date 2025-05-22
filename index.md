@@ -8,7 +8,7 @@ permalink: /index.html
 
 I'm Nicole Hao, a MEng student in Computer Science at Cornell University. Previously, I received my B.A. in Mathematics from Cornell in Dec 2024. 
 
-I'm passionate about multi-sensory AI and human-centered technology. My current work focuses on developing tools that leverage Retrieval-Augmented Generation (RAG), deep learning, and multimodal systems to address real-world challenges in education, accessibility, and enterprise scalability. 
+I'm passionate about multi-sensory AI and human-centered technology. My current work focuses on developing tools that leverage Retrieval-Augmented Generation (RAG), deep learning, and multimodal systems to address real-world challenges in education and accessibility. 
 
 I believe that AI will one day augment human cognition and help build a more just and equitable world - one where physical or cognitive challenges no longer limit a person’s potential.
 
