@@ -18,9 +18,7 @@ Fun fact: I'm a practicing Buddhist. Yes, I go on mediation retreats. Don't get 
 I’ve worked on both engineering and research projects, using **applied math** and **ML/AI** to solve problems in natural sciences, education, and finance.
 
 -  **[InkSight AI](https://github.com/Cornell-InkSight/InkSightMVP.git)** <br>
-Many students with visual impairments are charged as much as $100 per hour for note-taking assistance, just to access the same classroom content as everyone else. 
-
-InkSight AI is an education platform that captures information across modalities, making real-time, multi-sensory learning possible and affordable for every learner.I was lucky enough to be selected by [the Cornell eLab Student Startup Accelerator](https://eship.cornell.edu/elab-welcomes-24-student-startup-teams-to-fall-cohort/) as part of their Fall 24 cohort with this project. <br>
+Do you know that many students with visual impairments are charged as much as $100 per hour for note-taking assistance, just to access the same classroom content as everyone else? This is why me and a few other Cornell students did months of research and developed InkSight AI. InkSight AI is an education platform that captures information across modalities, making real-time, multi-sensory learning possible and affordable for every learner.I was lucky enough to be selected by [the Cornell eLab Student Startup Accelerator](https://eship.cornell.edu/elab-welcomes-24-student-startup-teams-to-fall-cohort/) as part of their Fall 24 cohort with this project. <br>
 **Demo coming soon.**
 
 - **[Multimodal STEM Lecture Video Dataset & Data Labeling Tool](https://github.com/Cornell-InkSight/InkSight-DataLabeler.git)** <br>
