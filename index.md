@@ -45,11 +45,6 @@ My engineering projects focus on **business** and **finance**, specifically, usi
 An AI-powered sales search & outreach platform for targeted B2B leads based on your ideal customer profile. The system automates finding and qualifying sales leads by researching industry events and trade associations where potential customers might be present. ⭐ Check out the new [Demo](https://GenLead-AI-nicolehao7.replit.app) and [loom walkthrough](https://www.loom.com/share/127c02e726394d038c29dd18419ce4d8?sid=7ff1b0c6-f1e7-4877-93ee-48ea8ae139ca) 
 
 
-- **[RAG Exam Review Bot](https://github.com/nicolehao34/ai-pdf-chatbot)** <br>
-A transformer-based exam prep assistant that retrieves and summarizes lecture content from PDFs, course websites, and discussion forums. <br>
-**Demo coming soon.**
-
-
 
 
 ---
