@@ -15,7 +15,9 @@ I believe that AI will one day augment human cognition and help build a more jus
 Fun fact: I'm a practicing Buddhist. Yes, I go on mediation retreats. Don't get me started on Buddhism (and my screen time).
 
 # Research Projects
-I've led both engineering and research projects, grounded in the belief that impactful work begins with innovation, and research is at the heart of that. My research centers on applying **math** and **AI/ML** to solve real-world problems in the natural sciences and education.
+I've led both engineering and research projects, grounded in the belief that impactful work begins with innovation, and research is at the heart of that. <br>
+
+My research centers on applying **math** and **AI/ML** to solve real-world problems in the natural sciences and education.
 
 -  **[InkSight AI](https://github.com/Cornell-InkSight/InkSightMVP.git)** <br>
 Do you know that many students with visual impairments are charged as much as $100 per hour for note-taking assistance, just to access the same classroom content as everyone else? This is why me, Arjun Maitra (Cornell 28'), and Clément Roze (Cornell 28') did months of research and developed InkSight AI. InkSight AI is an education platform that captures information across modalities, making real-time, multi-sensory learning possible and affordable for every learner. I was lucky enough to be selected by [the Cornell eLab Student Startup Accelerator](https://eship.cornell.edu/elab-welcomes-24-student-startup-teams-to-fall-cohort/) as part of their Fall 24 cohort with this project. <br>
