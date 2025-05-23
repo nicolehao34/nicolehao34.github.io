@@ -14,20 +14,17 @@ I believe that AI will one day augment human cognition and help build a more jus
 
 Fun fact: I'm a practicing Buddhist. Yes, I go on mediation retreats. Don't get me started on Buddhism (and my screen time).
 
-
-# Projects
+# Research Projects
 I’ve worked on both engineering and research projects, using **applied math** and **ML/AI** to solve problems in natural sciences, education, and finance.
 
--  **InkSight** <br>
-An AI-powered STEM note-taking and accessibility platform for students with learning disorders and auditory + visual impairments. I was lucky enough to be selected by [the Cornell eLab Student Startup Accelerator](https://eship.cornell.edu/elab-welcomes-24-student-startup-teams-to-fall-cohort/) as part of their Fall 24 cohort with this project. <br>
+-  **[InkSight AI](https://github.com/Cornell-InkSight/InkSightMVP.git)** <br>
+Many students with visual impairments are charged as much as $100 per hour for note-taking assistance, just to access the same classroom content as everyone else. 
+
+InkSight AI is an education platform that captures information across modalities, making real-time, multi-sensory learning possible and affordable for every learner.I was lucky enough to be selected by [the Cornell eLab Student Startup Accelerator](https://eship.cornell.edu/elab-welcomes-24-student-startup-teams-to-fall-cohort/) as part of their Fall 24 cohort with this project. <br>
 **Demo coming soon.**
 
-- **[LeadGen.AI](https://github.com/nicolehao34/LeadGen.AI)** <br>
-An AI-powered sales search & outreach platform for targeted B2B leads based on your ideal customer profile. The system automates finding and qualifying sales leads by researching industry events and trade associations where potential customers might be present. ⭐ Check out the new [Demo](https://GenLead-AI-nicolehao7.replit.app) and [loom walkthrough](https://www.loom.com/share/127c02e726394d038c29dd18419ce4d8?sid=7ff1b0c6-f1e7-4877-93ee-48ea8ae139ca) 
-
-
-- **[RAG Exam Review Bot](https://github.com/nicolehao34/ai-pdf-chatbot)** <br>
-A transformer-based exam prep assistant that retrieves and summarizes lecture content from PDFs, course websites, and discussion forums. <br>
+- **[Multimodal STEM Lecture Video Dataset & Data Labeling Tool](https://github.com/Cornell-InkSight/InkSight-DataLabeler.git)** <br>
+I developed a multimodal STEM lecture video dataset and a custom data labeling tool to support AI models that interpret complex classroom content. The tool enables precise annotation of visual, textual, and auditory elements, such as handwritten equations, diagrams, and spoken explanations—laying the groundwork for accessible, multisensory learning systems. <br>
 **Demo coming soon.**
 
 - **[Classifying Solar Flares Using Supervised ML](https://github.com/nicolehao34/solar_flares_classification)** <br>
@@ -37,6 +34,18 @@ A transformer-based exam prep assistant that retrieves and summarizes lecture co
 
 - **[Minimization of Differential Lateral Acceleration for Starshade Stationkeeping](https://github.com/nicolehao34/starshade_stationkeeping)** <br>
   Developed algorithms to minimize lateral acceleration differences in spacecraft stationkeeping for starshade missions, improving alignment precision for exoplanet imaging. I was mentored by PhD students and Prof. Dmitry Savransky in the [Cornell SIOS lab](https://sioslab.mae.cornell.edu/).
+
+
+# Engineering Projects
+
+- **[LeadGen.AI](https://github.com/nicolehao34/LeadGen.AI)** <br>
+An AI-powered sales search & outreach platform for targeted B2B leads based on your ideal customer profile. The system automates finding and qualifying sales leads by researching industry events and trade associations where potential customers might be present. ⭐ Check out the new [Demo](https://GenLead-AI-nicolehao7.replit.app) and [loom walkthrough](https://www.loom.com/share/127c02e726394d038c29dd18419ce4d8?sid=7ff1b0c6-f1e7-4877-93ee-48ea8ae139ca) 
+
+
+- **[RAG Exam Review Bot](https://github.com/nicolehao34/ai-pdf-chatbot)** <br>
+A transformer-based exam prep assistant that retrieves and summarizes lecture content from PDFs, course websites, and discussion forums. <br>
+**Demo coming soon.**
+
 
 
 
