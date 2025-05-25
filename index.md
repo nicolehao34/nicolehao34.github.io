@@ -14,6 +14,9 @@ I believe that AI will one day augment human cognition and help build a more jus
 
 Fun fact: I'm a practicing Buddhist. Yes, I go on mediation retreats. Don't get me started on Buddhism (and my screen time).
 
+
+------
+
 # Research Projects
 I've led both engineering and research projects, grounded in the belief that impactful work begins with innovation, and research is at the heart of that. <br>
 
@@ -37,6 +40,7 @@ I conducted this research project under the guidance of [Prof. Yunan Yang](https
 - **[Minimization of Differential Lateral Acceleration for Starshade Stationkeeping](https://github.com/nicolehao34/starshade_stationkeeping)** <br>
   Developed algorithms to minimize lateral acceleration differences in spacecraft stationkeeping for starshade missions, improving alignment precision for exoplanet imaging. I was mentored by PhD students and Prof. Dmitry Savransky in the [Cornell SIOS lab](https://sioslab.mae.cornell.edu/).
 
+------
 
 # Engineering Projects
 To me, innovation is not just about research - building a viable product and gaining traction are equally important.<br>
