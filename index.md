@@ -24,13 +24,15 @@ Do you know that many students with visual impairments are charged as much as $1
 **Demo coming soon.**
 
 - **[Multimodal STEM Lecture Video Dataset & Data Labeling Tool](https://github.com/Cornell-InkSight/InkSight-DataLabeler.git)** <br>
-I developed a multimodal STEM lecture video dataset and a custom data labeling tool to support AI models that interpret complex classroom content. The tool enables precise annotation of visual, textual, and auditory elements, such as handwritten equations, diagrams, and spoken explanations, laying the groundwork for accessible, multisensory learning systems. I was advised by [Prof. Jennifer Sun](https://jenjsun.com/). <br>
+I developed a multimodal STEM lecture video dataset and a custom data labeling tool to support AI models that interpret complex classroom content. The tool enables precise annotation of visual, textual, and auditory elements, such as handwritten equations, diagrams, and spoken explanations, laying the groundwork for accessible, multisensory learning systems. I was advised by [Prof. Jennifer Sun](https://jenjsun.com/) for this project. <br>
 **Demo coming soon.**
 
+- **[Evaluations on Response-Based Knowledge Distillation and the Effects of
+Alpha on Model Accuracy](https://github.com/nicolehao34/Knowledge-Distillation-Effects-Of-Alpha/blob/ef5b7dce5d1f4a334c3b56c916856047dd087c86/Knowledge_Distillation_Final_Report.pdf)** <br>
+I conducted this research project under the guidance of [Prof. Yunan Yang](https://yunany.github.io/) to investigate the effects of the alpha parameter in response-based knowledge distillation using MNIST data. By implementing a custom distillation framework in Keras, I analyzed how varying alpha values influence student model accuracy in contrast to direct learning from data and guidance from a teacher model. The study provides more information on optimizing model compression and generalization performance in low-resource settings.
+
 - **[Classifying Solar Flares Using Supervised ML](https://github.com/nicolehao34/solar_flares_classification)** <br>
-  Developed a machine learning pipeline to classify solar flares using real-world data. Improved prediction accuracy for solar flare events. I was mentored by [Prof. Ray Jayawardhana](https://www.drrayjay.net/) and Dr. Laura Flagg. Our research results were published in [the Astrophysical Journal](https://iopscience.iop.org/article/10.3847/1538-4357/ad5be3).
-
-
+  Developed a novel machine learning pipeline to classify solar flares using real-world data. Improved prediction accuracy for solar flare events. I was mentored by [Prof. Ray Jayawardhana](https://www.drrayjay.net/) and [Dr. Laura Flagg](https://lauraflagg.github.io/). Our research results were published in [the Astrophysical Journal](https://iopscience.iop.org/article/10.3847/1538-4357/ad5be3).
 
 - **[Minimization of Differential Lateral Acceleration for Starshade Stationkeeping](https://github.com/nicolehao34/starshade_stationkeeping)** <br>
   Developed algorithms to minimize lateral acceleration differences in spacecraft stationkeeping for starshade missions, improving alignment precision for exoplanet imaging. I was mentored by PhD students and Prof. Dmitry Savransky in the [Cornell SIOS lab](https://sioslab.mae.cornell.edu/).
