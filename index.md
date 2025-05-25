@@ -30,6 +30,9 @@ Do you know that many students with visual impairments are charged as much as $1
 I developed a multimodal STEM lecture video dataset and a custom data labeling tool to support AI models that interpret complex classroom content. The tool enables precise annotation of visual, textual, and auditory elements, such as handwritten equations, diagrams, and spoken explanations, laying the groundwork for accessible, multisensory learning systems. I was advised by [Prof. Jennifer Sun](https://jenjsun.com/) for this project. <br>
 **Demo coming soon.**
 
+- **[Operator Learning in Sobolev Spaces](https://github.com/nicolehao34/Operator-Learning-in-Sobolev-Spaces/blob/1e5a854088be6fa6befb59d4af8f21b874ac209c/MATH_6220_Final_Project%20(3).pdf)** <br>
+This project bridges functional analysis and operator learning to (more rigorously) analyze how deep neural networks approximate nonlinear operators between Sobolev spaces. I built on the universal approximation in Sobolev norms and derived an original theorem that gives an explicit bound on the neural network complexity to approximate a nonlinear operator between Sobolev spaces.
+
 - **[Evaluations on Response-Based Knowledge Distillation and the Effects of
 Alpha on Model Accuracy](https://github.com/nicolehao34/Knowledge-Distillation-Effects-Of-Alpha/blob/ef5b7dce5d1f4a334c3b56c916856047dd087c86/Knowledge_Distillation_Final_Report.pdf)** <br>
 I conducted this research project under the guidance of [Prof. Yunan Yang](https://yunany.github.io/) to investigate the effects of the alpha parameter in response-based knowledge distillation using MNIST data. By implementing a custom distillation framework in Keras, I analyzed how varying alpha values influence student model accuracy in contrast to direct learning from data and guidance from a teacher model. The study provides more information on optimizing model compression and generalization performance in low-resource settings.
