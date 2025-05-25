@@ -1,3 +1,12 @@
+---
+layout: post
+title: The Importance of Creativity In the Age of AI
+---
+
+# The Lost (and depressed) Generation
+
+I got into a good school. I landed a job offer in nyc. What now?
+
 
 # References
 
