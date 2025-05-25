@@ -24,7 +24,7 @@ Do you know that many students with visual impairments are charged as much as $1
 **Demo coming soon.**
 
 - **[Multimodal STEM Lecture Video Dataset & Data Labeling Tool](https://github.com/Cornell-InkSight/InkSight-DataLabeler.git)** <br>
-I developed a multimodal STEM lecture video dataset and a custom data labeling tool to support AI models that interpret complex classroom content. The tool enables precise annotation of visual, textual, and auditory elements, such as handwritten equations, diagrams, and spoken explanations, laying the groundwork for accessible, multisensory learning systems. I was advised by Prof. Jennifer Sun at Cornell. <br>
+I developed a multimodal STEM lecture video dataset and a custom data labeling tool to support AI models that interpret complex classroom content. The tool enables precise annotation of visual, textual, and auditory elements, such as handwritten equations, diagrams, and spoken explanations, laying the groundwork for accessible, multisensory learning systems. I was advised by [Prof. Jennifer Sun](https://jenjsun.com/). <br>
 **Demo coming soon.**
 
 - **[Classifying Solar Flares Using Supervised ML](https://github.com/nicolehao34/solar_flares_classification)** <br>
