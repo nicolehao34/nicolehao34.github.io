@@ -40,9 +40,6 @@ I conducted this research project under the guidance of [Prof. Yunan Yang](https
 - **[Classifying Solar Flares Using Supervised ML](https://github.com/nicolehao34/solar_flares_classification)** <br>
   Developed a novel machine learning pipeline to classify solar flares using real-world data. Improved prediction accuracy for solar flare events. I was mentored by [Prof. Ray Jayawardhana](https://www.drrayjay.net/) and [Dr. Laura Flagg](https://lauraflagg.github.io/). Our research results were published in [the Astrophysical Journal](https://iopscience.iop.org/article/10.3847/1538-4357/ad5be3).
 
-- **[Minimization of Differential Lateral Acceleration for Starshade Stationkeeping](https://github.com/nicolehao34/starshade_stationkeeping)** <br>
-  Developed algorithms to minimize lateral acceleration differences in spacecraft stationkeeping for starshade missions, improving alignment precision for exoplanet imaging. I was mentored by PhD students and Prof. Dmitry Savransky in the [Cornell SIOS lab](https://sioslab.mae.cornell.edu/).
-
 ------
 
 # Engineering Projects
