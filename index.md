@@ -46,7 +46,8 @@ My engineering projects focus on **business** and **finance**, specifically, usi
 - **[LeadGen.AI](https://github.com/nicolehao34/LeadGen.AI)** <br>
 An AI-powered sales search & outreach platform for targeted B2B leads based on your ideal customer profile. The system automates finding and qualifying sales leads by researching industry events and trade associations where potential customers might be present. ⭐ Check out the new [Demo](https://GenLead-AI-nicolehao7.replit.app) and [loom walkthrough](https://www.loom.com/share/127c02e726394d038c29dd18419ce4d8?sid=7ff1b0c6-f1e7-4877-93ee-48ea8ae139ca) 
 
-
+- **Cornell AI Innovation Lab Projects** <br>
+I was selected to work at the [Cornell AI Innovation lab](https://it.cornell.edu/ai-innovation-lab). I was involved in different projects building RAG-based AI agents that improve productivity and give AI-generated second-opinions at the Cornell Agricultural and Life Sciences School and the Cornell Vet School. 
 
 
 ---
