@@ -77,7 +77,7 @@ I LOVE pitching and giving speeches! Nothing excites me more than getting on sta
 ------
 
 # Volunteering & Community Service
-One of life's most crucial aspects is giving back to the communities that helped you. It hurts me to see younger people going through the same struggles I once had to go through, so I try to help people pursue education opportunities and create a sense of belonging in my free time. 
+One of life's most crucial aspects is giving back to the communities that helped you. It hurts me to see younger people going through the same struggles I once had to go through, so I try to help people pursue education opportunities and find a sense of belonging through community service. 
 
 - **Volunteer, Dharma Drum Retreat Center**, May - Jul 2025
 - **Resident Advisor, Holland International Living Center**, Aug 2022 - Dec 2024
