@@ -15,7 +15,7 @@ I believe that AI will one day augment human cognition and help build a more jus
 Fun fact: I'm a practicing Buddhist. Yes, I go on mediation retreats. Don't get me started on Buddhism (and my screen time).
 
 
-------
+
 
 # Research Projects
 I've led both engineering and research projects, grounded in the belief that impactful work begins with innovation, and research is at the heart of that. <br>
@@ -40,7 +40,7 @@ I conducted this research project under the guidance of [Prof. Yunan Yang](https
 - **[Classifying Solar Flares Using Supervised ML](https://github.com/nicolehao34/solar_flares_classification)** <br>
   Developed a novel machine learning pipeline to classify solar flares using real-world data. Improved prediction accuracy for solar flare events. I was mentored by [Prof. Ray Jayawardhana](https://www.drrayjay.net/) and [Dr. Laura Flagg](https://lauraflagg.github.io/). Our research results were published in [the Astrophysical Journal](https://iopscience.iop.org/article/10.3847/1538-4357/ad5be3).
 
-------
+
 
 # Engineering Projects
 To me, innovation is not just about research - building a viable product and gaining traction are equally important.<br>
