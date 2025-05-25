@@ -50,7 +50,7 @@ An AI-powered sales search & outreach platform for targeted B2B leads based on y
 I was selected to work at the [Cornell AI Innovation lab](https://it.cornell.edu/ai-innovation-lab). I was involved in different projects building RAG-based AI agents that improve productivity and give AI-generated second-opinions at the Cornell Agricultural and Life Sciences School and the Cornell Vet School. 
 
 
----
+------
 
 # Talks & Presentations
 I LOVE pitching and giving speeches! Nothing excites me more than getting on stage in front of a crowd and presenting an exciting idea, product, or research findings.
@@ -70,7 +70,14 @@ I LOVE pitching and giving speeches! Nothing excites me more than getting on sta
   <!-- <img style="float:right; padding-left:10px" src="images/Nexus.jpg" width="300" alt="Nicole Hao presenting at RSPS">   -->
 
 
+------
 
+# Volunteering & Community Service
+To me, one of life's most crucial aspects is giving back to the communities that helped me through my hardest times. It hurts me to see younger people going through the same struggles I once had to go through, so I try to help younger generations pursue education opportunities and create a sense of belonging in my free time. 
+
+- **Volunteer, Dharma Drum Retreat Center**, May - Jul 2025
+- **Resident Advisor, Holland International Living Center**, Aug 2022 - Dec 2024
+- **Volunteer Mathematics Tutor, GoPeer**, Aug 2021 - Dec 2023
 
 ------
 
