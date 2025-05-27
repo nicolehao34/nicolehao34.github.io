@@ -6,4 +6,4 @@ A website about Nicole "Nico" Hao
 
 - ~~Need to fix posts page~~
 - Add art page!!!
-- Google Analytics
+- Add Google Analytics
