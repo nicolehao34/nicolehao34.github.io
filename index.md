@@ -24,11 +24,11 @@ My research centers on applying **math** and **AI/ML** to solve real-world probl
 
 -  **[InkSight AI](https://github.com/Cornell-InkSight/InkSightMVP.git)** <br>
 Do you know that many students with visual impairments are charged as much as $100 per hour for note-taking assistance, just to access the same classroom content as everyone else? <br> This is why me, [Arjun Maitra](https://arjunmaitra.com/) (Cornell Math & Stats 28'), and [Clément Rozé](https://clementroze.com/) (Cornell Info Sci 28') did months of research and developed InkSight AI. InkSight AI is an education platform that captures information across modalities, making real-time, multi-sensory learning possible and affordable for every learner. I was lucky enough to be selected by [the Cornell eLab Student Startup Accelerator](https://eship.cornell.edu/elab-welcomes-24-student-startup-teams-to-fall-cohort/) as part of their Fall 24 cohort with this project. <br>
-**Demo coming soon.**
+**Work in Progress. Demo coming soon.**
 
 - **[Multimodal STEM Lecture Video Dataset & Data Labeling Tool](https://github.com/Cornell-InkSight/InkSight-DataLabeler.git)** <br>
 I developed a multimodal STEM lecture video dataset and a custom data labeling tool to support models ranging from FCNs to VLMs that interpret complex classroom content. The tool enables precise annotation of visual, textual, and auditory elements, such as handwritten equations, diagrams, and spoken explanations, laying the groundwork for accessible, multisensory learning systems. I was advised by [Prof. Jennifer Sun](https://jenjsun.com/) for this project. <br>
-**Demo coming soon.**
+**Work in Progress. Demo coming soon.**
 
 - **[Operator Learning in Sobolev Spaces](https://github.com/nicolehao34/Operator-Learning-in-Sobolev-Spaces/blob/1e5a854088be6fa6befb59d4af8f21b874ac209c/MATH_6220_Final_Project%20(3).pdf)** <br>
 This project bridges functional analysis and operator learning to (more rigorously) analyze how deep neural networks approximate nonlinear operators between Sobolev spaces. I built on the universal approximation in Sobolev norms and derived an original theorem that gives an explicit bound on the neural network complexity to approximate a nonlinear operator between Sobolev spaces.
