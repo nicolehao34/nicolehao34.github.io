@@ -6,21 +6,25 @@ permalink: /index.html
 
 <img style="float:right; padding-left:10px" src="images/profile-2025-05-28.png" width="340" height="321">
 
-I'm Nicole Hao, a MEng student in Computer Science at Cornell University. Previously, I received my B.A. in Mathematics from Cornell in Dec 2024. 
+I'm **Nicole Hao**, a MEng student in Computer Science at Cornell University. Previously, I received my B.A. in Mathematics from Cornell in Dec 2024. 
 
-Professionally, I work at the intersection of R&D and GTM strategy, using multimodal AI and RAG to help *people* improve their productivity and help *enterprises* scale. 
+Professionally, I work at the intersection of **R&D** and **GTM strategy**, using multimodal AI and RAG to help *people* improve their productivity and help *enterprises* scale. 
 
-I come from an academic research background in mathematics, machine learning, and astrophysics, with a focus on building applied AI systems that bridge theory and real-world use cases. My work integrates multimodal data, including language, vision, and unstructured information, to power tools that enable scalable AI solutions.
+I come from an academic research background in mathematics, machine learning, and astrophysics, with a focus on building applied AI systems that bridge theory and real-world use cases. My work integrates multimodal data, including language, vision, and unstructured information, to power scalable AI solutions.
 
 
 
-Outside of work, I lead several nonprofit initiatives focused on advancing accessibility in education.
+Outside of work, I lead several **nonprofit initiatives** focused on advancing **accessibility in education**.
 
-As a first-gen college student, throughout my life, I’ve witnessed brilliant young minds being excluded from educational opportunities, not because of a lack of potential, but because of systemic limitations. This is why I’m deeply passionate about educational access through the means of EdTech. I focus on building tools that integrate Retrieval-Augmented Generation (RAG), Vision-Language Models (VLMs), and — most importantly — human compassion, to make a difference in education.
+**["Education is not a priviledge, it is a human right."](https://www.right-to-education.org/page/understanding-education-right)**
 
-I believe that AI will one day augment human cognition and help build a more just and equitable world - one where physical or cognitive challenges no longer limit a person’s potential.
+As a first-generation college student, I’ve witnessed countless brilliant young minds being **excluded** from educational opportunities throughout my life, not because of a lack of potential, but because of systemic limitations. 
 
-Fun fact: I'm a practicing Buddhist. Yes, I go on mediation retreats. Don't get me started on Buddhism (and my screen time).
+This is why I’m deeply passionate about educational access through the means of **EdTech**. I focus on building tools that integrate Retrieval-Augmented Generation (RAG), Vision-Language Models (VLMs), and — most importantly — **human compassion**, to make a difference in education. 
+
+I believe that with the help AI, we will one day augment human cognition and help build a more just and equitable world, one where physical or cognitive challenges no longer limit a person’s potential.
+
+**Fun fact**: I'm a practicing Buddhist. Yes, I go on mediation retreats. No, don't get me started on Buddhism (and my screen time).
 
 
 
