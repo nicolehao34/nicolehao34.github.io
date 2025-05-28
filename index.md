@@ -12,6 +12,8 @@ Professionally, I work at the intersection of R&D and GTM strategy, using multim
 
 I come from an academic research background in mathematics, machine learning, and astrophysics, with a focus on building applied AI systems that bridge theoretical models and real-world use cases. My work integrates complex, multimodal data, including language, vision, and unstructured information, to power tools that enable scalable, enterprise-ready AI solutions.
 
+
+
 Outside of work, I lead several nonprofit initiatives focused on advancing accessibility in education.
 
 I'm passionate about multi-sensory AI and human-centered technology. My current work focuses on developing tools that leverage Retrieval-Augmented Generation (RAG) and Vision-Language Models (VLMs) to build multimodal systems that address challenges in education and accessibility. 
@@ -59,6 +61,8 @@ An AI-powered sales search & outreach platform for targeted B2B leads based on y
 - **Cornell AI Innovation Lab Projects** <br>
 I was selected to work at the [Cornell AI Innovation lab](https://it.cornell.edu/ai-innovation-lab). I was involved in different projects building RAG-based AI agents that improve productivity and give AI-generated second-opinions at the Cornell Agricultural and Life Sciences School and the Cornell Vet School. 
 
+- **AI Engineering at Ascot Group** <br>
+At Ascot Group, an international specialty reinsurance company, I developed AI-driven tools to improve decision-making for underwriters. I built a machine learning system that scores broker submissions on a 1–5 scale based on profitability and win-rate indicators, and fine-tuned NLP models to extract structured data from unstandardized PDF loss runs. Through this work, I witnessed firsthand the inefficiencies that arise from complex, manual processes in the financial industry. This experience deepened my interest in building scalable AI systems that simplify workflows and reduce operational friction.
 
 ------
 
