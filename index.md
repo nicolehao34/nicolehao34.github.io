@@ -4,11 +4,11 @@ title: About
 permalink: /index.html
 ---
 
-<img style="float:right; padding-left:10px" src="images/profile-2025-05-28.png" width="331" height="321">
+<img style="float:right; padding-left:10px" src="images/profile-2025-05-28.png" width="341" height="321">
 
 I'm Nicole Hao, a MEng student in Computer Science at Cornell University. Previously, I received my B.A. in Mathematics from Cornell in Dec 2024. 
 
-Professionally, I work at the intersection of R&D and GTM strategy, specifically, using multimodal AI and RAG to help *people* improve their productivity and help *enterprises* scale. 
+Professionally, I work at the intersection of R&D and GTM strategy, using multimodal AI and RAG to help *people* improve their productivity and help *enterprises* scale. 
 
 I come from an academic research background in mathematics, machine learning, and astrophysics, with a focus on building applied AI systems that bridge theoretical models and real-world use cases. My work integrates complex, multimodal data, including language, vision, and unstructured information, to power tools that enable scalable, enterprise-ready AI solutions.
 
@@ -34,7 +34,7 @@ Do you know that many students with visual impairments are charged as much as $1
 
 - **[Multimodal STEM Lecture Video Dataset & Data Labeling Tool](https://github.com/Cornell-InkSight/InkSight-DataLabeler.git)** <br>
 I developed a multimodal STEM lecture video dataset and a custom data labeling tool to support models ranging from FCNs to VLMs that interpret complex classroom content. The tool enables precise annotation of visual, textual, and auditory elements, such as handwritten equations, diagrams, and spoken explanations, laying the groundwork for accessible, multisensory learning systems. I was advised by [Prof. Jennifer Sun](https://jenjsun.com/) for this project. <br>
-**Work in Progress. Demo coming soon.**
+**Work in Progress. Demo & Paper coming soon.**
 
 - **[Operator Learning in Sobolev Spaces](https://github.com/nicolehao34/Operator-Learning-in-Sobolev-Spaces/blob/1e5a854088be6fa6befb59d4af8f21b874ac209c/MATH_6220_Final_Project%20(3).pdf)** <br>
 This project bridges functional analysis and operator learning to (more rigorously) analyze how deep neural networks approximate nonlinear operators between Sobolev spaces. I built on the universal approximation in Sobolev norms and derived an original theorem that gives an explicit bound on the neural network complexity to approximate a nonlinear operator between Sobolev spaces.
