@@ -4,19 +4,19 @@ title: About
 permalink: /index.html
 ---
 
-<img style="float:right; padding-left:10px" src="images/profile-2025-05-28.png" width="341" height="321">
+<img style="float:right; padding-left:10px" src="images/profile-2025-05-28.png" width="340" height="321">
 
 I'm Nicole Hao, a MEng student in Computer Science at Cornell University. Previously, I received my B.A. in Mathematics from Cornell in Dec 2024. 
 
 Professionally, I work at the intersection of R&D and GTM strategy, using multimodal AI and RAG to help *people* improve their productivity and help *enterprises* scale. 
 
-I come from an academic research background in mathematics, machine learning, and astrophysics, with a focus on building applied AI systems that bridge theoretical models and real-world use cases. My work integrates multimodal data, including language, vision, and unstructured information, to power tools that enable scalable AI solutions.
+I come from an academic research background in mathematics, machine learning, and astrophysics, with a focus on building applied AI systems that bridge theory and real-world use cases. My work integrates multimodal data, including language, vision, and unstructured information, to power tools that enable scalable AI solutions.
 
 
 
 Outside of work, I lead several nonprofit initiatives focused on advancing accessibility in education.
 
-I'm passionate about multi-sensory AI and human-centered technology. My current work focuses on developing tools that leverage Retrieval-Augmented Generation (RAG) and Vision-Language Models (VLMs) to build multimodal systems that address challenges in education and accessibility. 
+Throughout my life, I’ve witnessed brilliant young minds being excluded from educational opportunities, not because of a lack of potential, but because of systemic limitations. This is why I’m deeply passionate about human-centered EdTech. I focus on building tools that integrate Retrieval-Augmented Generation (RAG), Vision-Language Models (VLMs), and—most importantly — compassion, to create intelligent systems that tackle real-world challenges in education and accessibility.
 
 I believe that AI will one day augment human cognition and help build a more just and equitable world - one where physical or cognitive challenges no longer limit a person’s potential.
 
@@ -46,7 +46,7 @@ Alpha on Model Accuracy](https://github.com/nicolehao34/Knowledge-Distillation-E
 I conducted this research project under the guidance of [Prof. Yunan Yang](https://yunany.github.io/) to investigate the effects of the alpha parameter in response-based knowledge distillation using MNIST data. By implementing a custom distillation framework in Keras, I analyzed how varying alpha values influence student model accuracy in contrast to direct learning from data and guidance from a teacher model. The study provides more information on optimizing model compression and generalization performance in low-resource settings.
 
 - **[Classifying Solar Flares Using Supervised ML](https://github.com/nicolehao34/solar_flares_classification)** <br>
-Under the mentorship of [Prof. Ray Jayawardhana](https://www.drrayjay.net/) and [Dr. Laura Flagg](https://lauraflagg.github.io/), I developed a novel supervised learning pipeline to detect and classify solar flares using high-resolution solar spectra from the RHESSI and HARPS-N missions. We trained several machine learning models and found that a Support Vector Classifier with an RBF kernel achieved the highest performance. Our work demonstrates that even subtle spectral changes from weak flares can be detected algorithmically, paving the way for future applications in mitigating stellar contamination in exoplanet studies. Our research results were published in [the Astrophysical Journal](https://iopscience.iop.org/article/10.3847/1538-4357/ad5be3).
+As a Nexus Research scholar at Cornell, I developed a novel supervised learning pipeline to detect and classify solar flares using high-resolution solar spectra from the RHESSI and HARPS-N missions under the mentorship of [Prof. Ray Jayawardhana](https://www.drrayjay.net/) and [Dr. Laura Flagg](https://lauraflagg.github.io/). We trained several machine learning models and found that a Support Vector Classifier with an RBF kernel achieved the highest performance. Our work demonstrates that even subtle spectral changes from weak flares can be detected algorithmically, paving the way for future applications in mitigating stellar contamination in exoplanet studies. Our research results were published in [the Astrophysical Journal](https://iopscience.iop.org/article/10.3847/1538-4357/ad5be3).
 
 
 
