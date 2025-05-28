@@ -4,7 +4,7 @@ title: About
 permalink: /index.html
 ---
 
-<img style="float:right; padding-left:10px" src="images/profile-2025-05-28.png" width="231" height="221">
+<img style="float:right; padding-left:10px" src="images/profile-2025-05-28.png" width="331" height="321">
 
 I'm Nicole Hao, a MEng student in Computer Science at Cornell University. Previously, I received my B.A. in Mathematics from Cornell in Dec 2024. 
 
