@@ -10,7 +10,7 @@ I'm Nicole Hao, a MEng student in Computer Science at Cornell University. Previo
 
 Professionally, I work at the intersection of R&D and GTM strategy, using multimodal AI and RAG to help *people* improve their productivity and help *enterprises* scale. 
 
-I come from an academic research background in mathematics, machine learning, and astrophysics, with a focus on building applied AI systems that bridge theoretical models and real-world use cases. My work integrates complex, multimodal data, including language, vision, and unstructured information, to power tools that enable scalable, enterprise-ready AI solutions.
+I come from an academic research background in mathematics, machine learning, and astrophysics, with a focus on building applied AI systems that bridge theoretical models and real-world use cases. My work integrates multimodal data, including language, vision, and unstructured information, to power tools that enable scalable AI solutions.
 
 
 
