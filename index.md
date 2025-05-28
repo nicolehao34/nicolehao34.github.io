@@ -16,7 +16,7 @@ I come from an academic research background in mathematics, machine learning, an
 
 Outside of work, I lead several nonprofit initiatives focused on advancing accessibility in education.
 
-Throughout my life, I’ve witnessed brilliant young minds being excluded from educational opportunities, not because of a lack of potential, but because of systemic limitations. This is why I’m deeply passionate about human-centered EdTech. I focus on building tools that integrate Retrieval-Augmented Generation (RAG), Vision-Language Models (VLMs), and—most importantly — compassion, to create intelligent systems that tackle real-world challenges in education and accessibility.
+As a first-gen college student, throughout my life, I’ve witnessed brilliant young minds being excluded from educational opportunities, not because of a lack of potential, but because of systemic limitations. This is why I’m deeply passionate about educational access through the means of EdTech. I focus on building tools that integrate Retrieval-Augmented Generation (RAG), Vision-Language Models (VLMs), and — most importantly — human compassion, to make a difference in education.
 
 I believe that AI will one day augment human cognition and help build a more just and equitable world - one where physical or cognitive challenges no longer limit a person’s potential.
 
