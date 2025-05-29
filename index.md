@@ -10,7 +10,7 @@ I'm **Nicole Hao**, a MEng student in Computer Science at Cornell University. Pr
 
 Professionally, I work at the intersection of **R&D** and **GTM strategy**, using multimodal AI and RAG to help *people* improve their productivity and help *enterprises* scale. 
 
-I come from an academic research background in mathematics, machine learning, and astrophysics, with a focus on building applied AI systems that bridge theory and real-world use cases. My work integrates multimodal data, including language, vision, and unstructured information, to power scalable AI solutions.
+I come from an academic research background in mathematics, machine learning, and astrophysics, with a focus on building applied AI systems that bridge theory and real-world use cases. My work integrates multimodal data, including language, vision, and unstructured textual information, to power scalable AI solutions.
 
 
 
@@ -20,9 +20,9 @@ Outside of work, I lead several **nonprofit initiatives** focused on advancing *
 
 As a first-generation college student, I’ve witnessed countless brilliant young minds being **excluded** from educational opportunities throughout my life, not because of a lack of potential, but because of systemic limitations. 
 
-This is why I’m deeply passionate about educational access through the means of **EdTech**. I focus on building tools that integrate Retrieval-Augmented Generation (RAG), Vision-Language Models (VLMs), and — most importantly — **human compassion**, to make a difference in education. 
+This is why I am an ardent advocate for educational access through **EdTech**. I focus on designing, building, and advertising tools that integrate VLMs, RAG, Robotics, and, most importantly, **human compassion**, to make a difference in education.
 
-I believe that with the help AI, we will one day augment human cognition and help build a more just and equitable world, one where physical or cognitive challenges no longer limit a person’s potential.
+I believe that with the help of technology, we will one day augment human cognition and help build a more equitable world, one where physical or cognitive challenges no longer limit a person’s potential.
 
 **Fun fact**: I'm a practicing Buddhist. Yes, I go on mediation retreats. No, don't get me started on Buddhism (and my screen time).
 
@@ -35,7 +35,9 @@ I've led both engineering and research projects, grounded in the belief that imp
 My research centers on applying **math** and **AI/ML** to solve real-world problems in science and education.
 
 -  **[InkSight AI](https://github.com/Cornell-InkSight/InkSightMVP.git)** <br>
-Do you know that many students with visual impairments are charged as much as $100 per hour for note-taking assistance, just to access the same classroom content as everyone else? <br> This is why me, [Arjun Maitra](https://arjunmaitra.com/) (Cornell Math & Stats 28'), and [Clément Rozé](https://clementroze.com/) (Cornell Info Sci 28') did months of research and developed InkSight AI. InkSight AI is an education platform that captures information across modalities, making real-time, multi-sensory learning possible and affordable for every learner. I was lucky enough to be selected by [the Cornell eLab Student Startup Accelerator](https://eship.cornell.edu/elab-welcomes-24-student-startup-teams-to-fall-cohort/) as part of their Fall 24 cohort with this project. <br>
+Do you know that many students with visual impairments are charged as much as $100 per hour for note-taking assistance, just to access the same classroom content as everyone else? <br> 
+
+    This is why me, [Arjun Maitra](https://arjunmaitra.com/) (Cornell Math & Stats 28'), and [Clément Rozé](https://clementroze.com/) (Cornell Info Sci 28') did months of research and developed InkSight AI. InkSight AI is an education platform that captures information across modalities, making real-time, multi-sensory learning possible and affordable for every learner. I was lucky enough to be selected by [the Cornell eLab Student Startup Accelerator](https://eship.cornell.edu/elab-welcomes-24-student-startup-teams-to-fall-cohort/) as part of their Fall 24 cohort with this project. <br>
 **Work in Progress. Demo coming soon.**
 
 - **[Multimodal STEM Lecture Video Dataset & Data Labeling Tool](https://github.com/Cornell-InkSight/InkSight-DataLabeler.git)** <br>
@@ -50,7 +52,9 @@ Alpha on Model Accuracy](https://github.com/nicolehao34/Knowledge-Distillation-E
 I conducted this research project under the guidance of [Prof. Yunan Yang](https://yunany.github.io/) to investigate the effects of the alpha parameter in response-based knowledge distillation using MNIST data. By implementing a custom distillation framework in Keras, I analyzed how varying alpha values influence student model accuracy in contrast to direct learning from data and guidance from a teacher model. The study provides more information on optimizing model compression and generalization performance in low-resource settings.
 
 - **[Classifying Solar Flares Using Supervised ML](https://github.com/nicolehao34/solar_flares_classification)** <br>
-As a Nexus Research scholar at Cornell, I developed a novel supervised learning pipeline to detect and classify solar flares using high-resolution solar spectra from the RHESSI and HARPS-N missions under the mentorship of [Prof. Ray Jayawardhana](https://www.drrayjay.net/) and [Dr. Laura Flagg](https://lauraflagg.github.io/). We trained several machine learning models and found that a Support Vector Classifier with an RBF kernel achieved the highest performance. Our work demonstrates that even subtle spectral changes from weak flares can be detected algorithmically, paving the way for future applications in mitigating stellar contamination in exoplanet studies. Our research results were published in [the Astrophysical Journal](https://iopscience.iop.org/article/10.3847/1538-4357/ad5be3).
+As a Nexus Research scholar at Cornell, I developed a novel supervised learning pipeline to detect and classify solar flares using high-resolution solar spectra from the RHESSI and HARPS-N missions under the mentorship of [Prof. Ray Jayawardhana](https://www.drrayjay.net/) and [Dr. Laura Flagg](https://lauraflagg.github.io/). We trained several machine learning models and found that a Support Vector Classifier with an RBF kernel achieved the highest performance. Our work shows that even subtle spectral changes from weak flares can be detected algorithmically, paving the way for future applications in mitigating stellar contamination in exoplanet studies. 
+
+  Our research results were published in [the Astrophysical Journal](https://iopscience.iop.org/article/10.3847/1538-4357/ad5be3).
 
 
 
@@ -63,15 +67,15 @@ My engineering projects focus on **business** and **finance**, specifically, usi
 An AI-powered sales search & outreach platform for targeted B2B leads based on your ideal customer profile. The system automates finding and qualifying sales leads by researching industry events and trade associations where potential customers might be present. ⭐ Check out the new [Demo](https://GenLead-AI-nicolehao7.replit.app) and [loom walkthrough](https://www.loom.com/share/127c02e726394d038c29dd18419ce4d8?sid=7ff1b0c6-f1e7-4877-93ee-48ea8ae139ca) 
 
 - **Cornell AI Innovation Lab Projects** <br>
-I was selected to work at the [Cornell AI Innovation lab](https://it.cornell.edu/ai-innovation-lab). I was involved in different projects building RAG-based AI agents that improve productivity and give AI-generated second-opinions at the Cornell Agricultural and Life Sciences School and the Cornell Vet School. 
+I was selected to work at the [Cornell AI Innovation lab](https://it.cornell.edu/ai-innovation-lab). I was involved in different projects building RAG-based AI agents that improve productivity in the expenses review process, and offer AI-generated second-opinions at the Cornell Agricultural and Life Sciences School and the Cornell Vet School. 
 
 - **AI Engineering at Ascot Group** <br>
-At Ascot Group, an international specialty reinsurance company, I developed AI-driven tools to improve decision-making for underwriters. I built a machine learning system that scores broker submissions on a 1–5 scale based on profitability and win-rate indicators, and fine-tuned NLP models to extract structured data from unstandardized PDF loss runs. Through this work, I witnessed firsthand the inefficiencies that arise from complex, manual processes in the financial industry. This experience deepened my interest in building scalable AI systems that simplify workflows and reduce operational friction.
+At Ascot Group, an international specialty reinsurance company, I developed AI-driven tools to improve decision-making for underwriters. I built a machine learning system that scores broker submissions on a 1–5 scale based on profitability and win-rate indicators, and fine-tuned NLP models to extract structured data from unstandardized PDF loss runs. Through this work, I witnessed firsthand the inefficiencies that arise from complex, manual processes in the financial industry. This experience deepened my interest in building AI systems that simplify workflows and reduce operational overhead.
 
 ------
 
 # Talks & Presentations
-I LOVE pitching and giving speeches! Nothing excites me more than getting on stage in front of a crowd and presenting an exciting idea, product, or research findings.
+I LOVE pitching and giving speeches! Nothing excites me more than getting on stage in front of a crowd and presenting a novel idea, product, or research findings.
 
 - **InkSight: Empowering All Learners with AI**  
   [Cornell Tech Entrepreneurship Showcase](https://gradcareers.cornell.edu/event/cornell-entrepreneurship-showcase-student-pitches-venture-panel/), Nov 2024  <br>
@@ -91,11 +95,19 @@ I LOVE pitching and giving speeches! Nothing excites me more than getting on sta
 ------
 
 # Volunteering & Community Service
-One of life's most crucial aspects is giving back to the communities that helped you. It hurts me to see younger people going through the same struggles I once had to go through, so I try to help people pursue education opportunities and find a sense of belonging through community service. 
+One of life's most crucial aspects is giving back to the communities that helped you. 
+
+It hurts me to see younger people going through the same struggles I once had to go through, so I try to help people pursue education opportunities and find a sense of belonging through community service. 
 
 - **Volunteer, Dharma Drum Retreat Center**, May - Jul 2025
+
 - **Resident Advisor, Holland International Living Center**, Aug 2022 - Dec 2024
+
+
+
 - **Volunteer Mathematics Tutor, GoPeer**, Aug 2021 - Dec 2023
+
+- **More to be added**: I have been trying to use my public speaking skills more for advocacy projects. If my skillset fits your goals, reach out to me!
 
 ------
 
