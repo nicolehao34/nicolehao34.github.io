@@ -24,7 +24,7 @@ This is why I am an ardent advocate for educational access through **EdTech**. I
 
 I believe that with the help of technology, we will one day augment human cognition and help build a more equitable world, one where physical or cognitive challenges no longer limit a person’s potential.
 
-**Fun fact**: I'm a practicing Buddhist. Yes, I go on mediation retreats. No, don't get me started on Buddhism (and my screen time).
+**Fun fact**: I go on mediation retreats. No, don't get me started on Buddhism (and my screen time).
 
 
 
