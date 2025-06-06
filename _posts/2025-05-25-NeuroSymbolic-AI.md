@@ -17,7 +17,7 @@ Neurosymbolic AI brings together two historically separate fields:
 
 Symbolic AI is best at structured reasoning and transparency but struggles with messy, unstructured data; whereas Neural AI, like Neural networks, are great at recognizing patterns in raw inputs like images and speech, but they often act like black boxes and have trouble explaining their decisions.
 
-![Symbolic AI vs. Neural AI vs. LLM/Vector](post-images/AG-NSAI-Graphic.png)
+![Symbolic AI vs. Neural AI vs. LLM/Vector](/images/NSAI/AG-NSAI-Graphic.png)
 
 (**Note**: It's thought-provoking that, here in this diagram, LLM is listed as a completely distinct category, perhaps because it aims to achieve language related tasks. I can definitely see some slight overlap between LLM and both Neural and Symbolic AI though. )
 
@@ -38,7 +38,6 @@ For example, the lack of interpretability or failure to generalize, and moves us
 
 (**Note**: I personally don't like using the term AGI just because it feels like such a nothing-statement. I agree a lot with what [Prof. Feifei Li says regarding AGI...](https://youtu.be/0jMgskLxw3s?si=FN6AP6kOfHHQF3zv) However, for now, I think this is the best word we have to describe what research in NSAI is aiming to achieve.)
 
-![](post-images/NSAI-Paper-Graphic-2.png)
 
 # How We Got Here: A Brief History
 **This might be news to a lot of people, but AI has cycled between symbolic and neural methods for decades.**
@@ -80,7 +79,7 @@ Now, in 2025, these integrated systems are designed to effectively handle both c
 
 Here's a critical question to ask, after decades of efforts from AI researchers, engineers, cognitive scientists to develop NSAI:
 
-What are the real-world applications of NSAI?
+**What are the real-world applications of NSAI?**
 
 
 **TLDR: Many, many ways across different fields.**
@@ -89,12 +88,12 @@ Here's a list (non-comprehensive) of what NSAI helps to achieves in different fi
 
 ### Medicine
 
-- Enhances diagnostic accuracy using NNs with symbolic reasoning
+- NSAI enhances diagnostic accuracy using NNs with symbolic reasoning
 - Reduces the incidence of AI-generated hallucinations and improves the reliability of clinical decision, because NSAI can process complex medical data and align their outputs with established medical knowledge
 
 ### Finance 
 
--  Bolster fraud detection and risk management. By combining pattern recognition capabilities of neural networks with the logical inference of symbolic AI, 
+-  NSAI can bolster fraud detection and risk management. By combining pattern recognition capabilities of neural networks with the logical inference of symbolic AI, 
 
 - Identify fraudulent activities more accurately and in real-time using pattern recognition of NNs with logical inference of symbolic AI
     
@@ -103,7 +102,7 @@ Here's a list (non-comprehensive) of what NSAI helps to achieves in different fi
 
 ### Natural Language Processing (NLP)
 
-- Helps tackle semantic ambiguities and enhancing language understanding.
+- NSAI can help tackle semantic ambiguities and enhancing language understanding for machines.
     
 - Example: [ProSLM](https://arxiv.org/abs/2409.11589). A very recent framework, published in 2024, it enhances the robustness and explainability of large language models (LLMs) in domain-specific (e.g. telecommunications, clean energy, healthcare) question-answering tasks by integrating symbolic reasoning with neural language models. See the diagram below for the framework's workflow. 
 
@@ -116,13 +115,13 @@ Here's a list (non-comprehensive) of what NSAI helps to achieves in different fi
 
 ### Robotics
 
-- Enable adaptive control and learning from experience
+- NSAI also enables adaptive control and learning from experience
 - Example: NVIDIA's Eureka project uses GPT-4 to autonomously (1) generate reward functions, and (2) let robots to acquire complex skills through RL -> more efficient training of robotic systems +  enhance their ability to perform intricate tasks and adapt to more dynamic environments with moving objects
 
 ### Software Engineering for Enterprises
 
-- Automates coding tasks using logical reasoning to improve enterprise productivity. 
-- Examples: GitHub Copilot (uses NSAI to suggest code snippets and functions). 
+- NSAI is the engine of tools that automate coding tasks using logical reasoning to improve enterprise productivity. 
+- Examples: GitHub Copilot (uses NSAI to suggest code snippets and functions), and many other "AI reasoning" softwares you see on the internet these days.
 
 
 ## Recent Research Highlights
@@ -172,14 +171,14 @@ Here's a breakdown of what each of these terms means:
 ## Mathematical Foundations of Neurosymbolic AI 
 Considering that you made it this far into this article, I believe it's reasonable to assume that you want to learn even more about NSAI.
 
-Now that's where the math comes in.
+**Now that's where the math comes in.**
 
 To help you kickstart self-learning,  I summarized some of the most essestial mathematics that you might want to know.
 
 ### Linear Algebra and Calculus (as always)
 Lin alg and calculus are and will always be the foundations of the foundations of AI... So of course it's the first door one needs to open to eventually get to NSAI.
 
-The required math courses for a CS degree should cover all of these, if not then I'd be a bit concerned, but for the sake of completion of the article, I'll list the main topics here:
+The required math courses for a CS degree should cover all of these (if not then I'd be a bit concerned), but for the sake of completion of the article, I'll list the main topics here:
 
 - Matrix Operations. **Fundamental** in neural network computations, including transformations and activations. I'd recommend taking one or two advanced courses in linear algebra beyond the introductory course to hone a good foundation.
 - Differentiation: **Equally fundamental** for NNs, specificaly, for training neural networks through backpropagation. 
@@ -220,22 +219,65 @@ But there's also problems in these KGs that we need to solve.
 
 Here's a visual example of two hypothetical knowledge graphs representing disparate topics, each contains a node that corresponds to the **same entity** in the real world (Arnold Schwarzenegger). 
 
-![](.\post-images\KG-example.png)
+![](/images/NSAI/KG-Example.png)
 
-In this case, the AI system cannot automatically link these two entities and label them as the same. This task, called entity alignment, has seen increasing research efforts since 2023. And to achieve significant enhancement, deep understand of graph theory is needed.
+In this case, the AI system **cannot automatically link these two entities and label them as the same**. 
+
+This specific task, called [Entity Alignment](https://arxiv.org/abs/2205.08777), has seen increasing research efforts since 2023. And to achieve significant enhancement, deep understand of graph theory is needed.
 
 Specifically, some entity alignment methods use [structural similarities between generally non-isomorphic graphs to predict which nodes corresponds to the same entity](https://arxiv.org/abs/2205.08777).
 
 Hope this gives you more motivation to learn graph theory!
 
+
 ### Mathematical Logic / Formal Logic
 **In NSAI, logic-based frameworks are the building blocks for representing and manipulating symbolic knowledge.**
 
+![](/images/NSAI/NSAI-Paper-Graphic-2.png)
+
+Now that you understand the basic defintion of KGs, [the above diagram](https://allegrograph.com/what-is-neuro-symbolic-ai/) will help you undertsand why formal logic is also needed in NSAI, and how it connects to KGs.
+
+For Neuro-Symbolic KGs, a critical structure for NSAI reasoning and logic, **symbolic knowledge** (like rules and logical relationships) is **embedded** into a neural space where learning and induction happen. 
+
+This Neural KG then **generates\induce rules** that follow the input symbolic knowledge structure and updated embeddings. 
+
+These neural outputs are then **decoded** back into symbolic form, which then enables logical deduction and further refinement upon the rules the Neural KG generated.
+
+This creates a continuous loop of 
+
+using NNs to, for example, interpret a complex image and then use the symbolic KGs, and predefined symbolic rules/axioms to answer questions about the image’s content or to infer the relationships between objects within it.
+
+**But to know what symbolic rules and axioms we need to define, we first need to knw a few basic mathematical logic concepts:**
+
 **[Propositional logic](https://en.wikipedia.org/wiki/Propositional_calculus)** serves as a foundational system of logic-based frameworks. Specifically, it deals with statements that are either true or false.
 
- However, the expressiveness of ropositional logic is limited to simple, declarative facts. If the goal is to capture more complex relationships, **[First-Order Logic (FOL)](https://en.wikipedia.org/wiki/First-order_logic)** is often used to build on/extend propositional logic by introducing quantifiers and predicates (fellow math majors you're gonna love this). 
+
+
+ However, the expressiveness of propositional logic is limited to simple, declarative facts. 
+
+
+ For example, propositional logic can represent simple facts like:
+
+    Human_Socrates → Mortal_Socrates
+
+This translates to, "If Socrates is human, then Socrates is mortal."
+
+But it cannot generalize to statements like:
+
+    “All humans are mortal.”
+
+
  
- Why? Because using FOL allows for the representation of objects, their properties, and the relationships between them. 
+ If the goal is to capture **more complex relationships**, (math majors you're gonna love this)
+ 
+ then you will need [First-Order Logic (FOL)](https://en.wikipedia.org/wiki/First-order_logic), which is often used to extend propositional logic, by introducing 
+ 
+ - [Quantifiers](https://en.wikipedia.org/wiki/Quantifier_(logic)) (basically, specifies quantity, like "for all"/"∀") and 
+ - [Predicates](https://en.wikipedia.org/wiki/Predicate_(logic)) (property or relation).
+ 
+ Why? 
+ 
+ Because using FOL allows for the representation of objects, their properties, and the relationships between them, which add to the complexity of the KG we can build into our NSAI system.
  
  For example, FOL can express statements like
  
@@ -249,16 +291,18 @@ This expression reads:
 
     "For every x, if x is a human, then x is mortal." 
     
-Here, Human(x) and Mortal(x) are **[predicates](https://en.wikipedia.org/wiki/Predicate_(grammar))** indicating that the object x possesses the properties of being human and being mortal, respectively.
+Here, Human(x) and Mortal(x) are predicates indicating that the object x possesses the properties of being human and being mortal, respectively.
 
 
-Now you can probably see that why using formal logic is so important in NSAI - it gives us a language that AI systems can understand to model real-world scenarios and relations.
+Now you can probably see that why using formal logic is so important in NSAI - **it gives us a language that both Humans and AI systems can understand to model real-world scenarios and relations.**
 
-There's more to the logics that are used in NSAI. Another big one is **[Description Logics (DLs)](https://en.wikipedia.org/wiki/Description_logic)**, which form the basis of ontologies and semantic web technologies. 
+There's more to the logics that are used in NSAI. 
 
-DLs enable systems to **model domain knowledge explicitly**, this is the **core** of reasoning about the relationships and hierarchies within data.
+Another big one is **[Description Logics (DLs)](https://en.wikipedia.org/wiki/Description_logic)**, which form the basis of ontologies and semantic web technologies. 
 
-Recent advancements have focused on benchmarking [neuro-symbolic DL reasoners](https://neurosymbolic-ai-journal.com/paper/benchmarking-neuro-symbolic-description-logic-reasoners-existing-challenges-and-way-forward?utm_source=chatgpt.com) to address challenges in integrating DLs with neural networks. 
+DLs enable systems to **model domain knowledge explicitly**, which is the **core** of reasoning about the relationships and hierarchies within data.
+
+Recent research advancements have focused on benchmarking [neuro-symbolic DL reasoners](https://neurosymbolic-ai-journal.com/paper/benchmarking-neuro-symbolic-description-logic-reasoners-existing-challenges-and-way-forward?utm_source=chatgpt.com) to address challenges in integrating DLs with neural networks. 
 
 For example, [Singh et al. (2023)](https://neurosymbolic-ai-journal.com/paper/benchmarking-neuro-symbolic-description-logic-reasoners-existing-challenges-and-way-forward?utm_source=chatgpt.com), in their paper Benchmarking Neuro-Symbolic Description Logic Reasoners: *Existing Challenges and A Way Forward*, discuss current challenges and propose ways forward for neuro-symbolic DL reasoners. 
 
@@ -273,11 +317,11 @@ There are existing techniques like [resolution and tableau methods](https://www.
 
 Researcher have even been developing methods to conduct mathematical research using NSAI systems. 
 
-Terrence Tao, in his AMS Colloquium lecture at 2024 Joint Mathematics Conference in San Francisco, summarized "3 promising new ways" to use AI in mathematical research:
+Professor Terrence Tao, UCLA, in his AMS Colloquium lecture at 2024 Joint Mathematics Conference in San Francisco, summarized "3 promising new ways" to use AI in mathematical research:
 
-![](./post-images/machine-assisted-proofs-tao.png)
+![](/images/NSAI/machine-assisted-proofs-tao.png)
 
-This further proves that there is truly a huge potential in the capabilities of NSAI, as even some of the most brilliant mathematics in the world are exploring machine-assisted mathematical logic & reasoning, which has been always considered one of the most fundamental, and yet diffucult mental tasks a human can take on.
+This further proves that there is truly a huge potential in the capabilities of NSAI, as even some of the most brilliant mathematics in the world are exploring machine-assisted mathematical logic & reasoning, which has been always considered one of the most fundamental, and yet diffucult mental tasks humans can take on.
 
 
 (An Anecdote: I was there at JMM 2024, but too bad I couldn't make it to Terrence Tao's lecture due to scheduling. I watched it [on youtube](https://www.youtube.com/watch?v=AayZuuDDKP0) later though. It was a great lecture. I'd recommend watching the whole thing if this topic interests you.)
