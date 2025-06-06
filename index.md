@@ -45,7 +45,9 @@ I developed a multimodal STEM lecture video dataset and a custom data labeling t
 **Work in Progress. Demo & Paper coming soon.**
 
 - **[Operator Learning in Sobolev Spaces](https://github.com/nicolehao34/Operator-Learning-in-Sobolev-Spaces/blob/d2eb39d41c473173012fd850fa2d37ebd5d3c020/theory/results.pdf)** <br>
-This project bridges functional analysis and operator learning to (more rigorously) analyze how deep neural networks approximate nonlinear operators between Sobolev spaces. I built on the universal approximation in Sobolev norms and derived an original theorem that gives an explicit bound on the neural network complexity to approximate a nonlinear operator between Sobolev spaces.
+This project bridges functional analysis and operator learning to (more rigorously) analyze how deep neural networks approximate nonlinear operators between Sobolev spaces. 
+
+  I built on the universal approximation in Sobolev norms and derived an original theorem that gives an explicit bound on the neural network complexity to approximate a nonlinear operator between Sobolev spaces.
 
 - **[Evaluations on Response-Based Knowledge Distillation and the Effects of
 Alpha on Model Accuracy](https://github.com/nicolehao34/Knowledge-Distillation-Effects-Of-Alpha/blob/ef5b7dce5d1f4a334c3b56c916856047dd087c86/Knowledge_Distillation_Final_Report.pdf)** <br>
