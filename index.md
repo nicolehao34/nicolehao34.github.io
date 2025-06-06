@@ -20,9 +20,7 @@ Outside of work, I lead several **nonprofit initiatives** focused on advancing *
 
 As a first-generation college student, I’ve witnessed countless brilliant young minds being **excluded** from educational opportunities throughout my life, not because of a lack of potential, but because of systemic limitations. 
 
-This is why I am an ardent advocate for educational access through **EdTech**. I focus on designing, building, and advertising tools that integrate VLMs, RAG, Robotics, and, most importantly, **human compassion**, to make a difference in education.
-
-I believe that with the help of technology, we will one day augment human cognition and help build a more equitable world, one where physical or cognitive challenges no longer limit a person’s potential.
+This is why I am an ardent advocate for educational access through **EdTech**. I believe that with the help of technology, we will one day augment human cognition and help build a more equitable world, one where physical or cognitive challenges no longer limit a person’s potential.
 
 **Fun fact**: I go on mediation retreats. No, don't get me started on Buddhism (and my screen time).
 
@@ -37,7 +35,7 @@ My research centers on applying **math** and **AI/ML** to solve real-world probl
 -  **[InkSight AI](https://github.com/Cornell-InkSight/InkSightMVP.git)** <br>
 Do you know that many students with visual impairments are charged as much as $100 per hour for note-taking assistance, just to access the same classroom content as everyone else? <br> 
 
-    This is why me, [Arjun Maitra](https://arjunmaitra.com/) (Cornell Math & Stats 28'), and [Clément Rozé](https://clementroze.com/) (Cornell Info Sci 28') did months of research and developed InkSight AI. InkSight AI is an education platform that captures information across modalities, making real-time, multi-sensory learning possible and affordable for every learner. I was lucky enough to be selected by [the Cornell eLab Student Startup Accelerator](https://eship.cornell.edu/elab-welcomes-24-student-startup-teams-to-fall-cohort/) as part of their Fall 24 cohort with this project. <br>
+    This is why me, [Arjun Maitra](https://arjunmaitra.com/) (Cornell Math & Stats 28'), and [Clément Rozé](https://clementroze.com/) (Cornell Info Sci 28') did months of research and developed InkSight AI. InkSight AI is an education platform that captures information across modalities, making real-time, multi-sensory learning possible and affordable for every learner. I was honored to be selected by [the Cornell eLab Student Startup Accelerator](https://eship.cornell.edu/elab-welcomes-24-student-startup-teams-to-fall-cohort/) as part of their Fall 24 cohort with this project. <br>
 **Work in Progress. Demo coming soon.**
 
 - **[Multimodal STEM Lecture Video Dataset & Data Labeling Tool](https://github.com/Cornell-InkSight/InkSight-DataLabeler.git)** <br>
@@ -77,9 +75,9 @@ An AI-powered sales search & outreach platform for targeted B2B leads based on y
 At the [Cornell AI Innovation lab](https://it.cornell.edu/ai-innovation-lab), I was involved in projects building RAG-based AI agents that improve productivity in the expenses review process, and offer AI-generated second-opinions at the Cornell Agricultural and Life Sciences School and the Cornell Vet School. 
 
 - **AI Engineering at Ascot Group** <br>
-At Ascot Group, an international specialty reinsurance company, I built a machine learning system that scores broker submissions on a 1–5 scale based on profitability and win-rate indicators, and fine-tuned NLP models to extract structured data from unstandardized PDF loss runs. 
+At Ascot Group, an international specialty reinsurance company, I prototyped a system that scores broker submissions on a 1–5 scale based on profitability and win-rate indicators, and fine-tuned NLP models to extract structured data from unstandardized PDF loss runs. 
 
-  Through this work, I witnessed firsthand the inefficiencies that arise from complex, manual processes in the financial industry. This experience deepened my interest in building AI systems that simplify workflows and reduce operational overhead.
+  Through this work, I witnessed firsthand the inefficiencies that arise from complex, manual processes in the financial industry; it deepened my interest in building AI systems that simplify workflows and reduce operational overhead.
 
 ------
 
@@ -97,7 +95,7 @@ I LOVE pitching and giving speeches! Nothing excites me more than getting on sta
 
 - **Detecting and Classifying Flares in High-resolution Solar Spectra with Supervised Machine Learning**  
   [Nexus Scholars](https://as.cornell.edu/news/nexus-scholar-applications-open-summer-2023), Rochester Symposium for Physics Students (RSPS), 2023  
-  *(I was a physics major! I may not be actively doing research in astrophysics now, but it will always be the most exalted form of curiosity to me.)*  <br>
+  *(I was a physics major! I'm not actively doing research in astrophysics now, but it will always be the most exalted form of curiosity to me.)*  <br>
   <!-- <img style="float:right; padding-left:10px" src="images/Nexus.jpg" width="300" alt="Nicole Hao presenting at RSPS">   -->
 
 
