@@ -47,32 +47,36 @@ Symbolic AI dominated in the early years but hit a wall due to its brittleness. 
 Researchers eventually realized that combining the two isn't just useful, it's **necessary**.
 
 ## More History: "AI Winters" (1970 - 1980, 1987 - 2000)
-The periods known as [**"AI winters"**](https://en.wikipedia.org/wiki/AI_winter)  were characterized by reduced funding and waning interest in AI research. 
 
-There were two major "winters" approximately 1974–1980 and 1987–2000 (Reference: [Artificial Intelligence: A Modern Approach,](https://aima.cs.berkeley.edu/)).
+The periods known as [**"AI winters"**](https://en.wikipedia.org/wiki/AI_winter)  were typiecally characterized by reduced funding and waning interest in AI research. 
 
-These two periods, alongside [other shorter AI winters over the past few decades](https://en.wikipedia.org/wiki/AI_winter#The_setbacks_of_the_late_1980s_and_early_1990s), were partly **a direct consequence of the overly optimistic predictions** made by early AI pioneers regarding the imminent achievement of human-level intelligence, solely through symbolic methods.
+In human history, there were two major AI "winters", approximately 1974–1980 and 1987–2000 (Reference: [Artificial Intelligence: A Modern Approach,](https://aima.cs.berkeley.edu/)).
 
-The growing recognition that the strengths and weaknesses of neural networks and symbolic AI are largely complementary became the primary catalyst for their eventual integration.
+These setbacks, alongside [other shorter AI winters over the past few decades](https://en.wikipedia.org/wiki/AI_winter#The_setbacks_of_the_late_1980s_and_early_1990s), were largely driven by the failure of early symbolic AI systems to live up to bold promises of achieving human-level intelligence. And it was hard to sustain interest on the topic among research communities.
 
-Early conceptualizations and calls for hybrid models date back as far as the 1990s, a period when terms like **"symbolic"** and **"sub-symbolic AI"** were commonly used.
+This repeated cycle of **overpromise** and **underdelivery**, the obvious limitations of single-paradigm systems, namely symbolic-AI-only systems, coupled with the continued ambition to reach artificial general intelligence, finally catalyzed a shift toward neurosymbolic AI (NSAI)—a fusion of both paradigms.
 
-The sustained interest in this synthesis is also reflected by series of [dedicated workshops on neuro-symbolic AI (NeSy)](https://sites.google.com/view/nesy20/home) that have been held annually since at least 2005.
+By the 1990s, researchers began to explore hybrid systems, then referred to using terms like "symbolic" and "sub-symbolic AI", that aimed to bridge the gap between logic-based reasoning and data-driven learning. When revisiting the idea of a hyrbid approach, combining neural and symbolic system, they realized
 
-Prominent researchers such as [Leslie Valiant](https://en.wikipedia.org/wiki/Leslie_Valiant) and [Gary Marcus](https://en.wikipedia.org/wiki/Gary_Marcus) have argued that the [effective construction of rich computational cognitive models](https://dl.acm.org/doi/10.1145/602382.602410) and the development of knowledge-driven AI systems necessitate the combination of symbolic reasoning with efficient machine learning and the incorporation of sufficient prior knowledge (Check out this pape for a summary of the new surge in interest in NSAI in the 2000s: [Neurosymbolic AI: The 3rd Wave](https://arxiv.org/pdf/2012.05876)). 
+**the strengths of symbolic and neural approaches are complementary rather than competing.**
 
-The repeated limitations encountered by single-paradigm AI, as opposed to NSAI which uses a hybrid of 2 paradigns, combined with the CS community's ambitious goal of achieving general intelligence, finally led to an evolution within the field. 
-
-Now, we enter a new, and perhaps more prosperous era for NSAI.
+Today, we are entering what may be a new, and more promising era for  NSAI.
 
 ## Welcome to the "AI Spring" (2000 - Present)
-Instead of maintaining a philosophical divide between symbolic and neural AI, the community is starting to increasingly recognize the synergistic potential of Neural+Symbolic AI, so much that they created a new, official term for it:
+In the early 2000s, as mentioned previously, the community is starting to increasingly recognize the synergistic potential of Neural+Symbolic AI, so much that they created a new, official term for the hybrid approach:
 
-    "Neural" and "Symbolic" AI -> "NeuroSymbolic" AI       
+    "Neural" + "Symbolic" AI = "NeuroSymbolic" AI       
 
-This historical lesson is a foundational aspect of [the current "third AI summer," where hybridization is no longer just a theoretical concept but a practical imperative for building reliable and versatile AI systems](https://arxiv.org/pdf/2012.05876)). 
+Despite experiencing several AI winters, the CS and AI communities, alongside mutliple promiment cognitive scientists sustained interest in this monumental synthesis of neural and symbolic AI. 
 
-Now, in 2025, these integrated systems are designed to effectively handle both complex pattern recognition and rigorous logical reasoning, particularly in "high-stakes applications" where accuracy and explainability are critical.
+NeSy, [the International Workshop on
+Neural-Symbolic Learning and Reasonings](https://sites.google.com/view/nesy20/home), is a dedicated serioes of workshops, also "the longest standing gathering for the presentation and discussion of cutting edge research in NSAI", has been held annually since at least 2005.
+
+In the late 2000s and 2010s, prominent researchers such as [Leslie Valiant](https://en.wikipedia.org/wiki/Leslie_Valiant) and [Gary Marcus](https://en.wikipedia.org/wiki/Gary_Marcus) have argued that the [effective construction of rich computational cognitive models](https://dl.acm.org/doi/10.1145/602382.602410) and the development of knowledge-driven AI systems necessitate the combination of symbolic reasoning with efficient machine learning and the incorporation of sufficient prior knowledge (Check out this pape for a summary of the new surge in interest in NSAI in the 2000s: [Neurosymbolic AI: The 3rd Wave](https://arxiv.org/pdf/2012.05876)). 
+
+In recent year, NeurIPS attract sometimes over 12,000 attendees from over 60 countries, and [has started consistently holding NeuroAI workshops since 2024](https://neuroai-workshop.github.io/speakers/).
+
+Now, in 2025, these integrated systems are designed to effectively handle both complex pattern recognition and rigorous logical reasoning, particularly in "high-stakes applications" where **accuracy** and **explainability** are people's top priority.
 
 
 ## How can NSAI be applied in real life?
@@ -106,7 +110,7 @@ Here's a list (non-comprehensive) of what NSAI helps to achieves in different fi
     
 - Example: [ProSLM](https://arxiv.org/abs/2409.11589). A very recent framework, published in 2024, it enhances the robustness and explainability of large language models (LLMs) in domain-specific (e.g. telecommunications, clean energy, healthcare) question-answering tasks by integrating symbolic reasoning with neural language models. See the diagram below for the framework's workflow. 
 
-    ![ProSLM Sytem Workflow Diagram](./post-images/Pro-SLM.png)
+    ![ProSLM Sytem Workflow Diagram](/images/NSAI/Pro-SLM.png)
     ProSLM Sytem Workflow Diagram (Vakharia et al., 2024)
 
 
