@@ -51,10 +51,15 @@ This project bridges functional analysis and operator learning to (more rigorous
 
 - **[Evaluations on Response-Based Knowledge Distillation and the Effects of
 Alpha on Model Accuracy](https://github.com/nicolehao34/Knowledge-Distillation-Effects-Of-Alpha/blob/ef5b7dce5d1f4a334c3b56c916856047dd087c86/Knowledge_Distillation_Final_Report.pdf)** <br>
-I conducted this research project under the guidance of [Prof. Yunan Yang](https://yunany.github.io/) to investigate the effects of the alpha parameter in response-based knowledge distillation using MNIST data. By implementing a custom distillation framework in Keras, I analyzed how varying alpha values influence student model accuracy in contrast to direct learning from data and guidance from a teacher model. The study provides more information on optimizing model compression and generalization performance in low-resource settings.
+I conducted this research project under the guidance of [Prof. Yunan Yang](https://yunany.github.io/) to investigate the effects of the alpha parameter in response-based knowledge distillation using MNIST data. 
+
+  
+  By implementing a custom distillation framework in Keras, I analyzed how varying alpha values influence student model accuracy in contrast to direct learning from data and guidance from a teacher model. The study provides more information on optimizing model compression and generalization performance in low-resource settings.
 
 - **[Classifying Solar Flares Using Supervised ML](https://github.com/nicolehao34/solar_flares_classification)** <br>
-As a Nexus Research scholar at Cornell, I developed a novel supervised learning pipeline to detect and classify solar flares using high-resolution solar spectra from the RHESSI and HARPS-N missions under the mentorship of [Prof. Ray Jayawardhana](https://www.drrayjay.net/) and [Dr. Laura Flagg](https://lauraflagg.github.io/). We trained several machine learning models and found that a Support Vector Classifier with an RBF kernel achieved the highest performance. Our work shows that even subtle spectral changes from weak flares can be detected algorithmically, paving the way for future applications in mitigating stellar contamination in exoplanet studies. 
+As a Nexus Research scholar at Cornell, I developed a novel supervised learning pipeline to detect and classify solar flares using high-resolution solar spectra from the RHESSI and HARPS-N missions under the mentorship of [Prof. Ray Jayawardhana](https://www.drrayjay.net/) and [Dr. Laura Flagg](https://lauraflagg.github.io/). 
+
+  We trained several machine learning models and found that a Support Vector Classifier with an RBF kernel achieved the highest performance. Our work shows that even subtle spectral changes from weak flares can be detected algorithmically, paving the way for future applications in mitigating stellar contamination in exoplanet studies. 
 
   Our research results were published in [the Astrophysical Journal](https://iopscience.iop.org/article/10.3847/1538-4357/ad5be3).
 
@@ -69,10 +74,12 @@ My engineering projects focus on **business** and **finance**, specifically, usi
 An AI-powered sales search & outreach platform for targeted B2B leads based on your ideal customer profile. The system automates finding and qualifying sales leads by researching industry events and trade associations where potential customers might be present. ⭐ Check out the new [Demo](https://GenLead-AI-nicolehao7.replit.app) and [loom walkthrough](https://www.loom.com/share/127c02e726394d038c29dd18419ce4d8?sid=7ff1b0c6-f1e7-4877-93ee-48ea8ae139ca) 
 
 - **Cornell AI Innovation Lab Projects** <br>
-I was selected to work at the [Cornell AI Innovation lab](https://it.cornell.edu/ai-innovation-lab). I was involved in different projects building RAG-based AI agents that improve productivity in the expenses review process, and offer AI-generated second-opinions at the Cornell Agricultural and Life Sciences School and the Cornell Vet School. 
+At the [Cornell AI Innovation lab](https://it.cornell.edu/ai-innovation-lab), I was involved in projects building RAG-based AI agents that improve productivity in the expenses review process, and offer AI-generated second-opinions at the Cornell Agricultural and Life Sciences School and the Cornell Vet School. 
 
 - **AI Engineering at Ascot Group** <br>
-At Ascot Group, an international specialty reinsurance company, I developed AI-driven tools to improve decision-making for underwriters. I built a machine learning system that scores broker submissions on a 1–5 scale based on profitability and win-rate indicators, and fine-tuned NLP models to extract structured data from unstandardized PDF loss runs. Through this work, I witnessed firsthand the inefficiencies that arise from complex, manual processes in the financial industry. This experience deepened my interest in building AI systems that simplify workflows and reduce operational overhead.
+At Ascot Group, an international specialty reinsurance company, I built a machine learning system that scores broker submissions on a 1–5 scale based on profitability and win-rate indicators, and fine-tuned NLP models to extract structured data from unstandardized PDF loss runs. 
+
+  Through this work, I witnessed firsthand the inefficiencies that arise from complex, manual processes in the financial industry. This experience deepened my interest in building AI systems that simplify workflows and reduce operational overhead.
 
 ------
 
