@@ -123,8 +123,12 @@ It hurts me to see younger people going through the same struggles I once had to
 - *[The Second Half](https://ysymyth.github.io/The-Second-Half/)* - A great blog by Shunyu Yao on the development of AI, and the shift to evaluation setup in terms of the most important problem of AI.
 - *[How to Do Great Work](https://www.paulgraham.com/greatwork.html)* - An amazing essay by Paul Graham. When in doubt, "stay upwind". This phrase stuck with me. 
 - *[The Meaning of Meaningless: The Importance of Meaninglessness](https://www.amazon.com/Meaning-Meaningless-Importance-Meaninglessness-Publication-ebook/dp/B0DJ1J5DLH)* - By Dr. Nanige Nashiko. I don't think there is an English translation for this book yet. It's a great book about being able to derive joy from doing meaningless activities in a meaning-driven world. <be>
-「無意味を楽しむことが、最も意味のある生き方だ。」Finding joy in the meaningless is the most meaningful way to live.
-- *[Agency is Eating the World](https://giansegato.com/essays/agency-is-eating-the-world)* - by Gian Segato. "AI has eroded the value of specialization because, for many tasks, achieving the outcome of several years of experience now takes a $20 ChatGPT subscription." Agency has become one of the most desirable traits among working professionals.
+「無意味を楽しむことが、最も意味のある生き方だ。」
+
+  Finding joy in the meaningless is the most meaningful way to live.
+- *[Agency is Eating the World](https://giansegato.com/essays/agency-is-eating-the-world)* - by Gian Segato. "AI has eroded the value of specialization because, for many tasks, achieving the outcome of several years of experience now takes a $20 ChatGPT subscription." 
+
+  Agency has become one of the most desirable traits among working professionals.
 - More to be added...
 
 
