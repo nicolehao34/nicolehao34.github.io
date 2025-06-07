@@ -37,9 +37,9 @@ A 2023 analysis in *Nature* found that scientific papers and patents are becomin
 
 The low-hanging fruit of 20th-century science (semiconductors, antibiotics, nuclear energy) has been picked. As a result, harder, niche problems that require more industry collaboration are left behind. 
 
-There just aren’t many paradigm-shifting breakthroughs left that can radically transform manufacturing or other industries. The real innovation today is happening on the ground—solving hard, practical engineering problems. And that’s where startup teams and industry engineers, who are in the "trenches", have a major advantage over academics. Companies like Apple, NVIDIA, and Moderna now invest more in R&D than many governments. In 2023, Amazon spent **$73 billion** on R&D—more than France’s entire public research budget ([Statista, 2023](https://statista.com); [OECD, 2023](https://oecd.org)). Many transformative technologies, like OpenAI’s GPT models and Tesla’s autonomous driving systems, were developed in industry. A 2022 Stanford study found that **80% of AI breakthroughs** originate in corporate labs ([Zhang et al., 2022](https://aiindex.stanford.edu)). Meanwhile, university research struggles with funding gaps and slow tech transfer processes ([Britt, 2023](https://sciencebusiness.net)).  
+There just aren’t many paradigm-shifting breakthroughs left that can radically transform manufacturing or other industries. The real innovation today is happening on the ground—solving hard, practical engineering problems. And that’s where startup teams and industry engineers, who are in the "trenches", have a major advantage over academics. Companies like Apple, NVIDIA, and Moderna now invest more in R&D than many governments. In 2023, Amazon spent **$73 billion** on R&D — that's more than France’s entire public research budget ([Statista, 2023](https://statista.com); [OECD, 2023](https://oecd.org))! Many transformative technologies, like OpenAI’s GPT models and Tesla’s autonomous driving systems, were developed in industry. A 2022 Stanford study found that **80% of AI breakthroughs** originate in corporate labs ([Zhang et al., 2022](https://aiindex.stanford.edu)). Meanwhile, university research struggles with funding gaps and slow tech transfer processes ([Britt, 2023](https://sciencebusiness.net)).  
  
-This might be more of a dire issue, especially in the U.S., under the current political climate.
+This might be more of a dire issue, especially in the U.S., given the current funding situation in 2025.
 
 
 
@@ -52,11 +52,13 @@ This might be more of a dire issue, especially in the U.S., under the current po
 
 **Hot take (maybe not really a hot take) #3: An idea or a patent from an academic project will no longer be sufficient as the driving force behind a successful startup.**
 
-The shift to applied innovation, coupled with tightening U.S. funding landscapes, explains why academic projects struggle to attract investment. I define early-stage academic projects this way: These projects are research endeavors in their initial phases of exploration, where the focus is on hypothesis testing, foundational discovery, or proof-of-concept development. These projects are characterized by high uncertainty, minimal preliminary data, and no immediate path to commercialization. 
+The shift to applied innovation, coupled with tightening U.S. funding landscapes, explains why academic projects struggle to attract investment. I define early-stage academic projects this way: These projects are research endeavors in their initial phases of exploration, where the focus is on hypothesis testing, foundational discovery, or proof-of-concept development. These projects are characterized by high uncertainty, minimal preliminary data, and no seemingly immediate path to commercialization to the public and/or investors.
 
 A good, maybe even **exceptional** example of an academic project that succeeded in securing funding from VCs would be **Moderna**. 
 
-Moderna’s core technology—messenger RNA (mRNA)—originated in academic research at institutions like MIT, Harvard, and the University of Pennsylvania. Initial academic work for Moderna's core innovation relied on grants from agencies like the NIH. However, funding stagnation in the 2000s–2010s limited progress. For example, [Karikó](https://en.wikipedia.org/wiki/Katalin_Karik%C3%B3)’s grant applications were repeatedly rejected, forcing her to pursue smaller, niche funding sources. Despite these circumstances, Moderna's pivot to applied innovation, developing mRNA as a therapeutic platform, and efforts in raising funding from the 2000s to the 2010s, allowed it to secure [**4.9 billion in venture capital** support by 2015](https://investors.modernatx.com/news/news-details/2022/Moderna-Reports-Fourth-Quarter-and-Fiscal-Year-2021-Financial-Results-and-Provides-Business-Updates/default.aspx) and later dominate the COVID-19 vaccine market, generating [**18.5 billion** in 2021](https://investors.modernatx.com/news/news-details/2021/U.S.-Government-Purchases-Additional-200-Million-Doses-of-Modernas-COVID-19-Vaccine/default.aspx).
+Moderna’s core technology — [messenger RNA (mRNA)](https://www.genome.gov/genetics-glossary/Messenger-RNA-mRNA) — originated in academic research at institutions like MIT, Harvard, and the University of Pennsylvania. 
+
+Initial academic work for Moderna's core innovation relied on grants from agencies like the NIH. However, funding stagnation in the 2000s–2010s limited progress. For example, [Karikó](https://en.wikipedia.org/wiki/Katalin_Karik%C3%B3)’s grant applications were repeatedly rejected, forcing her to pursue smaller, niche funding sources. Despite these circumstances, Moderna's pivot to applied innovation, developing mRNA as a therapeutic platform, and efforts in raising funding from the 2000s to the 2010s, allowed it to secure [**4.9 billion in venture capital** support by 2015](https://investors.modernatx.com/news/news-details/2022/Moderna-Reports-Fourth-Quarter-and-Fiscal-Year-2021-Financial-Results-and-Provides-Business-Updates/default.aspx) and later dominate the COVID-19 vaccine market, generating [**18.5 billion** in 2021](https://investors.modernatx.com/news/news-details/2021/U.S.-Government-Purchases-Additional-200-Million-Doses-of-Modernas-COVID-19-Vaccine/default.aspx).
 
 However, this is a success that's **harder to replicate in 2025**.
 
@@ -68,8 +70,27 @@ Additionally, the shift to commercialization-driven endeavors in R&D investment 
 
 Founders are expected to get scrappy, find early traction, and get through the A round before serious capital even considers coming in. Investors want to see a clearer picture before they write a check. Data from PitchBook (2024) shows that seed-stage funding has grown, but Series A rounds have become far more selective ([PitchBook-NVCA Venture Monitor, 2024](https://pitchbook.com)).  Investors now expect startups to demonstrate revenue, customer adoption, or a clear path to monetization before committing. Someone with a more academically trained background, like a full-time PhD student, might be constrained by their responsibilities in education and struggle with contributing time to their startup endeavors.
 
-This doesn’t mean PhDs or academically trained founders are less likely to get funded, but it’s no longer a strong differentiator in most sectors these days. An analysis of 347 U.S. unicorns over the past decade shows that just 18% had at least one PhD founder. Their performance is only slightly better (but not significantly so) than non-PhDs in terms of valuation efficiency and time to $1B. However, in technical sectors like [healthcare (44.1%) and AI/ML or big data (31.4%)](https://medium.com/foothill-ventures/are-phds-a-good-bet-as-founders-25fe341c47b2), PhDs are notably overrepresented and tend to build more efficient, high-performing companies. Still, a PhD and a patent alone no longer guarantee a competitive edge in the eyes of modern VCs.
+This doesn’t mean PhDs or academically trained founders are less likely to get funded, but it’s no longer a strong differentiator in most sectors these days, compared to the early 2010s.
 
+An analysis of 347 U.S. unicorns over the past decade shows that just 18% had at least one PhD founder. Their performance is only slightly better (but not significantly so) than non-PhDs in terms of valuation efficiency and time to $1B. However, in technical sectors like [healthcare (44.1%) and AI/ML or big data (31.4%)](https://medium.com/foothill-ventures/are-phds-a-good-bet-as-founders-25fe341c47b2), PhDs are notably overrepresented and tend to build more efficient, high-performing companies. Still, a PhD and a patent alone no longer guarantee a competitive edge in the eyes of modern VCs. 
+
+You might be wondering—what’s “enough”? Well, I’m not an experienced investor, so I can’t give you a definitive answer. But based on my analysis of successful founding teams from 2024–2025, here’s what consistently stands out:
+
+- Clear signs of traction. 
+
+- Know your TAM and SAM, and show that CAC, LTV, margins, and churn trends (once you have enough customer data) support long-term profitability
+
+- Strong founder–market fit (ideally backed by years of relevant industry experience)
+
+- Impressive academic credentials to round it out
+
+Put these elements together, and you’ve got the foundation of a standout candidate - at the very least, enough to get investors interested in hearing your pitch.
+
+(People define success in a startup very different. Here, I define it as crossing meaningful revenue benchmarks, e.g., is the ARR $10M+? )
+
+(And, obviously the ones that eventually prepare for an exit. )
+
+(Nowadays, there are way too many startups that have no problem attracting initial investment interest, but fail to prove long-term profitability. They might scale quickly and make good initial revenue, but I personally believe the true success lies in a team that's able to provide service, deliver value, and stay competitive **consistently**. That's a real business.) 
 
 ---
 
@@ -96,12 +117,12 @@ If you ask me, the answer depends on the returns you believe a graduate degree w
 
 
 3. **If you enjoy unstructured exploration (or have a track record of thriving in an academic environment)**  
-   PhDs allow you to dive into niche problems without the pressure of quarterly profits. A good example would be the DARPA-funded university project ([Leiner et al., 2009](https://doi.org/10.1145/1629607.1629613)). You get more freedom to define your research and carry it out at your own pace. (Obviously, at a rate that your mentor allows ;) )
+   PhDs allow you to dive into niche problems without the pressure of quarterly profits. A good example would be the DARPA-funded university project ([Leiner et al., 2009](https://doi.org/10.1145/1629607.1629613)). You get more freedom to define your research and carry it out at your own pace. (Obviously, not too slow, at a rate that your advisor's okay with ;) )
 
 
 ### When to Choose Industry:  
 1. **If you want to solve problems *now***  
-   Time doesn't wait. Big things are happening all the time in industry. SpaceX engineers iterated reusable rockets in years, not decades ([Berger, 2020](https://www.amazon.com/Liftoff-Elon-Musk-Desperate-Launched/dp/0062979973)). If you want to contribute **now**, go into industry.
+   Big things are happening all the time in industry. SpaceX engineers iterated reusable rockets in years, not decades ([Berger, 2020](https://www.amazon.com/Liftoff-Elon-Musk-Desperate-Launched/dp/0062979973)). If you want to contribute **now**, go into industry.
 
 2. **If Execution > theory**  
    If you value execution more than theory in your daily work, choose industry. A good proof/piece of evidence for this is how OpenAI’s GPT-4 required trial-and-error engineers ([OpenAI, 2023](https://openai.com)). Companies need to get things running ASAP.
@@ -111,12 +132,14 @@ If you ask me, the answer depends on the returns you believe a graduate degree w
    Founders like Vitalik Buterin (Ethereum) prove credentials aren’t everything.  Experience matters as an entrepreneur. Obviously, I put this as a third condition for a reason. Tons of PhDs became successful entrepreneurs, but of course, at the time cost of 5-6 years, whereas you can use the time to jump into industry. Your call.
 
 
-Finally, things are constantly changing. I don't think decisions like pursuing a graduate degree is something to be taken lightly considering the time cost and financial implications, however, I also believe that if doing academic research is something you want to do, just for the sake of doing it, you should **absolutely** pursue it despite the current funding circumstances. 
+Finally, things are constantly changing. I don't think decisions like pursuing a graduate degree is something to be taken lightly considering the time cost and financial implications, however, I also believe that if doing academic research is something you want to do, just for the sake of doing it, you should **absolutely** pursue it. We only live once after all. 
 
-It is your life, live your life to the fullest, and don't forget to **stay upwind & stay true to yourself** when making a career choice. 
+It is your life, so live your life to the fullest, and don't forget to **stay upwind & stay true to yourself** when making a career choice. 
 
 Best of Luck.
 
+
+~ Nicole Hao, 2025-05-09, Ithaca, NY.
 
 
 
