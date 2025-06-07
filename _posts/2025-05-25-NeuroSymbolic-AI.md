@@ -334,4 +334,4 @@ This further proves that there is truly a huge potential in the capabilities of 
 
 **--- WIP ----**
 
-**2025-06-05, Nicole Hao**
+**Nicole Hao, 2025-06-05, NYC**
