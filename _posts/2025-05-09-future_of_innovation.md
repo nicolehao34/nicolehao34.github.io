@@ -19,7 +19,7 @@ If you’re a self-directed learner, the internet can turn you into an expert in
 
 **This isn’t to discredit the work of academics or higher education institutions.**
 
- After all, it is an undeniable fact that universities still produce groundbreaking research, create an environment for deep, intellectual collaboration, and provide structured learning and mentorship for those who need the time to cultivate their research skills in a dedicated workplace. Universities remained and will continue to be vital for foundational science and critical thinking, but when it comes to **moving ideas from the lab to the market**, the private sector is pulling ahead...
+ After all, it is an **undeniable fact** that universities still produce groundbreaking research, create an environment for deep, intellectual collaboration, and provide structured learning and mentorship for those who need the time to cultivate their research skills in a dedicated workplace. These are all critical factors that boost our society's research advancements, which are the core of innovation. I believe universities remained and will continue to be vital for foundational science and critical thinking, but when it comes to **moving ideas from the lab to the market**, the private sector is pulling ahead...
 
 
 
