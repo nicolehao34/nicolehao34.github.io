@@ -8,7 +8,7 @@ permalink: /index.html
 
 I'm **Nicole Hao**. I recieved my MEng in Computer Science and B.A. in Mathematics from Cornell in May 2025.
 
-Career wise, I've decided to join [Artian AI](https://www.artian.ai/) to build multi-agent AI solutions for financial services in NYC. I'm interested in AI & Full-stack engineering, product development, and GTM strategy.
+Career wise, I've decided to join [Artian AI](https://www.artian.ai/) as a Solutions SWE to build multi-agent AI solutions for financial services in NYC. I'm interested in AI & Full-stack engineering, product development, and GTM strategy. 
 
 I come from an academic research background in mathematics, machine learning, and astrophysics, with a focus on building applied AI systems that bridge theory and real-world use cases. My work integrates multimodal data, including language, vision, and unstructured textual information, to power scalable AI solutions.
 
@@ -30,7 +30,7 @@ This is why I am an ardent advocate for educational access through **EdTech**. I
 # Research Projects
 I've led both engineering and research projects, grounded in the belief that impactful work begins with innovation, and research is at the heart of that. <br>
 
-My research centers on applying **math** and **AI/ML** to solve real-world problems in science and education.
+My research centers on applying **Math** and **AI/ML** to solve real-world problems in science and education.
 
 -  **[InkSight AI](https://github.com/Cornell-InkSight/InkSightMVP.git)** <br>
 Do you know that many students with visual impairments are charged as much as $100 per hour for note-taking assistance, just to access the same classroom content as everyone else? <br> 
@@ -57,7 +57,7 @@ I conducted this research project under the guidance of [Prof. Yunan Yang](https
 - **[Classifying Solar Flares Using Supervised ML](https://github.com/nicolehao34/solar_flares_classification)** <br>
 As a Nexus Research scholar at Cornell, I developed a novel supervised learning pipeline to detect and classify solar flares using high-resolution solar spectra from the RHESSI and HARPS-N missions under the mentorship of [Prof. Ray Jayawardhana](https://www.drrayjay.net/) and [Dr. Laura Flagg](https://lauraflagg.github.io/). 
 
-  We trained several machine learning models and found that a Support Vector Classifier with an RBF kernel achieved the highest performance. Our work shows that even subtle spectral changes from weak flares can be detected algorithmically, paving the way for future applications in mitigating stellar contamination in exoplanet studies. 
+  Our work shows that even subtle spectral changes from weak flares can be detected algorithmically, paving the way for future applications in mitigating stellar contamination in exoplanet studies. 
 
   Our research results were published in [the Astrophysical Journal](https://iopscience.iop.org/article/10.3847/1538-4357/ad5be3).
 
@@ -77,7 +77,7 @@ At the [Cornell AI Innovation lab](https://it.cornell.edu/ai-innovation-lab), I 
 - **AI Engineering at Ascot Group** <br>
 At Ascot Group, an international specialty reinsurance company, I prototyped a system that scores broker submissions on a 1–5 scale based on profitability and win-rate indicators, and fine-tuned NLP models to extract structured data from unstandardized PDF loss runs. 
 
-  Through this work, I witnessed firsthand the inefficiencies that arise from complex, manual processes in the financial industry; it deepened my interest in building AI systems that simplify workflows and reduce operational overhead.
+   I witnessed firsthand the inefficiencies that arise from complex, manual processes in the financial industry; it deepened my interest in building AI systems that simplify workflows and reduce operational overhead.
 
 ------
 
@@ -137,4 +137,4 @@ It hurts me to see younger people going through the same struggles I once had to
 
 
 
-_Last updated: May 2025_
+_Last updated: Jun 2025_
