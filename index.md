@@ -8,7 +8,7 @@ permalink: /index.html
 
 I'm **Nicole Hao**. I recieved my MEng in Computer Science and B.A. in Mathematics from Cornell in May 2025.
 
-Career wise, I've decided to join [Artian AI](https://www.artian.ai/) as a Solutions SWE to build multi-agent AI solutions for financial services in NYC. I'm interested in AI & Full-stack engineering, product development, GTM strategy, and fundraising for non-profits. 
+Career wise, I've decided to join [Artian AI](https://www.artian.ai/) as a Solutions SWE to build multi-agent AI solutions for financial services in NYC. I'm interested in AI & Full-stack engineering, product development, and GTM strategy.
 
 I come from an academic research background in mathematics, machine learning, and astrophysics, with a focus on building applied AI systems that bridge theory and real-world use cases. My work integrates multimodal data, including language, vision, and unstructured textual information, to power scalable AI solutions.
 
