@@ -21,11 +21,11 @@ And this is called **resilience**. A trait so foundational to every aspect of li
 
 # The Myth of Perfection in Scientific Research
 
-Too often, we idolize success stories without acknowledging the long trail of failures behind them. We scroll past rejection letters, botched experiments, lost datasets, and stalled drafts. But they’re all there, quietly shaping every breakthrough.
+Too often, we idolize success stories without acknowledging the long trail of failures behind them. We scroll past rejection letters, botched experiments, lost datasets, and stalled drafts. But they’re all there, quietly laying the foundation for every breakthrough.
 
 In research, setbacks are not only common, they're **essential**. 
 
-In fact, one of the most unexpected examples comes from Geoffrey Hinton’s early career (at least to me, I mean, it's THE Geoffrey Hinton!). 
+In fact, one of the most unexpected examples comes from Geoffrey Hinton’s early career (at least to me, I mean, we're talking about THE Geoffrey Hinton!). 
 
 In the 1970s, amidst what became known as the “AI winter”, his PhD supervisor at Edinburgh dismissed neural networks. They were viewed as a failed concept.
 
