@@ -31,7 +31,7 @@ Even after earning his PhD, Hinton moved across institutions — Sussex, UC San 
 
 Decades later, even after helping launch modern AI at Google, he stepped away in 2023 to freely warn of its existential risks, openly expressing regret over unintended consequences.
 
-I was surprised when I fist read his story, but beyond this astonishing feeling, I also made a revelation: setbacks are very normal.
+I was surprised when I first read his story, but beyond that initial shock, I came to an important realization: setbacks are completely normal.
 
 
 At Cornell, I was surrounded by many high-achieving peers, so when I began experiencing health challenges or hitting roadblocks in my research, I assumed something was wrong with me - that I wasn’t keeping up. 
