@@ -55,7 +55,7 @@ Here are a few things that have helped me build resilience over time:
 
 - Talk about your struggles with people you trust. Heavy emphasis on people you trust. It helps to normalize the messiness.
 
-- Try to see mistakes as signals, not verdicts — they’re part of the learning.
+- Try to see mistakes as signals, not verdicts. They’re part of the learning.
 
 - Celebrate small wins! They matter more than we think. You debugged a script that's been stopping you from continuing to the next step for days? Great! Give yourself a pat on the back and take a short break! Resting your eyes is not gonna take forever.
 
