@@ -14,7 +14,7 @@ Everyone gets knocked down
 What matters is whether you get back up and keep going.
 
 
-    “You gain strength, courage and confidence by every experience in which you really stop to look fear in the face. You are able to say to yourself, 'I have lived through this horror. I can take the next thing that comes along.' You must do the thing you think you cannot do.” - Eleanor Roosevelt, You Learn by Living: Eleven Keys for a More Fulfilling Life
+> “You gain strength, courage and confidence by every experience in which you really stop to look fear in the face. You are able to say to yourself, 'I have lived through this horror. I can take the next thing that comes along.' You must do the thing you think you cannot do.” - Eleanor Roosevelt, You Learn by Living: Eleven Keys for a More Fulfilling Life
 
 
 And this is called **resilience**. A trait so foundational to every aspect of life — research work included.
