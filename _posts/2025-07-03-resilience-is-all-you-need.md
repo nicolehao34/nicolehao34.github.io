@@ -3,9 +3,7 @@ layout: post
 title: Resilience is All You Need
 ---
 
-Bad nes: You will inevitably made mistakes and encounter temporary setbacks in your research. 
-
-Good news: No, you do not get swallowed up by them.
+Bad news: You will inevitably made mistakes and encounter temporary setbacks in your research. Good news: No, you do not get swallowed up by them.
 
 # Resilience, a Researcher's Trait
 
