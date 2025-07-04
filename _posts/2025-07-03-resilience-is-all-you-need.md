@@ -34,7 +34,7 @@ Decades later, even after helping launch modern AI at Google, he stepped away in
 I was surprised when I first read his story, but beyond that initial shock, I came to an important realization: setbacks are completely normal.
 
 
-At Cornell, I was surrounded by many high-achieving peers, so when I began experiencing health challenges or hitting roadblocks in my research, I assumed something was wrong with me - that I wasn’t keeping up. 
+At Cornell, I was surrounded by many high-achieving peers, so when I began experiencing health issues or hitting roadblocks in my research, I assumed something was wrong with me - that I wasn’t keeping up. 
 
 The perfectionist image of an ideal researcher in my mind was purely fictional. Even those we consider the most accomplished, like Geoffrey Hinton, faced profound setbacks. But he didn't give up! His own PhD advisor at Edinburgh urged him to abandon neural networks, yet he persisted, famously replying, 
 
