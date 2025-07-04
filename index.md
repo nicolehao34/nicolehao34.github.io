@@ -84,18 +84,28 @@ At Ascot Group, an international specialty reinsurance company, I prototyped a s
 # Talks & Presentations
 I LOVE pitching and giving speeches! Nothing excites me more than getting on stage in front of a crowd and presenting a novel idea, product, or research findings.
 
-- **InkSight: Empowering All Learners with AI**  
-  [Cornell Tech Entrepreneurship Showcase](https://gradcareers.cornell.edu/event/cornell-entrepreneurship-showcase-student-pitches-venture-panel/), Nov 2024  <br>
+- [Cornell Tech Entrepreneurship Showcase](https://gradcareers.cornell.edu/event/cornell-entrepreneurship-showcase-student-pitches-venture-panel/), Nov 2024  <br>
   <img style="float:right; padding-left:10px" src="images/pitch.jpg" width="300" alt="Nicole Hao presenting at Cornell Tech Showcase">  
+  Pitched my startup. Title "InkSight: Empowering All Learners with AI"
 
-- **Option Pricing under Stochastic Volatility, Change in Equity Premium, and Interest Rates in a Complete Market**  
-  [Young Mathematicians Conference (YMC)](efaidnbmnnnibpcajpcglclefindmkaj/https://ymc.osu.edu/sites/default/files/2023-08/ymc_2023-2.pdf), [Joint Mathematics Meetings (JMM)](https://jointmathematicsmeetings.org/meetings/national/jmm2024/2300_presenters.html), 2024  
-  *(Based on [an applied math research project](https://arxiv.org/abs/2408.15416) I worked on with Prof. John Holmes at OSU)*  <br>
-  <!-- <img style="float:right; padding-left:10px" src="images/YMC.jpg" width="300" alt="Nicole Hao presenting at YMC">   -->
+-  [The 2024 Joint Mathematics Meetings (JMM)](https://jointmathematicsmeetings.org/meetings/national/jmm2024/2300_presenters.html), Jan 2024
 
-- **Detecting and Classifying Flares in High-resolution Solar Spectra with Supervised Machine Learning**  
-  [Nexus Scholars](https://as.cornell.edu/news/nexus-scholar-applications-open-summer-2023), Rochester Symposium for Physics Students (RSPS), 2023  
-  *(I was a physics major! I'm not actively doing research in astrophysics now, but it will always be the most exalted form of curiosity to me.)*  <br>
+    Selected and supported to travel to SF to presemt at the Pi Mu Epsilon Undergraduate poster session, you can find our poster [here](https://www.researchgate.net/publication/393263447_Option_Pricing_with_Stochastic_Volatility_Equity_Premium_and_Interest_Rates_in_a_Complete_Market).
+
+- [2023 Young Mathematicians Conference (YMC)](efaidnbmnnnibpcajpcglclefindmkaj/https://ymc.osu.edu/sites/default/files/2023-08/ymc_2023-2.pdf), Columbus, Ohio, Aug 2023
+
+  Gave a talk on [Option Pricing under Stochastic Volatility, Change in Equity Premium, and Interest Rates in a Complete Market](https://arxiv.org/abs/2408.15416). Check out our slides [here](nicolehao34/nicolehao34.github.io/papers/YMC_slides.pdf).
+
+- 2023 Rochester Symposium for Physics Students, University of Rochester, Apr 2023
+
+  Selected to give a talk on using supervised ML to detect and classify flares in high-resolution solar spectra.
+
+- 2023 Conference for Undergraduate Women in Physics (CUWiP), Cornell University
+  
+
+
+- [2022 Nexus Scholars](https://as.cornell.edu/news/nexus-scholar-applications-open-summer-2023), Cornell University, Jul 2022
+   <br>
   <!-- <img style="float:right; padding-left:10px" src="images/Nexus.jpg" width="300" alt="Nicole Hao presenting at RSPS">   -->
 
 
@@ -106,15 +116,16 @@ One of life's most crucial aspects is giving back to the communities that helped
 
 It hurts me to see younger people going through the same struggles I once had to go through, so I try to help people pursue education opportunities and find a sense of belonging through community service. 
 
-- **Volunteer, Dharma Drum Retreat Center**, May - Jul 2025
+- **Volunteer, New York Cares**, Jul 2025 - Present
+- **Volunteer, Dharma Drum Retreat Center**, May - Jun 2025
 
 - **Resident Advisor, Holland International Living Center**, Aug 2022 - Dec 2024
 
 
 
-- **Volunteer Mathematics Tutor, GoPeer**, Aug 2021 - Dec 2023
+- **Volunteer Mathematics Tutor, GoPeer**, Aug 2021 - Mar 2023
 
-- **More to be added**: I have been trying to use my public speaking skills more for advocacy projects. If my skillset fits your goals, reach out to me!
+- **More to be added**: I have been trying to use my public speaking skills more for advocacy projects. If my skillset fits your goals, reach out!
 
 ------
 
