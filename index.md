@@ -18,9 +18,9 @@ Outside of work, I lead several **nonprofit initiatives** focused on advancing *
 
 **["Education is not a priviledge, it is a human right."](https://www.right-to-education.org/page/understanding-education-right)**
 
-As a first-generation college student, I’ve witnessed countless brilliant young minds being **excluded** from educational opportunities throughout my life, not because of a lack of potential, but because of systemic limitations. 
+As a first-generation college student, I’ve witnessed brilliant young minds being **excluded** from educational opportunities throughout my life, not because of a lack of potential, but because of systemic limitations. 
 
-This is why I am an ardent advocate for educational access through **EdTech**. I believe that with the help of technology, we will one day augment human cognition and help build a more equitable world, one where physical or cognitive challenges no longer limit a person’s potential.
+This is why I am an ardent advocate for educational access. I contribute through **EdTech** and believe that with the help of technology, we will one day augment human cognition and help build a more equitable world, one where physical or cognitive challenges no longer limit a person’s potential.
 
 **Fun fact**: I go on meditation retreats. No, don't get me started on Buddhism (and my screen time).
 
@@ -52,7 +52,7 @@ Alpha on Model Accuracy](https://github.com/nicolehao34/Knowledge-Distillation-E
 I conducted this research project under the guidance of [Prof. Yunan Yang](https://yunany.github.io/) to investigate the effects of the alpha parameter in response-based knowledge distillation using MNIST data. 
 
   
-  By implementing a custom distillation framework in Keras, I analyzed how varying alpha values influence student model accuracy in contrast to direct learning from data and guidance from a teacher model. The study provides more information on optimizing model compression and generalization performance in low-resource settings.
+  By implementing a custom distillation framework, I analyzed how varying alpha values influence student model accuracy in contrast to direct learning from data and guidance from a teacher model. The study provides more information on optimizing model compression and generalization performance in low-resource settings.
 
 - **[Classifying Solar Flares Using Supervised ML](https://github.com/nicolehao34/solar_flares_classification)** <br>
 As a Nexus Research scholar at Cornell, I developed a novel supervised learning pipeline to detect and classify solar flares using high-resolution solar spectra from the RHESSI and HARPS-N missions under the mentorship of [Prof. Ray Jayawardhana](https://www.drrayjay.net/) and [Dr. Laura Flagg](https://lauraflagg.github.io/). 
