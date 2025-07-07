@@ -57,16 +57,16 @@ Here are a few things that have helped me build resilience over time:
 
 - **Talk about your struggles with people you trust.** Heavy emphasis on people you trust. Your trusted friends, family members, mentors. You name it! It definitely helps to normalize the messiness. In my experience, opening up about my struggles often encouraged others to share their own. It reminded me that I wasn’t alone in facing challenges in research, and that sense of connection made all the difference.
 
-- **Try to see mistakes as signals, not verdicts.** They’re part of the learning. Instead of ruminating over the mistakes you made, first accept that fact that the actions were done, then think set up a system to avoid repeating them in the future .
+- **Try to see mistakes as signals, not verdicts.** They’re part of the learning. Instead of ruminating over the mistakes you made, first accept that fact that the actions were done, then set up a system to avoid repeating them in the future .
 
-    (e.g. I’ve always struggled with retaining verbal information, which made research seminars and lectures incredibly challenging. I often walked away with little I could apply to my own work. At first all I did was complain, why couldn't I just remember everything like everybody else?! Later I realized wallowing in the sorrow of inability doesn't contribute to progress, so I built a system: using transcription software to capture content, jotting down key themes during the talk, and then revisiting everything afterward to synthesize it into clear, actionable bullet points tailored to my projects. This has helped me *tremendously*)
+    (e.g. I’ve always struggled with retaining verbal information, which made research seminars and lectures incredibly challenging. I often walked away with little I could apply to my own work. At first all I did was complain, why couldn't I just remember everything like everybody else?! Later, I realized wallowing in the sorrow of inability doesn't contribute to progress, so I built a system: using transcription softwares to capture content, jotting down key themes during the talk, and then revisiting everything afterwards to synthesize pieces of information into clear, actionable bullet points tailored to my projects. This might not be the most efficient solution to my problem, but it has helped me *tremendously* so far. )
 
     ![Handwritten notes on a notepad with highlighted bullet points and arrows connecting ideas, placed on a desk with a laptop and pen nearby. The notes include phrases such as Key Themes, Action Items, and Synthesis. The environment suggests a focused and organized workspace, conveying a sense of determination and proactive problem-solving.](/images/resilience/resilience-notes.png)
     (An example of the post-lecture notes I took for applied functional analysis. This ended up being extremely helpful for understanding key concepts in a later project.)
 
 - **Celebrate small wins!** They matter more than we think. You debugged a script that's been stopping you from continuing to the next step for days? Great! Give yourself a pat on the back and take a short break! Resting your eyes is not gonna take forever.
 
-And maybe most importantly, give yourself permission to rest, especially when you feel like you haven’t earned it. That’s usually when you need it most. 
+And maybe most importantly, give yourself permission to rest, especially when you feel like you haven’t earned it. That’s usually when you need it most. Your health is the most important thing in your life, and this is not an exaggeration. People tend to realize this only when they start to develop health problems.
 
 
 
@@ -82,11 +82,13 @@ But not giving up on your work despite difficulties? This quality stays and perm
 
 So the next time something unexpected happens, that completely changes the trajectory of your project, or sometimes even your life, remember: 
 
-It's okay. Things happen. You’re building your resilience, as a researcher, and also as a person. And it's not easy.
+*It's okay. Things happen.*
 
-Don't forget why you are doing this, maybe you want to help push the frontier of human knowledge by a teeny tiny bit; maybe you want to be a teacher and pass on the torch of human curiosity; or maybe you simply made a promise to your younger self that you want to one day create things that are new, meaningful, and helpful to others. 
+*You’re building your resilience, as a researcher, and also as a person. And it's **not** easy.*
 
-These are things that mean way more than small mistakes you made, so don't let them stop you from fulfilling your promise.
+*Don't forget why you are doing this, maybe you want to help push the frontier of human knowledge by a teeny tiny bit; maybe you want to be a teacher and pass on the torch of human curiosity; or maybe you simply made a promise to your younger self that you want to one day create things that are new, meaningful, and helpful to others.* 
+
+*These are things that mean way more than small mistakes you made, so don't let them stop you from fulfilling your promise.*
 
 Keep going! Because **resilience is all you need**.
 
