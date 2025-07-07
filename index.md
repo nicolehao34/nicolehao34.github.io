@@ -54,7 +54,7 @@ I conducted this research project under the guidance of [Prof. Yunan Yang](https
   
   By implementing a custom distillation framework, I analyzed how varying alpha values influence student model accuracy in contrast to direct learning from data and guidance from a teacher model. The study provides more information on optimizing model compression and generalization performance in low-resource settings.
 
-- **[Classifying Solar Flares Using Supervised ML](https://github.com/nicolehao34/solar_flares_classification)** <br>
+- **[Classifying Solar Flares Using Supervised ML](https://www.researchgate.net/publication/384313203_Detecting_and_Classifying_Flares_in_High-resolution_Solar_Spectra_with_Supervised_Machine_Learning)** <br>
 As a Nexus Research scholar at Cornell, I developed a novel supervised learning pipeline to detect and classify solar flares using high-resolution solar spectra from the RHESSI and HARPS-N missions under the mentorship of [Prof. Ray Jayawardhana](https://www.drrayjay.net/) and [Dr. Laura Flagg](https://lauraflagg.github.io/). 
 
   Our work shows that even subtle spectral changes from weak flares can be detected algorithmically, paving the way for future applications in mitigating stellar contamination in exoplanet studies. 
@@ -119,7 +119,7 @@ It hurts me to see younger people going through the same struggles I once had to
 - **Volunteer, New York Cares**, Jul 2025 - Present
 - **Volunteer, Dharma Drum Retreat Center**, May - Jun 2025
 
-- **Resident Advisor, Holland International Living Center**, Aug 2022 - Dec 2024
+- **[Resident Advisor, Holland International Living Center](https://alumni.cornell.edu/snack-bar/building-partnerships-in-and-outside-the-classroom/)**, Aug 2022 - Dec 2024
 
 
 
