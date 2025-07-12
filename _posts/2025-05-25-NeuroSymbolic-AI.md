@@ -335,3 +335,7 @@ This further proves that there is truly a huge potential in the capabilities of 
 **--- WIP ----**
 
 **Nicole Hao, 2025-06-05, NYC**
+
+-----
+
+Copyright © 2025 Nicole Hao. All rights reserved.
