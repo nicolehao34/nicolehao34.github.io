@@ -94,3 +94,7 @@ Keep going! Because **resilience is all you need**.
 
 
 Nicole Hao, Jul 3, 2025, NYC. 
+
+---------
+
+Copyright © 2025 Nicole Hao. All rights reserved.
