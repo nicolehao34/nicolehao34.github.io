@@ -158,3 +158,6 @@ Best of Luck.
 - PitchBook-NVCA Venture Monitor. (2024). Q1 2024 Report.  
 - Statista. (2023). “Amazon R&D Spending 2023.”  
 - Zhang, D., et al. (2022). *Stanford AI Index Report*.  
+
+-----
+Copyright © 2025 Nicole Hao. All rights reserved.
