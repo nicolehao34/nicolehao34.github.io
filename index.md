@@ -148,6 +148,6 @@ It hurts me to see younger people going through the same struggles I once had to
 
 Opinions expressed are my own. All my writings are original, archived, and monitored for both physical and electronic distribution. Please provide proper attribution when quoting or referencing.
 
-© 2025 Nicole Hao. All rights reserved.
+Copyright © 2025 Nicole Hao. All rights reserved.
 
 _Last updated: Jun 2025_
