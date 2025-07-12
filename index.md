@@ -84,27 +84,27 @@ At Ascot Group, an international specialty reinsurance company, I prototyped a s
 # Talks & Presentations
 I LOVE pitching and giving speeches! Nothing excites me more than getting on stage in front of a crowd and presenting a novel idea, product, or research findings.
 
-- [Cornell Tech Entrepreneurship Showcase](https://gradcareers.cornell.edu/event/cornell-entrepreneurship-showcase-student-pitches-venture-panel/), Nov 2024  <br>
+- [2024 Cornell Tech Entrepreneurship Showcase](https://gradcareers.cornell.edu/event/cornell-entrepreneurship-showcase-student-pitches-venture-panel/), NYC, Nov 2024  <br>
   <img style="float:right; padding-left:10px" src="images/pitch.jpg" width="300" alt="Nicole Hao presenting at Cornell Tech Showcase">  
   Pitched my startup. Title "InkSight: Empowering All Learners with AI"
 
--  [The 2024 Joint Mathematics Meetings (JMM)](https://jointmathematicsmeetings.org/meetings/national/jmm2024/2300_presenters.html), Jan 2024
+-  [The 2024 Joint Mathematics Meetings (JMM)](https://jointmathematicsmeetings.org/meetings/national/jmm2024/2300_presenters.html), San Francisco, California, Jan 2024
 
-    Selected and supported to travel to SF to presemt at the Pi Mu Epsilon Undergraduate poster session, you can find our poster [here](https://www.researchgate.net/publication/393263447_Option_Pricing_with_Stochastic_Volatility_Equity_Premium_and_Interest_Rates_in_a_Complete_Market).
+    Selected and supported to travel to SF to present at the Pi Mu Epsilon Undergraduate poster session, you can find our poster [here](https://www.researchgate.net/publication/393263447_Option_Pricing_with_Stochastic_Volatility_Equity_Premium_and_Interest_Rates_in_a_Complete_Market).
 
 - [2023 Young Mathematicians Conference (YMC)](efaidnbmnnnibpcajpcglclefindmkaj/https://ymc.osu.edu/sites/default/files/2023-08/ymc_2023-2.pdf), Columbus, Ohio, Aug 2023
 
-  Gave a talk on [Option Pricing under Stochastic Volatility, Change in Equity Premium, and Interest Rates in a Complete Market](https://arxiv.org/abs/2408.15416). Check out our slides [here](nicolehao34/nicolehao34.github.io/papers/YMC_slides.pdf).
+  Gave a talk on [Option Pricing under Stochastic Volatility, Change in Equity Premium, and Interest Rates in a Complete Market](https://arxiv.org/abs/2408.15416). 
 
-- 2023 Rochester Symposium for Physics Students, University of Rochester, Apr 2023
+- 2023 Rochester Symposium for Physics Students, University of Rochester, New York, Apr 2023
 
   Selected to give a talk on using supervised ML to detect and classify flares in high-resolution solar spectra.
 
-- 2023 Conference for Undergraduate Women in Physics (CUWiP), Cornell University
+- 2023 Conference for Undergraduate Women in Physics (CUWiP), Ithaca, NY, 2023
   
 
 
-- [2022 Nexus Scholars](https://as.cornell.edu/news/nexus-scholar-applications-open-summer-2023), Cornell University, Jul 2022
+- [2022 Nexus Scholars](https://as.cornell.edu/news/nexus-scholar-applications-open-summer-2023), Ithaca, NY, Jul 2022
    <br>
   <!-- <img style="float:right; padding-left:10px" src="images/Nexus.jpg" width="300" alt="Nicole Hao presenting at RSPS">   -->
 
@@ -140,13 +140,13 @@ It hurts me to see younger people going through the same struggles I once had to
 - *[Agency is Eating the World](https://giansegato.com/essays/agency-is-eating-the-world)* - by Gian Segato. "AI has eroded the value of specialization because, for many tasks, achieving the outcome of several years of experience now takes a $20 ChatGPT subscription." 
 
   Agency has become one of the most desirable traits among working professionals.
-- More to be added...
+- *[Being too ambitious is a clever form of self-sabotage](https://maalvika.substack.com/p/being-too-ambitious-is-a-clever-form)* - by Maalvika on Substack. "Counterintuitively, the path to creating your best work often begins with permission to create your worst. "
 
 
 
 ------
 
-Opinions expressed are my own. All my writings are original, archived, and monitored for both physical and electronic distribution. Please provide proper attribution when quoting or referencing.
+Opinions expressed are my own. All my writings are original, archived, and monitored for both physical and electronic reproduction, distribution, and display. Please provide proper attribution when quoting or referencing.
 
 Copyright © 2025 Nicole Hao. All rights reserved.
 
