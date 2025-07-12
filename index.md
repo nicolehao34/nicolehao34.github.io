@@ -150,4 +150,4 @@ Opinions expressed are my own. All my writings are original, archived, and monit
 
 Copyright © 2025 Nicole Hao. All rights reserved.
 
-_Last updated: Jun 2025_
+_Last updated: Jul 2025_
