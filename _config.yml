@@ -26,6 +26,7 @@ footer-links:
   pinterest:
   rss: # just type anything here for a working RSS icon
   blog: blog
+  artwork: art
   twitter: NicoleHao256201
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
@@ -86,4 +87,4 @@ exclude:
   - CNAME
 
 # theme: minima
-theme: jekyll-theme-slate
+# theme: jekyll-theme-slate
