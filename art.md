@@ -4,8 +4,6 @@ title: Artwork
 permalink: /art
 ---
 
-# Artwork
-
 Welcome to my artwork collection! Here you'll find various pieces I've created.
 
 *This page is under construction. More artwork coming soon!*
