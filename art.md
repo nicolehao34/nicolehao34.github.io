@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Artwork
-permalink: /art.html
+permalink: /art
 ---
 
 # Artwork
