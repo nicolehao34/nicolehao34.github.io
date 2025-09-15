@@ -3,12 +3,14 @@ layout: post
 title: Suffering in Buddhism and Neuroscience
 ---
 
-Have you ever felt that sharp sting when reality doesn’t match what you hoped for? When the job, the grade, or even a conversation turns out differently than you imagined? That gap between what we expect and what actually happens doesn’t just disappoint us is called suffering. 
+Have you ever felt that sharp sting when reality doesn’t match what you hoped for? 
+
+When the job, the grade, or even a conversation turns out differently than you imagined?  
 
 
-Both Buddhism and modern neuroscience, though separated by centuries and cultures, converge on this truth: 
+Turns out both Buddhism and modern neuroscience, though separated by centuries and cultures, converge on this truth about this mismatch:
 
-> Much of human life unfolds in the tension between expectation and reality.
+> Much of human life unfolds in the tension between expectation and reality, also called, "suffering". 
 
 # "I want things to meet *my* expectations"
 
