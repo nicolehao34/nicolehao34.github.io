@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Suffering in Buddhism and Neuroscience
+title: What Buddhism Taught Me About Neuroscience
 ---
 
 Have you ever felt that sharp sting when reality doesn’t match what you hoped for? 
