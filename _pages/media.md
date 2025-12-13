@@ -68,7 +68,7 @@ author_profile: true
   
   <div class="media-item">
     <a href="https://eship.cornell.edu/elab-welcomes-24-student-startup-teams-to-fall-cohort/" target="_blank">
-      <img src="{{ base_path }}/images/elab-cohort-2024.jpg" alt="eLab Student Startup Teams">
+      <img src="{{ base_path }}/images/elab-group.jpg" alt="eLab Student Startup Teams">
       <h3>eLab Welcomes 24 Student Startup Teams to Fall Cohort - InkSight Featured</h3>
     </a>
   </div>
