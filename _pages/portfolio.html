@@ -91,7 +91,6 @@ author_profile: true
         {% if post.header.teaser %}
           <img src="{{ base_path }}/{{ post.header.teaser }}" alt="{{ post.title }}">
         {% elsif post.excerpt contains '<img' %}
-          {{ post.excerpt | split: "src='" | last | split: "'" | first }}
           <img src="{{ base_path }}{{ post.excerpt | split: "src='" | last | split: "'" | first }}" alt="{{ post.title }}">
         {% else %}
           <div class="project-image">{{ post.title | slice: 0 }}</div>
