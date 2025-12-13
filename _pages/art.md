@@ -19,12 +19,19 @@ author_profile: true
     text-align: center;
   }
   
+  /* Make horizontal images span 2 columns */
+  .art-item.horizontal {
+    grid-column: span 2;
+  }
+  
   .art-item img {
     width: 100%;
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+    max-height: 600px;
+    object-fit: contain;
   }
   
   .art-item img:hover {
@@ -36,7 +43,30 @@ author_profile: true
     font-size: 1.2rem;
     text-transform: capitalize;
   }
+  
+  @media (max-width: 768px) {
+    .art-item.horizontal {
+      grid-column: span 1;
+    }
+  }
 </style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const artItems = document.querySelectorAll('.art-item img');
+    artItems.forEach(img => {
+      img.onload = function() {
+        if (this.naturalWidth > this.naturalHeight) {
+          this.parentElement.classList.add('horizontal');
+        }
+      };
+      // Trigger for cached images
+      if (img.complete) {
+        img.onload();
+      }
+    });
+  });
+</script>
 
 <div class="art-gallery">
   <div class="art-item">
