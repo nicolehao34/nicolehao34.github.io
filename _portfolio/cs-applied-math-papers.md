@@ -1,6 +1,6 @@
 ---
 title: "CS & Applied Math Papers"
-excerpt: "Curated collection of ML/AI research papers with learning resources<br/><img src='/images/portfolio/cs-applied-math-papers.png'>"
+excerpt: "Curated collection of ML/AI research papers with learning resources<br/><img src='/images/Projects/cs-applied-math-papers.png'>"
 collection: portfolio
 date: 2025-01-01
 ---

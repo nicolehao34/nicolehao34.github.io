@@ -1,6 +1,6 @@
 ---
 title: "Starshade Station Keeping"
-excerpt: "Orbital dynamics simulation for starshade spacecraft alignment<br/><img src='/images/portfolio/starshade-stationkeeping.png'>"
+excerpt: "Orbital dynamics simulation for starshade spacecraft alignment<br/><img src='/images/Projects/starshade-stationkeeping.png'>"
 collection: portfolio
 date: 2022-08-01
 ---

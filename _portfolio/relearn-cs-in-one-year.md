@@ -1,6 +1,6 @@
 ---
 title: "Relearn CS in One Year"
-excerpt: "Comprehensive CS fundamentals review covering 11 core topics<br/><img src='/images/portfolio/relearn-cs-in-one-year.png'>"
+excerpt: "Comprehensive CS fundamentals review covering 11 core topics<br/><img src='/images/Projects/relearn-cs-in-one-year.png'>"
 collection: portfolio
 date: 2025-07-01
 ---

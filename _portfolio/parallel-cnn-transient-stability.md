@@ -1,6 +1,6 @@
 ---
 title: "Parallel CNN-Based Transient Stability Analysis"
-excerpt: "Parallelized CNN for power grid stability assessment<br/><img src='/images/portfolio/parallel-cnn-transient-stability.png'>"
+excerpt: "Parallelized CNN for power grid stability assessment<br/><img src='/images/Projects/parallel-cnn-transient-stability.png'>"
 collection: portfolio
 date: 2023-11-01
 ---

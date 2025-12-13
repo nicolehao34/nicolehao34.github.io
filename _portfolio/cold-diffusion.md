@@ -1,6 +1,6 @@
 ---
 title: "Cold Diffusion"
-excerpt: "Re-implementation of cold diffusion model for image restoration<br/><img src='/images/portfolio/cold-diffusion.png'>"
+excerpt: "Re-implementation of cold diffusion model for image restoration<br/><img src='/images/Projects/cold-diffusion.png'>"
 collection: portfolio
 date: 2023-12-01
 ---

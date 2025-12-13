@@ -1,6 +1,6 @@
 ---
 title: "Multi-Agent Email Assistant"
-excerpt: "AI agent that writes emails based on natural language instructions<br/><img src='/images/portfolio/multi-agent-email-assistant.png'>"
+excerpt: "AI agent that writes emails based on natural language instructions<br/><img src='/images/Projects/multi-agent-email-assistant.png'>"
 collection: portfolio
 date: 2024-06-01
 ---

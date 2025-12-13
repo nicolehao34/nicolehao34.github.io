@@ -1,6 +1,6 @@
 ---
 title: "Knowledge Distillation: Effects of Alpha"
-excerpt: "Research on optimal alpha parameter for knowledge distillation<br/><img src='/images/portfolio/knowledge-distillation-alpha.png'>"
+excerpt: "Research on optimal alpha parameter for knowledge distillation<br/><img src='/images/Projects/knowledge-distillation-alpha.png'>"
 collection: portfolio
 date: 2023-08-01
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Deep Learning Roadmap"
-excerpt: "Interactive visualization of deep learning concepts<br/><img src='/images/portfolio/deep-learning-roadmap.png'>"
+excerpt: "Interactive visualization of deep learning concepts<br/><img src='/images/Projects/deep-learning-roadmap.png'>"
 collection: portfolio
 date: 2024-05-01
 ---
