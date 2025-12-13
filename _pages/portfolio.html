@@ -1,14 +1,110 @@
 ---
 layout: archive
-title: "Portfolio"
+title: "Projects"
 permalink: /portfolio/
 author_profile: true
 ---
 
 {% include base_path %}
 
+<style>
+  .projects-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .project-item {
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: #f9f9f9;
+  }
+  
+  .project-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .project-item a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+  
+  .project-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .project-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .project-content {
+    padding: 1.5rem;
+    background: white;
+  }
+  
+  .project-item h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.3rem;
+    color: #333;
+  }
+  
+  .project-item p {
+    margin: 0;
+    font-size: 0.95rem;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  .project-date {
+    font-size: 0.85rem;
+    color: #999;
+    margin-top: 0.5rem;
+  }
+  
+  @media (max-width: 768px) {
+    .projects-gallery {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+<div class="projects-gallery">
+  {% for post in site.portfolio %}
+    <div class="project-item">
+      <a href="{{ base_path }}{{ post.url }}">
+        {% if post.header.teaser %}
+          <img src="{{ base_path }}/{{ post.header.teaser }}" alt="{{ post.title }}">
+        {% elsif post.excerpt contains '<img' %}
+          {{ post.excerpt | split: "src='" | last | split: "'" | first }}
+          <img src="{{ base_path }}{{ post.excerpt | split: "src='" | last | split: "'" | first }}" alt="{{ post.title }}">
+        {% else %}
+          <div class="project-image">{{ post.title | slice: 0 }}</div>
+        {% endif %}
+        <div class="project-content">
+          <h3>{{ post.title }}</h3>
+          <p>{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+          {% if post.date %}
+            <div class="project-date">{{ post.date | date: "%B %Y" }}</div>
+          {% endif %}
+        </div>
+      </a>
+    </div>
+  {% endfor %}
+</div>
 

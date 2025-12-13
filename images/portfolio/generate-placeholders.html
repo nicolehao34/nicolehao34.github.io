@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Image Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .instructions {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        .canvas-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .image-item {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        canvas {
+            width: 100%;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .image-title {
+            font-weight: bold;
+            margin: 10px 0 5px 0;
+            color: #333;
+        }
+        .download-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .download-btn:hover {
+            background: #5568d3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Portfolio Project Image Generator</h1>
+    
+    <div class="instructions">
+        <h2>Instructions:</h2>
+        <ol>
+            <li>Click any "Download" button below to save that project's placeholder image</li>
+            <li>Save each image to the <code>images/portfolio/</code> directory</li>
+            <li>Use the exact filename shown (e.g., exam-review-bot.png)</li>
+            <li>Replace these placeholders with actual project screenshots later!</li>
+        </ol>
+    </div>
+
+    <div class="canvas-container" id="canvasContainer"></div>
+
+    <script>
+        const projects = [
+            { name: 'Exam Review Bot', filename: 'exam-review-bot.png', gradient: ['#667eea', '#764ba2'], icon: '🤖' },
+            { name: 'Starshade Station Keeping', filename: 'starshade-stationkeeping.png', gradient: ['#f093fb', '#f5576c'], icon: '🛰️' },
+            { name: 'Cold Diffusion', filename: 'cold-diffusion.png', gradient: ['#4facfe', '#00f2fe'], icon: '🎨' },
+            { name: 'Deep Learning Roadmap', filename: 'deep-learning-roadmap.png', gradient: ['#43e97b', '#38f9d7'], icon: '🗺️' },
+            { name: 'Relearn CS in One Year', filename: 'relearn-cs-in-one-year.png', gradient: ['#fa709a', '#fee140'], icon: '📚' },
+            { name: 'Math Animations', filename: 'math-animations.png', gradient: ['#30cfd0', '#330867'], icon: '📐' },
+            { name: 'CS & Applied Math Papers', filename: 'cs-applied-math-papers.png', gradient: ['#a8edea', '#fed6e3'], icon: '📄' },
+            { name: 'Multi-Agent Email Assistant', filename: 'multi-agent-email-assistant.png', gradient: ['#ff9a56', '#ff6a88'], icon: '✉️' },
+            { name: 'Parallel CNN Transient Stability', filename: 'parallel-cnn-transient-stability.png', gradient: ['#f77062', '#fe5196'], icon: '⚡' },
+            { name: 'Knowledge Distillation Alpha', filename: 'knowledge-distillation-alpha.png', gradient: ['#c471f5', '#fa71cd'], icon: '🧠' }
+        ];
+
+        const container = document.getElementById('canvasContainer');
+
+        projects.forEach(project => {
+            const item = document.createElement('div');
+            item.className = 'image-item';
+
+            const title = document.createElement('div');
+            title.className = 'image-title';
+            title.textContent = project.name;
+
+            const canvas = document.createElement('canvas');
+            canvas.width = 1200;
+            canvas.height = 630;
+            
+            const ctx = canvas.getContext('2d');
+            
+            // Create gradient
+            const gradient = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
+            gradient.addColorStop(0, project.gradient[0]);
+            gradient.addColorStop(1, project.gradient[1]);
+            
+            // Fill background
+            ctx.fillStyle = gradient;
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            
+            // Add icon
+            ctx.font = '200px Arial';
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillStyle = 'rgba(255, 255, 255, 0.3)';
+            ctx.fillText(project.icon, canvas.width / 2, canvas.height / 2 - 50);
+            
+            // Add text
+            ctx.font = 'bold 60px Arial';
+            ctx.fillStyle = 'white';
+            ctx.shadowColor = 'rgba(0, 0, 0, 0.3)';
+            ctx.shadowBlur = 10;
+            
+            // Wrap text if needed
+            const words = project.name.split(' ');
+            const maxWidth = canvas.width - 100;
+            let line = '';
+            let lines = [];
+            
+            words.forEach(word => {
+                const testLine = line + word + ' ';
+                const metrics = ctx.measureText(testLine);
+                if (metrics.width > maxWidth && line !== '') {
+                    lines.push(line);
+                    line = word + ' ';
+                } else {
+                    line = testLine;
+                }
+            });
+            lines.push(line);
+            
+            const lineHeight = 70;
+            const startY = canvas.height / 2 + 100;
+            lines.forEach((line, i) => {
+                ctx.fillText(line.trim(), canvas.width / 2, startY + (i * lineHeight));
+            });
+
+            const button = document.createElement('button');
+            button.className = 'download-btn';
+            button.textContent = `Download ${project.filename}`;
+            button.onclick = () => {
+                const link = document.createElement('a');
+                link.download = project.filename;
+                link.href = canvas.toDataURL('image/png');
+                link.click();
+            };
+
+            item.appendChild(title);
+            item.appendChild(canvas);
+            item.appendChild(button);
+            container.appendChild(item);
+        });
+    </script>
+</body>
+</html>
