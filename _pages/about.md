@@ -6,12 +6,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
+Hi! I’m Nicole. I work as an software engineer at Artian AI after receving my M.Eng. in Computer Science and B.A. in Mathematics from Cornell University in 2025. I work at the intersection of engineering and product, building AI systems that enable enterprises to scale their workflows. At Artian, I design and build enterprise-grade multi-agent AI solutions for leading global financial institutions, and previously I led InkSight AI, an EdTech startup for multi-sensory note-taking that supports students with disabilities and was recognized at the Cornell Tech Entrepreneurship Showcase.
 
-Hi! I’m Nicole. I currently work as an AI engineer at Artian AI after receiving my M.Eng. in Computer Science and B.A. in Mathematics from Cornell University in 2025.
-
-Professioanlly, I work at the intersection of engineering and product, building multimodal and multi-agent systems that help people work more effectively and enable enterprises to scale complex workflows. At Artian, I design and build enterprise-grade multi-agent AI solutions for leading global financial institutions. Previously, I led the development of InkSight AI, an EdTech platform for multi-sensory note-taking that supports students with disabilities at educational institutions. This work was recognized at the Cornell Tech Entrepreneurship Showcase and received multiple grants and donations.
-
-My background spans mathematics, machine learning, deep learning, robotics, and astrophysics. Broadly, I’m interested in multimodal perception, language and reasoning, and multi-agent system design, with a particular focus on accessible and dependable performance in high-stakes settings such as healthcare, financial services, and education. I am also exploring how these AI systems can be deployed in robots and embodied agents, with the long-term goal of creating systems that can reason about and interact with the real world, support manual labor, and augment human perception on high-stakes tasks in ways that are trustworthy, empathetic, and deeply human-centered in their design.
+My background spans mathematics, machine learning, deep learning, robotics, and astrophysics. I’m broadly interested in multimodal perception, language and reasoning, and multi-agent system design, with a focus on reliable autonomous in critical and high-stakes industries like healthcare, finance, and education. I’m also exploring how these agents can be deployed in robots, with the long-term goal of creating systems that can reason about and interact with the real world, support manual labor, and augment human perception in ways that are trustworthy, empathetic, and deeply human-centered.
 
 Outside of work, I speak and write about ethical AI and AI for social good, make visual art, hike, and meditate. I also actively support initiatives that advance equity in STEM and beyond.
 
