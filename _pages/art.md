@@ -5,4 +5,4 @@ permalink: /art/
 author_profile: true
 ---
 
-This is my art gallery page. You can showcase your artwork here.
+This is my art gallery page. WIP.
