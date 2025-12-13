@@ -7,12 +7,23 @@ redirect_from:
   - /about.html
 ---
 
-I’m **Nicole Hao**, an AI engineer in New York City. I received my **M.Eng. in Computer Science** and **B.A. in Mathematics** from Cornell University.
+Hi! I’m Nicole. I currently work as an AI engineer at Artian AI after receiving my M.Eng. in Computer Science and B.A. in Mathematics from Cornell University in 2025.
 
-Professionally, I work at the intersection of **R&D** and **go-to-market strategy**, building **multimodal** and **RAG-based** systems that help people work more effectively and help enterprises scale complex workflows.
+Professioanlly, I work at the intersection of engineering and product, building multimodal and multi-agent systems that help people work more effectively and enable enterprises to scale complex workflows. At Artian, I design and build enterprise-grade multi-agent AI solutions for leading global financial institutions. Previously, I led the development of InkSight AI, an EdTech platform for multi-sensory note-taking that supports students with disabilities at educational institutions. This work was recognized at the Cornell Tech Entrepreneurship Showcase and received multiple grants and donations.
 
-My background spans **mathematics**, **machine learning**, and **astrophysics**, and my long-term focus is on **applied AI systems** that tightly connect theory to deployment. I work with multimodal data—language, vision, and unstructured text—to design AI tools that are not only scalable, but **robust**, **interpretable**, and **usable** in real-world settings.
+My background spans mathematics, machine learning, deep learning, robotics, and astrophysics. Broadly, I’m interested in multimodal perception, language and reasoning, and multi-agent system design, with a particular focus on accessible and dependable performance in high-stakes settings such as healthcare, financial services, and education. I am also exploring how these AI systems can be deployed in robots and embodied agents, with the long-term goal of creating systems that can reason about and interact with the real world, support manual labor, and augment human perception on high-stakes tasks in ways that are trustworthy, empathetic, and deeply human-centered in their design.
 
+Outside of work, I speak and write about ethical AI and AI for social good, make visual art, hike, and meditate. I also actively support initiatives that advance equity in STEM and beyond.
+
+> "We gain strength, and courage, and confidence by each experience in which we really stop to look fear in the face... we must do that which we think we cannot."
+> 
+> — Eleanor Roosevelt
+
+📬 Feel free to connect if you’re building in AI, or if you just want to talk research, social impact, startups, and how we can use technology to better society.
+
+Let’s build a future where AI serves humanity — not the other way around.
+
+Opinions are my own. All content are archived and tracked for reporduction and distribution. Please provide proper attribution when quoting or referencing.
 
 <!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
 
