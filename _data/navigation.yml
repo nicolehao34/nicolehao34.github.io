@@ -22,6 +22,9 @@ main:
     
   - title: "Art"
     url: /art/
+    
+  - title: "Media"
+    url: /media/
         
   - title: "Blog Posts"
     url: /year-archive/
