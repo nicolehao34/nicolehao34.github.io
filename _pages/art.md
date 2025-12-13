@@ -58,4 +58,44 @@ author_profile: true
     <img src="{{ base_path }}/images/art/freedom.jpg" alt="Freedom">
     <h3>Freedom</h3>
   </div>
+  
+  <div class="art-item">
+    <img src="{{ base_path }}/images/art/Dream.jpeg" alt="Dream">
+    <h3>Dream</h3>
+  </div>
+  
+  <div class="art-item">
+    <img src="{{ base_path }}/images/art/Hero.jpeg" alt="Hero">
+    <h3>Hero</h3>
+  </div>
+  
+  <div class="art-item">
+    <img src="{{ base_path }}/images/art/Justice.jpeg" alt="Justice">
+    <h3>Justice</h3>
+  </div>
+  
+  <div class="art-item">
+    <img src="{{ base_path }}/images/art/StudyofCaravaggioDisposition.jpeg" alt="Study of Caravaggio Disposition">
+    <h3>Study of Caravaggio's Deposition</h3>
+  </div>
+  
+  <div class="art-item">
+    <img src="{{ base_path }}/images/art/TheManWhoSoldTheWorld.jpeg" alt="The Man Who Sold The World">
+    <h3>The Man Who Sold The World</h3>
+  </div>
+  
+  <div class="art-item">
+    <img src="{{ base_path }}/images/art/TheWheelOfKarma.jpeg" alt="The Wheel Of Karma">
+    <h3>The Wheel Of Karma</h3>
+  </div>
+  
+  <div class="art-item">
+    <img src="{{ base_path }}/images/art/TrustFall.jpeg" alt="Trust Fall">
+    <h3>Trust Fall</h3>
+  </div>
+  
+  <div class="art-item">
+    <img src="{{ base_path }}/images/art/Water.jpeg" alt="Water">
+    <h3>Water</h3>
+  </div>
 </div>
