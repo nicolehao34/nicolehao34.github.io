@@ -1,7 +1,7 @@
 ---
 title: "InkSight: A Multimodal STEM Lecture Video Dataset and Data Labeling Tool"
 collection: publications
-category: manuscripts
+category: preprints
 permalink: /publication/2025-12-inksight
 excerpt: 'This work develops a multimodal STEM lecture video dataset and annotation framework for training and evaluating vision-language models on educational understanding.'
 date: 2025-12-01
