@@ -1,6 +1,6 @@
 ---
 title: "Little Red Rover Beta Testing"
-excerpt: "Beta testing Cornell's first educational robotics platform<br/><img src='/images/Projects/little-red-rover-beta-testing.png'>"
+excerpt: "Beta testing Cornell's first educational robot <br/><img src='/images/Projects/little-red-rover-beta-testing.png'>"
 collection: portfolio
 date: 2025-12-01
 tags:
