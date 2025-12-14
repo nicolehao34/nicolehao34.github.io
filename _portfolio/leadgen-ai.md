@@ -29,6 +29,12 @@ Traditional B2B lead generation is time-consuming and inefficient:
 
 LeadGen.AI automates this entire workflow while maintaining high personalization quality.
 
+## Demo Video
+
+<div style="position: relative; padding-bottom: 62.5%; height: 0; overflow: hidden; max-width: 100%; margin: 2rem 0;">
+  <iframe src="https://www.loom.com/embed/127c02e726394d038c29dd18419ce4d8?sid=7ff1b0c6-f1e7-4877-93ee-48ea8ae139ca" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+</div>
+
 ## Key Features
 
 ### 🎯 Ideal Customer Profile (ICP) Management
@@ -87,37 +93,6 @@ LeadGen.AI automates this entire workflow while maintaining high personalization
 * PostgreSQL database with Drizzle ORM
 * OpenAI GPT-4 for AI generation
 * Web scraping with Cheerio/Puppeteer
-
-**Infrastructure:**
-* Replit deployment
-* RESTful API architecture
-* Real-time data synchronization
-
-### System Design
-
-```
-┌─────────────────┐
-│   Web Scraper   │ → Industry Events → Database
-└─────────────────┘
-
-┌─────────────────┐
-│  ICP Definition │ → Strategic Criteria → AI Engine
-└─────────────────┘
-
-┌─────────────────┐
-│  Event Data +   │
-│  Company Info   │ → AI Analysis → Qualified Leads
-│  + ICP Filters  │
-└─────────────────┘
-
-┌─────────────────┐
-│ Lead Enrichment │ → Additional Data → Enhanced Profiles
-└─────────────────┘
-
-┌─────────────────┐
-│   Outreach AI   │ → Personalization → Ready Messages
-└─────────────────┘
-```
 
 ### Data Flow
 
@@ -297,6 +272,5 @@ npm run dev
 ## Links
 
 * [GitHub Repository](https://github.com/nicolehao34/LeadGen.AI)
-* [Live Demo](https://genlead-ai-nicolehao7.replit.app/)
 * [Technical Documentation](https://github.com/nicolehao34/LeadGen.AI/blob/demo/DOCUMENTATION.md)
 * Topics: AI Agents, Lead Generation, B2B Sales, Web Scraping, GPT-4, TypeScript
