@@ -1,6 +1,6 @@
 ---
 title: "Starshade Station Keeping"
-excerpt: "Orbital dynamics simulation for starshade spacecraft alignment<br/><img src='/images/Projects/starshade-stationkeeping.png'>"
+excerpt: "Orbital dynamics simulation for starshade spacecraft alignment<br/><img src='{{ base_path }}/images/Projects/starshade-stationkeeping.png'>"
 collection: portfolio
 date: 2022-08-01
 ---
@@ -12,6 +12,8 @@ This project focuses on station keeping for a starshade spacecraft, maintaining 
 ## Research Context
 
 Station keeping refers to maintaining a spacecraft's position and orientation relative to a target. For starshade missions, this requires minimizing differential lateral acceleration between the starshade and telescope to ensure precise alignment for scientific observations.
+
+![]({{ base_path }}/images/Projects/model.png)
 
 ## Key Components
 
