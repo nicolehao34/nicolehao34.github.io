@@ -17,7 +17,7 @@ LeadGen.AI is an AI-powered lead generation and automated outreach platform desi
 
 Originally built for DuPont Tedlar's Graphics & Signage team, the platform is architected with scalability and generalizability in mind - ready to be adapted across different product teams and industries.
 
-![LeadGen.AI Platform Interface]({{ base_path }}/images/Projects/LeadGenAI.png)
+![LeadGen.AI Platform Interface]({{ base_path }}/images/Projects/LeadGenAI-UI.png)
 
 ## Problem Statement
 
