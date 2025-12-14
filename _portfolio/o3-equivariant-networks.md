@@ -82,7 +82,7 @@ Efficient O(3)-equivariant networks enable:
 * Better utilization of 3D geometric data
 * Faster training and inference on large-scale problems
 
-## Full Paper
+## Full Presentation Deck
 
 <iframe src="{{ base_path }}/files/An_Efficient_Sparse_Kernel_Generator_for_O_3__Equivariant_Deep_Networks.pdf" width="100%" height="800px" style="border: 1px solid #ccc; margin: 20px 0;">
   <p>Your browser does not support PDFs. <a href="{{ base_path }}/files/An_Efficient_Sparse_Kernel_Generator_for_O_3__Equivariant_Deep_Networks.pdf">Download the PDF</a>.</p>
