@@ -1,13 +1,15 @@
 ---
 title: "Operator Learning in Sobolev Spaces"
-excerpt: "Functional analysis of neural operators with quantitative error bounds<br/><img src='/images/Projects/operator-learning-sobolev-spaces.png'>"
+excerpt: "Functional analysis of neural operators with quantitative error bounds<br/><img src='{{ base_path }}/images/Projects/operator-learning-sobolev-spaces.png'>"
 collection: portfolio
-date: 2025-06-01tags:
+date: 2025-06-01
+tags:
   - Applied Mathematics
   - Neural Operators
   - Functional Analysis
   - PDEs
-  - PyTorch---
+  - PyTorch
+---
 
 ## Overview
 
