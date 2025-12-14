@@ -3,6 +3,12 @@ title: "STAT: Shrinking Transformers After Training"
 excerpt: "Training-free transformer compression via interpolative decomposition<br/><img src='/images/Projects/interpolative-decomposition-pruning.png'>"
 collection: portfolio
 date: 2023-05-01
+tags:
+  - Model Compression
+  - Transformers
+  - LLMs
+  - Numerical Linear Algebra
+  - PyTorch
 ---
 
 ## Overview

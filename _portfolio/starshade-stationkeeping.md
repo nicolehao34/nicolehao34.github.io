@@ -2,8 +2,11 @@
 title: "Starshade Station Keeping"
 excerpt: "Orbital dynamics simulation for starshade spacecraft alignment<br/><img src='/images/Projects/starshade-stationkeeping.png'>"
 collection: portfolio
-date: 2022-08-01
----
+date: 2022-08-01tags:
+  - Applied Mathematics
+  - Simulation
+  - Orbital Mechanics
+  - Python---
 
 ## Overview
 

@@ -1,15 +1,21 @@
 ---
 title: "Deep Learning Roadmap"
-excerpt: "Interactive visualization of deep learning concepts<br/><img src='{{ base_path }}/images/Projects/deep-learning-roadmap.png'>"
+excerpt: "Interactive visualization of deep learning concepts<br/><img src='/images/Projects/deep-learning-roadmap.png'>"
 collection: portfolio
 date: 2024-05-01
+tags:
+  - React
+  - TypeScript
+  - Deep Learning
+  - Manim
+  - Visualization
 ---
 
 ## Overview
 
 An interactive roadmap visualizing all key concepts in deep learning, created as a comprehensive learning resource. The project aims to transform a detailed concept map into an interactive web-based tool. I created the following chart after learning about deep learning in college, and decided to turn it into an interactive, educational roadmap that I can use in my tutoring sessions.
 
-![Deep Learning Concept Map]({{ base_path }}/images/Projects/deep-learning-roadmap.png)
+![Deep Learning Concept Map]({{ base_path }}/images/Projects/The-great-deep-learning-tree.jpeg.png)
 
 Here's the PDF version: [Download PDF]({{ base_path }}/files/The-Great-Deep-Learning-Tree.pdf)
 

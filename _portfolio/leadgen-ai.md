@@ -3,6 +3,12 @@ title: "LeadGen.AI"
 excerpt: "AI-powered B2B lead generation and automated outreach platform<br/><img src='/images/Projects/LeadGenAI.png'>"
 collection: portfolio
 date: 2025-05-01
+tags:
+  - AI Agents
+  - Lead Generation
+  - Web Scraping
+  - GPT-4
+  - TypeScript
 ---
 
 ## Overview

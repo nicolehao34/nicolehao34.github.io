@@ -8,6 +8,48 @@ author_profile: true
 {% include base_path %}
 
 <style>
+  .filter-container {
+    margin: 2rem 0;
+    text-align: center;
+  }
+  
+  .filter-label {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .filter-btn {
+    padding: 0.5rem 1rem;
+    border: 2px solid #667eea;
+    background: white;
+    color: #667eea;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  
+  .filter-btn:hover {
+    background: #667eea;
+    color: white;
+  }
+  
+  .filter-btn.active {
+    background: #667eea;
+    color: white;
+  }
+
   .projects-gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -21,6 +63,10 @@ author_profile: true
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     background: #f9f9f9;
+  }
+  
+  .project-item.hidden {
+    display: none;
   }
   
   .project-item:hover {
@@ -71,6 +117,23 @@ author_profile: true
     line-height: 1.5;
   }
   
+  .project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-top: 0.8rem;
+    justify-content: center;
+  }
+  
+  .project-tag {
+    padding: 0.3rem 0.6rem;
+    background: #667eea;
+    color: white;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 500;
+  }
+  
   .project-date {
     font-size: 0.85rem;
     color: #999;
@@ -81,12 +144,37 @@ author_profile: true
     .projects-gallery {
       grid-template-columns: 1fr;
     }
+    
+    .filter-buttons {
+      justify-content: center;
+    }
   }
 </style>
 
+<div class="filter-container">
+  <div class="filter-label">Filter by Topic:</div>
+  <div class="filter-buttons">
+    <button class="filter-btn active" data-filter="all">All</button>
+    {% assign all_tags = "" | split: "" %}
+    {% for post in site.portfolio %}
+      {% if post.tags %}
+        {% for tag in post.tags %}
+          {% unless all_tags contains tag %}
+            {% assign all_tags = all_tags | push: tag %}
+          {% endunless %}
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+    {% assign sorted_tags = all_tags | sort %}
+    {% for tag in sorted_tags %}
+      <button class="filter-btn" data-filter="{{ tag | slugify }}">{{ tag }}</button>
+    {% endfor %}
+  </div>
+</div>
+
 <div class="projects-gallery">
   {% for post in site.portfolio %}
-    <div class="project-item">
+    <div class="project-item" data-tags="{% if post.tags %}{% for tag in post.tags %}{{ tag | slugify }} {% endfor %}{% endif %}">
       <a href="{{ base_path }}{{ post.url }}">
         {% if post.header.teaser %}
           <img src="{{ base_path }}/{{ post.header.teaser }}" alt="{{ post.title }}">
@@ -99,6 +187,13 @@ author_profile: true
         <div class="project-content">
           <h3>{{ post.title }}</h3>
           <p>{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+          {% if post.tags %}
+            <div class="project-tags">
+              {% for tag in post.tags %}
+                <span class="project-tag">{{ tag }}</span>
+              {% endfor %}
+            </div>
+          {% endif %}
           {% if post.date %}
             <div class="project-date">{{ post.date | date: "%B %Y" }}</div>
           {% endif %}
@@ -107,4 +202,35 @@ author_profile: true
     </div>
   {% endfor %}
 </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const projectItems = document.querySelectorAll('.project-item');
+    
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', function() {
+        // Remove active class from all buttons
+        filterBtns.forEach(b => b.classList.remove('active'));
+        // Add active class to clicked button
+        this.classList.add('active');
+        
+        const filter = this.getAttribute('data-filter');
+        
+        projectItems.forEach(item => {
+          if (filter === 'all') {
+            item.classList.remove('hidden');
+          } else {
+            const tags = item.getAttribute('data-tags');
+            if (tags && tags.includes(filter)) {
+              item.classList.remove('hidden');
+            } else {
+              item.classList.add('hidden');
+            }
+          }
+        });
+      });
+    });
+  });
+</script>
 

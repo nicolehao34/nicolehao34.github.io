@@ -3,6 +3,12 @@ title: "Exam Review Bot"
 excerpt: "A custom hybrid RAG-based chatbot for exam preparation<br/><img src='/images/Projects/exam-review-bot.png'>"
 collection: portfolio
 date: 2024-07-01
+tags:
+  - Python
+  - TypeScript
+  - RAG
+  - LangChain
+  - FastAPI
 ---
 
 ## Overview
