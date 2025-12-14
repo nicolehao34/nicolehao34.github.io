@@ -11,6 +11,8 @@ Research on efficient sparse kernel generation methods for O(3)-equivariant deep
 
 I did this project to better understand the paper "An Efficient Sparse Kernel Generator for O(3)-Equivariant Deep Networks", as well as latest advancements in parallel progreamming.
 
+![Presentation on the paper]({{ base_path }}/images/Projects/o3-presentation.jpeg)
+
 ## Background: O(3) Equivariance
 
 **O(3)** is the orthogonal group representing all rotations and reflections in 3D space. An equivariant neural network maintains a predictable relationship between input and output transformations: when the input is rotated, the output rotates correspondingly.
@@ -79,6 +81,12 @@ Efficient O(3)-equivariant networks enable:
 * Scalable scientific computing applications
 * Better utilization of 3D geometric data
 * Faster training and inference on large-scale problems
+
+## Full Paper
+
+<iframe src="{{ base_path }}/files/An_Efficient_Sparse_Kernel_Generator_for_O_3__Equivariant_Deep_Networks.pdf" width="100%" height="800px" style="border: 1px solid #ccc; margin: 20px 0;">
+  <p>Your browser does not support PDFs. <a href="{{ base_path }}/files/An_Efficient_Sparse_Kernel_Generator_for_O_3__Equivariant_Deep_Networks.pdf">Download the PDF</a>.</p>
+</iframe>
 
 ## Topics
 
