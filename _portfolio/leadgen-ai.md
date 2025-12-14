@@ -1,6 +1,6 @@
 ---
 title: "LeadGen.AI"
-excerpt: "AI-powered B2B lead generation and automated outreach platform<br/><img src='{{ base_path }}/images/Projects/LeadGenAI.png'>"
+excerpt: "AI-powered B2B lead generation and automated outreach platform<br/><img src='/images/Projects/LeadGenAI.png'>"
 collection: portfolio
 date: 2025-05-01
 ---
