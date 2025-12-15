@@ -8,21 +8,27 @@ redirect_from:
 ---
 Hi! I’m Nicole. 
 
-I work as an software engineer at Artian AI after receving my M.Eng. in Computer Science and B.A. in Mathematics from Cornell University in 2025.
+I currently work as a software engineer at Artian AI. I received my M.Eng. in Computer Science in 2025 and B.A. in Mathematics from Cornell University in 2024.
 
  At Artian, I design and build enterprise-grade multi-agent AI solutions for leading global financial institutions, and previously I led InkSight AI, an EdTech startup for multi-sensory note-taking that supports students with disabilities and was recognized at the 2024 Cornell Tech Entrepreneurship Showcase.
 
 My background spans mathematics, machine learning, deep learning, robotics, and astrophysics. I’m broadly interested in multimodal perception, language and reasoning, and multi-agent system design, with a focus on autonomous agents in critical and high-stakes industries like healthcare, finance, and education. I’m also exploring how these agents can be deployed in robots, with the long-term goal of creating systems that can reason about and interact with the real world, support manual labor, and augment human perception.
 
-Outside of work, I speak and write about ethical AI and AI for social good, make visual art, hike, and meditate. I also actively support initiatives that advance equity in STEM and beyond.
+---
+
+As a researcher, I believe the most precious qualities are (1) curiosity (2) resilient and (3) empathy, and I strive to bring this commitment to every project I work on. A ground rule I set for myself: **design and build for humans, and with humans.**
 
 > "We gain strength, and courage, and confidence by each experience in which we really stop to look fear in the face... we must do that which we think we cannot."
 > 
 > — Eleanor Roosevelt
 
-📬 Feel free to reach out if you’re building in AI, or if you just want to talk research, social impact, entrepeneurship, and how we can use technology to better society.
+---
 
-Let’s build a future where AI serves humanity — not the other way around.
+Outside of work, I speak and write about ethical AI and AI for social good, make visual art, hike, and meditate. I also actively support initiatives that advance equity in STEM and beyond.
+
+Let's build a future where AI serves humanity — not the other way around.
+
+📬 Feel free to reach out if you’re building something cool, or if you just want to talk research, social impact, entrepeneurship, and how we can use technology to better society.
 
 ---
 
