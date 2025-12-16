@@ -17,13 +17,11 @@ At Artian, I design and build enterprise-grade multi-agent AI solutions for lead
   <em>Presenting InkSight AI at the 2024 Cornell Tech Entrepreneurship Showcase</em>
 </p>
 
-My background spans mathematics, machine learning, deep learning, robotics, and astrophysics. I’m broadly interested in multimodal perception, language and reasoning, and multi-agent system design, with a focus on autonomous agents in critical and high-stakes industries like healthcare, finance, and education. I’m also exploring how these agents can be deployed in robots, with the long-term goal of creating systems that can reason about and interact with the real world, support manual labor, and augment human perception.
+My background spans mathematics, machine learning, deep learning, robotics, and astrophysics. I'm broadly interested in multimodal perception, language and reasoning, and multi-agent system design, with a focus on autonomous agents in critical and high-stakes industries like healthcare, finance, and education. I'm also exploring how these agents can be deployed in robots, with the long-term goal of creating *human-centered* systems that can reason about and interact with the physical world, support manual labor, and augment human perception. 
 
 ---
 
-As a researcher, I believe the most precious qualities are curiosity, resilience, and empathy; and I strive to bring these to every project I work on. 
-
-A ground rule I set for myself: **design and build for humans, and with humans.**
+As a researcher and innovator, I value curiosity, resilience, creativity, and empathy above all, and I strive to bring these qualities to every project I work on.
 
 > "We gain strength, and courage, and confidence by each experience in which we really stop to look fear in the face... we must do that which we think we cannot."
 > 
