@@ -10,7 +10,7 @@ Hi! I’m Nicole.
 
 I currently work as a software engineer at [Artian AI](https://artian.ai). I received my M.Eng. in Computer Science in 2025 and B.A. in Mathematics from Cornell University in 2024.
 
-At Artian, I design and build enterprise-grade multi-agent AI solutions for leading global financial institutions, and previously I led InkSight AI, an EdTech startup for multi-sensory note-taking that supports students with disabilities and was recognized at the 2024 Cornell Tech Entrepreneurship Showcase.
+At Artian, I design and build enterprise-grade multi-agent AI solutions for leading global financial institutions, and previously I led InkSight AI, An EdTech startup building a multi-sensory note-taking platform that improves lecture accessibility for blind/low-vision and Deaf/hard-of-hearing students, as well as neurodivergent learners.
 
 <p align="center">
   <img src="/images/pitch.jpg" alt="Cornell Tech Entrepreneurship Showcase, InkSight: Empowering All Learners with AI" width="50%"><br>
