@@ -21,7 +21,7 @@ My background spans mathematics, machine learning, deep learning, robotics, and 
 
 ---
 
-As a researcher and innovator, I value curiosity, resilience, creativity, and empathy above all, and I strive to bring these qualities to every project I work on.
+As a researcher and innovator, I value curiosity, empathy, creativity, and **resilience** above all, and I strive to bring these qualities to every project I work on.
 
 > "We gain strength, and courage, and confidence by each experience in which we really stop to look fear in the face... we must do that which we think we cannot."
 > 
