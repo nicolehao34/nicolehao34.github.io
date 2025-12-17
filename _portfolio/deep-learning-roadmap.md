@@ -7,8 +7,8 @@ tags:
   - React
   - TypeScript
   - Deep Learning
-  - Manim
   - Visualization
+  - Education
 ---
 
 ## Overview

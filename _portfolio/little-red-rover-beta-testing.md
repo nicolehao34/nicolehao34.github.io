@@ -9,6 +9,7 @@ tags:
   - Python
   - Path Planning
   - Beta Testing
+  - Education
 ---
 
 ## Overview

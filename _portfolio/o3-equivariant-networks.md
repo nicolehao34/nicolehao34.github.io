@@ -3,6 +3,9 @@ title: "An Efficient Sparse Kernel Generator for O(3)-Equivariant Deep Networks"
 excerpt: "Efficient sparse kernel generation for rotation-equivariant neural networks<br/><img src='/images/Projects/o3-equivariant-networks.png'>"
 collection: portfolio
 date: 2025-01-01
+tags:
+  - Education
+  - Parallel Programming
 ---
 
 ## Overview

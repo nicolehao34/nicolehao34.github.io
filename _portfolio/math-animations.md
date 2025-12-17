@@ -3,6 +3,8 @@ title: "Awesome Math Animations"
 excerpt: "Manim-powered animations to explain mathematical concepts<br/><img src='/images/Projects/math-animations.png'>"
 collection: portfolio
 date: 2024-08-01
+tags:
+   - Education
 ---
 
 ## Overview

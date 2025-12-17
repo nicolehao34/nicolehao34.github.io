@@ -3,6 +3,9 @@ title: "Parallel CNN-Based Transient Stability Analysis"
 excerpt: "Parallelized multi-channel CNN for power grid transient stability assessment (98.8% test accuracy)<br/><img src='/images/Projects/parallel-cnn-transient-stability.png'>"
 collection: portfolio
 date: 2023-11-01
+tags:
+  - Parallel Programming
+  - Deep Learning
 ---
 
 ## Overview
