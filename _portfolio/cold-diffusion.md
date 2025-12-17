@@ -76,7 +76,7 @@ Regardless of which restoration operator we use, our estimate will approximately
 
 ## Core Contribution: A New Family of Generative Models
 
-![Various Transforms]({{ base_path }}/images/Projects/cold-diffusion/Screenshot 2024-04-29 at 5.30.41 PM.png)
+![Various Transforms]({{ base_path }}/images/Projects/cold-diffusion/various-transforms.png)
 
 Cold diffusion works with arbitrary image transforms:
 - **Blur**: Gaussian kernel convolution
@@ -99,6 +99,7 @@ Gaussian blur implementation:
 ### Model Architecture: Attention U-Net
 
 ![Model Architecture]({{ base_path }}/images/Projects/cold-diffusion/model-architecture.png)
+![Implementation]({{ base_path }}/images/Projects/cold-diffusion/implementation.png)
 
 **Key Components:**
 
@@ -137,15 +138,18 @@ Gaussian blur implementation:
 
 ## Results
 
-### Deblurring Performance
+### Deblurring Performance from Reimplementation
 
-![Deblurring Results]({{ base_path }}/images/Projects/cold-diffusion/Screenshot 2024-04-29 at 5.23.29 PM.png)
+![Degraded inputs $$D(x_0, T)$$]({{ base_path }}/images/Projects/cold-diffusion/sample-xt-99.png)
 
-Comparison across MNIST, CIFAR-10, and CelebA datasets:
-- **Left**: Degraded inputs $$D(x_0, T)$$
-- **Middle-left**: Direct reconstruction $$R(D(x_0, T))$$
-- **Middle-right**: Sampled reconstruction with Algorithm 2
-- **Right**: Original images
+![Direct reconstruction $$R(D(x_0, T))$$]({{ base_path }}/images/Projects/cold-diffusion/sample-direct-recons-99.png)
+
+![Sampled reconstruction with Algorithm 2]({{ base_path }}/images/Projects/cold-diffusion/sample-recon-99.png)
+
+![ Original images]({{ base_path }}/images/Projects/cold-diffusion/sample-og-99.png)
+to...
+
+
 
 ### Training Progress
 
