@@ -1,10 +1,5 @@
 var addressPoints = [
   [
-    "Using Supervised Machine Learning to Detect and Classify Solar Flares<br />Conferences for Undergraduate Women in Physics (CUWiP); Ithaca, New York",
-    42.4374175,
-    -76.5483724
-  ],
-  [
     "Detecting Solar Flares in High-Resolution Spectra using Supervised Machine Learning<br />Nexus Research Scholars Symposium; Ithaca, New York",
     42.4374175,
     -76.5483724
