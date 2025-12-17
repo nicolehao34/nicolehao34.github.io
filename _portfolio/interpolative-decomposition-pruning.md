@@ -15,6 +15,8 @@ tags:
 
 STAT (Shrinking Transformers After Training) is a novel retraining-free compression method for transformer models based on interpolative decomposition. This research addresses the critical challenge of deploying large language models efficiently by reducing their computational requirements without sacrificing accuracy.
 
+This project is a continuation of [research from Prof. Anil Damle's group](https://papers.nips.cc/paper_files/paper/2022/hash/f8928b073ccbec15d35f2a9d39430bfd-Abstract-Conference.html). Special thanks to Prof. Anil Damle and Megan Renz for advising me on this work.
+
 ## Research Problem
 
 Modern transformer models (BERT, GPT, etc.) achieve state-of-the-art performance but are prohibitively large for deployment:
