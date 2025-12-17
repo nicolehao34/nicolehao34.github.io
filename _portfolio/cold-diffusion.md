@@ -69,7 +69,7 @@ Regardless of which restoration operator we use, our estimate will approximately
 
 ### Experimental Validation
 
-![Sampling Comparison]({{ base_path }}/images/Projects/cold-diffusion/experiment_image.png)
+![Sampling Comparison]({{ base_path }}/images/Projects/cold-diffusion/experiemnt_image.png)
 
 **Top row**: Algorithm 1 fails to generate meaningful images
 **Bottom row**: Algorithm 2 successfully samples high-quality images without any noise
@@ -131,13 +131,13 @@ Gaussian blur implementation:
   - 100,000 epochs: ~10 hours (optimal results)
 - **Metrics**: FID (Fréchet Inception Distance), SSIM (Structural Similarity Index)
 
-![MNIST Examples]({{ base_path }}/images/Projects/cold-diffusion/MNIST_example.png) ![CIFAR-10 Examples]({{ base_path }}/images/Projects/cold-diffusion/CIFAR10.png)
+![CIFAR-10 Examples]({{ base_path }}/images/Projects/cold-diffusion/CIFAR10.png)
 
 ## Results
 
 ### Deblurring Performance
 
-![Deblurring Results]({{ base_path }}/images/Projects/cold-diffusion/Screenshot 2024-04-29 at 5.23.16 PM.png)
+![Deblurring Results]({{ base_path }}/images/Projects/cold-diffusion/Screenshot 2024-04-29 at 5.23.29 PM.png)
 
 Comparison across MNIST, CIFAR-10, and CelebA datasets:
 - **Left**: Degraded inputs $$D(x_0, T)$$
@@ -145,31 +145,11 @@ Comparison across MNIST, CIFAR-10, and CelebA datasets:
 - **Middle-right**: Sampled reconstruction with Algorithm 2
 - **Right**: Original images
 
-### Training Progress: 1,000 Epochs
+### Training Progress
 
-<table>
-  <tr>
-    <td><img src="{{ base_path }}/images/Projects/cold-diffusion/sample-xt-10.png" alt="Degraded"><br><b>Degraded</b></td>
-    <td><img src="{{ base_path }}/images/Projects/cold-diffusion/sample-direct_recons-10.png" alt="Direct"><br><b>Direct</b></td>
-    <td><img src="{{ base_path }}/images/Projects/cold-diffusion/sample-recon-10.png" alt="Algorithm 2"><br><b>Algorithm 2</b></td>
-    <td><img src="{{ base_path }}/images/Projects/cold-diffusion/sample-og-10.png" alt="Original"><br><b>Original</b></td>
-  </tr>
-</table>
-
-At 1,000 epochs, the model begins to capture digit structures but lacks fine detail.
-
-### Training Progress: 100,000 Epochs
-
-<table>
-  <tr>
-    <td><img src="{{ base_path }}/images/Projects/cold-diffusion/sample-xt-95.png" alt="Degraded"><br><b>Degraded</b></td>
-    <td><img src="{{ base_path }}/images/Projects/cold-diffusion/sample-direct_recons-95.png" alt="Direct"><br><b>Direct</b></td>
-    <td><img src="{{ base_path }}/images/Projects/cold-diffusion/sample-recon-95.png" alt="Algorithm 2"><br><b>Algorithm 2</b></td>
-    <td><img src="{{ base_path }}/images/Projects/cold-diffusion/sample-og-95.png" alt="Original"><br><b>Original</b></td>
-  </tr>
-</table>
-
-After extended training, reconstructions show significant improvement in quality and fidelity.
+The model was trained over multiple stages:
+- **1,000 epochs**: Model begins to capture digit structures but lacks fine detail
+- **100,000 epochs**: Reconstructions show significant improvement in quality and fidelity
 
 ### Reconstruction Progression
 
