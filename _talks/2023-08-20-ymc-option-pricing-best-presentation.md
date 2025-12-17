@@ -9,3 +9,5 @@ location: "Columbus, Ohio"
 ---
 
 Presented research on stochastic partial differential equations for option pricing. Selected from 250+ applicants and 60+ presenters for this recognition.
+
+[View Slides (PDF)]({{ base_path }}/files/Slides_for_YMC.pdf)
