@@ -116,15 +116,15 @@ Comparing performance across different training durations (100, 300, 500, and 10
 
 **Critical Findings:**
 
-1. **100 Epochs** (Blue): Baseline performance, relatively stable across $\\alpha$ values
+1. **100 Epochs** (Blue): Baseline performance, relatively stable across $\alpha$ values
 2. **300 Epochs** (Orange): Slight improvement over 100 epochs
-3. **500 Epochs** (Green): Noticeable performance gains, especially in mid-range $\\alpha$ values
+3. **500 Epochs** (Green): Noticeable performance gains, especially in mid-range $\alpha$ values
 4. **1000 Epochs** (Red): Best overall performance
-   - Maintains high accuracy (~96%) for $\\alpha \in [0.0, 0.8]$
-   - Dramatic drop at $\\alpha = 1.0$ (~93%), showing pure hard-label training is suboptimal
-   - **Peak performance at $\\alpha = 0.3$**: Achieves ~97% accuracy
+   - Maintains high accuracy (~96%) for $\alpha \in [0.0, 0.8]$
+   - Dramatic drop at $\alpha = 1.0$ (~93%), showing pure hard-label training is suboptimal
+   - **Peak performance at $\alpha = 0.3$**: Achieves ~97% accuracy
 
-**Key Insight**: Longer training amplifies the benefits of knowledge distillation, with optimal $\\alpha$ values ($0.3-0.5$) showing the most significant improvements.
+**Key Insight**: Longer training amplifies the benefits of knowledge distillation, with optimal $\alpha$ values ($0.3-0.5$) showing the most significant improvements.
 
 ### Loss Landscape Analysis
 
@@ -132,9 +132,11 @@ Comparing performance across different training durations (100, 300, 500, and 10
 
 **Loss Behavior:**
 
-* **Student Loss** (Red): Remains remarkably stable across all $\\alpha$ values (~0.5), indicating consistent performance on ground-truth labels
-* **Student Scratch Loss** (Green): Shows high variability and generally higher loss values
-* **Optimal $\\alpha$**: Around $0.4-0.5$ where both losses are minimized
+**Student Loss** (Red): Remains remarkably stable across all $\alpha$ values (~0.5), indicating consistent performance on ground-truth labels
+
+**Student Scratch Loss** (Green): Shows high variability and generally higher loss values
+
+**Optimal $\alpha$**: Around $0.4-0.5$ where both losses are minimized
 
 ### Detailed MNIST Results
 
@@ -156,37 +158,49 @@ This unusual pattern suggests the student model requires significant training to
 
 **100-Epoch Training Pattern:**
 
-* **Low $\\alpha$ (0.0-0.3)**: Highest accuracy (~55-57%), student relies heavily on teacher's soft labels
-* **Mid $\\alpha$ (0.4-0.6)**: Moderate performance (~48-51%), balanced learning
-* **High $\\alpha$ (0.7-1.0)**: Stabilizes at ~51%, more emphasis on hard labels
+**Low $\alpha$ (0.0-0.3)**: Highest accuracy (~55-57%), student relies heavily on teacher's soft labels
 
-**Interpretation**: With shorter training (100 epochs), lower $\\alpha$ values perform better as the student benefits more from the teacher's pre-learned representations.
+**Mid $\alpha$ (0.4-0.6)**: Moderate performance (~48-51%), balanced learning
+
+**High $\alpha$ (0.7-1.0)**: Stabilizes at ~51%, more emphasis on hard labels
+
+**Interpretation**: With shorter training (100 epochs), lower $\alpha$ values perform better as the student benefits more from the teacher's pre-learned representations.
 
 ### Key Experimental Findings
 
 **Performance Summary:**
 
-* **Teacher Model**: $\\sim$98.8% test accuracy (1000 epochs)
-* **Best Student** ($\\alpha = 0.3$, 1000 epochs): $\\sim$97% accuracy
-* **Student Scratch** (no distillation): $\\sim$93.1% accuracy
-* **Performance Gap**: Up to **3.9% improvement** with optimal $\\alpha$ tuning
+**Teacher Model**: $\sim$98.8% test accuracy (1000 epochs)
 
-**Optimal $\\alpha$ Characteristics:**
+**Best Student** ($\alpha = 0.3$, 1000 epochs): $\\sim$97% accuracy
 
-The optimal $\\alpha$ value depends on:
-- **Teacher Model Quality**: Better teachers (>95% accuracy) allow lower $\\alpha$ values (more reliance on soft labels)
-- **Dataset Complexity**: MNIST benefits from $\\alpha \in [0.3, 0.5]$
-- **Training Duration**: Longer training (>500 epochs) shows more pronounced distillation benefits
-- **Model Capacity**: Smaller student models benefit more from lower $\\alpha$ values
+**Student Scratch** (no distillation): $\sim$93.1% accuracy
+
+**Performance Gap**: Up to **3.9% improvement** with optimal $\alpha$ tuning
+
+**Optimal $\alpha$ Characteristics:**
+
+The optimal $\alpha$ value depends on:
+**Teacher Model Quality**: Better teachers (>95% accuracy) allow lower $\alpha$ values (more reliance on soft labels)
+
+**Dataset Complexity**: MNIST benefits from $\alpha \in [0.3, 0.5]$
+
+**Training Duration**: Longer training (>500 epochs) shows more pronounced distillation benefits
+
+**Model Capacity**: Smaller student models benefit more from lower $\alpha$ values
 
 **Distillation Benefits:**
 
-Models trained with intermediate $\\alpha$ values demonstrated:
-* **Better Generalization**: Improved test accuracy compared to hard-label training
-* **Faster Convergence**: Reached target accuracy in fewer epochs
-* **Robustness**: More stable training curves with less variance
-* **Knowledge Transfer**: Successfully learned teacher's decision boundaries
-* **Smooth Interpolation**: Between memorization ($\\alpha = 1$) and imitation ($\\alpha = 0$)
+Models trained with intermediate $\alpha$ values demonstrated:
+**Better Generalization**: Improved test accuracy compared to hard-label training
+
+**Faster Convergence**: Reached target accuracy in fewer epochs
+
+**Robustness**: More stable training curves with less variance
+
+**Knowledge Transfer**: Successfully learned teacher's decision boundaries
+
+**Smooth Interpolation**: Between memorization ($\alpha = 1$) and imitation ($\alpha = 0$)
 
 ## Mathematical Framework
 
@@ -201,10 +215,13 @@ $$
 where higher temperature $T > 1$ produces softer probability distributions, revealing more information about the teacher's uncertainty.
 
 **Key Properties:**
-- $T = 1$: Standard softmax (sharp distributions)
-- $T \to \infty$: Uniform distribution
-- Optimal $T \in [2, 5]$ for most tasks
-- **This study used $T = 3.0$** for soft label generation
+$T = 1$: Standard softmax (sharp distributions)
+
+$T \to \infty$: Uniform distribution
+
+Optimal $T \in [2, 5]$ for most tasks
+
+**This study used $T = 3.0$** for soft label generation
 
 ### Theoretical Justification
 
@@ -221,18 +238,21 @@ This research provides empirical validation for the effectiveness of knowledge d
 
 ### Main Contributions
 
-1. **Systematic $\\alpha$ Analysis**: Comprehensive evaluation across 11 different $\\alpha$ values ($0.0$ to $1.0$ in $0.1$ increments)
+1. **Systematic $\alpha$ Analysis**: Comprehensive evaluation across 11 different $\alpha$ values ($0.0$ to $1.0$ in $0.1$ increments)
 2. **Multi-Scale Training Study**: Performance characterization across 100, 300, 500, and 1000 epochs
-3. **Optimal Parameter Identification**: $\\alpha \approx 0.3$ yields best performance for MNIST with CNN student
+3. **Optimal Parameter Identification**: $\alpha \approx 0.3$ yields best performance for MNIST with CNN student
 4. **Quantitative Validation**: Up to **3.9% accuracy improvement** over pure hard-label training
 
 ### Practical Insights
 
 **For Practitioners:**
-- Start with $\\alpha = 0.3-0.5$ for CNN-based models on image classification
-- Use lower $\\alpha$ ($< 0.3$) with high-quality teachers ($> 95\%$ accuracy)
-- Train for at least 500 epochs to fully realize distillation benefits
-- Set temperature $T = 3.0$ as a robust default
+Start with $\alpha = 0.3-0.5$ for CNN-based models on image classification
+
+Use lower $\alpha$ ($< 0.3$) with high-quality teachers ($> 95\%$ accuracy)
+
+Train for at least 500 epochs to fully realize distillation benefits
+
+Set temperature $T = 3.0$ as a robust default
 
 **For Researchers:**
 - Knowledge distillation effectiveness increases with training duration
