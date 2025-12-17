@@ -143,7 +143,7 @@ One of our central theoretical results establishes approximation error bounds sc
 
 **Theoretical Prediction:**
 
-For operator $\mathcal{G}: H^s \to H^t$ with regularity $s, t \geq 0$, the FNO approximation error satisfies:
+For operator $\\mathcal{G}: H^s \\to H^t$ with regularity $s, t \\geq 0$, the FNO approximation error satisfies:
 
 $$
 \| \mathcal{G} - \mathcal{G}_\theta \|_{H^t} \lesssim CN^{-\alpha}
@@ -151,17 +151,17 @@ $$
 
 where:
 * $N$ is the number of parameters
-* $\alpha > 0$ is the convergence rate
+* $\\alpha > 0$ is the convergence rate
 * $C$ depends on operator smoothness
 
 **Empirical Findings:**
 
 * **Power Law Fit**: $CN^{-1.11}$ closely matches theoretical predictions
-* **Optimal Regime**: Around $5 \times 10^5$ parameters (modes=16, width=64)
+* **Optimal Regime**: Around $5 \\times 10^5$ parameters (modes=16, width=64)
 * **Diminishing Returns**: Beyond $10^6$ parameters, error reduction slows
 * **Double-Descent**: Slight error increase for very large models before final descent
 
-The close agreement between theory ($\alpha \approx 1$) and experiment ($\alpha = 1.11$) validates our Sobolev approximation framework.
+The close agreement between theory ($\\alpha \\approx 1$) and experiment ($\\alpha = 1.11$) validates our Sobolev approximation framework.
 
 ### Architecture Comparison: Width vs. Depth
 
@@ -171,10 +171,10 @@ Comparing architectures reveals fundamental insights about spectral operator lea
 
 | Architecture | Modes | Width | Parameters | Best $H^1$-Error |
 |-------------|-------|-------|------------|------------------|
-| Small | 8 | 32 | $\sim 50k$ | $3 \times 10^{-7}$ |
-| Medium-S | 12 | 48 | $\sim 150k$ | $1.5 \times 10^{-7}$ |
-| Medium-L | 16 | 64 | $\sim 400k$ | $5 \times 10^{-8}$ |
-| Large | 24 | 96 | $\sim 1.5M$ | $1.5 \times 10^{-8}$ |
+| Small | 8 | 32 | $\\sim 50k$ | $3 \\times 10^{-7}$ |
+| Medium-S | 12 | 48 | $\\sim 150k$ | $1.5 \\times 10^{-7}$ |
+| Medium-L | 16 | 64 | $\\sim 400k$ | $5 \\times 10^{-8}$ |
+| Large | 24 | 96 | $\\sim 1.5M$ | $1.5 \\times 10^{-8}$ |
 
 **Key Insights:**
 
@@ -206,8 +206,8 @@ The flat relative error curve indicates the operator learning task has favorable
 * Green (dashed): FNO prediction
 
 **Right Panel - Spatial Derivative at $t=1$:**
-* Orange (solid): True $\partial_x u$
-* Orange (dashed): FNO predicted $\partial_x u$
+* Orange (solid): True $\\partial_x u$
+* Orange (dashed): FNO predicted $\\partial_x u$
 
 **Analysis:**
 
@@ -225,7 +225,7 @@ This validates that neural operators learn not just function values but the enti
 
 Comparing checkpoints at 100, 500, and 1000 epochs:
 
-* **100 Epochs** (Blue): Early convergence, $H^1$-error $\sim 10^{-6}$
+* **100 Epochs** (Blue): Early convergence, $H^1$-error $\\sim 10^{-6}$
 * **500 Epochs** (Orange): Intermediate refinement, sporadic spikes
 * **1000 Epochs** (Green): Final convergence, stable $10^{-8}$ error
 

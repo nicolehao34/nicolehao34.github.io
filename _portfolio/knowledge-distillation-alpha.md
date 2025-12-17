@@ -26,9 +26,9 @@ There exists an optimal range of alpha values that yields higher accuracy than t
 
 ### Core Components
 
-* **Teacher Model**: Large, high-performing CNN trained to $\sim$99% accuracy on MNIST
+* **Teacher Model**: Large, high-performing CNN trained to $\\sim$99% accuracy on MNIST
 * **Student Model**: Lightweight CNN (16 and 32 filters)
-* **Alpha** ($\alpha$): Scalar in $[0,1]$ that interpolates between:
+* **Alpha** ($\\alpha$): Scalar in $[0,1]$ that interpolates between:
   - Student loss (ground-truth labels)
   - Distillation loss (soft teacher labels)
 
@@ -50,7 +50,7 @@ $$
 \mathcal{L}_{\text{student}} = \text{CE}(\text{softmax}(z_s), y_{\text{true}})
 $$
 
-**Combined Loss**: Weighted combination controlled by $\alpha$
+**Combined Loss**: Weighted combination controlled by $\\alpha$
 
 $$
 \mathcal{L}_{\text{total}} = \alpha \cdot \mathcal{L}_{\text{student}} + (1-\alpha) \cdot \mathcal{L}_{\text{distill}}
@@ -68,29 +68,31 @@ $$
 **Teacher Model**:
 * 2-layer CNN with 256 and 512 filters
 * Trained for 1000 epochs
-* Achieved $\sim$98.8% test accuracy
+* Achieved $\\sim$98.8% test accuracy
 
 **Student Model**:
 * Lightweight 2-layer CNN with 16 and 32 filters
 * Trained for 100 epochs
-* Various $\alpha$ values tested
+* Various $\\alpha$ values tested
 
 ## Experimental Results
 
 ### Key Findings
 
-* **$\alpha = 1.0$** (hard labels only): $\sim$93.1% accuracy
-* **$\alpha = 0.5$** (balanced): Slightly better or comparable performance
-* **Teacher Model**: $\sim$98.8% accuracy baseline
-* **Conclusion**: Knowledge distillation can enhance generalization with proper $\alpha$ tuning
+* **$\\alpha = 1.0$** (hard labels only): $\\sim$93.1% accuracy
+* **$\\alpha = 0.5$** (balanced): Slightly better or comparable performance
+* **Teacher Model**: $\\sim$98.8% accuracy baseline
+* **Conclusion**: Knowledge distillation can enhance generalization with proper $\\alpha$ tuning
 
-The optimal $\alpha$ value depends on:
-- Teacher model quality: Better teachers allow lower $\alpha$ (more reliance on soft labels)
-- Dataset complexity: More comple$\alpha$ values demonstrated:
+The optimal $\\alpha$ value depends on:
+- Teacher model quality: Better teachers allow lower $\\alpha$ (more reliance on soft labels)
+- Dataset complexity: More complex datasets may benefit from higher $\\alpha$ values
+
+Models trained with intermediate $\\alpha$ values demonstrated:
 * Better generalization to test data
-* Improved performance over pure hard-label training ($\alpha = 1$)
+* Improved performance over pure hard-label training ($\\alpha = 1$)
 * Benefits of combining teacher knowledge with ground truth
-* Smooth interpolation between memorization ($\alpha = 1$) and imitation ($\alpha = 0$)
+* Smooth interpolation between memorization ($\\alpha = 1$) and imitation ($\\alpha = 0$)
 
 Models trained with intermediate alpha values demonstrated:
 * Better generalization to test data
