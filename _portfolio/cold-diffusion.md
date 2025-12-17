@@ -131,6 +131,8 @@ Gaussian blur implementation:
   - 100,000 epochs: ~10 hours (optimal results)
 - **Metrics**: FID (Fréchet Inception Distance), SSIM (Structural Similarity Index)
 
+![MNIST Examples]({{ base_path }}/images/Projects/Example-images-from-the-MNIST-dataset.png)
+
 ![CIFAR-10 Examples]({{ base_path }}/images/Projects/cold-diffusion/CIFAR10.png)
 
 ## Results
