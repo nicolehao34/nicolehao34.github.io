@@ -84,7 +84,6 @@ Research Experience
   * Modeled gravitational forces, orbital perturbations (J2 perturbation), and third-body interactions using Newton's law of gravitation and two-body problem equations
   * Developed proportional-derivative (PD) control algorithm to compute thruster firings and minimize differential lateral acceleration while maintaining precise telescope alignment
   * Used numerical integration techniques (Runge-Kutta method) to simulate starshade trajectory and optimize fuel consumption
-  * Project: [https://github.com/nicolehao34/starshade-stationkeeping](https://github.com/nicolehao34/starshade-stationkeeping)
 
 Skills
 ======
@@ -126,11 +125,3 @@ Honors & Awards
 * **NSF LEAPS-MPS Grant** (2023) - Awarded $9,000 in research support from the National Science Foundation for research on stochastic PDEs
 * **Nexus Research Scholar** (2022) - Selected from 300+ applicants; awarded $7,000 summer research grant
 
-Leadership & Service
-======
-* **Founder** - Big Red NYC: Cornell Alumni Club (Jul 2025 - Present)
-* **First-Generation & Low-Income (FGLI) Student Support Mentor** - Cornell University (Aug 2023 - May 2025)
-* **Peer Mentor** - Big Brother and Big Sisters of NYC (Jul 2025 - Present)
-* **Volunteer, Public Education** - New York Cares (Jul 2025 - Present)
-* **Resident Advisor** - Holland International Living Center, Cornell University (Aug 2022 - Dec 2024)
-* **Treasurer** - Underrepresented Students in Physics (Aug 2021 - Jan 2022)
