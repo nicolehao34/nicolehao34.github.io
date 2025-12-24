@@ -26,8 +26,8 @@ Station keeping refers to maintaining a spacecraft's position and orientation re
 
 Models the orbital dynamics of the starshade and calculates required adjustments using:
 
-* **Gravitational Force**: Newton's law of gravitation \(F = Gm_1m_2/r^2\)
-* **Orbital Perturbations**: \(J_2\) perturbation for Earth's oblateness and third-body interactions
+* **Gravitational Force**: Newton's law of gravitation \\(F = Gm_1m_2/r^2\\)
+* **Orbital Perturbations**: \\(J_2\\) perturbation for Earth's oblateness and third-body interactions
 * **Control Maneuvers**: Proportional-derivative (PD) control for position maintenance
 * **Numerical Integration**: 4th-order Runge-Kutta (RK4) method for time evolution
 
