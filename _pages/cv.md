@@ -15,6 +15,12 @@ Education
 * B.A. in Mathematics (Computer Science Concentration), Cornell University, 2024
   * Certificates in Cognitive Science, Neuroscience
 
+Relevant Courses
+======
+* **Graduate-Level:** Robot Learning, Foundations of Robotics, Parallel Computing, Applied Functional Analysis, Reinforcement Learning, Natural Language Processing, Measure Theory, Probability, and Stochastic Processes (OSU), Advanced Stochastic Calculus (OSU)
+* **Undergraduate:** Numerical Analysis, Computational Linear Algebra, Deep Learning, Machine Learning, Object-Oriented Programming and Data Structures, Applicable Algebra, Real Analysis, Number Theory, Advanced Linear Algebra, Probability & Statistics, Multivariable Calculus
+* **Independent:** Neuroscience, Cognitive Science, Functional Programming, Databases, Computer Organization and Architecture, Algorithms, Operating Systems
+
 Work Experience
 ======
 * Jul 2025 - Present: **Software Engineer**
