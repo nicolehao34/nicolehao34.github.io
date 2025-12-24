@@ -6,9 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hi! I’m Nicole. 
-
-I currently work as a software engineer at [Artian AI](https://artian.ai). I received my M.Eng. in Computer Science in 2025 and B.A. in Mathematics from Cornell University in 2024.
+Hi! I’m Nicole Hao. I received my M.Eng. in Computer Science in 2025 and B.A. in Mathematics from Cornell University in 2024. Current I'm in NYC, working as a software engineer at [Artian AI](https://artian.ai). 
 
 At Artian, I design and build enterprise-grade multi-agent AI solutions for leading global financial institutions, and previously I led InkSight AI, An EdTech startup building a multi-sensory note-taking platform that improves lecture accessibility for blind/low-vision and Deaf/hard-of-hearing students, as well as neurodivergent learners.
 
@@ -17,10 +15,14 @@ At Artian, I design and build enterprise-grade multi-agent AI solutions for lead
   <em>Presenting InkSight AI at the 2024 Cornell Tech Entrepreneurship Showcase</em>
 </p>
 
+Research
+---
+
 My background spans mathematics, machine learning, deep learning, robotics, and astrophysics. In my undergraduate years at Cornell, I was fortunate to work with [Prof. Ray Jayawardhana](https://physics-astronomy.jhu.edu/directory/ray-jayawardhana/) (now at JHU) on ML for astrophysics, [Prof. Yunan Yang](https://yunany.github.io/) on deep learning theory and knowledge distillation, [Prof. Anil Damle](https://www.cs.cornell.edu/~damle/) on LLM compression using computational linear algebra, [Prof. John Holmes](https://math.osu.edu/people/holmes.782) (OSU) on analysis of stochastic PDEs, and [Prof. Jennifer Sun](https://bowers.cornell.edu/people/jennifer-j-sun) on multimodal learning. I also was selected to beta test [Little Red Rover](https://little-red-rover.com/#/), Cornell's first educational robot for introductory robotics courses. 
 
 I'm broadly interested in multimodal perception, language and reasoning, and multi-agent system design, with a focus on autonomous agents in critical and high-stakes industries like healthcare, finance, and education. I'm also exploring how these agents can be deployed in robots, with the long-term goal of creating *human-centered* systems that can reason about and interact with the physical world, support manual labor, and augment human perception. 
 
+Values
 ---
 
 As a researcher and innovator, I value curiosity, empathy, creativity, and **resilience** above all, and I strive to bring these qualities to every project I work on.
@@ -31,6 +33,7 @@ Something I always say to myself: *If something didn't work the first time, paus
 > 
 > — Eleanor Roosevelt
 
+More about me
 ---
 
 Outside of work, I speak and write about ethical AI and AI for social good, make visual art, hike, and meditate. I also actively support initiatives that advance equity in STEM and beyond.
