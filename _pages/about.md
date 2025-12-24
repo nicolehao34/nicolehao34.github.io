@@ -33,6 +33,8 @@ As a researcher and innovator, I value curiosity, empathy, creativity, and **res
 
 Something I always say to myself: *If something didn't work the first time, pause, reflect, and try it again in a different way until it works. Iterate and improve.*
 
+Fear is our biggest enemy. I've seen this in [my experience teaching younger kids](/teaching/). We have limited time on this planet, so if you have an idea, pursue it boldly and persist. You won't know where it can lead until you try. 
+
 > "We gain strength, and courage, and confidence by each experience in which we really stop to look fear in the face... we must do that which we think we cannot."
 > 
 > — Eleanor Roosevelt
@@ -40,7 +42,7 @@ Something I always say to myself: *If something didn't work the first time, paus
 More about me
 ---
 
-Outside of work, I speak and write about ethical AI and AI for social good, make visual art, hike, and meditate. I also actively support initiatives that advance equity in STEM and beyond.
+Outside of work, I [write about ethical AI and analyze new trends in tech](/_posts/), make [visual art](/art/), hike, and meditate. I also actively support initiatives that advance equity in STEM and beyond.
 
 Let's build a future where AI serves humanity — not the other way around.
 
