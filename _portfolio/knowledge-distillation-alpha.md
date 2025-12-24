@@ -26,9 +26,9 @@ There exists an optimal range of alpha values that yields higher accuracy than t
 
 ### Core Components
 
-* **Teacher Model**: Large, high-performing CNN trained to $\\sim$99% accuracy on MNIST
+* **Teacher Model**: Large, high-performing CNN trained to \(\sim\)99% accuracy on MNIST
 * **Student Model**: Lightweight CNN (16 and 32 filters)
-* **Alpha** ($\\alpha$): Scalar in $[0,1]$ that interpolates between:
+* **Alpha** (\(\alpha\)): Scalar in \([0,1]\) that interpolates between:
   - Student loss (ground-truth labels)
   - Distillation loss (soft teacher labels)
 
@@ -42,7 +42,7 @@ $$
 \mathcal{L}_{\text{distill}} = \text{CE}\left(\text{softmax}\left(\frac{z_s}{T}\right), \text{softmax}\left(\frac{z_t}{T}\right)\right)
 $$
 
-where $z_s$ and $z_t$ are student and teacher logits, and $T$ is the temperature parameter.
+where \(z_s\) and \(z_t\) are student and teacher logits, and \(T\) is the temperature parameter.
 
 **Student Loss**: Cross-entropy between student predictions and hard labels
 
@@ -50,7 +50,7 @@ $$
 \mathcal{L}_{\text{student}} = \text{CE}(\text{softmax}(z_s), y_{\text{true}})
 $$
 
-**Combined Loss**: Weighted combination controlled by $\\alpha$
+**Combined Loss**: Weighted combination controlled by \(\alpha\)
 
 $$
 \mathcal{L}_{\text{total}} = \alpha \cdot \mathcal{L}_{\text{student}} + (1-\alpha) \cdot \mathcal{L}_{\text{distill}}
@@ -68,12 +68,12 @@ $$
 **Teacher Model**:
 * 2-layer CNN with 256 and 512 filters
 * Trained for 1000 epochs
-* Achieved $\\sim$98.8% test accuracy
+* Achieved \(\sim\)98.8% test accuracy
 
 **Student Model**:
 * Lightweight 2-layer CNN with 16 and 32 filters
 * Trained for 100 epochs
-* Various $\\alpha$ values tested
+* Various \(\alpha\) values tested
 
 ## Experimental Setup
 
@@ -83,7 +83,7 @@ The distillation process follows a teacher-student paradigm where knowledge is t
 
 ![Knowledge Distillation Architecture]({{ base_path }}/images/Projects/KDStructure.jpg)
 
-The teacher model generates soft predictions that encode richer information than hard labels, including uncertainty and class relationships. The student learns from both these soft targets and the ground-truth labels, weighted by the $\\alpha$ parameter.
+The teacher model generates soft predictions that encode richer information than hard labels, including uncertainty and class relationships. The student learns from both these soft targets and the ground-truth labels, weighted by the \(\alpha\) parameter.
 
 ## Experimental Results
 
@@ -103,10 +103,10 @@ The teacher model generates soft predictions that encode richer information than
 
 **Key Observations:**
 
-* **Student with Distillation** (Orange line): Shows consistently higher accuracy across most $\\alpha$ values compared to training from scratch
+* **Student with Distillation** (Orange line): Shows consistently higher accuracy across most \(\alpha\) values compared to training from scratch
 * **Student Scratch** (Blue line): Baseline performance without teacher guidance
-* **Optimal Range**: $\\alpha \in [0.0, 0.5]$ demonstrates the strongest performance improvement
-* **Performance Drop**: At $\\alpha = 1.0$ (hard labels only), the student performs significantly worse, validating the benefit of soft label guidance
+* **Optimal Range**: \(\alpha \in [0.0, 0.5]\) demonstrates the strongest performance improvement
+* **Performance Drop**: At \(\alpha = 1.0\) (hard labels only), the student performs significantly worse, validating the benefit of soft label guidance
 
 ### Multi-Epoch Analysis
 
@@ -116,15 +116,15 @@ Comparing performance across different training durations (100, 300, 500, and 10
 
 **Critical Findings:**
 
-1. **100 Epochs** (Blue): Baseline performance, relatively stable across $\alpha$ values
+1. **100 Epochs** (Blue): Baseline performance, relatively stable across \(\alpha\) values
 2. **300 Epochs** (Orange): Slight improvement over 100 epochs
-3. **500 Epochs** (Green): Noticeable performance gains, especially in mid-range $\alpha$ values
+3. **500 Epochs** (Green): Noticeable performance gains, especially in mid-range \(\alpha\) values
 4. **1000 Epochs** (Red): Best overall performance
-   - Maintains high accuracy (~96%) for $\alpha \in [0.0, 0.8]$
-   - Dramatic drop at $\alpha = 1.0$ (~93%), showing pure hard-label training is suboptimal
-   - **Peak performance at $\alpha = 0.3$**: Achieves ~97% accuracy
+   - Maintains high accuracy (~96%) for \(\alpha \in [0.0, 0.8]\)
+   - Dramatic drop at \(\alpha = 1.0\) (~93%), showing pure hard-label training is suboptimal
+   - **Peak performance at \(\alpha = 0.3\)**: Achieves ~97% accuracy
 
-**Key Insight**: Longer training amplifies the benefits of knowledge distillation, with optimal $\alpha$ values ($0.3-0.5$) showing the most significant improvements.
+**Key Insight**: Longer training amplifies the benefits of knowledge distillation, with optimal \(\alpha\) values (\(0.3-0.5\)) showing the most significant improvements.
 
 ### Loss Landscape Analysis
 
@@ -132,11 +132,11 @@ Comparing performance across different training durations (100, 300, 500, and 10
 
 **Loss Behavior:**
 
-**Student Loss** (Red): Remains remarkably stable across all $\alpha$ values (~0.5), indicating consistent performance on ground-truth labels
+**Student Loss** (Red): Remains remarkably stable across all \(\alpha\) values (~0.5), indicating consistent performance on ground-truth labels
 
 **Student Scratch Loss** (Green): Shows high variability and generally higher loss values
 
-**Optimal $\alpha$**: Around $0.4-0.5$ where both losses are minimized
+**Optimal \(\alpha\)**: Around \(0.4-0.5\) where both losses are minimized
 
 ### Detailed MNIST Results
 

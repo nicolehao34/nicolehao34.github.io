@@ -26,8 +26,8 @@ Station keeping refers to maintaining a spacecraft's position and orientation re
 
 Models the orbital dynamics of the starshade and calculates required adjustments using:
 
-* **Gravitational Force**: Newton's law of gravitation $$ F = Gm_1m_2/r^2 $$
-* **Orbital Perturbations**: $$J_2$$ perturbation for Earth's oblateness and third-body interactions
+* **Gravitational Force**: Newton's law of gravitation \(F = Gm_1m_2/r^2\)
+* **Orbital Perturbations**: \(J_2\) perturbation for Earth's oblateness and third-body interactions
 * **Control Maneuvers**: Proportional-derivative (PD) control for position maintenance
 * **Numerical Integration**: 4th-order Runge-Kutta (RK4) method for time evolution
 
@@ -50,13 +50,13 @@ $$
 $$
 
 where:
-$\mathbf{r}$ is the position vector
+\(\mathbf{r}\) is the position vector
 
-$\mu = GM$ is the gravitational parameter
+\(\mu = GM\) is the gravitational parameter
 
-$\mathbf{a}_{\text{pert}}$ represents perturbation accelerations
+\(\mathbf{a}_{\text{pert}}\) represents perturbation accelerations
 
-$\mathbf{a}_{\text{control}}$ is the control acceleration from thrusters
+\(\mathbf{a}_{\text{control}}\) is the control acceleration from thrusters
 
 ### Gravitational Forces
 
@@ -74,7 +74,7 @@ $$
 
 ### J2 Perturbation Model
 
-Earth's oblateness causes significant perturbations characterized by the $$J_2$$ coefficient:
+Earth's oblateness causes significant perturbations characterized by the \(J_2\) coefficient:
 
 $$
 \mathbf{a}_{J_2} = -\frac{3}{2}\frac{J_2\mu R_E^2}{r^4}\begin{bmatrix}
@@ -107,7 +107,7 @@ $$
 \Delta a = -\frac{3}{2}J_2\left(\frac{R_E}{r}\right)^2\left(1 - 3\sin^2\phi\right)
 $$
 
-where $\phi$ is the latitude.
+where \(\phi\) is the latitude.
 
 ### Proportional-Derivative (PD) Control Law
 
@@ -118,14 +118,13 @@ $$
 $$
 
 where:
-$$k_p \text{ (the proportional gain)}$$
-$$k_d (the derivative gain)$$
+\(k_p\) (the proportional gain)
 
-$$
-\mathbf{e} = \mathbf{r}_{\text{desired}} - \mathbf{r}_{\text{actual}} \text{ (the position error)
-}$$ 
+\(k_d\) (the derivative gain)
 
-$$\dot{\mathbf{e}} \text{ (the velocity error)}$$
+\(\mathbf{e} = \mathbf{r}_{\text{desired}} - \mathbf{r}_{\text{actual}}\) (the position error)
+
+\(\dot{\mathbf{e}}\) (the velocity error)
 
 ### Differential Lateral Acceleration
 
@@ -135,13 +134,13 @@ $$
 \Delta \mathbf{a}_{\perp} = (\mathbf{a}_S - \mathbf{a}_T) - [(\mathbf{a}_S - \mathbf{a}_T) \cdot \hat{\mathbf{r}}_{ST}]\hat{\mathbf{r}}_{ST}
 $$
 
-where $$\hat{\mathbf{r}}_{ST}$$ is the unit vector from telescope to starshade.
+where \(\hat{\mathbf{r}}_{ST}\) is the unit vector from telescope to starshade.
 
 ### Numerical Integration
 
 The equations are solved using the **4th-order Runge-Kutta (RK4)** method:
 
-For $$\dot{y} = f(t, y)$$:
+For \(\dot{y} = f(t, y)\):
 
 $$
 \begin{align}
@@ -153,17 +152,17 @@ y_{n+1} &= y_n + \frac{h}{6}(k_1 + 2k_2 + 2k_3 + k_4)
 \end{align}
 $$
 
-where $$h$$ is the time step.
+where \(h\) is the time step.
 
 ### Fuel Optimization Constraint
 
-The total $$\Delta V$$ (velocity change) required for station keeping over mission duration $$T$$:
+The total \(\Delta V\) (velocity change) required for station keeping over mission duration \(T\):
 
 $$
 \Delta V_{\text{total}} = \int_0^T |\mathbf{a}_{\text{control}}(t)| \, dt
 $$
 
-The goal is to minimize $$\Delta V_{\text{total}}$$ while maintaining alignment within tolerance $\epsilon$:
+The goal is to minimize \(\Delta V_{\text{total}}\) while maintaining alignment within tolerance \(\epsilon\):
 
 $$
 |\mathbf{e}(t)| < \epsilon \quad \forall t \in [0, T]
@@ -172,7 +171,7 @@ $$
 ## Achievements
 
 * Accurate simulation of orbital dynamics for station keeping scenarios
-* Efficient control algorithm minimizing fuel usage while maintaining precise alignment (optimizes $$\Delta V_{\text{total}}$$)
+* Efficient control algorithm minimizing fuel usage while maintaining precise alignment (optimizes \(\Delta V_{\text{total}}\))
 * Foundation for understanding station keeping challenges in exoplanet imaging missions
 * Successful replication of results from Kulik et al.'s paper on minimal differential lateral acceleration
 
@@ -180,10 +179,10 @@ $$
 
 Key performance indicators for station keeping:
 
-* **Position Error**: $$|\mathbf{e}| < 1$$ meter for optimal imaging
-* **Differential Acceleration**: $$|\Delta \mathbf{a}_{\perp}| < 10^{-7}$$ m/s² 
-* **Fuel Consumption**: Minimized $$\Delta V$$ over mission lifetime (typically years)
-* **Control Frequency**: Adjustments every $$\sim 1$$-10 seconds depending on mission phase
+* **Position Error**: \(|\mathbf{e}| < 1\) meter for optimal imaging
+* **Differential Acceleration**: \(|\Delta \mathbf{a}_{\perp}| < 10^{-7}\) m/s² 
+* **Fuel Consumption**: Minimized \(\Delta V\) over mission lifetime (typically years)
+* **Control Frequency**: Adjustments every \(\sim 1\)-10 seconds depending on mission phase
 
 ## Acknowledgments
 

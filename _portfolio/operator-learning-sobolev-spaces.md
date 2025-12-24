@@ -29,7 +29,7 @@ This is **operator learning** – learning machines that transform whole functio
 
 ### Sobolev Spaces and Operator Learning
 
-Let $D \subset \mathbb{R}^d$ be a bounded Lipschitz domain. For $s \in \mathbb{N}$, the **Sobolev space** $H^s(D)$ consists of square-integrable functions with weak derivatives up to order $s$ also square-integrable:
+Let \(D \subset \mathbb{R}^d\) be a bounded Lipschitz domain. For \(s \in \mathbb{N}\), the **Sobolev space** \(H^s(D)\) consists of square-integrable functions with weak derivatives up to order \(s\) also square-integrable:
 
 $$
 H^s(D) := \left\{ f \in L^2(D) \mid \partial^\alpha f \in L^2(D), \ \forall |\alpha| \leq s \right\}
@@ -43,7 +43,7 @@ $$
 
 **Why Sobolev Spaces?**
 
-1. **Natural PDE Framework**: PDE solutions may fail to be classically differentiable (e.g., shocks), but weak derivatives still exist in $H^s$
+1. **Natural PDE Framework**: PDE solutions may fail to be classically differentiable (e.g., shocks), but weak derivatives still exist in \(H^s\)
 2. **Hilbert Space Structure**: Inner products, orthonormal bases, and projection theorems enable rigorous approximation theory
 3. **Compactness**: Rellich-Kondrachov theorem provides compact embeddings essential for finite-dimensional approximation
 4. **Controls Derivatives**: Sobolev norms measure both function values and smoothness simultaneously
@@ -52,11 +52,11 @@ $$
 
 The finite-dimensional approximability of operators between Sobolev spaces hinges on compactness:
 
-**Theorem (Rellich-Kondrachov)**: Let $D \subset \mathbb{R}^d$ be a bounded Lipschitz domain. If $s > t + d/2$, then the embedding $H^s(D) \hookrightarrow H^t(D)$ is compact.
+**Theorem (Rellich-Kondrachov)**: Let \(D \subset \mathbb{R}^d\) be a bounded Lipschitz domain. If \(s > t + d/2\), then the embedding \(H^s(D) \hookrightarrow H^t(D)\) is compact.
 
 **Implications for Operator Learning:**
 
-* Bounded sequences in $H^s(D)$ have convergent subsequences in $H^t(D)$
+* Bounded sequences in \(H^s(D)\) have convergent subsequences in \(H^t(D)\)
 * Images of compact sets under continuous operators can be uniformly approximated by finite-dimensional projections
 * Infinite-dimensional operator learning problems can be reduced to finite-dimensional function approximation
 
@@ -64,7 +64,7 @@ This compactness property is the mathematical foundation enabling neural network
 
 ### Universal Approximation in Sobolev Norms - Reformulation
 
-**Theorem**: Let $\mathcal{G}: H^s(D) \to H^t(D')$ be a continuous nonlinear operator, and let $\mathcal{K} \subset H^s(D)$ be compact. Then for any $\varepsilon > 0$, there exists a ReLU neural network $\mathcal{G}_\theta$ such that:
+**Theorem**: Let \(\mathcal{G}: H^s(D) \to H^t(D')\) be a continuous nonlinear operator, and let \(\mathcal{K} \subset H^s(D)\) be compact. Then for any \(\varepsilon > 0\), there exists a ReLU neural network \(\mathcal{G}_\theta\) such that:
 
 $$
 \sup_{f \in \mathcal{K}} \| \mathcal{G}(f) - \mathcal{G}_\theta(f) \|_{H^t(D')} < \varepsilon
@@ -115,7 +115,7 @@ Sobolev spaces (H^s) are function spaces that measure not just function values b
 
 **Main Theorem (Quantitative Sobolev Approximation for Neural Operators)**
 
-For a continuous nonlinear operator $\mathcal{G}: H^{s}(D)\to H^{t}(D')$ with $s > d/2$ and inputs restricted to a compact subset $\mathcal{K} \subset H^{s}(D)$, there exists a ReLU neural network operator $\mathcal{G}_{\theta,N}$ with at most $N$ trainable parameters such that:
+For a continuous nonlinear operator \(\mathcal{G}: H^{s}(D)\to H^{t}(D')\) with \(s > d/2\) and inputs restricted to a compact subset \(\mathcal{K} \subset H^{s}(D)\), there exists a ReLU neural network operator \(\mathcal{G}_{\theta,N}\) with at most \(N\) trainable parameters such that:
 
 $$
 \sup_{f \in \mathcal{K}} \bigl\| \mathcal{G}(f) - \mathcal{G}_{\theta,N}(f) \bigr\|_{H^t(D')}
@@ -127,8 +127,8 @@ This yields an explicit complexity-error relation showing how approximation erro
 **Key Theoretical Contributions:**
 
 * **Universal Approximation in Sobolev Norms**: Reformulated the universal approximation result for operator learning using functional projection and basis expansion (rather than grid-based approaches)
-* **Quantitative Error Bounds**: Derived original theorem establishing that neural operators can approximate continuous operators between Sobolev spaces with approximation rate $\mathcal{O}(N^{-s/d})$
-* **Explicit Parameter Scaling**: Proved that achieving $\varepsilon$-accuracy requires $\mathcal{O}(\varepsilon^{-d/s})$ trainable parameters
+* **Quantitative Error Bounds**: Derived original theorem establishing that neural operators can approximate continuous operators between Sobolev spaces with approximation rate \(\mathcal{O}(N^{-s/d})\)
+* **Explicit Parameter Scaling**: Proved that achieving \(\varepsilon\)-accuracy requires \(\mathcal{O}(\varepsilon^{-d/s})\) trainable parameters
 * **Compactness-Based Construction**: Leveraged the Rellich-Kondrachov compactness theorem to reduce infinite-dimensional operator learning to finite-dimensional function approximation
 
 **Mathematical Framework:**
@@ -183,15 +183,15 @@ Experiments on the **1D Burgers' Equation** using Fourier Neural Operators (FNOs
 
 ### Theoretical Contributions
 
-* **Universal Approximation in Sobolev Spaces**: Established that continuous operators $\mathcal{G}: H^s(D) \to H^t(D')$ can be uniformly approximated on compact subsets by neural network operators $\mathcal{G}_\theta$
-* **Quantitative Complexity Bounds**: Proved that achieving $\varepsilon$-accuracy requires $\mathcal{O}(\varepsilon^{-d/s})$ parameters
-* **Explicit Error-Parameter Scaling**: Derived asymptotic power law $\|\mathcal{G} - \mathcal{G}_\theta\|_{H^t} \lesssim CN^{-s/d}$, where $N$ is the number of trainable parameters
+* **Universal Approximation in Sobolev Spaces**: Established that continuous operators \(\mathcal{G}: H^s(D) \to H^t(D')\) can be uniformly approximated on compact subsets by neural network operators \(\mathcal{G}_\theta\)
+* **Quantitative Complexity Bounds**: Proved that achieving \(\varepsilon\)-accuracy requires \(\mathcal{O}(\varepsilon^{-d/s})\) parameters
+* **Explicit Error-Parameter Scaling**: Derived asymptotic power law \(\|\mathcal{G} - \mathcal{G}_\theta\|_{H^t} \lesssim CN^{-s/d}\), where \(N\) is the number of trainable parameters
 * **Compactness-Based Framework**: Leveraged Rellich-Kondrachov theorem to reduce infinite-dimensional operator learning to finite-dimensional approximation
 
 ### Empirical Validation
 
-* **Near-Theoretical Convergence Rates**: Best-epoch errors follow $\|\mathcal{G} - \mathcal{G}_\theta\|_{H^1} \approx 7.36 \times 10^{-2} N^{-1.11}$, with empirical exponent $\alpha = 1.11$ remarkably close to theoretical benchmark $s/d = 1.0$
-* **Extreme Accuracy**: Largest FNO models (up to $1.8 \times 10^6$ parameters) achieve test $H^1$-errors between $10^{-7}$ and $10^{-9}$ on the 1D Burgers equation
+* **Near-Theoretical Convergence Rates**: Best-epoch errors follow \(\|\mathcal{G} - \mathcal{G}_\theta\|_{H^1} \approx 7.36 \times 10^{-2} N^{-1.11}\), with empirical exponent \(\alpha = 1.11\) remarkably close to theoretical benchmark \(s/d = 1.0\)
+* **Extreme Accuracy**: Largest FNO models (up to \(1.8 \times 10^6\) parameters) achieve test \(H^1\)-errors between \(10^{-7}\) and \(10^{-9}\) on the 1D Burgers equation
 * **Sobolev Fidelity**: Both solution values and spatial derivatives are recovered with near-perfect accuracy on held-out test data
 * **Optimization Dynamics Matter**: While best-epoch performance validates theory, long-run training exhibits loss spikes and instabilities—realizing optimal rates requires careful optimization (early stopping, learning rate schedules)
 * **Architecture Insights**: Width scaling (more Fourier modes) provides better parameter efficiency than depth for this operator learning task
@@ -222,10 +222,10 @@ Extended training reveals periodic instabilities and recovery patterns:
 
 **Critical Insights:**
 
-1. **Periodic Spikes**: Sharp increases in $H^1$-loss occur at regular intervals (~200 epochs)
+1. **Periodic Spikes**: Sharp increases in \(H^1\)-loss occur at regular intervals (~200 epochs)
 2. **Recovery Dynamics**: Model consistently recovers to lower error states after spikes
 3. **Long-Term Trend**: Overall downward trajectory despite local instabilities
-4. **Convergence Threshold**: Achieves $10^{-8}$ test error after ~1000 epochs
+4. **Convergence Threshold**: Achieves \(10^{-8}\) test error after ~1000 epochs
 
 This behavior suggests the optimization landscape contains saddle points or local minima that the optimizer periodically escapes, ultimately finding better solutions.
 
@@ -237,7 +237,7 @@ One of our central theoretical results establishes approximation error bounds sc
 
 **Theoretical Prediction:**
 
-For operator $\\mathcal{G}: H^s \\to H^t$ with regularity $s, t \\geq 0$, the FNO approximation error satisfies:
+For operator \(\mathcal{G}: H^s \to H^t\) with regularity \(s, t \geq 0\), the FNO approximation error satisfies:
 
 $$
 \| \mathcal{G} - \mathcal{G}_\theta \|_{H^t} \lesssim CN^{-\alpha}
@@ -251,12 +251,12 @@ where the parameters are:
 
 **Empirical Findings:**
 
-* **Power Law Fit**: $CN^{-1.11}$ closely matches theoretical predictions
-* **Optimal Regime**: Around $5 \\times 10^5$ parameters (modes=16, width=64)
-* **Diminishing Returns**: Beyond $10^6$ parameters, error reduction slows
+* **Power Law Fit**: \(CN^{-1.11}\) closely matches theoretical predictions
+* **Optimal Regime**: Around \(5 \times 10^5\) parameters (modes=16, width=64)
+* **Diminishing Returns**: Beyond \(10^6\) parameters, error reduction slows
 * **Double-Descent**: Slight error increase for very large models before final descent
 
-The close agreement between theory ($\\alpha \\approx 1$) and experiment ($\\alpha = 1.11$) validates our Sobolev approximation framework.
+The close agreement between theory (\(\alpha \approx 1\)) and experiment (\(\alpha = 1.11\)) validates our Sobolev approximation framework.
 
 ### Architecture Comparison: Width vs. Depth
 
@@ -284,8 +284,8 @@ Comparing architectures reveals fundamental insights about spectral operator lea
 
 Systematic variation of model capacity reveals:
 
-* **Absolute $H^1$-Error**: Decreases monotonically with parameters
-* **Relative $H^1$-Error**: Remains remarkably stable (~0.3%) across all sizes
+* **Absolute \(H^1\)-Error**: Decreases monotonically with parameters
+* **Relative \(H^1\)-Error**: Remains remarkably stable (~0.3%) across all sizes
 * **Generalization**: No overfitting observed even for largest models
 * **Data Efficiency**: Small models achieve good relative performance with limited capacity
 
@@ -295,20 +295,20 @@ The flat relative error curve indicates the operator learning task has favorable
 
 ![Burgers Equation Solution and Derivative]({{ base_path }}/images/Projects/figure_1.png)
 
-**Left Panel - Solution at $t=1$:**
-* Blue: Initial condition $u(x,0)$
-* Orange: True solution $u(x,1)$ from spectral solver
+**Left Panel - Solution at \(t=1\):**
+* Blue: Initial condition \(u(x,0)\)
+* Orange: True solution \(u(x,1)\) from spectral solver
 * Green (dashed): FNO prediction
 
-**Right Panel - Spatial Derivative at $t=1$:**
-* Orange (solid): True $\\partial_x u$
-* Orange (dashed): FNO predicted $\\partial_x u$
+**Right Panel - Spatial Derivative at \(t=1\):**
+* Orange (solid): True \(\partial_x u\)
+* Orange (dashed): FNO predicted \(\partial_x u\)
 
 **Analysis:**
 
 The FNO achieves remarkable accuracy:
-* **$L^2$ Error**: $< 10^{-6}$ for solution values
-* **$H^1$ Error**: $< 10^{-7}$ including derivatives
+* **\(L^2\) Error**: \(< 10^{-6}\) for solution values
+* **\(H^1\) Error**: \(< 10^{-7}\) including derivatives
 * **Shock Capture**: Accurately resolves steep gradients in Burgers' equation
 * **Sobolev Regularity**: Maintains smoothness properties of true solution
 
@@ -320,9 +320,9 @@ This validates that neural operators learn not just function values but the enti
 
 Comparing checkpoints at 100, 500, and 1000 epochs:
 
-* **100 Epochs** (Blue): Early convergence, $H^1$-error $\\sim 10^{-6}$
+* **100 Epochs** (Blue): Early convergence, \(H^1\)-error \(\sim 10^{-6}\)
 * **500 Epochs** (Orange): Intermediate refinement, sporadic spikes
-* **1000 Epochs** (Green): Final convergence, stable $10^{-8}$ error
+* **1000 Epochs** (Green): Final convergence, stable \(10^{-8}\) error
 
 The progression demonstrates:
 * Consistent improvement with extended training
@@ -333,7 +333,7 @@ The progression demonstrates:
 
 These experimental results provide strong empirical support for our main theoretical contributions:
 
-1. **Sobolev Approximation Bounds**: The observed $N^{-1.11}$ scaling validates our theoretical error bounds in $H^1$ norm
+1. **Sobolev Approximation Bounds**: The observed \(N^{-1.11}\) scaling validates our theoretical error bounds in \(H^1\) norm
 
 2. **Universal Approximation**: FNOs successfully approximate the Burgers solution operator across diverse initial conditions
 
@@ -408,7 +408,7 @@ In this appendix we collect basic notions from functional analysis and Sobolev-s
 
 ### Lipschitz Domain
 
-A domain $D \subset \mathbb{R}^d$ is called a **Lipschitz domain** if, near every point on its boundary, it can be locally represented as the region above the graph of a Lipschitz continuous function. That is, for every $x_0 \in \partial D$, there exists a neighborhood $U$ of $x_0$ and a Lipschitz function $\varphi: \mathbb{R}^{d-1} \to \mathbb{R}$ such that (after a coordinate change):
+A domain \(D \subset \mathbb{R}^d\) is called a **Lipschitz domain** if, near every point on its boundary, it can be locally represented as the region above the graph of a Lipschitz continuous function. That is, for every \(x_0 \in \partial D\), there exists a neighborhood \(U\) of \(x_0\) and a Lipschitz function \(\varphi: \mathbb{R}^{d-1} \to \mathbb{R}\) such that (after a coordinate change):
 
 $$
 D \cap U = \left\{ x = (x', x_d) \in U \mid x_d > \varphi(x') \right\}
@@ -416,7 +416,7 @@ $$
 
 ### Sobolev Space
 
-The Sobolev space $H^s(D)$ consists of functions $f \in L^2(D)$ such that all weak partial derivatives $\partial^\alpha f \in L^2(D)$ for all multi-indices with order up to $s$. These spaces are Hilbert spaces equipped with the norm:
+The Sobolev space \(H^s(D)\) consists of functions \(f \in L^2(D)\) such that all weak partial derivatives \(\partial^\alpha f \in L^2(D)\) for all multi-indices with order up to \(s\). These spaces are Hilbert spaces equipped with the norm:
 
 $$
 \|f\|_{H^s(D)} := \left( \sum_{|\alpha| \leq s} \int_D |\partial^\alpha f(x)|^2 \, dx \right)^{1/2}
@@ -424,16 +424,16 @@ $$
 
 ### Weak Derivative
 
-Let $f \in L^1_{\text{loc}}(D)$, where $D \subset \mathbb{R}^d$ is open. We say that $g \in L^1_{\text{loc}}(D)$ is the **weak derivative** of $f$ with respect to $x_i$ if:
+Let \(f \in L^1_{\text{loc}}(D)\), where \(D \subset \mathbb{R}^d\) is open. We say that \(g \in L^1_{\text{loc}}(D)\) is the **weak derivative** of \(f\) with respect to \(x_i\) if:
 
 $$
 \int_D f(x) \, \partial_i \varphi(x) \, dx = - \int_D g(x) \, \varphi(x) \, dx
 \quad \text{for all } \varphi \in C_c^\infty(D)
 $$
 
-In this case, we write $\partial_i f = g$ in the weak sense.
+In this case, we write \(\partial_i f = g\) in the weak sense.
 
-More generally, for a multi-index $\alpha \in \mathbb{N}^d$, $f$ has weak derivative $\partial^\alpha f \in L^1_{\text{loc}}(D)$ if:
+More generally, for a multi-index \(\alpha \in \mathbb{N}^d\), \(f\) has weak derivative \(\partial^\alpha f \in L^1_{\text{loc}}(D)\) if:
 
 $$
 \int_D f(x) \, \partial^\alpha \varphi(x) \, dx
@@ -441,17 +441,17 @@ $$
 \quad \forall \varphi \in C_c^\infty(D)
 $$
 
-**Remarks**: Weak derivatives generalize classical derivatives to functions that may not be differentiable in the usual sense. The space $H^s(D)$ is defined using these weak derivatives, allowing for the inclusion of solutions to PDEs that are not classically smooth.
+**Remarks**: Weak derivatives generalize classical derivatives to functions that may not be differentiable in the usual sense. The space \(H^s(D)\) is defined using these weak derivatives, allowing for the inclusion of solutions to PDEs that are not classically smooth.
 
 ### Square-Integrable Function
 
-A function $f: D \to \mathbb{R}$ is called **square-integrable** if:
+A function \(f: D \to \mathbb{R}\) is called **square-integrable** if:
 
 $$
 \int_D |f(x)|^2 \, dx < \infty
 $$
 
-The space of such functions is denoted $L^2(D)$, a Hilbert space with inner product:
+The space of such functions is denoted \(L^2(D)\), a Hilbert space with inner product:
 
 $$
 \langle f, g \rangle = \int_D f(x)g(x) \, dx
@@ -469,7 +469,7 @@ $$
 \mathcal{G}: f(x) \mapsto u(x), \quad f \in \mathcal{X},\ u \in \mathcal{Y}
 $$
 
-where $\mathcal{X}, \mathcal{Y}$ are typically subsets of $L^2(D)$ or $H^s(D)$ over a spatial domain $D \subset \mathbb{R}^d$. The central innovation of FNO is to parameterize the action of the operator in the **Fourier domain**, allowing it to efficiently capture long-range dependencies and smooth functional structure.
+where \(\mathcal{X}, \mathcal{Y}\) are typically subsets of \(L^2(D)\) or \(H^s(D)\) over a spatial domain \(D \subset \mathbb{R}^d\). The central innovation of FNO is to parameterize the action of the operator in the **Fourier domain**, allowing it to efficiently capture long-range dependencies and smooth functional structure.
 
 ### FNO Layer Components
 
@@ -485,7 +485,7 @@ FNO layers consist of:
 
 ### Mathematical Structure of an FNO Layer
 
-Let $v: D \to \mathbb{R}^C$ be a function with $C$ channels. An FNO layer updates $v$ as follows:
+Let \(v: D \to \mathbb{R}^C\) be a function with \(C\) channels. An FNO layer updates \(v\) as follows:
 
 $$
 \text{FNO}(v)(x) = \mathcal{F}^{-1}\left( R(\hat{v}) \right)(x) + W(v(x))
@@ -493,10 +493,10 @@ $$
 
 where the components are:
 
-**Fourier Transform**: The transformed function is given by $\hat{v} = \mathcal{F}(v)$
+**Fourier Transform**: The transformed function is given by \(\hat{v} = \mathcal{F}(v)\)
 
-**Mode-wise Transformation**: $R$ is a learned transformation applied mode-wise (typically a complex-valued linear layer on each frequency)
+**Mode-wise Transformation**: \(R\) is a learned transformation applied mode-wise (typically a complex-valued linear layer on each frequency)
 
-**Pointwise Linear**: $W$ is a learned pointwise linear transformation
+**Pointwise Linear**: \(W\) is a learned pointwise linear transformation
 
-The number of retained modes $k$ is typically truncated, introducing an implicit low-pass filter that stabilizes training and improves generalization.
+The number of retained modes \(k\) is typically truncated, introducing an implicit low-pass filter that stabilizes training and improves generalization.

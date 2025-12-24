@@ -54,7 +54,7 @@ Return: x_0
 
 ![Algorithm Comparison]({{ base_path }}/images/Projects/cold-diffusion/Algo_comparison.png)
 
-**Why does this work?** For linear degradations of the form $$D(x, s) \approx x + s \cdot e$$, the improved algorithm is extremely tolerant of errors in the restoration operator:
+**Why does this work?** For linear degradations of the form \(D(x, s) \approx x + s \cdot e\), the improved algorithm is extremely tolerant of errors in the restoration operator:
 
 $$
 \begin{align}
@@ -104,7 +104,7 @@ Gaussian blur implementation:
 **Key Components:**
 
 1. **Time-step Embedding**
-   - Sinusoidal embedding of blurring intensity $$t$$
+   - Sinusoidal embedding of blurring intensity \(t\)
    - Provides temporal context to the network
 
 2. **Down-sampling Path**
@@ -140,9 +140,9 @@ Gaussian blur implementation:
 
 ### Deblurring Performance from Reimplementation
 
-![Degraded inputs $$D(x_0, T)$$]({{ base_path }}/images/Projects/cold-diffusion/sample-xt-99.png)
+![Degraded inputs \(D(x_0, T)\)]({{ base_path }}/images/Projects/cold-diffusion/sample-xt-99.png)
 
-![Direct reconstruction $$R(D(x_0, T))$$]({{ base_path }}/images/Projects/cold-diffusion/sample-direct-recons-99.png)
+![Direct reconstruction \(R(D(x_0, T))\)]({{ base_path }}/images/Projects/cold-diffusion/sample-direct-recons-99.png)
 
 ![Sampled reconstruction with Algorithm 2]({{ base_path }}/images/Projects/cold-diffusion/sample-recon-99.png)
 
