@@ -9,7 +9,7 @@ redirect_from:
 Hi! I’m Nicole Hao. I received my M.Eng. in Computer Science in 2025 and B.A. in Mathematics from Cornell University in 2024. Current I'm in NYC, working as a software engineer at [Artian AI](https://artian.ai). 
 
 At Artian, I design and build enterprise-grade multi-agent AI solutions for leading global financial institutions. Previously, I founded InkSight AI, an EdTech startup building a multi-sensory note-taking platform that improves lecture accessibility for blind/low-vision,hard-of-hearing students, as well as neurodivergent learners; 
-My startup was selected and supported by the [Cornell eLab Student Startup Accelerator](https://eship.cornell.edu/elab/), where I was lucky to be mentored by many executives and
+My startup was selected and supported by the [Cornell eLab Student Startup Accelerator](https://www.elabstartup.com/), where I was lucky to be mentored by many executives and
 industry leaders.
 
 <p align="center">
