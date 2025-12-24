@@ -42,11 +42,17 @@ Fear is our biggest enemy. I've seen this in [my experience teaching younger kid
 More about me
 ---
 
-Outside of work, I [write about ethical AI and analyze new trends in tech](/_posts/), make [visual art](/art/), hike, and meditate. I also actively support initiatives that advance equity in STEM and beyond.
+Outside of work, I [write about ethical AI and analyze new trends in tech](/_posts/), read books on world religions, make [visual art](/art/), hike, and meditate. 
 
-Let's build a future where AI serves humanity — not the other way around.
+I also actively support initiatives that advance equity in STEM and beyond.
 
 📬 Feel free to reach out if you’re building something cool, or if you just want to talk research, social impact, entrepeneurship, and how we can use technology to better society.
+
+---
+
+<p style="font-size: 1.4em; font-weight: 600; text-align: center; color: #2c5aa0; margin: 2.5rem 0; line-height: 1.5;">
+Let's build a future where AI serves humanity, not the other way around.
+</p>
 
 ---
 
