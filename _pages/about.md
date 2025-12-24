@@ -8,9 +8,7 @@ redirect_from:
 ---
 Hi! I’m Nicole Hao. I received my M.Eng. in Computer Science in 2025 and B.A. in Mathematics from Cornell University in 2024. Current I'm in NYC, working as a software engineer at [Artian AI](https://artian.ai). 
 
-At Artian, I design and build enterprise-grade multi-agent AI solutions for leading global financial institutions. Previously, I founded InkSight AI, an EdTech startup building a multi-sensory note-taking platform that improves lecture accessibility for blind/low-vision,hard-of-hearing students, as well as neurodivergent learners; 
-My startup was selected and supported by the [Cornell eLab Student Startup Accelerator](https://www.elabstartup.com/), where I was lucky to be mentored by many executives and
-industry leaders.
+At Artian, I design and build enterprise-grade multi-agent AI solutions for global financial institutions. Previously, I founded InkSight AI, an EdTech startup building a multi-sensory note-taking platform that improves lecture accessibility for blind/low-vision, hard-of-hearing, and neurodivergent learners. My startup was selected for the [Cornell eLab Student Startup Accelerator](https://www.elabstartup.com/) and mentored by industry executives.
 
 <p align="center">
   <img src="/images/pitch.jpg" alt="Cornell Tech Entrepreneurship Showcase, InkSight: Empowering All Learners with AI" width="50%"><br>
@@ -20,7 +18,7 @@ industry leaders.
 Research
 ---
 
-My background spans mathematics, machine learning, deep learning, robotics, and astrophysics. In my undergraduate years at Cornell, I was fortunate to work with [Prof. Ray Jayawardhana](https://physics-astronomy.jhu.edu/directory/ray-jayawardhana/) (now at JHU) on ML for astrophysics, [Prof. Yunan Yang](https://yunany.github.io/) on deep learning theory and knowledge distillation, [Prof. Anil Damle](https://www.cs.cornell.edu/~damle/) on LLM compression using computational linear algebra, [Prof. John Holmes](https://math.osu.edu/people/holmes.782) (OSU) on analysis of stochastic PDEs, and [Prof. Jennifer Sun](https://bowers.cornell.edu/people/jennifer-j-sun) on multimodal learning. I also was selected to beta test [Little Red Rover](https://little-red-rover.com/#/), Cornell's first educational robot, implementing path finding algorithms like A*. 
+My background spans mathematics, machine learning, deep learning, and robotics. At Cornell, I worked with [Prof. Ray Jayawardhana](https://physics-astronomy.jhu.edu/directory/ray-jayawardhana/) (now at JHU) on ML for astrophysics, [Prof. Yunan Yang](https://yunany.github.io/) on deep learning theory, [Prof. Anil Damle](https://www.cs.cornell.edu/~damle/) on LLM compression, [Prof. John Holmes](https://math.osu.edu/people/holmes.782) (OSU) on stochastic PDEs, and [Prof. Jennifer Sun](https://bowers.cornell.edu/people/jennifer-j-sun) on multimodal learning. I also worked on [Little Red Rover](https://little-red-rover.com/#/), Cornell's first educational robot, implementing and testing path finding algorithms.
 
 I'm broadly interested in multimodal perception, language and reasoning, and multi-agent system design, with a focus on autonomous agents in critical and high-stakes industries like healthcare, finance, and education. I'm also exploring how these agents can be deployed in robots, with the long-term goal of creating *human-centered* systems that can reason about and interact with the physical world, support manual labor, and augment human perception. 
 
@@ -29,9 +27,9 @@ For more, see my [publications](/publications/) and [projects](/portfolio/) page
 Values
 ---
 
-As a researcher and innovator, I value curiosity, empathy, creativity, and **resilience** above all, and I strive to bring these qualities to every project I work on.
+As a researcher and innovator, I value curiosity, empathy, creativity, and **resilience** above all.
 
-Something I always say to myself: *If something didn't work the first time, pause, reflect, and try it again in a different way until it works. Iterate and improve.*
+*If something didn't work the first time, pause, reflect, and try again differently. Iterate and improve.*
 
 Fear is our biggest enemy. I've seen this in [my experience teaching younger kids](/teaching/). We have limited time on this planet, so if you have an idea, pursue it boldly and persist. You won't know where it can lead until you try. 
 
