@@ -29,7 +29,7 @@ This is **operator learning** – learning machines that transform whole functio
 
 ### Sobolev Spaces and Operator Learning
 
-Let \\\\(D \subset \mathbb{R}^d\\\\) be a bounded Lipschitz domain. For \\\\(s \in \mathbb{N}\\\\), the **Sobolev space** \\\\(H^s(D)\\\\) consists of square-integrable functions with weak derivatives up to order \\\\(s\\\\) also square-integrable:
+Let \\(D \subset \mathbb{R}^d\\) be a bounded Lipschitz domain. For \\(s \in \mathbb{N}\\), the **Sobolev space** \\(H^s(D)\\) consists of square-integrable functions with weak derivatives up to order \\(s\\) also square-integrable:
 
 $$
 H^s(D) := \left\{ f \in L^2(D) \mid \partial^\alpha f \in L^2(D), \ \forall |\alpha| \leq s \right\}

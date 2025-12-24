@@ -68,12 +68,12 @@ $$
 **Teacher Model**:
 * 2-layer CNN with 256 and 512 filters
 * Trained for 1000 epochs
-* Achieved \(\sim\)98.8% test accuracy
+* Achieved \\(\sim\\)98.8% test accuracy
 
 **Student Model**:
 * Lightweight 2-layer CNN with 16 and 32 filters
 * Trained for 100 epochs
-* Various \(\alpha\) values tested
+* Various \\(\alpha\\) values tested
 
 ## Experimental Setup
 
@@ -83,7 +83,7 @@ The distillation process follows a teacher-student paradigm where knowledge is t
 
 ![Knowledge Distillation Architecture]({{ base_path }}/images/Projects/KDStructure.jpg)
 
-The teacher model generates soft predictions that encode richer information than hard labels, including uncertainty and class relationships. The student learns from both these soft targets and the ground-truth labels, weighted by the \(\alpha\) parameter.
+The teacher model generates soft predictions that encode richer information than hard labels, including uncertainty and class relationships. The student learns from both these soft targets and the ground-truth labels, weighted by the \\(\alpha\\) parameter.
 
 ## Experimental Results
 
@@ -103,10 +103,10 @@ The teacher model generates soft predictions that encode richer information than
 
 **Key Observations:**
 
-* **Student with Distillation** (Orange line): Shows consistently higher accuracy across most \(\alpha\) values compared to training from scratch
+* **Student with Distillation** (Orange line): Shows consistently higher accuracy across most \\(\alpha\\) values compared to training from scratch
 * **Student Scratch** (Blue line): Baseline performance without teacher guidance
-* **Optimal Range**: \(\alpha \in [0.0, 0.5]\) demonstrates the strongest performance improvement
-* **Performance Drop**: At \(\alpha = 1.0\) (hard labels only), the student performs significantly worse, validating the benefit of soft label guidance
+* **Optimal Range**: \\(\alpha \in [0.0, 0.5]\\) demonstrates the strongest performance improvement
+* **Performance Drop**: At \\(\alpha = 1.0\\) (hard labels only), the student performs significantly worse, validating the benefit of soft label guidance
 
 ### Multi-Epoch Analysis
 
@@ -116,13 +116,13 @@ Comparing performance across different training durations (100, 300, 500, and 10
 
 **Critical Findings:**
 
-1. **100 Epochs** (Blue): Baseline performance, relatively stable across \(\alpha\) values
+1. **100 Epochs** (Blue): Baseline performance, relatively stable across \\(\alpha\\) values
 2. **300 Epochs** (Orange): Slight improvement over 100 epochs
 3. **500 Epochs** (Green): Noticeable performance gains, especially in mid-range \\(\alpha\\) values
 4. **1000 Epochs** (Red): Best overall performance
    - Maintains high accuracy (~96%) for \\(\alpha \in [0.0, 0.8]\\)
    - Dramatic drop at \\(\alpha = 1.0\\) (~93%), showing pure hard-label training is suboptimal
-   - **Peak performance at \\(\alpha = 0.3\\)**: Achieves ~97% accuracy
+   - **Peak performance at \\( \alpha = 0.3 \\)**: Achieves ~97% accuracy
 
 **Key Insight**: Longer training amplifies the benefits of knowledge distillation, with optimal \\(\alpha\\) values (\\(0.3-0.5\\)) showing the most significant improvements.
 
@@ -158,40 +158,40 @@ This unusual pattern suggests the student model requires significant training to
 
 **100-Epoch Training Pattern:**
 
-**Low $\\\\alpha$ (0.0-0.3)**: Highest accuracy (~55-57%), student relies heavily on teacher's soft labels
+**Low \\(alpha\\) (0.0-0.3)**: Highest accuracy (~55-57%), student relies heavily on teacher's soft labels
 
-**Mid $\\\\alpha$ (0.4-0.6)**: Moderate performance (~48-51%), balanced learning
+**Mid \\(alpha\\) (0.4-0.6)**: Moderate performance (~48-51%), balanced learning
 
-**High $\\\\alpha$ (0.7-1.0)**: Stabilizes at ~51%, more emphasis on hard labels
+**High \\(alpha\\) (0.7-1.0)**: Stabilizes at ~51%, more emphasis on hard labels
 
-**Interpretation**: With shorter training (100 epochs), lower $\\\\alpha$ values perform better as the student benefits more from the teacher's pre-learned representations.
+**Interpretation**: With shorter training (100 epochs), lower \\(alpha\\) values perform better as the student benefits more from the teacher's pre-learned representations.
 
 ### Key Experimental Findings
 
 **Performance Summary:**
 
-**Teacher Model**: $\sim$98.8% test accuracy (1000 epochs)
+**Teacher Model**: \\(\sim\\)98.8% test accuracy (1000 epochs)
 
-**Best Student** ($\\\\alpha = 0.3$, 1000 epochs): $\\\\sim$97% accuracy
+**Best Student** (\\(alpha = 0.3\\), 1000 epochs): \\(sim\\)97% accuracy
 
-**Student Scratch** (no distillation): $\\\\sim$93.1% accuracy
+**Student Scratch** (no distillation): \\(sim\\)93.1% accuracy
 
-**Performance Gap**: Up to **3.9% improvement** with optimal $\\\\alpha$ tuning
+**Performance Gap**: Up to **3.9% improvement** with optimal \\(alpha\\) tuning
 
-**Optimal $\\\\alpha$ Characteristics:**
+**Optimal \\(alpha\\) Characteristics:**
 
-The optimal $\\\\alpha$ value depends on:
-**Teacher Model Quality**: Better teachers (>95% accuracy) allow lower $\\\\alpha$ values (more reliance on soft labels)
+The optimal \\(alpha\\) value depends on:
+**Teacher Model Quality**: Better teachers (>95% accuracy) allow lower \\(alpha\\) values (more reliance on soft labels)
 
-**Dataset Complexity**: MNIST benefits from $\\\\alpha \in [0.3, 0.5]$
+**Dataset Complexity**: MNIST benefits from \\(alpha \in [0.3, 0.5] \\)
 
 **Training Duration**: Longer training (>500 epochs) shows more pronounced distillation benefits
 
-**Model Capacity**: Smaller student models benefit more from lower $\\\\alpha$ values
+**Model Capacity**: Smaller student models benefit more from lower \\(alpha\\) values
 
 **Distillation Benefits:**
 
-Models trained with intermediate $\\\\alpha$ values demonstrated:
+Models trained with intermediate \\(alpha\\) values demonstrated:
 **Better Generalization**: Improved test accuracy compared to hard-label training
 
 **Faster Convergence**: Reached target accuracy in fewer epochs
@@ -200,7 +200,7 @@ Models trained with intermediate $\\\\alpha$ values demonstrated:
 
 **Knowledge Transfer**: Successfully learned teacher's decision boundaries
 
-**Smooth Interpolation**: Between memorization ($\\alpha = 1$) and imitation ($\\alpha = 0$)
+**Smooth Interpolation**: Between memorization ((\\alpha = 1\\)) and imitation (\\(alpha = 0\\))
 
 ## Mathematical Framework
 
@@ -215,13 +215,13 @@ $$
 where higher temperature $T > 1$ produces softer probability distributions, revealing more information about the teacher's uncertainty.
 
 **Key Properties:**
-$T = 1$: Standard softmax (sharp distributions)
+\\(T = 1\\): Standard softmax (sharp distributions)
 
-$T \to \infty$: Uniform distribution
+\\(T \to \infty\\): Uniform distribution
 
-Optimal $T \in [2, 5]$ for most tasks
+Optimal \\(T \in [2, 5]\\) for most tasks
 
-**This study used $T = 3.0$** for soft label generation
+**This study used \\(T = 3.0\\)** for soft label generation
 
 ### Theoretical Justification
 
@@ -234,42 +234,38 @@ Optimal $T \in [2, 5]$ for most tasks
 
 ## Conclusions
 
-This research provides empirical validation for the effectiveness of knowledge distillation with varying $\\alpha$ parameters:
+This research provides empirical validation for the effectiveness of knowledge distillation with varying \\(alpha\\) parameters:
 
 ### Main Contributions
 
-1. **Systematic $\\alpha$ Analysis**: Comprehensive evaluation across 11 different $\\alpha$ values ($0.0$ to $1.0$ in $0.1$ increments)
+1. **Systematic \\(alpha\\) Analysis**: Comprehensive evaluation across 11 different \\(alpha\\) values (0.0 to 1.0 in 0.1 increments)
 2. **Multi-Scale Training Study**: Performance characterization across 100, 300, 500, and 1000 epochs
-3. **Optimal Parameter Identification**: $\\alpha \approx 0.3$ yields best performance for MNIST with CNN student
+3. **Optimal Parameter Identification**: \\(alpha \approx 0.3\\) yields best performance for MNIST with CNN student
 4. **Quantitative Validation**: Up to **3.9% accuracy improvement** over pure hard-label training
 
 ### Practical Insights
 
 **For Practitioners:**
-Start with $\\alpha = 0.3-0.5$ for CNN-based models on image classification
+Start with \\( \alpha = 0.3-0.5\\) for CNN-based models on image classification
 
-Use lower $\\alpha$ ($< 0.3$) with high-quality teachers ($> 95\%$ accuracy)
+Use lower \\( \alpha \\) (\\(< 0.3\\)) with high-quality teachers (\\(> 95\%\\) accuracy)
 
 Train for at least 500 epochs to fully realize distillation benefits
 
-Set temperature $T = 3.0$ as a robust default
+Set temperature \\(T = 3.0\\) as a robust default
 
 **For Researchers:**
 - Knowledge distillation effectiveness increases with training duration
 - Soft labels provide stronger learning signal than hard labels for compact models
-- $\\\\alpha$ serves as a critical hyperparameter requiring task-specific tuning
+- \\(\alpha\\) serves as a critical hyperparameter requiring task-specific tuning
 - Further investigation needed on non-image domains and larger-scale models
 
 ### Limitations
 
 1. **Single Dataset**: Focused exclusively on MNIST; generalization to complex datasets (CIFAR-10, ImageNet) requires validation
 2. **Architecture Constraints**: Limited to CNN-based models; transformer and attention-based architectures not explored
-3. **Fixed Temperature**: $T = 3.0$ used throughout; optimal temperature may vary with $\\\\alpha$
+3. **Fixed Temperature**: \\(T = 3.0\\) used throughout; optimal temperature may vary with \\(\alpha\\)
 4. **Compute Resources**: Extensive hyperparameter search limited by computational budget
-
-## Research Supervision
-
-Independent research project conducted under the guidance of **Prof. Yunan Yang**, Department of Mathematics, Cornell University (August 2023).
 
 ## Future Directions
 
@@ -277,14 +273,14 @@ Independent research project conducted under the guidance of **Prof. Yunan Yang*
 
 1. **Dataset Diversity**: Evaluate on Fashion-MNIST, CIFAR-10/100, and Tiny ImageNet
 2. **Architecture Variations**: Test with ResNet, VGG, and modern architectures (Vision Transformers)
-3. **Temperature Tuning**: Co-optimize $\\\\alpha$ and $T$ for maximum performance
+3. **Temperature Tuning**: Co-optimize \\(\alpha\\) and \\(T\\) for maximum performance
 4. **Advanced Metrics**: Include precision, recall, F1-score, and confusion matrix analysis
 
 ### Advanced Research Questions
 
-5. **Theoretical Analysis**: Mathematical characterization of optimal $\\\\alpha$ as a function of dataset complexity
+5. **Theoretical Analysis**: Mathematical characterization of optimal \\(\alpha\\) as a function of dataset complexity
 6. **Noisy Label Robustness**: Evaluate distillation effectiveness under label noise
-7. **Multi-Teacher Ensembles**: Investigate knowledge transfer from multiple teachers with different $\\\\alpha$ weights
+7. **Multi-Teacher Ensembles**: Investigate knowledge transfer from multiple teachers with different \\(\alpha\\) weights
 8. **Neural Architecture Search**: Automatic discovery of student architectures optimized for distillation
 9. **Continual Learning**: Knowledge distillation for sequential task learning
 10. **Cross-Domain Transfer**: Distillation across different modalities (image → text, audio → image)
