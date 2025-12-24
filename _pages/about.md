@@ -25,6 +25,8 @@ I'm broadly interested in multimodal perception, language and reasoning, and mul
 
 As a researcher and innovator, I value curiosity, empathy, creativity, and **resilience** above all, and I strive to bring these qualities to every project I work on.
 
+Something I always say to myself: *If something didn't work the first time, pause, reflect, and try it again in a different way until it works. Iterate and improve.*
+
 > "We gain strength, and courage, and confidence by each experience in which we really stop to look fear in the face... we must do that which we think we cannot."
 > 
 > — Eleanor Roosevelt
