@@ -19,6 +19,26 @@ Created by Nicole Hao, 2025
 
 ---
 
+## AI Foundations, Must Reads
+
+- **[ResNet](https://arxiv.org/abs/1512.03385)** (297,000+ citations, 2016): A cornerstone of deep learning; 'solved' the difficulty of training very deep networks
+- **[Adam](https://arxiv.org/abs/1412.6980)** (200,000+ citations, 2014): The most widely used optimizer; nearly all large models are trained with it
+- **[AlexNet](https://papers.nips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html)** (187,000+ citations, 2012): The starting point of the deep learning boom; kicked off GPU-based training
+- **[Attention (Transformer)](https://arxiv.org/abs/1706.03762)** (173,000+ citations, 2017): The "bible" of large models; the ancestor of all LLMs like ChatGPT
+- **[LSTM](https://www.bioinf.jku.at/publications/older/2604.pdf)** (140,000+ citations, 1997): A pioneer of sequence modeling; dominated NLP for 20 years
+- **[BERT](https://arxiv.org/abs/1810.04805)** (120,000+ citations, 2018): Introduced the "pretraining + fine-tuning" paradigm for large models
+- **[Deep Learning (Review)](https://www.nature.com/articles/nature14539)** (106,000+ citations, 2015): A review by the three giants (LeCun, Hinton, Bengio); textbook-level status
+- **[GAN](https://arxiv.org/abs/1406.2661)** (105,000+ citations, 2014): Generative adversarial networks; an early landmark for AIGC image generation
+- **[VGG](https://arxiv.org/abs/1409.1556)** (99,000+ citations, 2014): Classic CNN architecture; defined the design of deep vision networks
+- **[Faster R-CNN](https://arxiv.org/abs/1506.01497)** (99,000+ citations, 2015): A milestone in object detection; extremely widely used in industry
+- **[LeNet-5](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf)** (82,000+ citations, 1998): The original CNN; foundational work for convolutional neural networks
+- **[Batch Normalization](https://arxiv.org/abs/1502.03167)** (70,000+ citations, 2015): A normalization technique that makes large-model training ~10× faster
+- **[U-Net](https://arxiv.org/abs/1505.04597)** (70,000+ citations, 2015): Architectural foundation for image segmentation and diffusion models
+- **[t-SNE](https://www.jmlr.org/papers/v9/vandermaaten08a.html)** (63,000+ citations, 2008): Data visualization technique; must-read for dimensionality reduction
+- **[Dropout](https://jmlr.org/papers/v15/srivastava14a.html)** (60,000+ citations, 2014): The simplest effective way to prevent neural network overfitting
+
+---
+
 ## Neural Tangent Kernels (NTKs)
 
 Start with the following:
@@ -157,11 +177,22 @@ AI4Health (AI for Health) is an interdisciplinary field that applies machine lea
 
 ---
 
+## Agentic AI
+
+WIP
+
+---
+
+## AI4S
+
+WIP
+
+---
+
 ## Target Audience
 
 * Graduate students in ML/AI
 * Researchers entering new subfields
-* Practitioners seeking deeper mathematical understanding
 
 ## Links
 
