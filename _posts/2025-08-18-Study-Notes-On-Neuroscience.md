@@ -12,28 +12,59 @@ title: Study Notes on Neuroscience
 ## 2. Nervous System Overview
 - Central Nervous System (CNS)
 - Peripheral Nervous System (PNS)
+- Central Nervous System vs. Peripheral Nervous System
+  - Meninges
+  - Peripheral diseases
+  - Brain tumors
 - Basic cell types: neurons vs. glia
 
-## 3. Neuron Structure & Function
+## 3. Neurons
 - Parts of a neuron: dendrites, soma, axon, synapse
 - Action potentials & signal transmission
 - Neurotransmitters & receptors
 
-## 4. Brain Anatomy
-- Major brain regions (cortex, cerebellum, brainstem, limbic system)
-- Functional areas (frontal, parietal, temporal, occipital lobes)
+## 4. Neuroanatomy
+### Early Brain Development
 
-## 5. Sensory & Motor Systems
+### Lesions
+### Major brain regions (cortex, cerebellum, brainstem, limbic system)
+### Functional areas (frontal, parietal, temporal, occipital lobes)
+
+
+## 5. Neural-communication and Embodied Emotions
+### Neural Communications
+- Electrical language
+- Action potential
+
+### Neurotransmitters
+- Neurotransmitter Synthesis
+- Neurotransmitter Release
+- Chlotridial Toxins: Botox
+- Signal Termination
+- Receptors
+- Metabotropic Receptors
+
+### Embodied Emotions
+- Enteric Nervous System
+- Parasympathetics & Sympathetics
+- Parasympatheitc/Sympathetic Balance
+- Autonomic Pharmacology
+- Spinal Cord Injury
+
+## 5. Perception and Vision
 - Vision, hearing, touch, taste, smell
 - Motor pathways & control
 
-## 6. Higher Cognitive Functions
+## 6. Hearing 
+
+## 7. Higher Cognitive Functions
+- The Vestibular Sense and Gaze
 - Memory and learning
 - Language
 - Attention and consciousness
 - Emotion and motivation
 
-## 7. Methods in Neuroscience
+## 8. Methods in Neuroscience
 - Imaging (fMRI, PET, EEG, MEG)
 - Electrophysiology
 - Lesion studies
@@ -65,6 +96,8 @@ title: Study Notes on Neuroscience
 - AI and computational neuroscience
 - Neuroethics
 
+
+WIP
 ---
 
 ### References
