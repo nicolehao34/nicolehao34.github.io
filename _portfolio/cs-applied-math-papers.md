@@ -19,6 +19,25 @@ Created by Nicole Hao, 2025
 
 ---
 
+## Table of Contents
+
+- AI Foundations, Must Reads
+- Graph Neural Networks (GNNs)
+- AI4Health
+- Agentic AI
+- AI4S
+  - Physics - Physics-informed Neural Networks (PINNs)
+- Embodied AI
+- Artificial General Intelligence (AGI)
+- Not Yet Categorized
+  - Liquid Neural Networks (LNNs)
+  - Neural Tangent Kernels (NTKs)
+  - O(3)-Equivariant Deep Networks
+  - Real-time Adaptation Laws for Neural Networks
+  - Model Compression Techniques Through Numerical Linear Algebra
+
+---
+
 ## AI Foundations, Must Reads
 
 - **[ResNet](https://arxiv.org/abs/1512.03385)** (297,000+ citations, 2016): A cornerstone of deep learning; 'solved' the difficulty of training very deep networks
@@ -39,80 +58,6 @@ Created by Nicole Hao, 2025
 
 ---
 
-## Neural Tangent Kernels (NTKs)
-
-Start with the following:
-
-- [Lilian Weng's Blog on Math Behind NTKs](https://lilianweng.github.io/posts/2022-09-08-ntk/)
-- [Understanding the Neural Tangent Kernel](https://www.eigentales.com/NTK/)
-- [Neural Tangent Kernel, Applied Probability Notes](https://appliedprobability.blog/2021/03/10/neural-tangent-kernel/)
-- [Prior's for Infinite Networks](https://link.springer.com/chapter/10.1007/978-1-4612-0745-0_2)
-
-If you're interested in the functional analysis foundations of NTKs:
-- [Similarity of Neural Network Models: A Survey of Functional and Representational Measures](https://arxiv.org/pdf/2305.06329)
-
-Now you should be ready for the NTK foundational papers:
-- [Neural Tangent Kernel: Convergence and Generalization in Neural Networks](https://arxiv.org/abs/1806.07572), NeurIPS 2018
-- [Deep Neural Networks as Gaussian Processes](https://arxiv.org/abs/1711.00165), ICLR 2018
-- [On Lazy Training in Differentiable Programming](https://arxiv.org/abs/1812.07956)
-
----
-
-## O(3)-Equivariant Deep Networks
-
-O(3) is the group of all rotations and reflections in 3D space. It's a mathematical concept that describes how objects can be moved in 3D without changing their fundamental properties (like distances between points).
-
-An equivariant neural network, on the other hand, is one where the output changes in a specific, predictable way when the input is transformed by a group operation (like rotation or reflection). In simpler terms, if you rotate the input, the output will also be rotated in a corresponding manner.
-
-Why are O(3) equivariant networks important? This is because they can learn generalizable features from 3D data, even if the training data only contains examples in a limited number of orientations. This reduces the amount of training data needed. Also, for tasks involving 3D objects, like predicting molecular properties or simulating physical systems, O(3)-equivariance ensures that the model's predictions are consistent with the laws of physics and geometry. They are also better at generalizing to unseen orientations of the input data.
-
-### Mathematical Foundation on 3D Rotation Groups (Group Theory, Linear Algebra, Rotation Matrices)
-
-- [3D Rotation Group](https://en.wikipedia.org/wiki/3D_rotation_group) - a 3D rotation group is a type of orthogonal group
-- [Orthogonal Group](https://en.wikipedia.org/wiki/Orthogonal_group)
-- [3D Rotations](http://mesh.brown.edu/rotations/) - Gabriel Taubin
-
-### Latest Papers
-
-- [Unifying O(3) Equivariant Neural Networks Design with Tensor-Network Formalism](https://arxiv.org/abs/2211.07482)
-- [An Efficient Sparse Kernel Generator for O(3)-Equivariant Deep Networks](https://arxiv.org/abs/2501.13986)
-
----
-
-## Real-time Adaptation Laws for Neural Networks
-
-### Mathematical Foundations
-
-- A college course in Differential equations
-- Intermediate ODEs textbook: [Arnold's Ordinary Differential Equations](https://loshijosdelagrange.wordpress.com/wp-content/uploads/2013/04/vladimir-i-arnold-vladimir-i-arnold-roger-cooke-ordinary-differential-equations-1992.pdf)
-- Dynamical systems
-- Nonlinear dynamics is helpful too. I recommend Prof. Strogatz's [Nonlinear Dynamics and Chaos](https://www.stevenstrogatz.com/books/nonlinear-dynamics-and-chaos-with-applications-to-physics-biology-chemistry-and-engineering)
-
-### Concept Definitions More Pertinent to Understanding Latest Research
-
-- [Lyapunov function](https://en.wikipedia.org/wiki/Lyapunov_function)
-- [Lyapunov stability](https://en.wikipedia.org/wiki/Lyapunov_stability)
-
-### Latest Papers
-
-- [A Tutorial on a Lyapunov-Based Approach to the Analysis of Iterative Optimization Algorithms](https://arxiv.org/abs/2309.11377)
-- [Lyapunov-Based Real-Time and Iterative Adjustment of Deep Neural Networks](https://ieeexplore.ieee.org/document/9337905), IEEE Control Systems Letters
-
----
-
-## Model Compression Techniques Through Numerical Linear Algebra
-
-### Mathematical Foundation
-
-- Linear algebra
-- [Numerical Analysis, Numerical Linear Algebra, Trefethen and Bau](https://www.stat.uchicago.edu/~lekheng/courses/309/books/Trefethen-Bau.pdf), Chapter I - V
-
-### Latest Papers
-
-- [Model Preserving Compression for Neural Networks](https://arxiv.org/abs/2108.00065), NeurIPS
-
----
-
 ## Graph Neural Networks (GNNs)
 
 GNNs are a class of neural networks designed to process data represented as graphs. Unlike traditional neural networks that work on Euclidean data like images or sequences, GNNs can directly operate on irregular data structures by modeling relationships between nodes and edges. They leverage a **message-passing** framework where nodes update their feature representations by aggregating information from their neighbors. This process allows them to capture complex relational information and learn a continuous representation, or **embedding**, of the graph's structure.
@@ -127,30 +72,6 @@ GNNs are a class of neural networks designed to process data represented as grap
 
 - [Graph Neural Networks: Foundation, Frontiers and Applications](https://scholars.duke.edu/individual/pub1550511): This is a tutorial that covers a broad range of topics in GNNs, including fundamental concepts, new research frontiers, and emerging applications in fields like recommender systems and computer vision.
 - [Recent Research Progress of Graph Neural Networks in Computer Vision](https://www.mdpi.com/2079-9292/14/9/1742): A comprehensive review of GNN applications in computer vision, focusing on image processing, video analysis, and multimodal data fusion. It highlights how GNNs capture inter-region dependencies and spatiotemporal dynamics.
-
----
-
-## Physics-informed Neural Networks (PINNs)
-
-Physics-informed neural networks (PINNs) are a type of neural network that incorporates the laws of physics into their training process. They do this by embedding governing equations, like partial differential equations (PDEs), into the neural network's loss function. This allows PINNs to find solutions to physical problems while requiring less training data than traditional data-driven models. They are particularly useful for solving forward and inverse problems in computational science.
-
-### Foundational Knowledge - Start with These
-
-- [Physics-informed Neural Networks - Wikipedia](https://en.wikipedia.org/wiki/Physics-informed_neural_networks): A great starting point that defines PINNs, explains their function approximation capabilities, and covers different types of problems they can solve, such as data-driven solution and discovery of PDEs.
-- [Physics-Informed Neural Networks for Inverse PDE Problems](https://towardsdatascience.com/physics-informed-neural-networks-for-inverse-pde-problems/): This article provides an intuitive explanation of PINNs as a "cheat sheet" for a regular neural network, outlining how they use automatic differentiation and a physics-based loss function to achieve better results with less data.
-- [Adaptive Physics-informed Neural Networks](https://arxiv.org/html/2503.18181v1): A review paper that discusses how advanced ML techniques, like transfer learning and meta-learning, can be integrated into PINNs to improve model adaptivity and address convergence challenges.
-
-### Frontier Research
-
-- [Physics-Informed Neural Networks: A Review of Methodological Evolution, Theoretical Foundations, and Interdisciplinary Frontiers Toward Next-Generation Scientific Computing](https://www.mdpi.com/2076-3417/15/14/8092): A comprehensive review paper that establishes a framework for understanding PINNs, covering methodological innovations, theoretical breakthroughs, and cross-disciplinary applications. It also proposes a roadmap for "PINN 2.0" including neuro-symbolic integration and quantum-accelerated optimization.
-- [Physics-Informed Neural Networks with Hard Constraints for Inverse Design](https://epubs.siam.org/doi/10.1137/21M1397908): This paper introduces a method for solving topology optimization problems using PINNs with hard constraints, which is a significant advancement for engineering design.
-
-### Notes & Limitations
-
-- Training PINNs can be computationally expensive, especially for complex or multi-physics problems.
-- Optimizing PINNs can be difficult, and their convergence properties are not as well understood as traditional methods.
-- PINNs can struggle to solve high-frequency or multiscale problems and to incorporate noisy, sparse real-world data effectively.
-- A key area of future research is improving PINN performance by integrating them with other methods, such as domain decomposition techniques (e.g., XPINNs), and exploring novel optimization strategies. The "PINN 2.0" vision focuses on neuro-symbolic integration, federated physics learning, and quantum-accelerated optimization.
 
 ---
 
@@ -192,9 +113,160 @@ WIP
 ## Target Audience
 
 * Graduate students in ML/AI
-* Researchers entering new subfields
+* Researchers e, Directions
 
-## Links
+- **Data Dependency**: AI models are often trained on specific datasets from a single hospital or clinic, which can lead to poor performance when applied to data from different institutions. A key challenge is developing models that are more robust and can generalize to diverse populations.
+- **Bias and Ethical Concerns**: AI models can be biased due to the data they're trained on, which can exacerbate healthcare disparities. The "black box" nature of many deep learning models makes it difficult to understand their decision-making process, leading to a lack of trust from both patients and clinicians.
+- **Clinical Integration**: Many AI technologies show promise in research but have not been evaluated in clinical settings. Successful implementation requires seamless integration into existing workflows and proper training for healthcare professionals.
+- **Some thoughts on human-in-the-loop AI system**: Currently, AI in healthcare should assist, not replace, doctors. Future research focuses on creating explainable AI (XAI) models that are transparent and trustworthy, and on developing systems where the final decision remains with a human clinician.
 
-* [GitHub Repository](https://github.com/nicolehao34/cs-applied-math-papers)
-* Topics: Machine Learning, Deep Learning, Applied Mathematics, Research Papers
+---
+
+## Agentic AI
+
+Review/History:
+
+- [Adaptation of Agentic AI](https://arxiv.org/abs/2512.16301)
+- [Agentic AI: The age of reasoning—A review](https://www.sciencedirect.com/science/article/pii/S2949855425000516)
+
+WIP
+
+---
+
+## AI4S
+
+AI for Science. I used [this GitHub repo](https://github.com/AI4QC/AI_for_Science_paper_collection) for reference. Definitely check it out. AI4S papers have varying levels of specificity based on the field of science it's tied to, I will try to categorize them into different subjects, e.g. AI4chemistry, AI4physics, and more.
+
+Here are some overviews on AI4S as a field to get you started:
+
+- [SAIBench: A Structural Interpretation of AI for Science Through Benchmarks](https://arxiv.org/abs/2311.17869)
+- [Bridging AI and Science: Implications from a Large-Scale Literature Analysis of AI4Science](https://arxiv.org/abs/2412.09628)
+
+### Physics
+
+**Physics-informed Neural Networks (PINNs)**
+
+Physics-informed neural networks (PINNs) are a type of neural network that incorporates the laws of physics into their training process. They do this by embedding governing equations, like partial differential equations (PDEs), into the neural network's loss function. This allows PINNs to find solutions to physical problems while requiring less training data than traditional data-driven models. They are particularly useful for solving forward and inverse problems in computational science.
+
+#### Foundational Knowledge, Start with These
+
+- [Physics-informed Neural Networks - Wikipedia](https://en.wikipedia.org/wiki/Physics-informed_neural_networks): A great starting point that defines PINNs, explains their function approximation capabilities, and covers different types of problems they can solve, such as data-driven solution and discovery of PDEs.
+- [Physics-Informed Neural Networks for Inverse PDE Problems](https://towardsdatascience.com/physics-informed-neural-networks-for-inverse-pde-problems/): This article provides an intuitive explanation of PINNs as a "cheat sheet" for a regular neural network, outlining how they use automatic differentiation and a physics-based loss function to achieve better results with less data.
+- [Adaptive Physics-informed Neural Networks](https://arxiv.org/html/2503.18181v1): A review paper that discusses how advanced ML techniques, like transfer learning and meta-learning, can be integrated into PINNs to improve model adaptivity and address convergence challenges.
+
+#### Frontier Research
+
+- [Physics-Informed Neural Networks: A Review of Methodological Evolution, Theoretical Foundations, and Interdisciplinary Frontiers Toward Next-Generation Scientific Computing](https://www.mdpi.com/2076-3417/15/14/8092): A comprehensive review paper that establishes a framework for understanding PINNs, covering methodological innovations, theoretical breakthroughs, and cross-disciplinary applications. It also proposes a roadmap for "PINN 2.0" including neuro-symbolic integration and quantum-accelerated optimization.
+- [Physics-Informed Neural Networks with Hard Constraints for Inverse Design](https://epubs.siam.org/doi/10.1137/21M1397908): This paper introduces a method for solving topology optimization problems using PINNs with hard constraints, which is a significant advancement for engineering design.
+
+**Notes:**
+
+- Training PINNs can be computationally expensive, especially for complex or multi-physics problems.
+- Optimizing PINNs can be difficult, and their convergence properties are not as well understood as traditional methods.
+- PINNs can struggle to solve high-frequency or multiscale problems and to incorporate noisy, sparse real-world data effectively.
+- A key area of future research is improving PINN performance by integrating them with other methods, such as domain decomposition techniques (e.g., XPINNs), and exploring novel optimization strategies. The "PINN 2.0" vision focuses on neuro-symbolic integration, federated physics learning, and quantum-accelerated optimization.
+
+---
+
+## Embodied AI
+
+Embodied AI is the integration of artificial intelligence into physical systems—such as robots, autonomous vehicles, and smart industrial machines—enabling them to perceive, reason, and act in the real world. Unlike traditional AI that operates purely in digital environments, embodied AI bridges the gap between computation and physical interaction through machine learning, computer vision, and sensor fusion.
+
+**Introduction/Overview of Embodied AI:**
+
+- [Toward Embodied AGI: A Review of Embodied AI and the Road Ahead](https://arxiv.org/pdf/2505.14235)
+
+**Theory of Mind Inference:**
+
+- [MMToM-QA: Multimodal Theory of Mind Question Answering](https://arxiv.org/abs/2401.08743)
+
+WIP
+
+---
+
+## Artificial General Intelligence (AGI)
+
+- [How Far Are We From AGI: Are LLMs All We Need?](https://arxiv.org/abs/2405.10313)
+
+WIP
+
+---
+
+## Not Yet Categorized
+
+### Liquid Neural Networks (LNNs)
+
+Liquid Neural Networks (LNNs) are a type of artificial intelligence model that utilize a dynamic architecture inspired by biological neurons. They are designed to continuously learn and adapt in real-time, even after deployment, similar to how the human brain learns from experience.
+
+**Latest Papers:**
+
+- [Comparative Analysis Between Liquid Neural Networks (LNNs) and Recurrent Neural Networks (RNNs)](https://www.researchgate.net/publication/392909174_Comparative_Analysis_Between_Liquid_Neural_Networks_LNNs_and_Recurrent_Neural_Networks_RNNs)
+- [Liquid Neural Networks: Next-Generation AI for Telecom from First Principles](https://arxiv.org/abs/2504.02352)
+
+### Neural Tangent Kernels (NTKs)
+
+Start with the following:
+
+- [Lilian Weng's Blog on Math Behind NTKs](https://lilianweng.github.io/posts/2022-09-08-ntk/)
+- [Understanding the Neural Tangent Kernel](https://www.eigentales.com/NTK/)
+- [Neural Tangent Kernel, Applied Probability Notes](https://appliedprobability.blog/2021/03/10/neural-tangent-kernel/)
+- [Prior's for Infinite Networks](https://link.springer.com/chapter/10.1007/978-1-4612-0745-0_2)
+
+If you're interested in the functional analysis foundations of NTKs:
+
+- [Similarity of Neural Network Models: A Survey of Functional and Representational Measures](https://arxiv.org/pdf/2305.06329)
+
+Now you should be ready for the NTK foundational papers:
+
+- [Neural Tangent Kernel: Convergence and Generalization in Neural Networks](https://arxiv.org/abs/1806.07572), NeurIPS 2018
+- [Deep Neural Networks as Gaussian Processes](https://arxiv.org/abs/1711.00165), ICLR 2018
+- [On Lazy Training in Differentiable Programming](https://arxiv.org/abs/1812.07956)
+
+### O(3)-Equivariant Deep Networks
+
+O(3) is the group of all rotations and reflections in 3D space. It's a mathematical concept that describes how objects can be moved in 3D without changing their fundamental properties (like distances between points).
+
+An equivariant neural network, on the other hand, is one where the output changes in a specific, predictable way when the input is transformed by a group operation (like rotation or reflection). In simpler terms, if you rotate the input, the output will also be rotated in a corresponding manner.
+
+Why are O(3) equivariant networks important? This is because they can learn generalizable features from 3D data, even if the training data only contains examples in a limited number of orientations. This reduces the amount of training data needed. Also, for tasks involving 3D objects, like predicting molecular properties or simulating physical systems, O(3)-equivariance ensures that the model's predictions are consistent with the laws of physics and geometry. They are also better at generalizing to unseen orientations of the input data.
+
+**Mathematical Foundation on 3D Rotation Groups (Group Theory, Linear Algebra, Rotation Matrices):**
+
+- [3D Rotation Group](https://en.wikipedia.org/wiki/3D_rotation_group) - a 3D rotation group is a type of orthogonal group
+- [Orthogonal Group](https://en.wikipedia.org/wiki/Orthogonal_group)
+- [3D Rotations](http://mesh.brown.edu/rotations/) - Gabriel Taubin
+
+**Latest Papers:**
+
+- [Unifying O(3) Equivariant Neural Networks Design with Tensor-Network Formalism](https://arxiv.org/abs/2211.07482)
+- [An Efficient Sparse Kernel Generator for O(3)-Equivariant Deep Networks](https://arxiv.org/abs/2501.13986)
+
+### Real-time Adaptation Laws for Neural Networks
+
+**Mathematical Foundations:**
+
+- A college course in Differential equations
+- Intermediate ODEs textbook: [Arnold's Ordinary Differential Equations](https://loshijosdelagrange.wordpress.com/wp-content/uploads/2013/04/vladimir-i-arnold-vladimir-i-arnold-roger-cooke-ordinary-differential-equations-1992.pdf)
+- Dynamical systems
+- Nonlinear dynamics is helpful too. I recommend Prof. Strogatz's [Nonlinear Dynamics and Chaos](https://www.stevenstrogatz.com/books/nonlinear-dynamics-and-chaos-with-applications-to-physics-biology-chemistry-and-engineering)
+
+**Concept Definitions More Pertinent to Understanding Latest Research:**
+
+- [Lyapunov function](https://en.wikipedia.org/wiki/Lyapunov_function)
+- [Lyapunov stability](https://en.wikipedia.org/wiki/Lyapunov_stability)
+
+**Latest Papers:**
+
+- [A Tutorial on a Lyapunov-Based Approach to the Analysis of Iterative Optimization Algorithms](https://arxiv.org/abs/2309.11377)
+- [Lyapunov-Based Real-Time and Iterative Adjustment of Deep Neural Networks](https://ieeexplore.ieee.org/document/9337905), IEEE Control Systems Letters
+
+### Model Compression Techniques Through Numerical Linear Algebra
+
+**Mathematical Foundation:**
+
+- Linear algebra
+- [Numerical Analysis, Numerical Linear Algebra, Trefethen and Bau](https://www.stat.uchicago.edu/~lekheng/courses/309/books/Trefethen-Bau.pdf), Chapter I - V
+
+**Latest Papers:**
+
+- [Model Preserving Compression for Neural Networks](https://arxiv.org/abs/2108.00065), NeurIPS
