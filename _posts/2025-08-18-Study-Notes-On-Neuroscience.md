@@ -3,8 +3,6 @@ layout: post
 title: Study Notes on Neuroscience
 ---
 
-# Study Notes on Neuroscience
-
 ## 1. Introduction
 - What is neuroscience?
 - Major questions and scope (molecular → cognitive).
