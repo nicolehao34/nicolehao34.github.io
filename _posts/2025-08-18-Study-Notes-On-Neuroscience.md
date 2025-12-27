@@ -2,6 +2,7 @@
 layout: post
 title: Study Notes on Neuroscience
 ---
+WIP
 
 ## 1. Introduction
 - What is neuroscience?
