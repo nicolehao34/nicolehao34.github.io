@@ -43,8 +43,8 @@ Let's say you text a close friend, “Can we talk?” and you expect a quick, re
 
 The discomfort, or suffering, comes from the world not unfolding the way your brain assumed it would.
 
-In this situation, what happened under the hood is, 
-Your brain used prior interactions to predict an outcome (a timely response). The silence produces a prediction error, whioch is a mismatch between the predicted signal and the actual input. 
+In this situation, what happened under the hood is: 
+Your brain used prior interactions to predict an outcome (a timely response). The silence produces a prediction error, which is a mismatch between the predicted signal and the actual input. 
 
 That error flags “uncertainty” and forces your brain to revise its model: maybe your friend is busy, maybe the relationship is changing, maybe there’s a threat. 
 
@@ -58,7 +58,7 @@ This framework, known as the [Bayesian brain theory](https://www.sciencedirect.c
 
 > "We don’t passively receive reality, we actively construct it through a cycle of prediction and error correction."
 
-Specifically, the brain continuously compares its predictions to the actual sensory input from the world. When reality matches our internal model, things feel “right” and we proceed smoothly. But when reality violates our expectations, the brain generates a prediction error, basicallyan internal signal that something unexpected or “off” has occurred. 
+Specifically, the brain continuously compares its predictions to the actual sensory input from the world. When reality matches our internal model, things feel "right" and we proceed smoothly. But when reality violates our expectations, the brain generates a prediction error, basically an internal signal that something unexpected or "off" has occurred.
 
 Neuroscientists use this term [“prediction error”](https://pmc.ncbi.nlm.nih.gov/articles/PMC4826767/#:~:text=Reward%20prediction%20errors%20for%20learning,worse%20than%20than%20its%20prediction.) to describe the difference between what we expected and what actually happened. This error signal forces the brain to update its model of the world. If the mismatch is small, the brain may ignore it or chalk it up to noise. However, if the mismatch is large or important, higher-level brain regions are alerted that the model was wrong, and we immediately notice the discrepancy. 
 
@@ -86,27 +86,34 @@ Active inference, on the other hand, is similar to the Buddhist principle of [sk
 Upāya is the action of taking compassionate steps to alleviate suffering, whether through ethical conduct, generosity, or care for the body. In Buddhist psychology, wisdom arises from knowing when to accept and when to act, a balance the brain itself constantly negotiates through its predictive machinery.
 
 # The Meaning of Life
->**"Okay... so there is a connection between neuroscience and Buddhism. What now?**
+>**"Okay... so there is a connection between neuroscience and Buddhism. What now?"**
 
 
 Well, great question.
 
-From the perspective of both Buddhist teachings, and their links to neurosicence theories, I've actually come to the following argument:
+From the perspective of both Buddhist teachings, and their links to neuroscience theories, I've actually come to the following argument:
 
 > **The meaning of life is not found in eliminating prediction errors or forcing the world to bend to our expectations.**
 
-Some of us spend our entire lives chasing an idealized "happy life", trying to suffer as little as possible, stay hypervigilent forever to either avoid that dangerous gap between expectations and reality, or try to fill it with accolades, thrill-seeking behaviors, or an unnecesary amount of wealth.
+Some of us spend our entire lives chasing an idealized "happy life", trying to suffer as little as possible, stay hypervigilant forever to either avoid that dangerous gap between expectations and reality, or try to fill it with accolades, thrill-seeking behaviors, or an unnecessary amount of wealth.
 
-However, such total control is *impossible*, both in the buddhist and scientific sense, and the pursuit of it only deepens our frustration.
+However, such total control is *impossible*, both in the Buddhist and scientific sense, and the pursuit of it only deepens our frustration.
+
+Prediction errors are a core feature of the brain: they help update our internal model so perception and behavior stay aligned with reality, especially in what we can influence. But we can never predict the world perfectly; uncertainty is built in, thus this gap (suffering) will always exist.
+
+From a Buddhist lens, suffering comes from clinging to expectations and resisting what is. If the “self” isn’t fixed, then “my expectations” and the “gap” they create aren’t solid problems to solve, but mental constructions. 
+
+Chasing certainty becomes chasing an illusion, and peace comes from seeing that clearly and loosening the grip.
 
 ![Gap in Iceland](/images/posts/gap-iceland.jpg)
 
-The older I am, the more I find meaning emerging in **how we respond**, in learning to move gracefully through surprises, uncertainty, and sometimes grief and disappointments. All of these are a part of life.
+The older I am, the more I find meaning emerging in **how we respond**, in learning to move gracefully through "suffering": uncertainty, and sometimes grief and disappointments. All of these are a part of life. The unavoidable gaps that we will never be able to fill.
 
 Buddhism, at its core, teaches that true freedom arises when we loosen our attachment. 
 
-So I see both Buddhism and Neuroscience as ways to help people cultivate lives they want to live. 
-Neuroscience provides the mechanism on the how and why: how the brain constructs and revises its models of reality and why we should give mindfulness a try; while Buddhism offers the daily practice through meditation and yoga, these are exercises that help you cultivate awareness, compassion, and acceptance in the midst of flux.
+So, I see both Buddhism and Neuroscience as ways to help people cultivate more meaningful, and thus more fulfilling lives. 
+
+While neuroscience provides the mechanism on the how and why: how the brain constructs and revises its models of reality and why we should give mindfulness a try; Buddhism offers the daily practice through meditation and yoga, these are exercises that help you cultivate awareness, compassion, and acceptance in the midst of flux.
 
 If you’ve made it this far, thank you for joining me on this journey. I hope you’ve taken something away from it. 
 
@@ -114,8 +121,7 @@ If you’ve made it this far, thank you for joining me on this journey. I hope y
 
 ## Author's Note
 
-Ever since I was a kid, I've found myself asking big questions about the meaning of life. Over time, exploring both religion and science helped me get a clearer picture of what life could mean, definitely not saying that there is a single right answer. Also, people's understanding of life changes over time. But my takeaway from learning buddhism is that, 
-goals can inspire us, but becoming obsessed with what we haven't yet achieved can turn toxic.
+Ever since I was a kid, I've found myself asking big questions about the meaning of life. Over time, exploring both religion and science helped me get a clearer picture of what life could mean—definitely not saying that there is a single right answer. Also, people's understanding of life changes over time. But my takeaway from learning Buddhism is that goals can inspire us, yet becoming obsessed with what we haven't yet achieved can turn toxic.
 
 To me, meaning doesn't only lie in achieving goals, it also lies in understanding the patterns of the mind, embracing the inevitability of change, and finding peace in that fragile space between expectation and reality. 
 
