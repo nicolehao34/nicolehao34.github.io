@@ -50,7 +50,7 @@ That error flags “uncertainty” and forces your brain to revise its model: ma
 
 While updating, the brain often allocates more attention to scanning for explanations and prepares the body to respond, which can show up as anxiety, rumination, and heightened vigilance until the model stabilizes again.
 
-![The Bayesian Brain](../images/The-Bayesian-Brain.jpg)
+![The Bayesian Brain](/images/posts/The-Bayesian-Brain.jpg)
 
 This framework, known as the [Bayesian brain theory](https://www.sciencedirect.com/science/article/abs/pii/S0306452224007048), suggests that perception, decision-making, and even action are driven by probabilistic inference: 
 
@@ -95,11 +95,11 @@ From the perspective of both Buddhist teachings, and their links to neurosicence
 
 > **The meaning of life is not found in eliminating prediction errors or forcing the world to bend to our expectations.**
 
-Some of us spend our entire lives chasing an idealized "happy life", trying to suffer as little as possible, stay hypervigilent forever to either avoid that dangerous gap between expectations and reality, or try to fill it with accolades, thrill-seeking, and wealth.
+Some of us spend our entire lives chasing an idealized "happy life", trying to suffer as little as possible, stay hypervigilent forever to either avoid that dangerous gap between expectations and reality, or try to fill it with accolades, thrill-seeking behaviors, or an unnecesary amount of wealth.
 
 However, such total control is *impossible*, both in the buddhist and scientific sense, and the pursuit of it only deepens our frustration.
 
-![Gap in Iceland](../images/gap-iceland.jpg)
+![Gap in Iceland](/images/posts/gap-iceland.jpg)
 
 The older I am, the more I find meaning emerging in **how we respond**, in learning to move gracefully through surprises, uncertainty, and sometimes grief and disappointments. All of these are a part of life.
 
