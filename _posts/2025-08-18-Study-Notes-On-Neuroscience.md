@@ -2,7 +2,74 @@
 layout: single
 title: Study Notes on Neuroscience
 ---
-WIP
+
+
+My study notes on neuroscience, starting from molecular mechanisms and neural circuits to cognitive functions, brain disorders, and the intersection with artificial intelligence. Work In Progress.
+
+## Contents
+
+1. [Introduction](#1-introduction)
+   - What is neuroscience?
+   - Major questions and scope
+
+2. [Nervous System Overview](#2-nervous-system-overview)
+   - [Central Nervous System (CNS)](#central-nervous-system-cns)
+   - [Peripheral Nervous System (PNS)](#peripheral-nervous-system-pns)
+   - [CNS vs. PNS](#central-nervous-system-vs-peripheral-nervous-system)
+   - Basic cell types: neurons vs. glia
+
+3. [Neurons](#3-neurons)
+   - Neuron structure
+   - Action potentials & signal transmission
+   - Neurotransmitters & receptors
+
+4. [Neuroanatomy](#4-neuroanatomy)
+   - [Early brain development](#early-brain-development)
+   - [Lesions](#lesions)
+   - [Major brain regions](#major-brain-regions-cortex-cerebellum-brainstem-limbic-system)
+   - [Functional areas](#functional-areas-frontal-parietal-temporal-occipital-lobes)
+
+5. [Neural Communication and Embodied Emotions](#5-neural-communication-and-embodied-emotions)
+   - [Neural communications](#neural-communications)
+   - [Neurotransmitters](#neurotransmitters)
+   - [Embodied emotions](#embodied-emotions)
+
+6. [Perception and Vision](#5-perception-and-vision)
+   - Sensory systems
+   - Motor pathways & control
+
+7. [Hearing](#6-hearing)
+   - Auditory system
+
+8. [Higher Cognitive Functions](#7-higher-cognitive-functions)
+   - Memory and learning
+   - Language
+   - Attention and consciousness
+   - Emotion and motivation
+
+9. [Methods in Neuroscience](#8-methods-in-neuroscience)
+   - Imaging techniques
+   - Electrophysiology
+   - Lesion studies
+   - Computational models
+
+10. [Disorders of the Nervous System](#8-disorders-of-the-nervous-system)
+    - Neurological disorders
+    - Psychiatric disorders
+    - Developmental disorders
+
+11. [Neuroscience & Artificial Intelligence](#9-neuroscience--artificial-intelligence)
+    - Inspiration from neuroscience
+    - Feedback from AI to neuroscience
+    - Shared challenges
+    - Frontiers
+
+12. [Applications & Future Directions](#10-applications--future-directions)
+    - Neurotechnology
+    - AI and computational neuroscience
+    - Neuroethics
+
+---
 
 ## 1. Introduction
 - What is neuroscience?
