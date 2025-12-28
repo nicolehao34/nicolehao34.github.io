@@ -3,9 +3,7 @@ layout: single
 title: The Future of Innovation & The End of Academic Monopoly
 ---
 
-In today’s landscape, companies—not universities—are becoming the core engines of innovation.
-
-Well, at least in the U.S.
+Companies are gradually becoming the core engines of innovation. What do we do?
 
 # The Internet Has Democratized Knowledge 
 
