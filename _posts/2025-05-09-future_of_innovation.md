@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: The Future of Innovation & The End of Academic Monopoly
 ---
 

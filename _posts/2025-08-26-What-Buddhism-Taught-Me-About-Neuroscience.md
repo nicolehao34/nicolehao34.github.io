@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: What Buddhism Taught Me About Neuroscience
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: NeuroSymbolic AI - What, Why, and How?
 ---
 I've been hearing the term **NeuroSymbolic AI** a lot these days, but really - **What** is it? **Why** was it invented? **How** do we use it?

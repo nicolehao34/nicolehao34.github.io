@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Study Notes on Neuroscience
 ---
 WIP
