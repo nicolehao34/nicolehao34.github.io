@@ -59,7 +59,6 @@ InkSight AI creates a more inclusive, equitable, and independent classroom learn
   - Course management
   - User management and authentication
   - Note-taking request processing
-* **Lead**: Arjun Maitra
 
 ### Frontend
 * **Hosting**: Cloudflare Pages for fast, secure, and reliable access
@@ -70,41 +69,27 @@ InkSight AI creates a more inclusive, equitable, and independent classroom learn
   - Note-taking request submission
   - Course viewing and management
   - Real-time status updates
-* **Designers**: Clément Roze, Nicole Hao, Arjun Maitra
 
 ### Machine Learning Pipeline
 
-The core AI system uses **FCN-Lecture Net**, a Fully Convolutional Network with three specialized branches:
+We initially used a **FCN-Lecture Net**, a Fully Convolutional Network with three specialized branches:
 
 1. **Background Estimation**: Separates static content from dynamic elements
 2. **Handwritten Text Mask Prediction**: Identifies handwritten regions
 3. **Handwritten Content Binarization**: Extracts clear text for OCR
 
-#### Key Capabilities
+Later explorations will be updated soon!
+
+#### Key Capabilities of InkSight
 * **Temporal Segmentation**: Detects key events like erasures or board movement
 * **Multi-modal Processing**: Handles whiteboard, tablet, and presentation content
 * **STEM Specialization**: Optimized for mathematical notation and scientific diagrams
-
-#### Data Processing Pipeline
-* Database system for storing recorded lecture videos
-* Systematic transfer pipeline into FCN-Lecture Net framework
-* Efficient batch processing for course-level note generation
-* **Lead**: Nicole Hao
-
-### API Layer
-* **Hosting**: Google Cloud Platform
-* **Function**: Core communication layer between frontend and backend
-* **Features**:
-  - Secure data exchange
-  - Real-time updates
-  - User-database interaction management
-* **Maintainers**: Nicole Hao, Arjun Maitra
 
 ## System Workflow
 
 1. **Recording**: Lecture videos are captured and uploaded to the system
 2. **Storage**: Videos stored in secure database infrastructure
-3. **AI Processing**: FCN-Lecture Net extracts handwritten content, equations, and diagrams
+3. **AI Processing**: AI system extracts handwritten content, equations, and diagrams
 4. **Note Generation**: Extracted content structured into coherent notes
 5. **Review**: Professors/TAs proofread and approve notes
 6. **Distribution**: Approved notes made available to students through SDS
@@ -161,22 +146,16 @@ The core AI system uses **FCN-Lecture Net**, a Fully Convolutional Network with 
 * **Arjun Maitra**: Backend development and maintenance; API management
 * **Clément Roze**: Frontend design and development; UI/UX design
 
-## Future Enhancements
 
-* Real-time note generation during live lectures
-* Multi-language support for international students
-* Integration with Cornell Canvas/LMS
-* Mobile application for on-the-go access
-* Enhanced diagram recognition capabilities
-* Personalized note formatting preferences
+## Advisory Board
 
-## Research Foundation
-
-Built on peer-reviewed research:
-* **FCN-Lecture Net**: Davila et al. (2021) - IEEE framework for lecture content extraction
-* Trained on InkSight DataLabeler dataset for STEM-specific optimization
+* **Prof. Stephen Sauer** - Cornell SC Johnson College of Business
+* **Jamey Edwards** - President and CSO at Cairns Health
+* **Illiava Paleva** - Investor at Hyperspace Ventures
+* **Frank Fu** - CIO at Proprietary Trading Firm
 
 ## Links
 
 * [UI Design Prototype](https://www.figma.com/proto/bLwidAx4HhY7wd8zkWLwTn/InkSight?node-id=471-897&p=f&t=hL2UCDhF2KfqDZvQ-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=277%3A897&show-proto-sidebar=1)
-* Institution: Cornell University
+* Website
+* Demo
