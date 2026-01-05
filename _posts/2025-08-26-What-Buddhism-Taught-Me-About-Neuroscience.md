@@ -75,11 +75,9 @@ Perceptual inference is about updating our beliefs when the world surprises us. 
 
 Active inference is about acting to reduce prediction error. If you expect warmth but feel cold, you might put on a sweater. Instead of changing your model of reality, you change reality itself to better match your prediction.
 
-These two modes—updating the mind to fit the world, or changing the world to fit the mind—mirror the Buddhist practice of observing thoughts (acceptance) versus taking action (skillful means).
+These two modes—updating the mind to fit the world, or changing the world to fit the mind—mirror the Buddhist practice of observing thoughts (mindfulness) versus taking action (skillful means).
 
-This distinction between active inference and perceptual inference resonates deeply with Buddhist practice. 
-
-Perceptual inference aligns with **mindfulness**, which is the deliberate observation and acceptance of reality "as it is," even when it contradicts our mental models. Meditation trains practitioners to notice sensations, thoughts, and feelings without immediately trying to change them—which in predictive modeling terms means loosening the grip of priors and allowing direct experience.
+**Mindfulness** is the deliberate observation and acceptance of reality "as it is," even when it contradicts our mental models. Meditation trains practitioners to notice sensations, thoughts, and feelings without immediately trying to change them—which in predictive modeling terms means loosening the grip of priors and allowing direct experience.
 
 Active inference, on the other hand, is similar to the Buddhist principle of [skillful action (upāya)](https://en.wikipedia.org/wiki/Upaya).
 
