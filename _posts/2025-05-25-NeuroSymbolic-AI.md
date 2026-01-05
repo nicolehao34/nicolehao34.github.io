@@ -17,7 +17,7 @@ Neurosymbolic AI brings together two historically separate fields:
 
 Symbolic AI is best at structured reasoning and transparency but struggles with messy, unstructured data; whereas Neural AI, like Neural networks, are great at recognizing patterns in raw inputs like images and speech, but they often act like black boxes and have trouble explaining their decisions.
 
-![Symbolic AI vs. Neural AI vs. LLM/Vector](/images/NSAI/AG-NSAI-Graphic.png)
+![Symbolic AI vs. Neural AI vs. LLM/Vector](/images/posts/NSAI/AG-NSAI-Graphic.png)
 
 (**Note**: It's thought-provoking that, here in this diagram, LLM is listed as a completely distinct category, perhaps because it aims to achieve language related tasks. I can definitely see some slight overlap between LLM and both Neural and Symbolic AI though. )
 
@@ -110,7 +110,7 @@ Here's a list (non-comprehensive) of what NSAI helps to achieves in different fi
     
 - Example: [ProSLM](https://arxiv.org/abs/2409.11589). A very recent framework, published in 2024, it enhances the robustness and explainability of large language models (LLMs) in domain-specific (e.g. telecommunications, clean energy, healthcare) question-answering tasks by integrating symbolic reasoning with neural language models. See the diagram below for the framework's workflow. 
 
-    ![ProSLM Sytem Workflow Diagram](/images/NSAI/Pro-SLM.png)
+    ![ProSLM Sytem Workflow Diagram](/images/posts/NSAI/Pro-SLM.png)
     ProSLM Sytem Workflow Diagram (Vakharia et al., 2024)
 
 
@@ -223,7 +223,7 @@ But there's also problems in these KGs that we need to solve.
 
 Here's a visual example of two hypothetical knowledge graphs representing disparate topics, each contains a node that corresponds to the **same entity** in the real world (Arnold Schwarzenegger). 
 
-![](/images/NSAI/KG-Example.png)
+![](/images/posts/NSAI/KG-Example.png)
 
 In this case, the AI system **cannot automatically link these two entities and label them as the same**. 
 
@@ -237,7 +237,7 @@ Hope this gives you more motivation to learn graph theory!
 ### Mathematical Logic / Formal Logic
 **In NSAI, logic-based frameworks are the building blocks for representing and manipulating symbolic knowledge.**
 
-![](/images/NSAI/NSAI-Paper-Graphic-2.png)
+![](/images/posts/NSAI/NSAI-Paper-Graphic-2.png)
 
 Now that you understand the basic defintion of KGs, [the above diagram](https://allegrograph.com/what-is-neuro-symbolic-ai/) will help you undertsand why formal logic is also needed in NSAI, and how it connects to KGs.
 
@@ -323,7 +323,7 @@ Researcher have even been developing methods to conduct mathematical research us
 
 Professor Terrence Tao, UCLA, in his AMS Colloquium lecture at 2024 Joint Mathematics Conference in San Francisco, summarized "3 promising new ways" to use AI in mathematical research:
 
-![](/images/NSAI/machine-assisted-proofs-tao.png)
+![](/images/posts/NSAI/machine-assisted-proofs-tao.png)
 
 This further proves that there is truly a huge potential in the capabilities of NSAI, as even some of the most brilliant mathematics in the world are exploring machine-assisted mathematical logic & reasoning, which has been always considered one of the most fundamental, and yet diffucult mental tasks humans can take on.
 
