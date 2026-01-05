@@ -19,7 +19,7 @@ Note: This entire page is currently under construction. Stay tuned for upcoming 
 
 InkSight DataLabeler is a robust multimodal dataset and annotation platform tailored to AI-assisted accessibility in STEM education. The platform enables frame-level precision annotation of lecture videos, capturing dynamic handwritten content, complex diagrams, and spoken explanations to train AI models that can understand and transcribe multimodal educational material.
 
-**Demo**: [InkSight Data Labeler](https://inksight-data-labeler.replit.app/)
+**Demo coming soon**: InkSight Data Labeler
 
 ## Motivation
 
@@ -143,9 +143,3 @@ Designed to support pre-training and fine-tuning of:
 
 Developed as part of research at Cornell University in collaboration with Jennifer Sun. The work aims to advance multimodal learning systems that foster inclusive learning environments and improve AI model training for educational applications.
 
-**Contact**: inksight882@gmail.com
-
-## Links
-
-* [Live Demo](https://inksight-data-labeler.replit.app/)
-* Email: inksight882@gmail.com

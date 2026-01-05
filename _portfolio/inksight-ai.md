@@ -18,7 +18,7 @@ Note: This entire page is currently under construction. Stay tuned for upcoming 
 
 ## Overview
 
-InkSight AI is an AI-driven, accessible note-taking platform designed to support students with vision impairment and auditory processing disorders. The system integrates visual input capture, FCN-based content extraction, and lecture summarization to create accurate notes tailored to individual needs. Unlike traditional tools, InkSight AI is optimized for STEM courses, capable of capturing complex content like equations and diagrams.
+InkSight AI is an AI-driven, accessible note-taking platform designed to support students with vision impairment and auditory processing disorders. The system integrates visual input capture, VLM-based content extraction, and lecture summarization to create accurate notes tailored to individual needs. Unlike traditional tools, InkSight AI is optimized for STEM courses, capable of capturing complex content like equations and diagrams.
 
 **UI Design**: [View on Figma](https://www.figma.com/proto/bLwidAx4HhY7wd8zkWLwTn/InkSight?node-id=471-897&p=f&t=hL2UCDhF2KfqDZvQ-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=277%3A897&show-proto-sidebar=1)
 
