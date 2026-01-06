@@ -78,9 +78,9 @@ We initially used a **FCN-Lecture Net**, a Fully Convolutional Network with thre
 2. **Handwritten Text Mask Prediction**: Identifies handwritten regions
 3. **Handwritten Content Binarization**: Extracts clear text for OCR
 
-Later explorations will be updated soon!
+We later found many limitations with this approach, which is why InkSight also became a research initiative. The paper associated with the project is still in progress. Later explorations will be updated as soon as the paper is released!
 
-#### Key Capabilities of InkSight
+## Key Capabilities of InkSight
 * **Temporal Segmentation**: Detects key events like erasures or board movement
 * **Multi-modal Processing**: Handles whiteboard, tablet, and presentation content
 * **STEM Specialization**: Optimized for mathematical notation and scientific diagrams

@@ -13,7 +13,7 @@ tags:
   - Accessibility
 ---
 
-Note: This entire page is currently under construction. Stay tuned for upcoming changes.
+Note: This entire page is currently under construction. The project was developed for research purposes, details will be updated as soon as the formal research paper is released. Stay tuned!
 
 ## Overview
 
@@ -49,12 +49,12 @@ Five primary annotation categories with dedicated tooling:
 4. **Background Content** (gray) - For static slide material
 5. **Erasure Regions** (red) - For tracking content removal
 
-### Efficiency Enhancements
+<!-- ### Efficiency Enhancements
 * **Smart Frame Suggestion**: Algorithms highlight frames with new content
 * **Pre-Annotation**: Existing models propose initial annotations for human validation
 * **Batch Operations**: Replicate annotations across multiple frames
 * **Keyboard Shortcuts**: Streamlined navigation and workflow
-* **Active Learning**: Prioritizes high-impact frames for maximum dataset value
+* **Active Learning**: Prioritizes high-impact frames for maximum dataset value -->
 
 ## Technical Architecture
 
@@ -130,14 +130,14 @@ Designed to support pre-training and fine-tuning of:
 * **DeepMind Flamingo**: Few-shot learning for educational adaptability
 * **Google Gemini**: Advanced multimodal integration
 
-## Future Work
+<!-- ## Future Work
 
 * Enhanced semantic relationship annotations for VLM training
 * Semi-automated workflows with pre-trained models as partial annotators
 * Expanded dataset coverage across more STEM disciplines
 * Performance benchmarking on handwriting recognition, math parsing, and diagram detection
 * Public dataset release via Zenodo and Hugging Face
-* Community-driven annotation portal with filtered downloads
+* Community-driven annotation portal with filtered downloads -->
 
 ## Research Paper
 
