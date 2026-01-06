@@ -98,18 +98,6 @@ AI4Health (AI for Health) is an interdisciplinary field that applies machine lea
 
 ---
 
-## Agentic AI
-
-WIP
-
----
-
-## AI4S
-
-WIP
-
----
-
 ## Target Audience
 
 * Graduate students in ML/AI
