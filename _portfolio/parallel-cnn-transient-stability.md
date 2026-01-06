@@ -76,10 +76,6 @@ Below are scaling experiments showing how training time grows with training set 
 
 <img src="/images/Projects/parallel-cnn-mlp-scaling.png" alt="MLP scaling: training time and accuracy vs train size" width="700"/>
 
-> **Note:** Place the two images above in your site at:
-> - `/images/Projects/parallel-cnn-scaling-test-results.png`
-> - `/images/Projects/parallel-cnn-mlp-scaling.png`
-
 ## Applications
 
 - Real-time grid stability monitoring
