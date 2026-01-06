@@ -140,14 +140,26 @@ Gaussian blur implementation:
 
 ### Deblurring Performance from Reimplementation
 
-![Degraded inputs \\(D(x_0, T)\\)]({{ base_path }}/images/Projects/cold-diffusion/sample-xt-99.png)
-
-![Direct reconstruction \\(R(D(x_0, T))\\)]({{ base_path }}/images/Projects/cold-diffusion/sample-direct-recons-99.png)
-
-![Sampled reconstruction with Algorithm 2]({{ base_path }}/images/Projects/cold-diffusion/sample-recon-99.png)
-
-![ Original images]({{ base_path }}/images/Projects/cold-diffusion/sample-og-99.png)
-to...
+<table style="width:100%; text-align:center;">
+  <tr>
+    <td style="width:25%; padding:10px;">
+      <img src="{{ base_path }}/images/Projects/cold-diffusion/sample-xt-99.png" alt="Degraded inputs" style="width:100%;">
+      <p><em>Degraded inputs \(D(x_0, T)\)</em></p>
+    </td>
+    <td style="width:25%; padding:10px;">
+      <img src="{{ base_path }}/images/Projects/cold-diffusion/sample-direct-recons-99.png" alt="Direct reconstruction" style="width:100%;">
+      <p><em>Direct reconstruction \(R(D(x_0, T))\)</em></p>
+    </td>
+    <td style="width:25%; padding:10px;">
+      <img src="{{ base_path }}/images/Projects/cold-diffusion/sample-recon-99.png" alt="Sampled reconstruction" style="width:100%;">
+      <p><em>Sampled reconstruction with Algorithm 2</em></p>
+    </td>
+    <td style="width:25%; padding:10px;">
+      <img src="{{ base_path }}/images/Projects/cold-diffusion/sample-og-99.png" alt="Original images" style="width:100%;">
+      <p><em>Original images</em></p>
+    </td>
+  </tr>
+</table>
 
 
 
