@@ -1,6 +1,6 @@
 ---
-title: "STAT: Shrinking Transformers After Training"
-excerpt: "Training-free transformer compression via interpolative decomposition<br/><img src='/images/Projects/interpolative-decomposition-pruning.png'>"
+title: "LLM Compression"
+excerpt: "Training-free and model-preserving transformer compression via interpolative decomposition<br/><img src='/images/Projects/interpolative-decomposition-pruning.png'>"
 collection: portfolio
 date: 2023-05-01
 tags:
