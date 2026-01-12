@@ -28,7 +28,7 @@ Modern transformer models (BERT, GPT, etc.) achieve state-of-the-art performance
 
 Traditional compression methods require expensive retraining. STAT achieves compression **without any retraining**.
 
-## Key Innovation: Interpolative Decomposition
+## Key Innovation: Interpolative Decomposition for LLM Compression
 
 **Interpolative Decomposition (ID)** is a matrix factorization technique from numerical linear algebra that:
 
@@ -37,12 +37,42 @@ Traditional compression methods require expensive retraining. STAT achieves comp
 * Preserves mathematical structure while reducing parameters
 * Enables retraining-free compression
 
+
+**Definition 1.1 (Interpolative Decomposition):** Given an $m \times n$ matrix $A$, an $m \times k$ matrix $C$ whose columns constitute a subset of those of $A$, and a $k \times n$ matrix $Z$, such that:
+* some size-$k$ subset of the columns of $Z$ form the $k \times k$ identity matrix, and
+* no entry of $Z$ has absolute value greater than 2,
+
+then $CZ$ is an interpolative decomposition of $A$.
+
+
+**How Column ID Works:** Given a matrix $A \in \mathbb{R}^{m \times n}$, an order-$k$ column ID looks like:
+
+$$A \approx A(:, J)T$$
+
+where:
+* $J$ is a set of $k$ column indices (so $A(:, J)$ is an $m \times k$ submatrix made of *actual columns* of $A$)
+* $T \in \mathbb{R}^{k \times n}$ is an "interpolation" matrix that tells you how to combine the selected columns to reconstruct the rest
+* A key structural feature: $T$ contains an **identity block** so the chosen columns reproduce themselves exactly: $T(:, J) = I_k$
+
+**Row ID:** There's also a row ID:
+
+$$A \approx S A(I, :)$$
+
+selecting actual rows instead of columns.
+
+
+
 ### Why ID for Transformers?
 
-* **Structure Preservation**: Maintains attention patterns and representations
-* **Theoretical Guarantees**: Bounded approximation error
-* **Computational Efficiency**: Fast decomposition algorithms
-* **Flexibility**: Works across different transformer architectures
+Most "classic" low-rank ideas start from SVD. 
+
+SVD is optimal for linear matrix approximation, but it produces **new basis vectors** (singular vectors) that are *not* existing neurons/heads/channels. In a neural net, that matters because:
+
+* You often want **structured pruning** (remove actual neurons/channels/heads) so the model is smaller *and faster* without weird extra layers.
+
+* You want to be able to **propagate changes through nonlinearities**. The paper explicitly notes that SVD isn't directly usable when the matrix you're approximating involves a **nonlinear activation**, because it's unclear how to map singular vectors "back through" the nonlinearity into a clean subset of neurons.
+
+**ID solves this by forcing the approximation basis to be real columns of the activation matrix**, i.e., real neurons/channels.
 
 ## Technical Approach
 
@@ -110,11 +140,8 @@ Where:
 * X is a mixing matrix
 * Approximation error is bounded
 
-### Compression Theory
+WIP
 
-* **Rank-k approximation**: Optimal low-rank matrix approximation
-* **Column subset selection**: Choosing representative columns
-* **Error bounds**: Theoretical guarantees on approximation quality
 
 ## Implementation Details
 
@@ -137,14 +164,31 @@ python3 prune_bert.py \
     --sample_batch_size 512
 ```
 
-### Advanced Features
-
-* **Quantization Integration**: Combine pruning with quantization
-* **Multiple Tasks**: Support for 8+ downstream tasks
-* **Flexible Constraints**: User-defined compression ratios
-* **Reproducibility**: Seeded experiments for consistency
-
 ## Experimental Analysis & Results
+
+### Building on "Model Preserving Compression for Neural Networks"
+
+The analysis below continues and extends the work from [*Model Preserving Compression for Neural Networks*](https://papers.nips.cc/paper_files/paper/2022/hash/f8928b073ccbec15d35f2a9d39430bfd-Abstract-Conference.html) by Jerry Chee, Megan Renz, Anil Damle, and Chris De Sa (NeurIPS 2022).
+
+**What the Original Paper Introduced:**
+
+The Chee et al. paper established the foundational framework for using interpolative decomposition (ID) as a retraining-free compression method for neural networks. Their key contributions were:
+
+* Proved that ID can compress neural networks while preserving model behavior, unlike SVD which requires retraining
+* Created efficient algorithms for applying ID to convolutional and fully-connected layers
+* Demonstrated effectiveness on smaller networks (ResNet, VGG) with image classification tasks (CIFAR-10, ImageNet)
+* Showed that by selecting actual neurons/channels (rather than synthetic basis vectors from SVD), ID enables structured pruning that works seamlessly with hardware accelerators
+
+**How This Work Extends the Original:**
+
+We provide extensive layer-by-layer visualization and analysis of:
+   - Weight matrix structures across all 32 layers of large transformers
+   - Singular value decay patterns revealing compressibility at different depths
+   - Multi-scale analysis showing compression behavior across model sizes
+
+We also demonstrate that 50% compression with <1% accuracy degradation is achievable on production-scale language models, making LLM deployment feasible on resource-constrained devices
+
+The visualizations and analyses below quantify the low-rank structure inherent in transformer weights. They help validatethat the ID compression framework generalizes from vision models to language models and scales to modern LLM architectures.
 
 ### Layer-wise Weight Matrix Structure
 
@@ -220,23 +264,6 @@ These visualizations provide empirical validation for our theoretical framework:
 * **Real-time Systems**: Enable low-latency applications
 * **Energy Efficiency**: Reduce carbon footprint of AI by 40-60%
 
-### Theoretical Contributions
-
-* Novel application of ID to transformer compression
-* Retraining-free compression paradigm
-* Connection between numerical linear algebra and deep learning
-* Systematic evaluation across multiple benchmarks
-* Empirical validation of low-rank hypothesis in LLMs
-
-## Related Work
-
-This research builds upon:
-
-* Retraining-free pruning methods (Kwon et al.)
-* GPT quantization (Frantar et al., GPTQ)
-* Numerical linear algebra theory
-* Transformer compression literature
-
 ## Future Directions
 
 * Extension to larger models (GPT-4 scale)
@@ -244,10 +271,6 @@ This research builds upon:
 * Hardware-aware optimization
 * Combination with other compression techniques
 * Theoretical analysis of compression limits
-
-## Documentation
-
-See the [research paper PDF](c:\Users\nicol\Downloads\CompressingLLMsUsingComputationalLinearAlgebra.pdf) for detailed mathematical derivations and experimental results.
 
 ## Links
 
