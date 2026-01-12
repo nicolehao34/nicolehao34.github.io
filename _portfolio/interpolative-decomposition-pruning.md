@@ -15,18 +15,13 @@ tags:
 
 STAT (Shrinking Transformers After Training) is a novel retraining-free compression method for transformer models based on interpolative decomposition. This research addresses the critical challenge of deploying large language models efficiently by reducing their computational requirements without sacrificing accuracy.
 
-This project is a continuation of [research from Prof. Anil Damle's group](https://papers.nips.cc/paper_files/paper/2022/hash/f8928b073ccbec15d35f2a9d39430bfd-Abstract-Conference.html). Special thanks to Prof. Anil Damle and Megan Renz for advising me on this work.
+This project is a continuation of [research from Prof. Anil Damle's group](https://papers.nips.cc/paper_files/paper/2022/hash/f8928b073ccbec15d35f2a9d39430bfd-Abstract-Conference.html). I also included some other research findings that contributed to the continuation of other projects in this page, such as Model Preserving Compression for Neural Networks. Special thanks to Prof. Anil Damle and Megan Renz for advising me on this work. 
 
 ## Research Problem
 
-Modern transformer models (BERT, GPT, etc.) achieve state-of-the-art performance but are prohibitively large for deployment:
+How can we compress state-of-the-art transformer models (BERT, GPT, etc.) to reduce their massive memory footprint, computational cost, inference latency, and energy consumption without the prohibitively expensive retraining required by traditional compression methods?
 
-* **Memory Constraints**: Billions of parameters require extensive GPU memory
-* **Computational Cost**: High FLOPs make inference expensive
-* **Latency Requirements**: Real-time applications need fast responses
-* **Energy Efficiency**: Training and inference consume significant power
-
-Traditional compression methods require expensive retraining. STAT achieves compression **without any retraining**.
+STAT solves this by achieving compression **without any retraining**.
 
 ## Key Innovation: Interpolative Decomposition for LLM Compression
 
@@ -38,21 +33,21 @@ Traditional compression methods require expensive retraining. STAT achieves comp
 * Enables retraining-free compression
 
 
-**Definition 1.1 (Interpolative Decomposition):** Given an $m \times n$ matrix $A$, an $m \times k$ matrix $C$ whose columns constitute a subset of those of $A$, and a $k \times n$ matrix $Z$, such that:
-* some size-$k$ subset of the columns of $Z$ form the $k \times k$ identity matrix, and
-* no entry of $Z$ has absolute value greater than 2,
+**Definition 1.1 (Interpolative Decomposition):** Given an \\(m \times n\\) matrix \\(A\\), an \\(m \times k\\) matrix \\(C\\) whose columns constitute a subset of those of \\(A\\), and a \\(k \times n\\) matrix \\(Z\\), such that:
+* some size-k subset of the columns of \\(Z\\) form the \\(k \times k\\) identity matrix, and
+* no entry of \\(Z\\) has absolute value greater than 2,
 
-then $CZ$ is an interpolative decomposition of $A$.
+then \\(CZ\\) is an interpolative decomposition of \\(A\\).
 
 
-**How Column ID Works:** Given a matrix $A \in \mathbb{R}^{m \times n}$, an order-$k$ column ID looks like:
+**How Column ID Works:** Given a matrix \\(A \in \mathbb{R}^{m \times n}\\), an order-k column ID looks like:
 
 $$A \approx A(:, J)T$$
 
 where:
-* $J$ is a set of $k$ column indices (so $A(:, J)$ is an $m \times k$ submatrix made of *actual columns* of $A$)
-* $T \in \mathbb{R}^{k \times n}$ is an "interpolation" matrix that tells you how to combine the selected columns to reconstruct the rest
-* A key structural feature: $T$ contains an **identity block** so the chosen columns reproduce themselves exactly: $T(:, J) = I_k$
+* \\(J\\) is a set of $k$ column indices (so \\(A(:, J)\\) is an \\(m \times k\\) submatrix made of *actual columns* of \\(A\\))
+* \\(T \in \mathbb{R}^{k \times n}\\) is an "interpolation" matrix that tells you how to combine the selected columns to reconstruct the rest
+* A key structural feature: \\(T\\) contains an **identity block** so the chosen columns reproduce themselves exactly: \\(T(:, J) = I_k\\)
 
 **Row ID:** There's also a row ID:
 
@@ -140,8 +135,6 @@ Where:
 * X is a mixing matrix
 * Approximation error is bounded
 
-WIP
-
 
 ## Implementation Details
 
@@ -164,9 +157,7 @@ python3 prune_bert.py \
     --sample_batch_size 512
 ```
 
-## Experimental Analysis & Results
-
-### Building on "Model Preserving Compression for Neural Networks"
+## Building on "Model Preserving Compression for Neural Networks"
 
 The analysis below continues and extends the work from [*Model Preserving Compression for Neural Networks*](https://papers.nips.cc/paper_files/paper/2022/hash/f8928b073ccbec15d35f2a9d39430bfd-Abstract-Conference.html) by Jerry Chee, Megan Renz, Anil Damle, and Chris De Sa (NeurIPS 2022).
 
@@ -254,23 +245,6 @@ These visualizations provide empirical validation for our theoretical framework:
 2. **Layer Heterogeneity**: Different compression strategies needed for different layers
 3. **Spectral Efficiency**: Most model capacity resides in top singular values
 4. **Retraining-Free Viability**: Sharp singular value cutoffs enable aggressive pruning without fine-tuning
-
-## Research Impact
-
-### Practical Applications
-
-* **Mobile Deployment**: Run large models on edge devices
-* **Cost Reduction**: Lower cloud inference costs (up to 50% reduction)
-* **Real-time Systems**: Enable low-latency applications
-* **Energy Efficiency**: Reduce carbon footprint of AI by 40-60%
-
-## Future Directions
-
-* Extension to larger models (GPT-4 scale)
-* Dynamic compression based on input complexity
-* Hardware-aware optimization
-* Combination with other compression techniques
-* Theoretical analysis of compression limits
 
 ## Links
 
