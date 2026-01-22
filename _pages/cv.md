@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* M.Eng. in Computer Science (Artificial Intelligence Concentration), Cornell University, 2025
-* B.A. in Mathematics (Computer Science Concentration), Cornell University, 2024
-  * Certificates in Cognitive Science, Neuroscience
+* M.Eng. in Computer Science (Artificial Intelligence Concentration), Cornell University, 2024 - 2025
+* B.A. in Mathematics (Computer Science Concentration with Honors), Cornell University, 2021 - 2024
+  * Certificates in Cognitive Science and Neuroscience, Harvard University
 
 Relevant Courses
 ======
@@ -89,7 +89,6 @@ Research Experience
   * Implemented orbital dynamics simulation and control algorithms for starshade station-keeping, replicating methodology from Kulik et al. (arXiv:2105.05898)
   * Modeled gravitational forces, orbital perturbations (J2 perturbation), and third-body interactions using Newton's law of gravitation and two-body problem equations
   * Developed proportional-derivative (PD) control algorithm to compute thruster firings and minimize differential lateral acceleration while maintaining precise telescope alignment
-  * Used numerical integration techniques (Runge-Kutta method) to simulate starshade trajectory and optimize fuel consumption
 
 Skills
 ======
