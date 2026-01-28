@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hi! I’m Nicole Hao. I received my post-graduate degree in Neurobiology and Neurosciences from Harvard University in 2026, M.Eng. in Computer Science and B.A. in Mathematics with honors from Cornell University in 2025. Currently, I'm in NYC, working as a software engineer at [Artian AI](https://artian.ai). 
+Hi! I’m Nicole Hao. I received my post-graduate degree in Neurobiology and Neurosciences from Harvard University in 2026, M.Eng. in Computer Science and B.A. in Mathematics with honors from, Cornell University in 2025. Currently, I'm in NYC, working as a software engineer at [Artian AI](https://artian.ai). 
 
 At Artian, I design and build enterprise-grade multi-agent AI solutions for global financial institutions. Previously, I founded [InkSight AI](/portfolio/inksight-ai/), an EdTech startup building a multi-sensory note-taking platform that improves lecture accessibility for blind/low-vision, hard-of-hearing, and neurodivergent learners. My startup was selected for the [Cornell eLab Student Startup Accelerator](https://www.elabstartup.com/) and mentored by [industry executives](/teaching/#mentorship-and-gratitude).
 
@@ -18,9 +18,9 @@ At Artian, I design and build enterprise-grade multi-agent AI solutions for glob
 Research
 ---
 
-My background spans mathematics, machine learning/artificial intelligence, robotics, and neuroscience. At Cornell, I worked with [Prof. Ray Jayawardhana](https://www.caltech.edu/about/news/ray-jayawardhana-appointed-caltech-tenth-president) (now at Caltech) on ML for astrophysics, [Prof. Yunan Yang](https://yunany.github.io/) on deep learning theory, [Prof. Anil Damle](https://www.cs.cornell.edu/~damle/) on LLM compression, [Prof. John Holmes](https://math.osu.edu/people/holmes.782) (OSU) on stochastic PDEs, and [Prof. Jennifer Sun](https://bowers.cornell.edu/people/jennifer-j-sun) on multimodal learning. I also worked on [Little Red Rover](https://little-red-rover.com/#/), Cornell's first educational robot, implementing and testing path finding algorithms.
+My background spans mathematics, machine learning/artificial intelligence, and robotics. At Cornell, I worked with [Prof. Ray Jayawardhana](https://www.caltech.edu/about/news/ray-jayawardhana-appointed-caltech-tenth-president) (now at Caltech) on ML for astrophysics, [Prof. Yunan Yang](https://yunany.github.io/) on deep learning theory, [Prof. Anil Damle](https://www.cs.cornell.edu/~damle/) on LLM compression, [Prof. John Holmes](https://math.osu.edu/people/holmes.782) (OSU) on stochastic PDEs, and [Prof. Jennifer Sun](https://bowers.cornell.edu/people/jennifer-j-sun) on multimodal learning. I also worked on [Little Red Rover](https://little-red-rover.com/#/), Cornell's first educational robot, implementing and testing path finding algorithms.
 
-I'm broadly interested in multimodal perception, language and reasoning, and multi-agent system design, with a focus on autonomous agents in critical and high-stakes industries like healthcare, finance, and education. I'm also exploring how these agents can be deployed in robots, with the long-term goal of creating *human-centered* systems that can reason about and interact with the physical world, support manual labor, and augment human perception. 
+I'm broadly interested in multimodal perception, reasoning, and multi-agent system design, with a focus on autonomous agents in critical and high-stakes industries like healthcare, finance, and education. I'm also exploring how these agents can be deployed in robots and wearable devices, with the long-term goal of creating *human-centered* systems that can reason about and interact with the physical world, support manual labor, and augment human cognition. 
 
 For more, see my [publications](/publications/) and [projects](/portfolio/) pages.
 
@@ -44,7 +44,7 @@ Outside of work, I [write about ethical AI and analyze new trends in tech](/year
 
 I also actively support initiatives that advance equity in STEM and beyond.
 
-📬 Feel free to reach out if you’re building something cool, or if you just want to talk research, social impact, entrepeneurship, and how we can use technology to better society.
+Feel free to reach out if you’re building something cool, or if you just want to talk research, social impact, entrepeneurship, and how we can use technology to better society.
 
 ---
 
