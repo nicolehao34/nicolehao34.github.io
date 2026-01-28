@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hi! I’m Nicole Hao. I received my post-graduate degree in Neuroscience and Neuroscience from Harvard University in 2026, M.Eng. in Computer Science and B.A. in Mathematics with honors from Cornell University in 2025. Currently, I'm in NYC, working as a software engineer at [Artian AI](https://artian.ai). 
+Hi! I’m Nicole Hao. I received my post-graduate degree in Neurobiology and Neurosciences from Harvard University in 2026, M.Eng. in Computer Science and B.A. in Mathematics with honors from Cornell University in 2025. Currently, I'm in NYC, working as a software engineer at [Artian AI](https://artian.ai). 
 
 At Artian, I design and build enterprise-grade multi-agent AI solutions for global financial institutions. Previously, I founded [InkSight AI](/portfolio/inksight-ai/), an EdTech startup building a multi-sensory note-taking platform that improves lecture accessibility for blind/low-vision, hard-of-hearing, and neurodivergent learners. My startup was selected for the [Cornell eLab Student Startup Accelerator](https://www.elabstartup.com/) and mentored by [industry executives](/teaching/#mentorship-and-gratitude).
 
