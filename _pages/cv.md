@@ -11,15 +11,15 @@ redirect_from:
 
 Education
 ======
+* Post-grad degree in Neurobiology and Neurosciences, Harvard University, 2025 - 2026
 * M.Eng. in Computer Science (Artificial Intelligence Concentration), Cornell University, 2024 - 2025
 * B.A. in Mathematics (Computer Science Concentration with Honors), Cornell University, 2021 - 2024
-  * Certificates in Cognitive Science and Neuroscience, Harvard University
 
 Relevant Courses
 ======
 * **Graduate-Level:** Robot Learning, Foundations of Robotics, Parallel Computing, Applied Functional Analysis, Reinforcement Learning, Natural Language Processing, Measure Theory, Probability, and Stochastic Processes (OSU), Advanced Stochastic Calculus (OSU)
 * **Undergraduate:** Numerical Analysis, Computational Linear Algebra, Deep Learning, Machine Learning, Object-Oriented Programming and Data Structures, Applicable Algebra, Real Analysis, Number Theory, Advanced Linear Algebra, Probability & Statistics, Multivariable Calculus
-* **Independent:** Neuroscience, Cognitive Science, Functional Programming, Databases, Computer Organization and Architecture, Algorithms, Operating Systems
+* **Independent:** Neuroscience, Neurobiology, Cognitive Science, Functional Programming, Databases, Computer Organization and Architecture, Algorithms, Operating Systems
 
 Work Experience
 ======
