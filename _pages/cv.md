@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* Post-grad degree in Neurobiology and Neurosciences (A, 99/100), Harvard University, 2025 - 2026
+* Post-grad degree in Neuroscience (A's in all classes), Harvard University, 2025 - 2026
 * M.Eng. in Computer Science (Artificial Intelligence Concentration), Cornell University, 2024 - 2025
 * B.A. in Mathematics (Computer Science Concentration with Honors), Cornell University, 2021 - 2024
 
