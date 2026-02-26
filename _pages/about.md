@@ -8,7 +8,8 @@ redirect_from:
 ---
 Hi! I’m Nicole Hao. I received my post-graduate training in Neuroscience from Harvard University in 2026, M.Eng. in Computer Science and B.A. in Mathematics with honors from Cornell University in 2025. Currently, I'm in NYC, working as a software engineer at [Artian AI](https://artian.ai). 
 
-At Artian, I design and build enterprise-grade multi-agent AI solutions for global financial institutions. Previously, I founded [InkSight AI](/portfolio/inksight-ai/), an EdTech startup building a multi-sensory note-taking platform that improves lecture accessibility for blind/low-vision, hard-of-hearing, and neurodivergent learners. My startup was selected for the [Cornell eLab Student Startup Accelerator](https://www.elabstartup.com/) and mentored by [industry executives](/teaching/#mentorship-and-gratitude).
+
+Currently at Artian, I design and build enterprise-grade multi-agent AI solutions for leading global financial institutions. Previously, I founded [InkSight AI](/portfolio/inksight-ai/), an EdTech startup that automates multi-sensory note-taking to support students with neurocognitive disabilities. My venture was selected for the [Cornell eLab Student Startup Accelerator](https://www.elabstartup.com/), mentored by [industry executives](/teaching/#mentorship-and-gratitude), and received multiple grants and donations.
 
 <p align="center">
   <img src="/images/pitch.jpg" alt="Cornell Tech Entrepreneurship Showcase, InkSight: Empowering All Learners with AI" width="50%"><br>
@@ -20,7 +21,7 @@ Research
 
 My background spans mathematics, machine learning/artificial intelligence, and robotics. At Cornell, I worked with [Prof. Ray Jayawardhana](https://www.caltech.edu/about/news/ray-jayawardhana-appointed-caltech-tenth-president) (now at Caltech) on ML for astrophysics, [Prof. Yunan Yang](https://yunany.github.io/) on deep learning theory, [Prof. Anil Damle](https://www.cs.cornell.edu/~damle/) on LLM compression, [Prof. John Holmes](https://math.osu.edu/people/holmes.782) (OSU) on stochastic PDEs, and [Prof. Jennifer Sun](https://bowers.cornell.edu/people/jennifer-j-sun) on multimodal learning. I also worked on [Little Red Rover](https://little-red-rover.com/#/), Cornell's first educational robot, implementing and testing path finding algorithms.
 
-I'm broadly interested in multimodal perception, reasoning, and multi-agent system design, with a focus on autonomous agents in critical and high-stakes industries like healthcare, finance, and education. I'm also exploring how these agents can be deployed in robots and wearable devices, with the long-term goal of creating *human-centered* systems that can reason about and interact with the physical world, support manual labor, and augment human cognition. 
+I'm broadly interested in multimodal perception, reasoning, and multi-agent system design, with a focus on autonomous agents in critical and high-stakes industries like healthcare, finance, and education. I'm also exploring how these agents can be deployed in robots and wearable devices, with the long-term goal of creating *human-centered* systems that can reason about and interact with the physical world and augment human cognition. 
 
 For more, see my [publications](/publications/) and [projects](/portfolio/) pages.
 
