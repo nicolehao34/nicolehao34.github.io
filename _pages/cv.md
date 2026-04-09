@@ -17,7 +17,8 @@ Education
 
 Work Experience
 ======
-* Jul 2025 - Present: **Software Engineer**, Artian AI, New York, NY
+* May 2025 - Present: **Founding Engineer**, Janet AI, San Fracisco, CA
+* Jul 2025 - Apr 2026: **Software Engineer**, Artian AI, New York, NY
 
 * Jun 2024 - Present: **Founder, Lead AI Engineer**, InkSight, Cornell eLab
   * Built AI-powered note-taking tool with real-time speech-to-text and multimodal processing
