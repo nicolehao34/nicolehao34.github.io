@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Notes on Clustering Algorithms and Evaluation Methods (WIP)
