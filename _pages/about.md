@@ -8,7 +8,7 @@ redirect_from:
 ---
 Hi! I’m Nicole Hao. I received my post-graduate training in Neuroscience from Harvard University in 2026, M.Eng. in Computer Science and B.A. in Mathematics with honors from Cornell University in 2025. I'm the Founding Engineer at [Janet AI](https://www.janet.ai/). 
 
-Previously, I founded [InkSight AI](/portfolio/inksight-ai/), an EdTech startup that automates multi-sensory note-taking to support students with neurocognitive disabilities. My venture was selected for the [Cornell eLab Student Startup Accelerator](https://www.elabstartup.com/), mentored by [industry executives](/teaching/#mentorship-and-gratitude), and received multiple grants and donations.
+I also founded [the NeuroAbility Foundation (previously know as InkSight AI)](/portfolio/inksight-ai/), a nonprofit startup that automates multi-sensory note-taking to support students with neurocognitive disabilities and chronic health conditions. It was selected for the [Cornell eLab Student Startup Accelerator](https://www.elabstartup.com/), mentored by [industry executives](/teaching/#mentorship-and-gratitude), and received multiple grants and donations.
 
 <p align="center">
   <img src="/images/pitch.jpg" alt="Cornell Tech Entrepreneurship Showcase, InkSight: Empowering All Learners with AI" width="50%"><br>
