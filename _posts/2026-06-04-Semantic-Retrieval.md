@@ -17,6 +17,16 @@ Semantic retrieval is the practice of finding documents based on **meaning** rat
 
 At the core of semantic retrieval are **dense embeddings**—fixed-length vectors (typically 384 to 1536 dimensions) that encode the semantic content of text. These embeddings are produced by neural encoder models trained on large corpora with contrastive objectives: similar texts are pulled together in the embedding space, while dissimilar texts are pushed apart.
 
+Given an encoder function $$f_\theta$$, the embedding of a text $$x$$ is:
+
+$$\mathbf{e} = f_\theta(x) \in \mathbb{R}^d$$
+
+These models are typically trained with a **contrastive loss** (e.g., InfoNCE):
+
+$$\mathcal{L} = -\log \frac{\exp(\text{sim}(f_\theta(q), f_\theta(d^+)) / \tau)}{\sum_{i=1}^{N} \exp(\text{sim}(f_\theta(q), f_\theta(d_i)) / \tau)}$$
+
+where $$d^+$$ is a positive (relevant) document, $$d_i$$ includes the positive and $$N-1$$ negatives, $$\tau$$ is a temperature parameter, and $$\text{sim}$$ is a similarity function (typically cosine or dot product).
+
 Popular embedding models include:
 
 - **Sentence-BERT (SBERT)** — Reimers & Gurevych, 2019
@@ -38,6 +48,22 @@ Approximate nearest neighbor (ANN) algorithms—such as HNSW (Hierarchical Navig
 ### Why Lexical Search Alone is Insufficient
 
 Traditional lexical search (e.g., BM25, TF-IDF) works by matching query terms against document terms. It excels when users know the exact vocabulary used in documents. However, it fails in several scenarios:
+
+**TF-IDF** scores a term $$t$$ in document $$d$$ from corpus $$D$$ as:
+
+$$\text{TF-IDF}(t, d, D) = \text{tf}(t, d) \cdot \log \frac{|D|}{|\{d' \in D : t \in d'\}|}$$
+
+**BM25** extends TF-IDF with saturation and document-length normalization:
+
+$$\text{BM25}(q, d) = \sum_{t \in q} \text{IDF}(t) \cdot \frac{\text{tf}(t, d) \cdot (k_1 + 1)}{\text{tf}(t, d) + k_1 \cdot \left(1 - b + b \cdot \frac{|d|}{\text{avgdl}}\right)}$$
+
+where $$k_1$$ controls term frequency saturation (typically 1.2–2.0), $$b$$ controls length normalization (typically 0.75), and $$\text{avgdl}$$ is the average document length in the corpus. The IDF component is:
+
+$$\text{IDF}(t) = \log \frac{N - n(t) + 0.5}{n(t) + 0.5}$$
+
+where $$N$$ is the total number of documents and $$n(t)$$ is the number of documents containing term $$t$$.
+
+Despite being mathematically well-motivated, these lexical methods fail in several scenarios:
 
 - **Synonym mismatch**: "automobile" vs. "car"
 - **Paraphrase mismatch**: "how to lose weight" vs. "strategies for reducing body mass"
@@ -106,6 +132,20 @@ These are distinct measurements:
 - **Retrieval quality** (Recall@K): Did we find the relevant documents at all?
 - **Ranking quality** (MRR, NDCG): Are the relevant documents near the top?
 
+**Normalized Discounted Cumulative Gain (NDCG@K)** is a standard ranking metric that accounts for graded relevance and position:
+
+$$\text{DCG@K} = \sum_{i=1}^{K} \frac{2^{\text{rel}_i} - 1}{\log_2(i + 1)}$$
+
+$$\text{NDCG@K} = \frac{\text{DCG@K}}{\text{IDCG@K}}$$
+
+where $$\text{rel}_i$$ is the relevance grade of the document at position $$i$$, and $$\text{IDCG@K}$$ is the DCG of the ideal (perfectly sorted) ranking. NDCG ranges from 0 to 1, where 1 means the ranking is optimal.
+
+**Average Precision (AP)** for a single query considers both precision and recall at every rank position where a relevant document is found:
+
+$$\text{AP} = \frac{1}{|\text{Rel}|} \sum_{k=1}^{n} P(k) \cdot \text{rel}(k)$$
+
+where $$P(k)$$ is precision at rank $$k$$, $$\text{rel}(k)$$ is 1 if the document at rank $$k$$ is relevant (0 otherwise), and $$|\text{Rel}|$$ is the total number of relevant documents. **Mean Average Precision (MAP)** averages AP across all queries.
+
 A system with high recall but low MRR retrieves relevant documents but buries them in the list. A system with high MRR but low recall finds a few relevant documents quickly but misses others. Both dimensions must be measured independently.
 
 > **Key Insight**: Improving retrieval (recall) and improving ranking (precision/ordering) often require different techniques and should be evaluated separately.
@@ -173,6 +213,16 @@ The simplest dense retrieval system:
 2. Store vectors in an ANN index (e.g., FAISS, Pinecone, Weaviate, Qdrant)
 3. At query time, encode the query and find the K nearest vectors
 
+**Exact nearest-neighbor search** requires computing similarity to all $$N$$ documents:
+
+$$d^* = \arg\max_{d \in \mathcal{D}} \text{sim}(\mathbf{q}, \mathbf{d})$$
+
+This has $$O(N \cdot d)$$ complexity (where $$d$$ is the embedding dimension), which is prohibitive for large corpora.
+
+**Approximate nearest neighbor (ANN)** methods trade a small amount of recall for dramatic speedup. HNSW achieves $$O(\log N)$$ query time with high recall (typically > 0.95). IVF partitions the space into $$\sqrt{N}$$ Voronoi cells and searches only the $$n_{\text{probe}}$$ nearest cells, achieving sub-linear query time:
+
+$$O(n_{\text{probe}} \cdot N / \sqrt{N}) = O(n_{\text{probe}} \cdot \sqrt{N})$$
+
 This approach is fast, simple, and surprisingly effective for many use cases.
 
 ### Candidate Generation
@@ -192,6 +242,16 @@ Techniques include:
 - **MinHash / LSH** for approximate deduplication
 - **Embedding similarity threshold** — collapse documents above a cosine similarity of, e.g., 0.95
 - **URL/ID-based deduplication** for web corpora
+
+The **Jaccard similarity** between two document shingle sets $$A$$ and $$B$$ is commonly used to detect near-duplicates:
+
+$$J(A, B) = \frac{|A \cap B|}{|A \cup B|}$$
+
+MinHash provides an efficient approximation: by hashing shingle sets with $$k$$ independent hash functions, the probability that two documents share a MinHash signature equals their Jaccard similarity:
+
+$$P[h_{\min}(A) = h_{\min}(B)] = J(A, B)$$
+
+Documents with $$J(A, B) > \theta$$ (typically $$\theta = 0.8$$) are considered near-duplicates.
 
 ### Retrieval vs. Ranking
 
@@ -234,7 +294,13 @@ Generate multiple phrasings of the same query and retrieve documents for each:
 - "how to put ML models into production"
 - "serving trained models at scale"
 
-Union the results to improve recall.
+Union the results to improve recall. Formally, given $$m$$ query variants $$\{q_1, q_2, \ldots, q_m\}$$, the expanded result set is:
+
+$$\mathcal{R}_{\text{expanded}} = \bigcup_{i=1}^{m} \text{TopK}(q_i, \mathcal{D})$$
+
+The theoretical recall upper bound increases with $$m$$, but with diminishing returns. If each variant independently retrieves relevant documents with probability $$p$$, the probability of missing a relevant document across $$m$$ variants is $$(1-p)^m$$, giving expected recall:
+
+$$\text{Recall}_m = 1 - (1 - p)^m$$
 
 ### Acronym and Synonym Expansion
 
@@ -373,7 +439,19 @@ Struggles with:
 
 ### Why Exact Tokens are Difficult for Dense Embeddings
 
-Dense embedding models compress text into fixed-dimensional vectors. This compression necessarily loses fine-grained token-level information. The embedding for "error 0x80070005" may be close to "Windows error code" in general, but it cannot distinguish it from "error 0x80070002" because the model doesn't memorize arbitrary character sequences—it encodes *meaning*.
+Dense embedding models compress text into fixed-dimensional vectors. This compression necessarily loses fine-grained token-level information. Mathematically, an encoder maps variable-length text to a fixed-size vector:
+
+$$f: \mathcal{V}^* \rightarrow \mathbb{R}^d$$
+
+where $$\mathcal{V}^*$$ is the set of all possible token sequences. This mapping is necessarily lossy—you cannot preserve all token-level information in a fixed $$d$$-dimensional space (by the pigeonhole principle, when $$|\mathcal{V}^*| \gg \mathbb{R}^d$$).
+
+The embedding for "error 0x80070005" may be close to "Windows error code" in general, but it cannot distinguish it from "error 0x80070002" because the model doesn't memorize arbitrary character sequences—it encodes *meaning*.
+
+**Learned sparse representations** (e.g., SPLADE) attempt to bridge this gap by learning sparse, high-dimensional vectors where each dimension corresponds to a vocabulary term:
+
+$$\mathbf{w}_d = \max_{t \in d}\left(\log(1 + \text{ReLU}(W \cdot h_t + b))\right) \in \mathbb{R}^{|\mathcal{V}|}$$
+
+This produces a sparse vector with non-zero weights for semantically relevant terms—including terms not present in the original text—combining the benefits of learned representations with the exact-match capability of inverted indexes.
 
 This is the fundamental reason hybrid systems exist: dense retrieval handles meaning, lexical retrieval handles identity.
 
@@ -390,7 +468,21 @@ Different retrieval systems produce scores on different scales:
 - Cosine similarity ranges from -1 to 1
 - A reranker might produce logits from -10 to 10
 
-Normalizing these to a common scale (e.g., min-max normalization) is fragile because:
+A naive weighted combination:
+
+$$s_{\text{hybrid}}(q, d) = \lambda \cdot s_{\text{dense}}(q, d) + (1 - \lambda) \cdot s_{\text{sparse}}(q, d)$$
+
+requires normalizing both scores to a comparable range. Common normalization approaches include:
+
+**Min-max normalization** per query:
+
+$$\hat{s}(d) = \frac{s(d) - \min_{d' \in \mathcal{R}} s(d')}{\max_{d' \in \mathcal{R}} s(d') - \min_{d' \in \mathcal{R}} s(d')}$$
+
+**Z-score normalization**:
+
+$$\hat{s}(d) = \frac{s(d) - \mu_s}{\sigma_s}$$
+
+Both are fragile because:
 - Score distributions differ across queries
 - The relationship between score and relevance differs across systems
 - Outliers can distort normalization
@@ -449,7 +541,19 @@ Retrieval finds candidates; **reranking** puts the best ones on top.
 
 The retrieval stage uses efficient models (bi-encoders) that encode queries and documents *independently*. This enables fast ANN search but limits the model's ability to capture fine-grained query-document interactions.
 
+**Bi-encoder scoring**:
+
+$$s_{\text{bi}}(q, d) = \text{sim}(f_\theta(q), g_\phi(d)) = \frac{f_\theta(q) \cdot g_\phi(d)}{\|f_\theta(q)\| \|g_\phi(d)\|}$$
+
+The key property is that document embeddings $$g_\phi(d)$$ can be precomputed and indexed offline—only the query needs to be encoded at search time.
+
 Rerankers use **cross-encoders** that process the query and document *jointly*, allowing deep token-level interactions. This is far more accurate but too slow to run over millions of documents.
+
+**Cross-encoder scoring**:
+
+$$s_{\text{cross}}(q, d) = \sigma\left(W \cdot \text{BERT}([q; \text{[SEP]}; d])_{\text{[CLS]}} + b\right)$$
+
+where the query and document are concatenated as input, allowing full cross-attention between all query and document tokens. The $$\text{[CLS]}$$ token representation captures the joint interaction and is projected to a relevance score via a learned linear layer.
 
 ### Cross-Encoders and LLM Rerankers
 
@@ -483,6 +587,14 @@ Cross-encoders can capture:
 2. **Cascading rerank**: Retrieve 1000 → Light reranker (top 100) → Heavy reranker (top 10)
 3. **Hybrid + rerank**: Dense retrieval + Lexical retrieval → RRF fusion → Rerank top candidates
 
+### Late Interaction: ColBERT
+
+ColBERT (Khattab & Zaharia, 2020) represents a middle ground between bi-encoders and cross-encoders using **late interaction**. Each query token and document token gets its own embedding, and relevance is computed via the **MaxSim** operator:
+
+$$s_{\text{ColBERT}}(q, d) = \sum_{i=1}^{|q|} \max_{j=1}^{|d|} \mathbf{q}_i \cdot \mathbf{d}_j$$
+
+For each query token embedding $$\mathbf{q}_i$$, find the maximum similarity to any document token embedding $$\mathbf{d}_j$$, then sum across all query tokens. This preserves token-level interaction while allowing document representations to be precomputed—achieving better quality than bi-encoders with much lower latency than cross-encoders.
+
 ---
 
 ## 10. Designing Production Retrieval Systems
@@ -511,6 +623,20 @@ A typical production system might allocate:
 - Reranking (top 50): 150ms
 - Post-processing: 25ms
 - **Total**: ~250ms (with headroom for variance)
+
+The total end-to-end latency for a multi-stage pipeline with $$S$$ sequential stages is:
+
+$$T_{\text{total}} = \sum_{s=1}^{S} T_s + T_{\text{network}}$$
+
+For stages that can run in parallel (e.g., dense and sparse retrieval simultaneously):
+
+$$T_{\text{parallel}} = \max(T_{\text{dense}}, T_{\text{sparse}}) + T_{\text{fusion}} + T_{\text{rerank}}$$
+
+The cost-per-query for a reranking stage scoring $$n$$ candidates with a model of inference cost $$c$$ per document:
+
+$$\text{Cost}_{\text{rerank}} = n \cdot c$$
+
+This makes the choice of $$n$$ (how many candidates to rerank) a direct tradeoff between quality and cost.
 
 ### Multi-Stage Retrieval Architectures
 
