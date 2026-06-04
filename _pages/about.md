@@ -48,13 +48,11 @@ Feel free to reach out if you’re building something cool, or if you just want 
 
 ---
 
-<p style="font-size: 1.4em; font-weight: 600; text-align: center; color: #2c5aa0; margin: 2.5rem 0; line-height: 1.5; font-family: 'AvantGarde', 'Century Gothic', 'Avant Garde Gothic', sans-serif;">
+<p style="font-size: 1.4em; font-weight: 600; text-align: center; color: #2c5aa0; margin: 2.5rem 0 1rem; line-height: 1.5; font-family: 'AvantGarde', 'Century Gothic', 'Avant Garde Gothic', sans-serif;">
 Let's build a future where AI serves humanity, not the other way around.
 </p>
 
----
-
-<p style="font-size: 0.9em; color: #666; margin-top: 2rem;">
+<p style="font-size: 0.9em; color: #666; margin-top: 1rem;">
 <strong>Note:</strong> Opinions expressed are my own. All content is archived and tracked for reproduction and distribution. Please provide proper attribution when quoting or referencing.
 </p>
 
