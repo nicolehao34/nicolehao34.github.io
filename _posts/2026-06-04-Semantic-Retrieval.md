@@ -275,7 +275,241 @@ Baselines serve three purposes:
 
 ---
 
-## 5. Query Expansion with LLMs
+## 5. Hierarchical Navigable Small World (HNSW)
+
+Exact nearest-neighbor search has $$O(N \cdot d)$$ complexity, which becomes intractable for large-scale retrieval. **Hierarchical Navigable Small World (HNSW)** graphs (Malkov & Yashunin, 2018) are the dominant approximate nearest-neighbor (ANN) algorithm in modern vector databases, offering logarithmic query time with remarkably high recall.
+
+### Background: Navigable Small World Graphs
+
+HNSW builds on two foundational ideas:
+
+1. **Small-world networks** (Watts & Strogatz, 1998) — graphs where most nodes can be reached from any other node in a small number of hops, despite the graph being sparse.
+2. **Navigable small-world (NSW) graphs** (Malkov et al., 2014) — graphs that support greedy routing: starting from any node, a greedy algorithm that always moves to the neighbor closest to the target will reach the target (or its nearest neighbor) efficiently.
+
+In an NSW graph, each node is connected to a set of neighbors chosen such that the graph exhibits both **local clustering** (short-range connections for precision) and **long-range links** (for fast traversal across the graph). The key insight of HNSW is to separate these two scales into a hierarchy of layers.
+
+### HNSW Architecture
+
+HNSW organizes nodes into multiple layers, forming a hierarchy:
+
+- **Layer 0** (bottom): Contains **all** $$N$$ nodes with dense short-range connections.
+- **Layer 1**: Contains a random subset of nodes (roughly $$N / m_L$$) with longer-range connections.
+- **Layer $$\ell$$**: Contains progressively fewer nodes with increasingly long-range connections.
+- **Top layer**: Contains very few nodes, providing a coarse entry point for search.
+
+The probability that a node appears at layer $$\ell$$ follows an exponential decay:
+
+$$P(\text{node at layer } \ell) = e^{-\ell / m_L}$$
+
+where $$m_L = 1 / \ln(M)$$ is a normalization factor and $$M$$ is the maximum number of connections per node. This produces $$O(\log N)$$ layers in expectation.
+
+```
+Layer 3:   [A] ─────────────────────── [F]           (few nodes, long links)
+Layer 2:   [A] ──── [C] ──────── [F] ── [H]         (more nodes, medium links)
+Layer 1:   [A] ─ [B] ─ [C] ─ [D] ─ [F] ─ [G] ─ [H] (more nodes, shorter links)
+Layer 0:   [A]-[B]-[C]-[D]-[E]-[F]-[G]-[H]-[I]-[J]  (all nodes, local links)
+```
+
+*Figure: Hierarchical layer structure of HNSW. Higher layers contain fewer nodes with longer-range connections, enabling fast coarse navigation. Lower layers contain more nodes with short-range connections for precise local search. Adapted from Malkov & Yashunin (2018), Figure 1.*
+
+### Search Algorithm
+
+The HNSW search algorithm performs a greedy traversal from the top layer down to layer 0:
+
+**Algorithm: HNSW-Search(query $$\mathbf{q}$$, entry point $$ep$$, top layer $$L$$, ef)**
+
+1. Set the current nearest element $$W \leftarrow \{ep\}$$
+2. For $$\ell = L$$ down to 1:
+   - Greedily traverse layer $$\ell$$: move to the neighbor of the current best element that is closest to $$\mathbf{q}$$, until no improvement is found
+   - Use the result as the entry point for layer $$\ell - 1$$
+3. At layer 0, perform a more thorough search:
+   - Maintain a dynamic candidate list of size $$ef$$ (the exploration factor)
+   - Expand candidates by examining their neighbors
+   - Return the $$K$$ nearest elements from the candidate list
+
+The parameter $$ef$$ (exploration factor) controls the recall-speed tradeoff at query time. Higher $$ef$$ means more candidates are explored, yielding higher recall at the cost of more distance computations.
+
+### Construction Algorithm
+
+HNSW is built incrementally by inserting nodes one at a time:
+
+**Algorithm: HNSW-Insert(new node $$\mathbf{v}$$)**
+
+1. Determine the insertion layer $$\ell_v$$ by sampling:
+
+$$\ell_v = \lfloor -\ln(\text{uniform}(0, 1)) \cdot m_L \rfloor$$
+
+2. Find the nearest neighbors of $$\mathbf{v}$$ at each layer from $$\ell_v$$ down to 0 using the search algorithm.
+3. Connect $$\mathbf{v}$$ to at most $$M$$ nearest neighbors at each layer.
+4. If any neighbor now has more than $$M_{\max}$$ connections, prune its connection list using a heuristic that preserves graph navigability.
+
+The **neighbor selection heuristic** is crucial for performance. The simple approach selects the $$M$$ nearest neighbors, but the improved heuristic (Algorithm 4 in Malkov & Yashunin, 2018) also considers diversity: it prefers neighbors that are not only close to the new node but also far from each other, ensuring better coverage of the surrounding space.
+
+### Key Parameters
+
+| Parameter | Symbol | Typical Range | Role |
+|-----------|--------|---------------|------|
+| Max connections per node | $$M$$ | 12–48 | Controls graph connectivity and memory usage |
+| Max connections at layer 0 | $$M_0$$ | $$2M$$ | Denser connectivity at the base layer |
+| Construction exploration factor | $$ef_{\text{construction}}$$ | 100–400 | Controls index build quality |
+| Search exploration factor | $$ef$$ | 50–500 | Controls query recall-speed tradeoff |
+| Level multiplier | $$m_L$$ | $$1/\ln(M)$$ | Controls layer assignment probability |
+
+### Mathematical Analysis
+
+#### Distance Computations per Query
+
+At each layer $$\ell$$, the greedy search visits $$O(1)$$ nodes on average (since the expected diameter of a navigable small-world graph at each layer is bounded). With $$O(\log N)$$ layers, the total number of distance computations for the hierarchical traversal (layers $$L$$ to 1) is:
+
+$$C_{\text{upper}} = O(\log N)$$
+
+At layer 0, the beam search with exploration factor $$ef$$ examines at most $$O(ef \cdot M)$$ candidates. The total query cost is:
+
+$$C_{\text{total}} = O(\log N + ef \cdot M)$$
+
+Since $$ef$$ and $$M$$ are constants (independent of $$N$$), the overall query time complexity is:
+
+$$T_{\text{query}} = O(\log N \cdot d)$$
+
+where $$d$$ is the embedding dimension (cost of one distance computation).
+
+#### Construction Time Complexity
+
+Each insertion requires finding nearest neighbors at each layer the node participates in. Since node insertion uses the search algorithm, and each node appears in $$O(1)$$ layers on average (due to exponential decay), the per-insertion cost is:
+
+$$T_{\text{insert}} = O(\log N \cdot d \cdot M)$$
+
+Building the full index for $$N$$ nodes:
+
+$$T_{\text{build}} = O(N \cdot \log N \cdot d \cdot M)$$
+
+#### Space Complexity
+
+Each node stores $$M$$ connections at each layer it participates in:
+
+$$S = O(N \cdot M \cdot \bar{\ell})$$
+
+where $$\bar{\ell}$$ is the average number of layers per node. Since nodes appear at layer $$\ell$$ with probability $$e^{-\ell / m_L}$$, the expected number of layers per node is bounded by a constant:
+
+$$\bar{\ell} = \sum_{\ell=0}^{\infty} e^{-\ell / m_L} = \frac{1}{1 - e^{-1/m_L}} = O(1)$$
+
+Thus, total space complexity is $$O(N \cdot M)$$, which is linear in the number of points.
+
+### Time Complexity Summary
+
+| Operation | Complexity | Notes |
+|-----------|-----------|-------|
+| Query (K-NN search) | $$O(\log N \cdot d)$$ | Logarithmic in corpus size |
+| Single insertion | $$O(\log N \cdot d \cdot M)$$ | Per-element index build cost |
+| Full index construction | $$O(N \log N \cdot d \cdot M)$$ | Total build time |
+| Space | $$O(N \cdot M + N \cdot d)$$ | Graph edges + stored vectors |
+| Exact brute-force (comparison) | $$O(N \cdot d)$$ | Linear scan baseline |
+
+### Evaluation: HNSW Performance Benchmarks
+
+HNSW consistently achieves state-of-the-art recall-speed tradeoffs across standard ANN benchmarks. The following results are reported from the ANN-Benchmarks project (Aumüller et al., 2020) and the original HNSW paper (Malkov & Yashunin, 2018):
+
+#### Recall vs. Queries per Second
+
+| Dataset | Dimensions | Points | Recall@10 | QPS (HNSW) | QPS (IVF-PQ) | QPS (Brute Force) |
+|---------|-----------|--------|-----------|------------|---------------|-------------------|
+| SIFT-1M | 128 | 1,000,000 | 0.99 (ef=128) | ~3,000 | ~5,000 | ~200 |
+| SIFT-1M | 128 | 1,000,000 | 0.999 (ef=512) | ~800 | ~1,200 | ~200 |
+| GloVe-200 | 200 | 1,183,514 | 0.95 | ~1,500 | ~2,500 | ~100 |
+| GIST-960 | 960 | 1,000,000 | 0.95 | ~150 | ~300 | ~10 |
+| Deep-1B | 96 | 1,000,000,000 | 0.90 | ~2,000 | ~3,500 | N/A |
+
+*Data sources: ANN-Benchmarks (Aumüller, Bernhardsson, & Faithfull, 2020); Malkov & Yashunin (2018), Table 2. QPS values are approximate and depend on hardware.*
+
+```
+Recall@10 vs. Queries Per Second (SIFT-1M, log scale)
+
+QPS (log)
+10000 |                                    * IVF-PQ (low recall)
+      |                           * HNSW     * IVF-PQ
+ 1000 |                    * HNSW
+      |             * HNSW
+  100 |      * Brute Force
+      |
+   10 |
+      +----+----+----+----+----+----+----+---
+         0.8  0.85  0.9  0.95  0.98 0.99 1.0
+                        Recall@10
+```
+
+*Figure: Recall-speed Pareto frontier for HNSW vs. IVF-PQ on SIFT-1M. HNSW achieves higher recall at comparable throughput, particularly in the high-recall regime (>0.95). Adapted from ANN-Benchmarks (Aumüller et al., 2020), licensed under MIT.*
+
+#### Effect of Parameters on Performance
+
+The $$ef$$ parameter directly controls the recall-speed tradeoff at query time:
+
+| $$ef$$ | Recall@10 (SIFT-1M) | Avg. Query Time |
+|--------|---------------------|-----------------|
+| 16 | 0.82 | 0.05ms |
+| 32 | 0.92 | 0.09ms |
+| 64 | 0.97 | 0.17ms |
+| 128 | 0.99 | 0.33ms |
+| 256 | 0.997 | 0.65ms |
+| 512 | 0.999 | 1.3ms |
+
+*Data adapted from Malkov & Yashunin (2018), Table 3. Hardware: single-threaded, Intel Xeon E5-2650.*
+
+The $$M$$ parameter controls the connectivity/memory tradeoff during construction:
+
+| $$M$$ | Recall@10 (ef=128) | Memory per point | Build time (SIFT-1M) |
+|-------|-------------------|-----------------|---------------------|
+| 8 | 0.96 | ~0.5 KB | ~180s |
+| 16 | 0.99 | ~1.0 KB | ~300s |
+| 32 | 0.995 | ~2.0 KB | ~550s |
+| 48 | 0.997 | ~3.0 KB | ~800s |
+
+*Data adapted from Malkov & Yashunin (2018), Section 5. Memory excludes stored vectors.*
+
+### Comparison with Other ANN Methods
+
+| Method | Query Time | Build Time | Memory | Recall@10 | Dynamic Updates |
+|--------|-----------|-----------|--------|-----------|-----------------|
+| **HNSW** | $$O(\log N)$$ | $$O(N \log N)$$ | $$O(NM)$$ | 0.95–0.999 | ✅ (insert only) |
+| **IVF-PQ** | $$O(\sqrt{N})$$ | $$O(N)$$ | $$O(N \cdot b)$$ | 0.70–0.95 | ❌ (requires retrain) |
+| **LSH** | $$O(N^{1/c})$$ | $$O(N)$$ | $$O(N \cdot L)$$ | 0.60–0.90 | ✅ |
+| **KD-Tree** | $$O(N^{1-1/d})$$ | $$O(N \log N)$$ | $$O(N)$$ | 1.0 (exact, low-d only) | ✅ |
+| **Annoy** | $$O(\log N)$$ | $$O(N \log N)$$ | $$O(N \cdot T)$$ | 0.80–0.95 | ❌ (immutable) |
+
+*Table: Comparison of ANN methods. $$b$$ = bytes per compressed vector (PQ), $$L$$ = number of hash tables (LSH), $$T$$ = number of trees (Annoy). Recall ranges are typical for the SIFT-1M benchmark. Adapted from Aumüller et al. (2020) and Li et al. (2020).*
+
+### Why HNSW Dominates in Practice
+
+HNSW has become the default ANN algorithm in most vector databases (Pinecone, Weaviate, Qdrant, Milvus, pgvector) for several reasons:
+
+1. **High recall at low latency**: HNSW achieves >0.95 recall with sub-millisecond query times.
+2. **No training phase**: Unlike IVF-based methods that require k-means clustering, HNSW builds incrementally.
+3. **Dynamic insertions**: New vectors can be added without rebuilding the index.
+4. **Robustness to dimensionality**: Performance degrades gracefully with increasing dimensions, unlike tree-based methods that suffer from the "curse of dimensionality."
+5. **Tunable precision**: The $$ef$$ parameter allows runtime control of the recall-speed tradeoff without rebuilding.
+
+### Limitations
+
+- **Memory overhead**: HNSW stores the graph structure in addition to vectors (typically 1–3 KB per node for the graph alone).
+- **No deletions** (in standard implementation): Removing nodes requires rebuilding or using tombstone markers.
+- **Build time**: Index construction is slower than IVF methods for very large datasets (>100M vectors).
+- **Not disk-friendly**: Random graph traversal patterns are not cache-efficient, making disk-based HNSW challenging (though DiskANN addresses this; Subramanya et al., 2019).
+
+### HNSW in Production Vector Databases
+
+| Database | HNSW Implementation | Additional Features |
+|----------|--------------------|--------------------|
+| FAISS (Meta) | `IndexHNSWFlat` | Combined with PQ for memory reduction |
+| Pinecone | Proprietary HNSW variant | Managed, distributed |
+| Weaviate | Custom HNSW | Disk-backed, filtered search |
+| Qdrant | Custom HNSW | Payload filtering, quantization |
+| Milvus | Knowhere engine | GPU-accelerated construction |
+| pgvector | `hnsw` index type | PostgreSQL-integrated |
+
+> **Key Insight**: HNSW provides the best recall-speed tradeoff for datasets up to ~100M vectors. Beyond that scale, hybrid approaches (HNSW + product quantization, or sharded HNSW) are necessary to manage memory and maintain performance.
+
+---
+
+## 6. Query Expansion with LLMs
 
 Users often write short, ambiguous queries. **Query expansion** enriches the original query with additional terms or reformulations to improve recall.
 
@@ -331,7 +565,7 @@ Embedding models are trained on fixed vocabularies. Novel terms, brand names, an
 
 ---
 
-## 6. Pseudo-Relevance Feedback (PRF)
+## 7. Pseudo-Relevance Feedback (PRF)
 
 Pseudo-Relevance Feedback is a classical technique that refines a query based on the assumption that top-retrieved documents are relevant. It predates LLMs by decades but remains highly effective.
 
@@ -392,7 +626,7 @@ This is the simplified Rocchio formulation with $$\gamma = 0$$ (ignoring non-rel
 
 ---
 
-## 7. Hybrid Retrieval
+## 8. Hybrid Retrieval
 
 No single retrieval method excels at everything. **Hybrid retrieval** combines multiple retrieval signals—typically dense (semantic) and sparse (lexical)—to cover each other's weaknesses.
 
@@ -457,7 +691,7 @@ This is the fundamental reason hybrid systems exist: dense retrieval handles mea
 
 ---
 
-## 8. Reciprocal Rank Fusion (RRF)
+## 9. Reciprocal Rank Fusion (RRF)
 
 When combining results from multiple retrieval systems, how do you merge their ranked lists? **Reciprocal Rank Fusion** (Cormack et al., 2009) provides an elegant solution.
 
@@ -533,7 +767,7 @@ Documents that appear in *both* lists (A, B, C) are boosted. Document A and C ti
 
 ---
 
-## 9. Reranking
+## 10. Reranking
 
 Retrieval finds candidates; **reranking** puts the best ones on top.
 
@@ -597,7 +831,7 @@ For each query token embedding $$\mathbf{q}_i$$, find the maximum similarity to 
 
 ---
 
-## 10. Designing Production Retrieval Systems
+## 11. Designing Production Retrieval Systems
 
 Building a retrieval system for production requires balancing quality, cost, and latency under real-world constraints.
 
@@ -724,6 +958,12 @@ For each major section, the following visuals would enhance understanding:
 
 7. **Candidate Generation and Reranking Flow** — Diagram contrasting bi-encoder (independent encoding) with cross-encoder (joint encoding) architectures. *Source: Adapt from Sentence-BERT paper (Reimers & Gurevych, 2019), Figure 1.*
 
+8. **HNSW Layer Structure** — Diagram showing the hierarchical layers of an HNSW graph with nodes at each level and connections of varying length. *Source: Adapt from Malkov & Yashunin (2018), Figure 1.*
+
+9. **HNSW Recall vs. QPS Pareto Curve** — Log-scale plot comparing HNSW, IVF-PQ, and brute-force search on SIFT-1M, showing the recall-speed tradeoff frontier. *Source: Adapt from ANN-Benchmarks (Aumüller et al., 2020), available at https://ann-benchmarks.com under MIT license.*
+
+10. **HNSW Search Traversal** — Step-by-step visualization of greedy search descending through layers, showing entry point selection, layer transitions, and beam search at layer 0. *Source: Create original based on Malkov & Yashunin (2018), Algorithm 2.*
+
 ---
 
 ## References
@@ -751,6 +991,16 @@ For each major section, the following visuals would enhance understanding:
 11. Xiao, S., Liu, Z., Zhang, P., & Muennighoff, N. (2023). C-Pack: Packaged Resources To Advance General Chinese Embedding. *arXiv preprint arXiv:2309.07597*.
 
 12. Formal, T., Piwowarski, B., & Clinchant, S. (2021). SPLADE: Sparse Lexical and Expansion Model for First Stage Ranking. *Proceedings of SIGIR 2021*.
+
+13. Aumüller, M., Bernhardsson, E., & Faithfull, A. (2020). ANN-Benchmarks: A Benchmarking Tool for Approximate Nearest Neighbor Algorithms. *Information Systems*, 87, 101374.
+
+14. Malkov, Y. A., Ponomarenko, A., Logvinov, A., & Krylov, V. (2014). Approximate Nearest Neighbor Algorithm Based on Navigable Small World Graphs. *Information Systems*, 45, 61–68.
+
+15. Watts, D. J., & Strogatz, S. H. (1998). Collective Dynamics of 'Small-World' Networks. *Nature*, 393(6684), 440–442.
+
+16. Subramanya, S. J., Devvrit, Kadekodi, R., Krishnaswamy, R., & Simhadri, H. V. (2019). DiskANN: Fast Accurate Billion-point Nearest Neighbor Search on a Single Node. *Proceedings of NeurIPS 2019*.
+
+17. Li, W., Zhang, Y., Sun, Y., Wang, W., Li, M., Zhang, W., & Lin, X. (2020). Approximate Nearest Neighbor Search on High Dimensional Data — Experiments, Analyses, and Improvement. *IEEE Transactions on Knowledge and Data Engineering*, 32(8), 1475–1488.
 
 ---
 
