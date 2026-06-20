@@ -198,6 +198,12 @@ The membrane potential arises from a **separation of electrical charge** across 
 **Why it matters:**
 Membrane potential is the universal currency of neural signaling. Voltage-gated channels sense \\(V_m\\) and open or close accordingly; the direction and magnitude of ion flow through any open channel is set by how far \\(V_m\\) is from that ion's equilibrium potential (the driving force). Every signal a neuron sends — action potentials, synaptic potentials — is a controlled change in \\(V_m\\).
 
+**Three related terms to keep straight:**
+
+- **Membrane potential** is a general term for the voltage across the membrane at any given moment — it can be anything from deeply hyperpolarized to the peak of an action potential.
+- **Nernst potential** (equilibrium potential) is the specific value of membrane potential at which, given a particular temperature and concentration gradient, a *single* ion species is at electrochemical equilibrium — no net flow of that ion occurs.
+- **Resting potential** (covered in detail below) is a stable membrane potential that emerges from the combined flow of *multiple* ions. When a neuron is described as "at rest," it means \\(V_m\\) is currently sitting at its resting potential (~\\(-70\\) mV).
+
 **Nernst equation:**
 The Nernst equation gives the equilibrium potential \\(E_{\text{ion}}\\) — the value of \\(V_m\\) at which a given ion is in electrochemical equilibrium (no net flow, even through open channels):
 
@@ -221,6 +227,18 @@ The potential computed by the Nernst equation goes by several names depending on
 | **\\(E_{\text{ion}}\\)** (e.g., \\(E_K\\), \\(E_{Na}\\)) | Equations and shorthand throughout neuroscience | Compact notation specifying which ion's equilibrium potential is meant |
 
 **When the terms diverge:** For a channel permeable to only one ion, all four terms are interchangeable. For a channel permeable to *multiple* ions (e.g., NMDA receptors conduct Na⁺, K⁺, and Ca²⁺), there is no single "Nernst potential" — instead, *reversal potential* is the correct term, because it reflects the composite voltage at which net current is zero, not the thermodynamic equilibrium of any single ion species.
+
+**Driving force:**
+
+Once \\(E_{\text{ion}}\\) is known, the **driving force** on that ion is simply the difference between the actual membrane potential and the equilibrium potential:
+
+$$\text{Driving force} = V_m - E_{\text{ion}}$$
+
+- \\(V_m - E_{\text{ion}} < 0\\) → net inward current (positive ions enter; e.g., Na⁺ at rest where \\(V_m = -70\\) mV and \\(E_{Na} = +60\\) mV)
+- \\(V_m - E_{\text{ion}} > 0\\) → net outward current (positive ions leave; e.g., K⁺ during repolarization)
+- \\(V_m - E_{\text{ion}} = 0\\) → no net current regardless of how many channels are open
+
+The driving force scales the current directly: \\(I = \gamma (V_m - E_{\text{ion}})\\), where \\(\gamma\\) is the channel conductance. A large driving force through a high-conductance channel produces a large current.
 
 ### Ion Channels
 
