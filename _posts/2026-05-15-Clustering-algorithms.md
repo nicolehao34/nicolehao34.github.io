@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Clustering Algorithms and Evaluation Methods: A Practical Guide"
 ---
 
@@ -178,12 +178,12 @@ The silhouette score measures how similar each point is to its own cluster compa
 
 For each sample *i*:
 
-- $$a(i)$$ = mean distance from *i* to all other points in the same cluster (intra-cluster distance)
-- $$b(i)$$ = the minimum, over all other clusters, of the mean distance from *i* to all points in that cluster (i.e., the mean distance to the nearest neighboring cluster)
+- \\(a(i)\\) = mean distance from *i* to all other points in the same cluster (intra-cluster distance)
+- \\(b(i)\\) = the minimum, over all other clusters, of the mean distance from *i* to all points in that cluster (i.e., the mean distance to the nearest neighboring cluster)
 
 $$s(i) = \frac{b(i) - a(i)}{\max(a(i),\; b(i))}$$
 
-The overall silhouette score is the mean across all samples: $$\bar{s} = \text{mean}_i\; s(i) \in [-1, 1]$$
+The overall silhouette score is the mean across all samples: \\(\bar{s} = \text{mean}_i\; s(i) \in [-1, 1]\\)
 
 **Interpretation:**
 - Values near **+1** indicate points are well-matched to their own cluster and poorly matched to neighboring clusters (ideal).
@@ -199,8 +199,8 @@ The overall silhouette score is the mean across all samples: $$\bar{s} = \text{m
 The Davies–Bouldin (DB) index measures the average "worst-case" similarity between each cluster and its most similar neighboring cluster. Lower values indicate better-separated, more compact clusters.
 
 For *k* clusters, let:
-- $$S_i$$ = average distance of all points in cluster *i* to the cluster centroid $$\mu_i$$ (a measure of cluster spread)
-- $$M_{ij}$$ = distance between centroids $$\mu_i$$ and $$\mu_j$$
+- \\(S_i\\) = average distance of all points in cluster *i* to the cluster centroid \\(\mu_i\\) (a measure of cluster spread)
+- \\(M_{ij}\\) = distance between centroids \\(\mu_i\\) and \\(\mu_j\\)
 
 $$\text{DB} = \frac{1}{k} \sum_{i=1}^{k} \max_{j \neq i} \frac{S_i + S_j}{M_{ij}}$$
 
@@ -214,10 +214,10 @@ $$\text{DB} = \frac{1}{k} \sum_{i=1}^{k} \max_{j \neq i} \frac{S_i + S_j}{M_{ij}
 
 The Calinski–Harabasz (CH) index, also called the Variance Ratio Criterion, measures the ratio of between-cluster dispersion to within-cluster dispersion. It rewards clusterings where clusters are tight internally but spread apart from each other.
 
-Let *n* = total samples, *k* = number of clusters, $$\mu$$ = global centroid, $$\mu_i$$ = centroid of cluster *i*, and $$n_i$$ = size of cluster *i*.
+Let *n* = total samples, *k* = number of clusters, \\(\mu\\) = global centroid, \\(\mu_i\\) = centroid of cluster *i*, and \\(n_i\\) = size of cluster *i*.
 
-- Between-cluster dispersion: $$B = \sum_{i=1}^{k} n_i \|\mu_i - \mu\|^2$$
-- Within-cluster dispersion: $$W = \sum_{i=1}^{k} \sum_{x \in C_i} \|x - \mu_i\|^2$$
+- Between-cluster dispersion: \\(B = \sum_{i=1}^{k} n_i \|\mu_i - \mu\|^2\\)
+- Within-cluster dispersion: \\(W = \sum_{i=1}^{k} \sum_{x \in C_i} \|x - \mu_i\|^2\\)
 
 $$\text{CH} = \frac{B\; /\; (k - 1)}{W\; /\; (n - k)}$$
 
