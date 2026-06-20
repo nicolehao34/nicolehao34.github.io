@@ -18,53 +18,62 @@ My study notes on neuroscience, starting from molecular mechanisms and neural ci
    - [CNS vs. PNS](#central-nervous-system-vs-peripheral-nervous-system)
    - Basic cell types: neurons vs. glia
 
-3. [Neurons](#3-neurons)
+3. [Precursor Concepts: Biophysical Foundations](#3-precursor-concepts-biophysical-foundations)
+   - [Membrane potential](#membrane-potential)
+   - [Ion channels](#ion-channels)
+   - [Electrostatic forces](#electrostatic-forces)
+   - [Diffusion](#diffusion)
+   - [Extracellular vs. intracellular compartments](#extracellular-vs-intracellular-compartments)
+   - [Equilibrium potential](#equilibrium-potential)
+   - [Resting potential](#resting-potential)
+
+4. [Neurons](#4-neurons)
    - Neuron structure
    - Action potentials & signal transmission
    - Neurotransmitters & receptors
 
-4. [Neuroanatomy](#4-neuroanatomy)
+5. [Neuroanatomy](#5-neuroanatomy)
    - [Early brain development](#early-brain-development)
    - [Lesions](#lesions)
    - [Major brain regions](#major-brain-regions-cortex-cerebellum-brainstem-limbic-system)
    - [Functional areas](#functional-areas-frontal-parietal-temporal-occipital-lobes)
 
-5. [Neural Communication and Embodied Emotions](#5-neural-communication-and-embodied-emotions)
+6. [Neural Communication and Embodied Emotions](#6-neural-communication-and-embodied-emotions)
    - [Neural communications](#neural-communications)
    - [Neurotransmitters](#neurotransmitters)
    - [Embodied emotions](#embodied-emotions)
 
-6. [Perception and Vision](#6-perception-and-vision)
+7. [Perception and Vision](#7-perception-and-vision)
    - Sensory systems
    - Motor pathways & control
 
-7. [Hearing](#7-hearing)
+8. [Hearing](#8-hearing)
    - Auditory system
 
-8. [Higher Cognitive Functions](#8-higher-cognitive-functions)
+9. [Higher Cognitive Functions](#9-higher-cognitive-functions)
    - Memory and learning
    - Language
    - Attention and consciousness
    - Emotion and motivation
 
-9. [Methods in Neuroscience](#9-methods-in-neuroscience)
-   - Imaging techniques
-   - Electrophysiology
-   - Lesion studies
-   - Computational models
+10. [Methods in Neuroscience](#10-methods-in-neuroscience)
+    - Imaging techniques
+    - Electrophysiology
+    - Lesion studies
+    - Computational models
 
-10. [Disorders of the Nervous System](#10-disorders-of-the-nervous-system)
+11. [Disorders of the Nervous System](#11-disorders-of-the-nervous-system)
     - Neurological disorders
     - Psychiatric disorders
     - Developmental disorders
 
-11. [Neuroscience & Artificial Intelligence](#11-neuroscience--artificial-intelligence)
+12. [Neuroscience & Artificial Intelligence](#12-neuroscience--artificial-intelligence)
     - Inspiration from neuroscience
     - Feedback from AI to neuroscience
     - Shared challenges
     - Frontiers
 
-12. [Applications & Future Directions](#12-applications--future-directions)
+13. [Applications & Future Directions](#13-applications--future-directions)
     - Neurotechnology
     - AI and computational neuroscience
     - Neuroethics
@@ -165,7 +174,171 @@ The meninges are the three membranes (dura, arachnoid, pia) that envelop the CNS
 
 ---
 
-## 3. Neurons
+## 3. Precursor Concepts: Biophysical Foundations
+
+Before diving into how neurons generate and transmit signals, it is essential to understand the underlying physics and chemistry that govern ion movement across membranes.
+
+### Membrane Potential
+
+The **membrane potential** (\\(V_m\\)) is the electrical voltage difference across the cell membrane, defined as the voltage of the **intracellular** fluid relative to the **extracellular** fluid:
+
+$$V_m = V_{\text{inside}} - V_{\text{outside}}$$
+
+By convention, the extracellular fluid is taken as the reference (0 mV). A neuron at rest has \\(V_m \approx -70\\) mV — the inside is negative relative to the outside.
+
+**What creates it:**
+The membrane potential arises from a **separation of electrical charge** across the lipid bilayer. The bilayer is a thin (~5 nm) insulating barrier between two ion-rich conducting solutions; ions accumulating on either side create an electric field across the membrane, just as charges on the plates of a capacitor create a voltage.
+
+**How it changes:**
+- When positively charged ions (e.g., Na⁺) flow **inward**, \\(V_m\\) becomes less negative → **depolarization**
+- When positively charged ions flow **outward** (e.g., K⁺ leaving), \\(V_m\\) becomes more negative → **repolarization** or **hyperpolarization**
+- The rate of change is governed by the membrane capacitance: \\(C_m \frac{dV_m}{dt} = I_{\text{net}}\\)
+
+**Why it matters:**
+Membrane potential is the universal currency of neural signaling. Voltage-gated channels sense \\(V_m\\) and open or close accordingly; the direction and magnitude of ion flow through any open channel is set by how far \\(V_m\\) is from that ion's equilibrium potential (the driving force). Every signal a neuron sends — action potentials, synaptic potentials — is a controlled change in \\(V_m\\).
+
+### Ion Channels
+
+**Ion channels** are protein pores embedded in the cell membrane that allow specific ions to pass through. They are the fundamental building blocks of electrical signaling in neurons.
+
+**Key properties:**
+- **Ion selectivity:** Each channel type is selective for specific ions (Na⁺, K⁺, Ca²⁺, Cl⁻) based on pore geometry and the charge lining the pore
+- **Gating:** Channels open and close in response to stimuli:
+  - **Voltage-gated:** Open in response to changes in membrane potential (e.g., voltage-gated Na⁺ and K⁺ channels in action potentials)
+  - **Ligand-gated:** Open when a neurotransmitter or other molecule binds (e.g., AMPA receptors, GABA-A receptors)
+  - **Mechanically gated:** Open in response to physical deformation (e.g., stereocilia tip links in auditory hair cells)
+  - **Leak channels:** Constitutively open; K⁺ leak channels are the primary determinant of resting membrane potential
+
+**Channel structure:**
+- Formed by transmembrane protein subunits (α-helices spanning the lipid bilayer)
+- **Selectivity filter:** The narrowest region of the pore; coordinates ions via partial negative charges, selecting by ionic radius and charge density
+- **Gate:** The region that physically opens or closes the pore — controlled by a voltage sensor (the S4 helix in voltage-gated channels, containing regularly spaced positive charges) or by ligand binding
+
+**Conductance and current:**
+- Single-channel conductance (γ) is measured in picosiemens (pS; 1 pS = 10⁻¹² S)
+- Current through an open channel obeys Ohm's law:
+
+$$I = \gamma (V_m - E_{\text{ion}})$$
+
+where \\(V_m - E_{\text{ion}}\\) is the **driving force** on that ion (see Equilibrium Potential below).
+
+### Electrostatic Forces
+
+Electrical charge is a fundamental property governing ion movement across membranes.
+
+**Key principles:**
+
+- **Coulomb's law:** Like charges repel; opposite charges attract. The force between two charges is proportional to \\(q_1 q_2 / r^2\\), meaning it falls off quickly with distance.
+- **The membrane as a capacitor:** The lipid bilayer (~5 nm thick) is an electrical insulator separating two conducting aqueous compartments. This makes it a **capacitor** that stores separated charge:
+  - Membrane capacitance \\(C_m \approx 1\\) μF/cm² for biological membranes
+  - Charge separation across the membrane creates the **membrane potential** \\(V_m\\) (inside voltage minus outside voltage)
+- **Electrochemical gradient:** Ions move in response to both a **concentration gradient** (chemical force) and an **electrical gradient** (electrostatic force). Together these constitute the **electrochemical potential**:
+
+$$\mu_{\text{ion}} = \mu_0 + RT \ln[\text{ion}] + zFV$$
+
+where \\(z\\) is the ion valence and \\(F\\) is Faraday's constant. The electrochemical gradient is what actually drives ion movement through open channels.
+
+### Diffusion
+
+**Diffusion** is the passive, random movement of particles from regions of high concentration to low concentration, driven by thermal (Brownian) motion — requiring no energy input.
+
+**Fick's first law** describes the flux of a substance:
+
+$$J = -D \frac{d[C]}{dx}$$
+
+Where:
+- \\(J\\): flux (mol per area per time)
+- \\(D\\): diffusion coefficient (depends on particle size and medium viscosity)
+- \\(d[C]/dx\\): concentration gradient
+
+**In neurons:**
+- Ions diffuse across the membrane through open channels **down their concentration gradient** (the chemical driving force)
+- Left unchecked, diffusion would equalize ion concentrations on both sides of the membrane
+- Ion pumps (especially the Na⁺/K⁺-ATPase) continuously work against diffusion to maintain the concentration differences that power signaling
+
+### Extracellular vs. Intracellular Compartments
+
+The neuronal membrane separates two chemically distinct environments with very different ionic compositions:
+
+| Ion | Intracellular (mM) | Extracellular (mM) | Ratio (out/in) |
+|-----|-------------------|-------------------|----------------|
+| **K⁺** | ~140 | ~5 | 1:28 (high inside) |
+| **Na⁺** | ~15 | ~145 | ~10:1 (high outside) |
+| **Cl⁻** | ~10 | ~110 | ~11:1 (high outside) |
+| **Ca²⁺** | ~0.0001 (free) | ~2 | ~20,000:1 (high outside) |
+
+**Intracellular fluid:**
+- High K⁺, low Na⁺, low Cl⁻, extremely low free Ca²⁺
+- Contains large, negatively charged organic molecules (proteins, nucleic acids — collectively **A⁻**) that cannot cross the membrane; these trapped anions pull K⁺ inward and contribute to the resting negative charge inside
+
+**Extracellular fluid:**
+- High Na⁺, high Cl⁻, moderate K⁺, millimolar Ca²⁺
+- Essentially resembles seawater in ionic composition — reflecting the evolutionary origin of animal cells
+
+**Maintaining the gradients — the Na⁺/K⁺-ATPase:**
+- Pumps **3 Na⁺ out** and **2 K⁺ in** per ATP hydrolyzed
+- Net export of one positive charge per cycle → **electrogenic**, contributing approximately \\(-3\\) to \\(-4\\) mV to the resting potential
+- Without this continuous pumping, concentration gradients would dissipate over time as ions leak through channels
+
+### Equilibrium Potential
+
+The **equilibrium potential** (Nernst potential, reversal potential) for an ion is the membrane voltage at which the **electrical driving force exactly opposes the concentration (diffusion) driving force**, resulting in zero net flux of that ion — even if channels are open.
+
+**Nernst equation:**
+
+$$E_{\text{ion}} = \frac{RT}{zF} \ln \frac{[\text{ion}]_{\text{out}}}{[\text{ion}]_{\text{in}}}$$
+
+At body temperature (37°C), for a monovalent cation:
+
+$$E_{\text{ion}} \approx \frac{61.5 \text{ mV}}{z} \log_{10} \frac{[\text{ion}]_{\text{out}}}{[\text{ion}]_{\text{in}}}$$
+
+**Equilibrium potentials for key ions:**
+
+| Ion | \\(E_{\text{ion}}\\) (approx.) | Meaning |
+|-----|-------------------------------|---------|
+| **K⁺** | ~\\(-90\\) mV | If only K⁺ channels were open, \\(V_m\\) would settle here |
+| **Na⁺** | ~\\(+60\\) mV | Strong inward driving force at all resting potentials |
+| **Cl⁻** | ~\\(-65\\) mV | Near equilibrium at rest; GABA-A opening has little effect at rest but can clamp \\(V_m\\) near −65 mV |
+| **Ca²⁺** | ~\\(+120\\) mV | Extreme inward driving force; even tiny Ca²⁺ influx has major signaling effects |
+
+**Driving force:**
+
+The net force on an ion through an open channel is:
+
+$$\text{Driving force} = V_m - E_{\text{ion}}$$
+
+- \\(V_m < E_{\text{ion}}\\) → inward current (positive ions enter; e.g., Na⁺ enters at rest)
+- \\(V_m > E_{\text{ion}}\\) → outward current (positive ions leave; e.g., K⁺ leaves during repolarization)
+- \\(V_m = E_{\text{ion}}\\) → no net current (equilibrium)
+
+### Resting Potential
+
+The **resting membrane potential** (~\\(-70\\) mV in most neurons) is the stable electrical voltage across the membrane of a quiescent, unstimulated neuron, arising from the interplay of ion gradients and selective membrane permeability.
+
+**How it is established — step by step:**
+
+1. The **Na⁺/K⁺-ATPase** actively maintains high K⁺ inside and high Na⁺ outside
+2. At rest, the membrane is **primarily permeable to K⁺** via constitutively open leak channels, with much lower permeability to Na⁺ and Cl⁻
+3. K⁺ diffuses **outward** down its steep concentration gradient through leak channels
+4. The exiting K⁺ leaves behind the large impermeant anions (A⁻), making the **inside increasingly negative**
+5. The growing negative charge inside exerts an **inward electrical pull** on K⁺
+6. An equilibrium is reached when the outward diffusion force = inward electrical force → this occurs near \\(E_K \approx -90\\) mV
+7. The actual resting potential (~\\(-70\\) mV) is slightly more depolarized than \\(E_K\\) because of a small but nonzero Na⁺ permeability (Na⁺ leaking inward) and the electrogenic pump contribution
+
+**Goldman-Hodgkin-Katz (GHK) equation** — accounts for all permeable ions simultaneously:
+
+$$V_m = \frac{RT}{F} \ln \frac{P_K[\text{K}^+]_o + P_{\text{Na}}[\text{Na}^+]_o + P_{\text{Cl}}[\text{Cl}^-]_i}{P_K[\text{K}^+]_i + P_{\text{Na}}[\text{Na}^+]_i + P_{\text{Cl}}[\text{Cl}^-]_o}$$
+
+At rest, \\(P_K \gg P_{\text{Na}} \gg P_{\text{Cl}}\\), so \\(V_m\\) is dominated by K⁺ and sits close to \\(E_K\\). When an action potential fires, Na⁺ permeability transiently surpasses K⁺ permeability, driving \\(V_m\\) toward \\(E_{\text{Na}} \approx +60\\) mV (depolarization).
+
+**Why resting potential matters:**
+- It is the "loaded spring" that stores potential energy for rapid signaling
+- The separation of charge represents stored energy that is released when channels open during action potentials and synaptic potentials
+- Disrupting resting potential (e.g., elevated extracellular K⁺ in brain injury) impairs the neuron's ability to signal
+
+---
+
+## 4. Neurons
 
 ### Parts of a Neuron
 
@@ -270,7 +443,7 @@ $$
 
 ---
 
-## 4. Neuroanatomy
+## 5. Neuroanatomy
 
 ### Early Brain Development
 
@@ -397,7 +570,7 @@ The cerebral cortex is divided into four lobes, each associated with distinct fu
 
 ---
 
-## 5. Neural Communication and Embodied Emotions
+## 6. Neural Communication and Embodied Emotions
 
 ### Neural Communications
 
@@ -550,7 +723,7 @@ The **autonomic nervous system (ANS)** regulates involuntary bodily functions th
 
 ---
 
-## 6. Perception and Vision
+## 7. Perception and Vision
 
 **Sensory systems** transduce physical stimuli into neural signals through specialized receptors:
 
@@ -625,7 +798,7 @@ The **autonomic nervous system (ANS)** regulates involuntary bodily functions th
 
 ---
 
-## 7. Hearing
+## 8. Hearing
 
 ### Auditory System
 
@@ -676,7 +849,7 @@ The **autonomic nervous system (ANS)** regulates involuntary bodily functions th
 
 ---
 
-## 8. Higher Cognitive Functions
+## 9. Higher Cognitive Functions
 
 ### The Vestibular Sense and Gaze
 
@@ -819,7 +992,7 @@ This is the **temporal difference (TD) error**, which mirrors the firing pattern
 
 ---
 
-## 9. Methods in Neuroscience
+## 10. Methods in Neuroscience
 
 ### Imaging (fMRI, PET, EEG, MEG)
 
@@ -878,7 +1051,7 @@ This is the **temporal difference (TD) error**, which mirrors the firing pattern
 
 ---
 
-## 10. Disorders of the Nervous System
+## 11. Disorders of the Nervous System
 
 ### Neurological Disorders
 
@@ -943,7 +1116,7 @@ This is the **temporal difference (TD) error**, which mirrors the firing pattern
 
 ---
 
-## 11. Neuroscience & Artificial Intelligence
+## 12. Neuroscience & Artificial Intelligence
 
 **Inspiration from Neuroscience:**
 - **Neurons → artificial neural networks:** The perceptron (Rosenblatt, 1958) was directly inspired by biological neurons. Modern deep learning uses artificial neurons with weighted inputs, nonlinear activation functions, and layered architectures
@@ -970,7 +1143,7 @@ This is the **temporal difference (TD) error**, which mirrors the firing pattern
 
 ---
 
-## 12. Applications & Future Directions
+## 13. Applications & Future Directions
 
 ### Neurotechnology
 
