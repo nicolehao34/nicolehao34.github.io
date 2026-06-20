@@ -207,7 +207,20 @@ At body temperature (37°C), this simplifies to:
 
 $$E_{\text{ion}} \approx \frac{61.5 \text{ mV}}{z} \log_{10} \frac{[\text{ion}]_{\text{out}}}{[\text{ion}]_{\text{in}}}$$
 
-Where \\(R\\) is the gas constant, \\(T\\) is temperature in Kelvin, \\(z\\) is the ion's valence (e.g. +1 for K⁺, −1 for Cl⁻), and \\(F\\) is Faraday's constant. The Nernst equation links \\(V_m\\) directly to ion concentration gradients: the steeper the gradient, the larger the equilibrium potential that must develop to oppose diffusion.
+Where \\(R\\) is the gas constant, \\(T\\) is temperature in Kelvin, \\(z\\) is the ion's valence — the net charge of the ion in solution (e.g. +1 for K⁺, +2 for Ca²⁺, −1 for Cl⁻), and \\(F\\) is Faraday's constant. The Nernst equation links \\(V_m\\) directly to ion concentration gradients: the steeper the gradient, the larger the equilibrium potential that must develop to oppose diffusion.
+
+**Terminology — the same concept, different names:**
+
+The potential computed by the Nernst equation goes by several names depending on context. They all refer to the same underlying quantity.
+
+| Term | Where you'll see it | Emphasis |
+|------|---------------------|----------|
+| **Equilibrium potential** | Textbooks, biophysics courses | The thermodynamic state: chemical and electrical forces are balanced; the system is at equilibrium for that ion |
+| **Nernst potential** | Biophysics and physiology literature when citing the equation | The mathematical origin: the value is derived from the Nernst equation |
+| **Reversal potential** | Electrophysiology, patch-clamp experiments | The operational definition: the voltage at which current through a channel *reverses direction* (changes sign). Most useful when measuring mixtures of ions through one channel type (e.g., the reversal potential of an AMPA receptor reflects the weighted mix of Na⁺ and K⁺) |
+| **\\(E_{\text{ion}}\\)** (e.g., \\(E_K\\), \\(E_{Na}\\)) | Equations and shorthand throughout neuroscience | Compact notation specifying which ion's equilibrium potential is meant |
+
+**When the terms diverge:** For a channel permeable to only one ion, all four terms are interchangeable. For a channel permeable to *multiple* ions (e.g., NMDA receptors conduct Na⁺, K⁺, and Ca²⁺), there is no single "Nernst potential" — instead, *reversal potential* is the correct term, because it reflects the composite voltage at which net current is zero, not the thermodynamic equilibrium of any single ion species.
 
 ### Ion Channels
 
