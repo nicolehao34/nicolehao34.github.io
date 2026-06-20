@@ -25,6 +25,7 @@ My study notes on neuroscience, starting from molecular mechanisms and neural ci
    - [Diffusion](#diffusion)
    - [Extracellular vs. intracellular compartments](#extracellular-vs-intracellular-compartments)
    - [Equilibrium potential](#equilibrium-potential)
+   - [Equilibrium potential vs. membrane potential](#equilibrium-potential-vs-membrane-potential)
    - [Resting potential](#resting-potential)
 
 4. [Neurons](#4-neurons)
@@ -197,6 +198,17 @@ The membrane potential arises from a **separation of electrical charge** across 
 **Why it matters:**
 Membrane potential is the universal currency of neural signaling. Voltage-gated channels sense \\(V_m\\) and open or close accordingly; the direction and magnitude of ion flow through any open channel is set by how far \\(V_m\\) is from that ion's equilibrium potential (the driving force). Every signal a neuron sends — action potentials, synaptic potentials — is a controlled change in \\(V_m\\).
 
+**Nernst equation:**
+The Nernst equation gives the equilibrium potential \\(E_{\text{ion}}\\) — the value of \\(V_m\\) at which a given ion is in electrochemical equilibrium (no net flow, even through open channels):
+
+$$E_{\text{ion}} = \frac{RT}{zF} \ln \frac{[\text{ion}]_{\text{out}}}{[\text{ion}]_{\text{in}}}$$
+
+At body temperature (37°C), this simplifies to:
+
+$$E_{\text{ion}} \approx \frac{61.5 \text{ mV}}{z} \log_{10} \frac{[\text{ion}]_{\text{out}}}{[\text{ion}]_{\text{in}}}$$
+
+Where \\(R\\) is the gas constant, \\(T\\) is temperature in Kelvin, \\(z\\) is the ion's valence (e.g. +1 for K⁺, −1 for Cl⁻), and \\(F\\) is Faraday's constant. The Nernst equation links \\(V_m\\) directly to ion concentration gradients: the steeper the gradient, the larger the equilibrium potential that must develop to oppose diffusion.
+
 ### Ion Channels
 
 **Ion channels** are protein pores embedded in the cell membrane that allow specific ions to pass through. They are the fundamental building blocks of electrical signaling in neurons.
@@ -310,6 +322,24 @@ $$\text{Driving force} = V_m - E_{\text{ion}}$$
 - \\(V_m < E_{\text{ion}}\\) → inward current (positive ions enter; e.g., Na⁺ enters at rest)
 - \\(V_m > E_{\text{ion}}\\) → outward current (positive ions leave; e.g., K⁺ leaves during repolarization)
 - \\(V_m = E_{\text{ion}}\\) → no net current (equilibrium)
+
+### Equilibrium Potential vs. Membrane Potential
+
+These two quantities are easy to confuse but play distinct roles:
+
+| | **Equilibrium Potential (\\(E_{\text{ion}}\\))** | **Membrane Potential (\\(V_m\\))** |
+|---|---|---|
+| **What it is** | The voltage at which one specific ion has zero net flux | The actual voltage across the membrane right now |
+| **Determined by** | The concentration gradient of a single ion (Nernst equation) | The permeability-weighted sum of all permeable ions (GHK equation) + pump contributions |
+| **How many values** | One per ion species (K⁺ has its own, Na⁺ has its own, etc.) | A single value for the whole membrane at any given moment |
+| **Can it change?** | Only if ion concentrations change (slow) | Constantly changing with channel activity (fast) |
+| **Example value** | \\(E_{K^+} \approx -90\\) mV, \\(E_{Na^+} \approx +60\\) mV | ~\\(-70\\) mV at rest, up to ~\\(+40\\) mV during an action potential |
+
+**The key relationship:** \\(E_{\text{ion}}\\) is a *target* that \\(V_m\\) is pulled toward whenever that ion's channels are open. The difference \\(V_m - E_{\text{ion}}\\) is the **driving force** — it tells you the direction and strength of ion flow:
+
+- If \\(V_m \neq E_{\text{ion}}\\), ions flow through any open channels for that ion until they either reach equilibrium or the channels close.
+- \\(V_m\\) sits wherever the *combined* pull of all open ion channels and the electrogenic pump balance out — it is never equal to any single \\(E_{\text{ion}}\\) unless only one ion type has open channels.
+- At rest, \\(V_m \approx -70\\) mV lies between \\(E_{K^+}\\) (−90 mV) and \\(E_{Na^+}\\) (+60 mV), closer to \\(E_{K^+}\\) because the resting membrane is far more permeable to K⁺ than to Na⁺.
 
 ### Resting Potential
 
