@@ -3,11 +3,11 @@ layout: single
 title: "Compute Power, Geopolitics, and the AI Race"
 ---
 
-In the AI boom, the NVIDIA H100 has become more than a chip. It has become a symbol of power — and an instrument of geopolitics.
+In the AI boom, the NVIDIA H100 has become more than a chip. It has become a symbol of power and an instrument of geopolitics.
 
-A single H100 GPU can cost tens of thousands of dollars. In 2024, Elon Musk's xAI built Colossus, a supercomputer initially reported to run on 100,000 H100s to train Grok [1]. That image — rows of racks filled with elite chips — has come to represent the dominant belief of the AI era: whoever controls the most compute controls the future. The United States has taken that belief seriously enough to ban exports of H100s to China entirely.
+A single H100 GPU can cost tens of thousands of dollars. In 2024, Elon Musk's xAI built Colossus, a supercomputer initially reported to run on 100,000 H100s to train Grok [1]. That image of rows of racks filled with elite chips has come to represent the dominant belief of the AI era: whoever controls the most compute controls the future. The United States has taken that belief seriously enough to ban exports of H100s to China entirely.
 
-But is AI really just a compute war? Compute matters enormously — without it, you cannot train frontier models, serve billions of users, or run advanced reasoning systems at scale. But the history of AI shows that hardware alone does not decide the outcome. The real race spans hardware, algorithms, data, industrial deployment, and the geopolitical contest over who can access the tools to do any of it.
+But is AI really just a compute war? Compute matters enormously. Without it, you cannot train frontier models, serve billions of users, or run advanced reasoning systems at scale. But the history of AI shows that hardware alone does not decide the outcome. The real race spans hardware, algorithms, data, industrial deployment, and the geopolitical contest over who can access the tools to do any of it.
 
 ---
 
@@ -94,7 +94,7 @@ The analogy to lithium batteries is useful. The foundational science behind lith
 
 AI may follow a similar pattern. The country that wins is not necessarily the country that invents every core idea first. It may be the country that can industrialize the technology fastest.
 
-The competition plays out across three interdependent layers. The **infrastructure layer** — chips, data centers, power, and cooling — determines what can be built at all. The **technology layer** — foundation models, inference systems, and AI development platforms — determines what gets built. The **application layer** — healthcare, logistics, manufacturing, robotics, finance, and autonomous vehicles — determines what reaches users and generates economic and strategic value. Countries and companies that lead across all three have compounding advantages. Countries blocked at the infrastructure layer must find ways to compensate at the others.
+The competition plays out across three interdependent layers. The **infrastructure layer**, including chips, data centers, power, and cooling, determines what can be built at all. The **technology layer**, including foundation models, inference systems, and AI development platforms, determines what gets built. The **application layer**, including healthcare, logistics, manufacturing, robotics, finance, and autonomous vehicles, determines what reaches users and generates economic and strategic value. Countries and companies that lead across all three have compounding advantages. Countries blocked at the infrastructure layer must find ways to compensate at the others.
 
 ---
 
@@ -102,17 +102,17 @@ The competition plays out across three interdependent layers. The **infrastructu
 
 The H100 is not just a product. It has become a controlled substance.
 
-In October 2022, the United States imposed sweeping export controls on advanced semiconductors and chip-manufacturing equipment destined for China. The restrictions targeted NVIDIA's A100 and H100 GPUs directly. NVIDIA responded by producing downgraded variants — the A800 and H800 — calibrated to stay just below the export threshold. In October 2023, the Biden administration closed that gap too, banning the H800 and its successors from sale to China.
+In October 2022, the United States imposed sweeping export controls on advanced semiconductors and chip-manufacturing equipment destined for China. The restrictions targeted NVIDIA's A100 and H100 GPUs directly. NVIDIA responded by producing downgraded variants, the A800 and H800, calibrated to stay just below the export threshold. In October 2023, the Biden administration closed that gap too, banning the H800 and its successors from sale to China.
 
-The chokepoint runs deeper than the chip itself. Advanced semiconductors require extreme ultraviolet (EUV) lithography machines made almost exclusively by ASML, a Dutch company. The United States, the Netherlands, and Japan coordinated to block ASML from exporting EUV equipment to China. Without EUV, China cannot manufacture chips at the leading edge — currently below 5nm — regardless of how much it invests in domestic capacity.
+The chokepoint runs deeper than the chip itself. Advanced semiconductors require extreme ultraviolet (EUV) lithography machines made almost exclusively by ASML, a Dutch company. The United States, the Netherlands, and Japan coordinated to block ASML from exporting EUV equipment to China. Without EUV, China cannot manufacture chips at the leading edge, currently below 5nm, regardless of how much it invests in domestic capacity.
 
-Taiwan adds a further dimension. The Taiwan Semiconductor Manufacturing Company (TSMC) fabricates chips for NVIDIA, Apple, AMD, and most of the world's leading semiconductor designers, producing roughly 90% of the world's most advanced chips. Taiwan's contested political status — claimed by China, defended by the United States — makes TSMC the most geopolitically exposed company in the world. Any disruption to TSMC, whether through conflict, blockade, or economic coercion, would halt frontier AI development globally.
+Taiwan adds a further dimension. The Taiwan Semiconductor Manufacturing Company (TSMC) fabricates chips for NVIDIA, Apple, AMD, and most of the world's leading semiconductor designers, producing roughly 90% of the world's most advanced chips. Taiwan's contested political status, claimed by China and defended by the United States, makes TSMC the most geopolitically exposed company in the world. Any disruption to TSMC, whether through conflict, blockade, or economic coercion, would halt frontier AI development globally.
 
-China's response has been a sustained domestic push. Huawei's Ascend 910B has been positioned as a domestic H100 alternative, with performance adequate for some training workloads, though still meaningfully behind NVIDIA's leading hardware. SMIC, China's leading chipmaker, has reached 7nm-class production without EUV by using multi-patterning techniques — a slower and more expensive workaround that trades efficiency for independence. The Chinese government has committed hundreds of billions of yuan to domestic semiconductor programs under initiatives including Made in China 2025 and its successors.
+China's response has been a sustained domestic push. Huawei's Ascend 910B has been positioned as a domestic H100 alternative, with performance adequate for some training workloads, though still meaningfully behind NVIDIA's leading hardware. SMIC, China's leading chipmaker, has reached 7nm-class production without EUV by using multi-patterning techniques, a slower and more expensive workaround that trades efficiency for independence. The Chinese government has committed hundreds of billions of yuan to domestic semiconductor programs under initiatives including Made in China 2025 and its successors.
 
 None of this closes the gap quickly. But the strategic logic is clear: China is building enough redundancy to remain competitive even if cut off from the leading edge of the global supply chain. Whether it succeeds depends on how fast algorithmic efficiency improves, how much the next wave of AI relies on raw training compute versus data and deployment, and whether the export control regime holds across successive administrations.
 
-The export controls are ultimately a bet that compute superiority translates to AI superiority — the same bet this article questions. If efficiency keeps compounding, the chip war may prove to be fighting the last battle.
+The export controls are ultimately a bet that compute superiority translates to AI superiority, the same bet this article questions. If efficiency keeps compounding, the chip war may prove to be fighting the last battle.
 
 ---
 
